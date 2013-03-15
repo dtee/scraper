@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "D:\Scraper\ScraperWeb\", "ScraperWeb\", "{9E26C9E2-8AA5-4C58-B974-CB103CA00DBF}"
+	ProjectSection(WebsiteProperties) = preProject
+		ProjectReferences = "{EAAEF2AE-7745-432F-87F6-43A38A5976E4}|ScraperLib.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/ScraperWeb"
+		Debug.AspNetCompiler.PhysicalPath = "ScraperWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ScraperWeb\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ScraperWeb"
+		Release.AspNetCompiler.PhysicalPath = "ScraperWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ScraperWeb\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54863"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E26C9E2-8AA5-4C58-B974-CB103CA00DBF}.Debug|.NET.ActiveCfg = Debug|.NET
+		{9E26C9E2-8AA5-4C58-B974-CB103CA00DBF}.Debug|.NET.Build.0 = Debug|.NET
+		{9E26C9E2-8AA5-4C58-B974-CB103CA00DBF}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{9E26C9E2-8AA5-4C58-B974-CB103CA00DBF}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{9E26C9E2-8AA5-4C58-B974-CB103CA00DBF}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{9E26C9E2-8AA5-4C58-B974-CB103CA00DBF}.Release|.NET.ActiveCfg = Debug|.NET
+		{9E26C9E2-8AA5-4C58-B974-CB103CA00DBF}.Release|.NET.Build.0 = Debug|.NET
+		{9E26C9E2-8AA5-4C58-B974-CB103CA00DBF}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{9E26C9E2-8AA5-4C58-B974-CB103CA00DBF}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{9E26C9E2-8AA5-4C58-B974-CB103CA00DBF}.Release|Mixed Platforms.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

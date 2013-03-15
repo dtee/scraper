@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ScraperTempDS" targetNamespace="http://tempuri.org/ScraperTempDS.xsd" xmlns:mstns="http://tempuri.org/ScraperTempDS.xsd" xmlns="http://tempuri.org/ScraperTempDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ScraperDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="ScraperDBConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ScraperLib.My.MySettings.GlobalReference.Default.ScraperDBConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ScraperTempDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ScraperTempDS" msprop:Generator_DataSetName="ScraperTempDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="FieldDT" msprop:Generator_UserTableName="FieldDT" msprop:Generator_RowDeletedName="FieldDTRowDeleted" msprop:Generator_RowChangedName="FieldDTRowChanged" msprop:Generator_RowClassName="FieldDTRow" msprop:Generator_RowChangingName="FieldDTRowChanging" msprop:Generator_RowEvArgName="FieldDTRowChangeEvent" msprop:Generator_RowEvHandlerName="FieldDTRowChangeEventHandler" msprop:Generator_TableClassName="FieldDTDataTable" msprop:Generator_TableVarName="tableFieldDT" msprop:Generator_RowDeletingName="FieldDTRowDeleting" msprop:Generator_TablePropName="FieldDT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="Data" msprop:Generator_UserColumnName="Data" msprop:nullValue="_null" msprop:Generator_ColumnPropNameInRow="Data" msprop:Generator_ColumnPropNameInTable="DataColumn" msprop:Generator_ColumnVarNameInTable="columnData" type="xs:string" minOccurs="0" />
+              <xs:element name="PID" msprop:Generator_UserColumnName="PID" msprop:Generator_ColumnPropNameInRow="PID" msprop:Generator_ColumnVarNameInTable="columnPID" msprop:Generator_ColumnPropNameInTable="PIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="StartTagIndex" msprop:Generator_UserColumnName="StartTagIndex" msprop:Generator_ColumnPropNameInRow="StartTagIndex" msprop:Generator_ColumnVarNameInTable="columnStartTagIndex" msprop:Generator_ColumnPropNameInTable="StartTagIndexColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="DataTagIndex" msprop:Generator_UserColumnName="DataTagIndex" msprop:Generator_ColumnPropNameInRow="DataTagIndex" msprop:Generator_ColumnVarNameInTable="columnDataTagIndex" msprop:Generator_ColumnPropNameInTable="DataTagIndexColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="EndTagIndex" msprop:Generator_UserColumnName="EndTagIndex" msprop:Generator_ColumnPropNameInRow="EndTagIndex" msprop:Generator_ColumnVarNameInTable="columnEndTagIndex" msprop:Generator_ColumnPropNameInTable="EndTagIndexColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="EndTagLength" msprop:Generator_UserColumnName="EndTagLength" msprop:Generator_ColumnPropNameInRow="EndTagLength" msprop:Generator_ColumnVarNameInTable="columnEndTagLength" msprop:Generator_ColumnPropNameInTable="EndTagLengthColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="Checksum" msprop:Generator_UserColumnName="Checksum" msprop:Generator_ColumnPropNameInRow="CheckSUM" msprop:Generator_ColumnVarNameInTable="columnCheckSUM" msprop:Generator_ColumnPropNameInTable="CheckSUMColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="32" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ParentChecksum" msprop:Generator_UserColumnName="ParentChecksum" msprop:Generator_ColumnPropNameInRow="ParentChecksum" msprop:Generator_ColumnVarNameInTable="columnParentChecksum" msprop:Generator_ColumnPropNameInTable="ParentChecksumColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="32" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

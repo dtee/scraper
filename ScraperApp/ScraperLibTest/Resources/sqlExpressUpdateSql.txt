@@ -1,0 +1,2 @@
+UPDATE [TestTable] SET [checksum1] = @checksum1, [checksum2] = @checksum2, [checksum3] = @checksum3 WHERE (identifier1 LIKE @identifier1) AND (identifier2 LIKE @identifier2);
+SELECT [ID], [identifier1], [identifier2], [checksum1], [checksum2], [checksum3] FROM [TestTable] WHERE ((identifier1 LIKE @identifier1) AND (identifier2 LIKE @identifier2));

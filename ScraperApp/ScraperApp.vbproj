@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BEB57FDC-9D01-46C6-8008-DD86CECA66FD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ScraperApp.My.MyApplication</StartupObject>
+    <RootNamespace>ScraperApp</RootNamespace>
+    <AssemblyName>ScraperApp</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <PublishUrl>http://localhost/ScraperApp/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ScraperApp.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ScraperApp.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="LCSDelta, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\LCSDelta.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="ScraperLib" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.vb" />
+    <Compile Include="DataFieldUI.Designer.vb">
+      <DependentUpon>DataFieldUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataFieldUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project\ProjectInfoUI.Designer.vb">
+      <DependentUpon>ProjectInfoUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Project\ProjectInfoUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proxy\ProxyManagerControl.Designer.vb">
+      <DependentUpon>ProxyManagerControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Proxy\ProxyManagerControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Url\CrawlProjectListUI.Designer.vb">
+      <DependentUpon>CrawlProjectListUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Url\CrawlProjectListUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Url\DataTypeControl.Designer.vb">
+      <DependentUpon>DataTypeControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Url\DataTypeControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Url\DataTypeTestUI.Designer.vb">
+      <DependentUpon>DataTypeTestUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Url\DataTypeTestUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Url\EditCronUI.Designer.vb">
+      <DependentUpon>EditCronUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Url\EditCronUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Url\LinkMappingControl.Designer.vb">
+      <DependentUpon>LinkMappingControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Url\LinkMappingControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Options\ProjectOptions.Designer.vb">
+      <DependentUpon>ProjectOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Options\ProjectOptions.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Progress.Designer.vb">
+      <DependentUpon>Progress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Progress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\NodeColorProperties.Designer.vb">
+      <DependentUpon>NodeColorProperties.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\NodeColorProperties.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Proxy\ProxyManagerUI.Designer.vb">
+      <DependentUpon>ProxyManagerUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Proxy\ProxyManagerUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TagLibrary\NodeFieldDTUI.Designer.vb">
+      <DependentUpon>NodeFieldDTUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TagLibrary\NodeFieldDTUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_SQLConnection.Designer.vb">
+      <DependentUpon>Form_SQLConnection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_SQLConnection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="TagLibrary\ResultDSUI.Designer.vb">
+      <DependentUpon>ResultDSUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TagLibrary\ResultDSUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Url\LinkMappingTreeNode.vb" />
+    <Compile Include="Url\CronControl.Designer.vb">
+      <DependentUpon>CronControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Url\CronControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Url\TableNodeControl.Designer.vb">
+      <DependentUpon>TableNodeControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Url\TableNodeControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Url\TableTreeNode.vb" />
+    <Compile Include="TagLibrary\TagLibraryControl.Designer.vb">
+      <DependentUpon>TagLibraryControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TagLibrary\TagLibraryControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataFieldUI.resx">
+      <DependentUpon>DataFieldUI.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\ProjectInfoUI.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProjectInfoUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proxy\ProxyManagerControl.resx">
+      <DependentUpon>ProxyManagerControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Url\CrawlProjectListUI.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CrawlProjectListUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Url\DataTypeControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DataTypeControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Url\DataTypeTestUI.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DataTypeTestUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Url\EditCronUI.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditCronUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Url\LinkMappingControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LinkMappingControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\ProjectOptions.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProjectOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Progress.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Progress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\NodeColorProperties.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NodeColorProperties.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proxy\ProxyManagerUI.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProxyManagerUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TagLibrary\NodeFieldDTUI.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NodeFieldDTUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TagLibrary\ResultDSUI.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ResultDSUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_SQLConnection.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form_SQLConnection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TagLibrary\TagLibraryControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TagLibraryControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Url\CronControl.resx">
+      <DependentUpon>CronControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Url\TableNodeControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableNodeControl.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\Form1.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Url.png" />
+    <None Include="Resources\SaveTag.png" />
+    <None Include="Resources\Reverse.png" />
+    <None Include="Resources\RegexStart.png" />
+    <None Include="Resources\RegexEnd.png" />
+    <None Include="Resources\Regex.png" />
+    <None Include="Resources\Optional.png" />
+    <None Include="Resources\AppendStart.png" />
+    <None Include="Resources\AppendEnd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.1.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2005 Express Edition</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\SharedTag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataRefinerAsm\DataRefinerAsm.vbproj">
+      <Project>{E8708718-4681-409D-9609-63F5A3BE932D}</Project>
+      <Name>DataRefinerAsm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ScraperLib\ScraperLib.vbproj">
+      <Project>{EAAEF2AE-7745-432F-87F6-43A38A5976E4}</Project>
+      <Name>ScraperLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SharedUI\SharedUI.vbproj">
+      <Project>{13720C6C-9BCC-44AE-8BF5-68CB3D536551}</Project>
+      <Name>SharedUI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database\ScraperDB.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database\ScraperDB_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>ScraperDB.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="WizardUI\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

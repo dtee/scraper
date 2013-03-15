@@ -1,0 +1,19 @@
+Imports System
+Imports Microsoft.VisualBasic
+Imports System.Text.RegularExpressions
+Imports DataRefinerAsm
+
+Public Class DoubleDataRefiner
+   Inherits DataRefiner
+
+   Public Overrides Function Refine(ByVal text As String) As Object
+      Dim m As Match
+      m = Regex.Match(text, "\d+\.\d+")
+
+      If m.Success Then
+         Return Double.Parse(m.Value)
+      Else
+         Return Nothing
+      End If
+   End Function
+End Class

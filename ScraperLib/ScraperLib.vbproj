@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EAAEF2AE-7745-432F-87F6-43A38A5976E4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>ScraperLib</RootNamespace>
+    <AssemblyName>ScraperLib</AssemblyName>
+    <MyType>Windows</MyType>
+    <PublishUrl>http://localhost/ScraperApp/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ScraperLib.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ScraperLib.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.vb" />
+    <Compile Include="Crawler\CrawlClient.vb" />
+    <Compile Include="Crawler\Crawler.vb" />
+    <Compile Include="Crawler\CrawlHelper.vb" />
+    <Compile Include="Cron\Cron.vb" />
+    <Compile Include="Cron\CronManager.vb" />
+    <Compile Include="Database\SQLDatabaseScraperAdapter.vb" />
+    <Compile Include="DataMagement\SqlExpressDDL.vb" />
+    <Compile Include="DataMagement\SqlExpress.vb" />
+    <Compile Include="DataType\DataType.vb" />
+    <Compile Include="DataType\DataTypeManager.vb" />
+    <Compile Include="Downloader\NetworkClient\DownloadProgressChangedEventArgs.vb" />
+    <Compile Include="Downloader\NetworkClient\DownloadStringCompletedEventArgs.vb" />
+    <Compile Include="Downloader\NetworkClient\ThreadFinishedEventArgs.vb" />
+    <Compile Include="Downloader\NetworkClient\NetWorkClientDownloadInfo.vb" />
+    <Compile Include="Downloader\NetworkClient\Clients\MultiWebClient.vb" />
+    <Compile Include="Log\Log.vb" />
+    <Compile Include="Downloader\ProxyChecker.vb" />
+    <Compile Include="Project\CrawlProject.vb" />
+    <Compile Include="MultiProject\CrawlProjectHollow.vb" />
+    <Compile Include="MultiProject\CrawlProjectManager.vb" />
+    <Compile Include="Project\LinkMap.vb" />
+    <Compile Include="Project\LinkMappingManager.vb" />
+    <Compile Include="SQL\ScraperDB.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ScraperDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SQL\ScraperDB.vb">
+      <DependentUpon>ScraperDB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LCS\LCS.vb" />
+    <Compile Include="LCS\LCSMatchInfo.vb" />
+    <Compile Include="LCS\LCSString.vb" />
+    <Compile Include="Project\DataMappingManager.vb" />
+    <Compile Include="Database\FileScraperDataAdapter.vb" />
+    <Compile Include="Misc\ProxyManager.vb" />
+    <Compile Include="DataMagement\ScraperDataAdapter.vb" />
+    <Compile Include="Extraction\ScraperTempDS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ScraperTempDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Extraction\ScraperTempDS.vb">
+      <DependentUpon>ScraperTempDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TagLibrary\DataTableUtil.vb" />
+    <Compile Include="TagLibrary\TagNode.vb" />
+    <Compile Include="TagLibrary\TagNodeColor.vb" />
+    <Compile Include="TagLibrary\TagNodeList.vb" />
+    <Compile Include="Url\UrlGenerator.vb" />
+    <Compile Include="Project\UrlManager.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Project\Project.vb" />
+    <Compile Include="Project\ProjectManager.vb" />
+    <Compile Include="RTF-BackColor\RTFEdit.vb" />
+    <Compile Include="Extraction\Scraper.vb" />
+    <Compile Include="TagLibrary\TagTree.vb" />
+    <Compile Include="Wizard\CoreTagGenerator.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Wizard\SmarterGenerator.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SQL\WizardDS.Designer.vb">
+      <DependentUpon>WizardDS.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Wizard\XMLTagGenerator.vb">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\Form1.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SQL\SQLServerScript.sql" />
+    <None Include="Extraction\ScraperTempDS.xsc">
+      <DependentUpon>ScraperTempDS.xsd</DependentUpon>
+    </None>
+    <None Include="Extraction\ScraperTempDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ScraperTempDS.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Extraction\ScraperTempDS.xss">
+      <DependentUpon>ScraperTempDS.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.1.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2005 Express Edition</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SQL\MiscSQL.sql" />
+    <None Include="SQL\ScraperDB.xsc">
+      <DependentUpon>ScraperDB.xsd</DependentUpon>
+    </None>
+    <None Include="SQL\ScraperDB.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ScraperDB.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SQL\ScraperDB.xss">
+      <DependentUpon>ScraperDB.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSHTML">
+      <Guid>{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}</Guid>
+      <VersionMajor>4</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataRefinerAsm\DataRefinerAsm.vbproj">
+      <Project>{E8708718-4681-409D-9609-63F5A3BE932D}</Project>
+      <Name>DataRefinerAsm</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoubleDataRefiner.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NaturalNumberDataRefiner.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoneyDataRefiner.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TextDataRefiner.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Database\Adaptor.cd" />
+    <None Include="Resources\DefaultDataRefiner.txt" />
+    <None Include="Wizard.cd" />
+    <None Include="SQL\WizardDS.xsc">
+      <DependentUpon>WizardDS.xsd</DependentUpon>
+    </None>
+    <None Include="SQL\WizardDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WizardDS.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SQL\WizardDS.xss">
+      <DependentUpon>WizardDS.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

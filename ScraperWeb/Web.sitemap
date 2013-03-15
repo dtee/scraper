@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  <siteMapNode
+    title="Forum Group" 
+    description="Forum Group List"
+    url="default.aspx">
+    <siteMapNode 
+      title="Forum" 
+      description="Forum List"
+      url="ShowForum.aspx">
+      <siteMapNode 
+        title="Post" 
+        description="Post List" 
+        url="ShowPost.aspx" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

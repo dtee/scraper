@@ -1,0 +1,20 @@
+Imports System
+Imports Microsoft.VisualBasic
+Imports System.Text.RegularExpressions
+Imports DataRefinerAsm
+
+Public Class MoneyDataRefiner
+   Inherits DataRefiner
+
+   Public Overrides Function Refine(ByVal Text As String) As Object
+      Dim m As Match = Regex.Match(Text, "\$.*?(\d+\.\d+)")
+
+      If m.Success Then
+         m = Regex.Match(m.Value, "\d+\.\d+")
+
+         Return Double.Parse(m.Value)
+      End If
+
+      Return Nothing
+   End Function
+End Class

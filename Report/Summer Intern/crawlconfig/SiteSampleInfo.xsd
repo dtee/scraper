@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2006 rel. 3 sp1 (http://www.altova.com) by David (AScraper) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" targetNamespace="http://www.ten45.com/domain/crawler">
+	<xs:element name="SiteInfo">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Group" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:attribute name="Name" type="xs:string" use="required"/>
+						<xs:attribute name="URL" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="SiteName" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

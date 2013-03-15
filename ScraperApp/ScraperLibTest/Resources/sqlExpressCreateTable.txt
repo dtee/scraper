@@ -1,0 +1,9 @@
+Create Table TestTable
+(
+[ID] int IDENTITY(1,1) PRIMARY KEY,
+[identifier1] text null,
+[identifier2] text null,
+[checksum1] text null,
+[checksum2] text null,
+[checksum3] text null
+);

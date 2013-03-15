@@ -1,0 +1,2 @@
+INSERT INTO [TestTable] ([identifier1], [identifier2], [checksum1], [checksum2], [checksum3]) VALUES (@identifier1, @identifier2, @checksum1, @checksum2, @checksum3);
+SELECT [ID], [identifier1], [identifier2], [checksum1], [checksum2], [checksum3] from [TestTable] Where (ID  = SCOPE_IDENTITY() );

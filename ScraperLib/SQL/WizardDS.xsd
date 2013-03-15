@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="WizardDS" targetNamespace="http://tempuri.org/WizardDS.xsd" xmlns:mstns="http://tempuri.org/WizardDS.xsd" xmlns="http://tempuri.org/WizardDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="WizardDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="WizardDS" msprop:Generator_DataSetName="WizardDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TestDT" msprop:Generator_UserTableName="TestDT" msprop:Generator_RowDeletedName="TestDTRowDeleted" msprop:Generator_RowChangedName="TestDTRowChanged" msprop:Generator_RowClassName="TestDTRow" msprop:Generator_RowChangingName="TestDTRowChanging" msprop:Generator_RowEvArgName="TestDTRowChangeEvent" msprop:Generator_RowEvHandlerName="TestDTRowChangeEventHandler" msprop:Generator_TableClassName="TestDTDataTable" msprop:Generator_TableVarName="tableTestDT" msprop:Generator_RowDeletingName="TestDTRowDeleting" msprop:Generator_TablePropName="TestDT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="FieldDT" msprop:Generator_UserTableName="FieldDT" msprop:Generator_RowDeletedName="FieldDTRowDeleted" msprop:Generator_RowChangedName="FieldDTRowChanged" msprop:Generator_RowClassName="FieldDTRow" msprop:Generator_RowChangingName="FieldDTRowChanging" msprop:Generator_RowEvArgName="FieldDTRowChangeEvent" msprop:Generator_RowEvHandlerName="FieldDTRowChangeEventHandler" msprop:Generator_TableClassName="FieldDTDataTable" msprop:Generator_TableVarName="tableFieldDT" msprop:Generator_RowDeletingName="FieldDTRowDeleting" msprop:Generator_TablePropName="FieldDT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FieldName" msdata:Caption="Field Name" msprop:Generator_UserColumnName="FieldName" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnFieldName" msprop:Generator_ColumnPropNameInTable="FieldNameColumn" msprop:Generator_ColumnPropNameInRow="FieldName" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="MaxChars" msprop:Generator_UserColumnName="MaxChars" msprop:Generator_ColumnPropNameInRow="MaxChars" msprop:Generator_ColumnVarNameInTable="columnMaxChars" msprop:Generator_ColumnPropNameInTable="MaxCharsColumn" type="xs:unsignedInt" default="0" minOccurs="0" />
+              <xs:element name="IsSaveData" msprop:Generator_UserColumnName="IsSaveData" msprop:Generator_ColumnVarNameInTable="columnIsSaveData" msprop:Generator_ColumnPropNameInRow="IsSaveData" msprop:Generator_ColumnPropNameInTable="IsSaveDataColumn" type="xs:boolean" default="true" minOccurs="0" />
+              <xs:element name="ID" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="ColumnDTKey1">
+      <xs:selector xpath=".//mstns:FieldDT" />
+      <xs:field xpath="mstns:FieldName" />
+    </xs:unique>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:FieldDT" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

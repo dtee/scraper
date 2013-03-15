@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="ScraperLib.TagTree">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TagLibrary\TagTree.vb</FileName>
+      <HashCode>AAAQAAEABCAAAAAAEAgAAAAAAAAAQAAAAIAAAAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScraperLib.TagNode">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TagLibrary\TagNode.vb</FileName>
+      <HashCode>CAAIAAgBAAABAEAAQCiAAgQAAGEBAgggQIgAAAAAWAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScraperLib.DataTableUtil">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TagLibrary\TagNode.vb</FileName>
+      <HashCode>AAAAAAAAAAAAgAAAAAAACAAAACAEAAAAAAAAQACAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="ScraperLib.DataTableUtil.DataDTCol">
+        <TypeIdentifier>
+          <NewMemberFileName>TagLibrary\TagNode.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="ScraperLib.TagTreeNode">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TagLibrary\TagTreeNode.vb</FileName>
+      <HashCode>AAYITQCAFIBBAAMAACkBRAgRBEhAC1wAIwAAiAAASAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="ScraperLib.TagTreeNode.TagImageIndex">
+        <TypeIdentifier>
+          <NewMemberFileName>TagLibrary\TagTreeNode.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="ScraperLib.TagNodeColor">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TagLibrary\TagNodeColor.vb</FileName>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAKAAIACAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScraperLib.TagTreeView">
+    <Position X="5.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>TagLibrary\TagTreeView.vb</FileName>
+      <HashCode>AQAQAAgABGAAAAAAIAGAAAAGAAAAAABBQEAAAgQBAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="ScraperLib.TagTreeView.NodeMovement">
+        <TypeIdentifier>
+          <NewMemberFileName>TagLibrary\TagTreeView.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+</ClassDiagram>

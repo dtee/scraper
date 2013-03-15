@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="ScraperLib.ProjectManager">
+    <Position X="3.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>Project\ProjectManager.vb</FileName>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAgAAgAAAAEAAAAAAACAgAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScraperLib.UrlManager">
+    <Position X="7.5" Y="4.75" Width="3.75" />
+    <TypeIdentifier>
+      <FileName>Project\UrlManager.vb</FileName>
+      <HashCode>gAAAAAEBAQAAAAAAAAAAAAACCABAAAAAAhABABACEQA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="ScraperLib.UrlManager.UrlStatus">
+        <TypeIdentifier>
+          <NewMemberFileName>Project\UrlManager.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="ScraperLib.DataMappingManager">
+    <Position X="4.25" Y="7.5" Width="3" />
+    <TypeIdentifier>
+      <FileName>Project\DataMappingManager.vb</FileName>
+      <HashCode>AAAAANAAAEAAAAAAAAgACAAAAAAAAAQAAAACAAAACoA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScraperLib.CrawlProject">
+    <Position X="0.5" Y="3.25" Width="3" />
+    <TypeIdentifier>
+      <FileName>Project\CrawlProject.vb</FileName>
+      <HashCode>EAAAQAAAAAICABEACAAAAAAAAAAAABgAAAANIEgQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScraperLib.Project">
+    <Position X="3.75" Y="3.5" Width="3.5" />
+    <TypeIdentifier>
+      <FileName>Project\Project.vb</FileName>
+      <HashCode>AAAAQAAQAAIQAAAAAAAAgAAABAAAAAoAAGAAIAAhAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScraperLib.ProxyManager">
+    <Position X="7.75" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <FileName>Misc\ProxyManager.vb</FileName>
+      <HashCode>AQAAgAAECgAAAAQAAAAAAAAAAAAAAgQABAAAABAACAE=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Enum Name="ScraperLib.ProxyManager.ProxyStatus" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Misc\ProxyManager.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="ScraperLib.LinkMappingManager">
+    <Position X="0.5" Y="7.5" Width="3.25" />
+    <TypeIdentifier>
+      <FileName>Project\LinkMappingManager.vb</FileName>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAEAAAAAAAAAAACAAgAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScraperLib.CrawlProjectManager">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>Project\CrawlProjectManager.vb</FileName>
+      <HashCode>AAAEAAAAAAIAAAAAAAAAAAAAEAIAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

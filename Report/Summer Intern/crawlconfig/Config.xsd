@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2006 rel. 3 sp1 (http://www.altova.com) by David (EMBRACE) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.ten45.com/domain/crawler" targetNamespace="http://www.ten45.com/domain/crawler" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="Merchants">
+		<xs:annotation>
+			<xs:documentation>Merchant Information</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Merchant" type="Merchant"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="Group">
+		<xs:annotation>
+			<xs:documentation>Extraction information for the group of URLs</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Category" type="Category" minOccurs="0"/>
+			<xs:element name="Product" minOccurs="0">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="Product"/>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Link" type="Link" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="Name" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="2"/>
+					<xs:maxLength value="20"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="Category">
+		<xs:annotation>
+			<xs:documentation>NestedCategory Information</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="ExtractionElement">
+				<xs:sequence>
+					<xs:element name="Category" type="Category" minOccurs="0"/>
+				</xs:sequence>
+				<xs:attribute name="XSLLink" type="xs:string" use="optional"/>
+				<xs:attribute name="Group" type="xs:string"/>
+				<xs:attribute name="Href" type="xs:string"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="Merchant">
+		<xs:sequence>
+			<xs:element name="Site" type="Site" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="Name" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="Site">
+		<xs:sequence>
+			<xs:element name="CategoryCrawl">
+				<xs:complexType>
+					<xs:attribute name="Group" type="xs:string" use="required"/>
+					<xs:attribute name="Url" type="xs:string" use="required"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ProductCrawl">
+				<xs:complexType>
+					<xs:attribute name="Group" type="xs:string"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Group" type="Group" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="Url" type="xs:string" use="required"/>
+		<xs:attribute name="Name" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="3"/>
+					<xs:maxLength value="20"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="DownloadDelay" type="xs:integer" use="required"/>
+		<xs:attribute name="ProductIDAttribute" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="primaryIdentifier.feedId"/>
+					<xs:enumeration value="primaryIdentifier.sku"/>
+					<xs:enumeration value="primaryIdentifier.upc"/>
+					<xs:enumeration value="impressionUrl"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="Product">
+		<xs:complexContent>
+			<xs:extension base="ExtractionElement"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="Link">
+		<xs:complexContent>
+			<xs:extension base="ExtractionElement">
+				<xs:attribute name="Href" type="xs:string" use="required"/>
+				<xs:attribute name="Group" type="xs:string" use="required"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="AttributeType">
+		<xs:attribute name="XPath" type="xs:string" use="required"/>
+		<xs:attribute name="AttributeName" type="xs:string" use="required"/>
+		<xs:attribute name="DataType" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="string"/>
+					<xs:enumeration value="int"/>
+					<xs:enumeration value="float"/>
+					<xs:enumeration value="date"/>
+					<xs:enumeration value="Money"/>
+					<xs:enumeration value="URL"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:simpleType name="CategoryHyperName">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="DISPLAYNAME"/>
+			<xs:enumeration value="URL"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="ProductHyperName">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="pricing.price"/>
+			<xs:enumeration value="pricing.fromPrice"/>
+			<xs:enumeration value="pricing.discount"/>
+			<xs:enumeration value="primaryIdentifier.sku"/>
+			<xs:enumeration value="title"/>
+			<xs:enumeration value="keywords"/>
+			<xs:enumeration value="brand"/>
+			<xs:enumeration value="gender"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="ExtractionElement" abstract="true">
+		<xs:sequence>
+			<xs:element name="Attribute" type="AttributeType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="XPath" type="xs:string" use="required"/>
+		<xs:attribute name="ClassName" type="xs:string" use="optional"/>
+	</xs:complexType>
+</xs:schema>

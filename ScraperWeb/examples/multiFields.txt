@@ -1,0 +1,6 @@
+<td>David <br> Male <br> 5'10 </td>
+<td>Zac <br> Male <br> 5'10 </td>
+<td>Robert <br> Male <br> 5'8 </td>
+<td>Christ <br> Male <br> 6'10 </td>
+<td>Amy <br> Female <br> 5'6 </td>
+<td>Girl <br> Female <br> 5'8 </td>

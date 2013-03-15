@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Data>
+    <Cata>ALL jobs</Cata>
+  </Data>
+  <Data>
+    <Cata>admin/office jobs</Cata>
+  </Data>
+  <Data>
+    <Cata>business jobs</Cata>
+  </Data>
+</DocumentElement>

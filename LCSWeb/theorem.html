@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Theorem</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bordercolor="#999999">
+  <tr valign="top">
+    <td><table width="100%" border="1" cellpadding="5" cellspacing="0" bordercolor="#D4D0C8" bgcolor="#FFFFFF">
+      <tr>
+        <td colspan="2" valign="top"><h1>Longest Common Sub-Sequence (LCS) </h1></td>
+        </tr>
+      <tr>
+        <td width="25%" valign="top"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="containermaster_gray">
+          <tr>
+            <td><img src="images/main_tl.gif" width="16" height="9" /></td>
+            <td background="images/main_t.gif"><img src="images/main_t.gif" width="7" height="9" /></td>
+            <td><img src="images/main_tr.gif" width="9" height="9" /></td>
+          </tr>
+          <tr>
+            <td rowspan="3" background="images/main_l.gif"><img src="images/main_l.gif" width="16" height="7" /></td>
+            <td></td>
+            <td rowspan="3" background="images/main_r.gif"><img src="images/main_r.gif" width="9" height="7" /></td>
+          </tr>
+          <tr>
+            <td width="100%" align="center"  id="ContentPane" runat="server"></td>
+          </tr>
+          <tr>
+            <td><p><a href="index.htm">Introduction</a><br />
+                <a href="theorem.html">Theorem</a><br />
+                <a href="recursive.html">Recursive Algorithm</a><br />
+                <a href="memorizing.html">Memorizing</a> <br />
+                <a href="bottom-up.html">Bottom up LCS</a><br />
+                <a href="LCS-Delta.html">LCS-Delta </a><br />
+                <a href="Application.html">Applications</a><br />
+                <a href="references.html">References</a><br />
+              </p>              </td>
+          </tr>
+          <tr>
+            <td><img src="images/main_bl.gif" width="16" height="12" /></td>
+            <td background="images/main_b.gif"><img src="images/main_b.gif" width="7" height="12" /></td>
+            <td><img src="images/main_br.gif" width="9" height="12" /></td>
+          </tr>
+        </table></td>
+        <td valign="top"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="containermaster_gray">
+          <tr>
+            <td><img src="images/main_tl.gif" width="16" height="9" /></td>
+            <td background="images/main_t.gif"><img src="images/main_t.gif" width="7" height="9" /></td>
+            <td><img src="images/main_tr.gif" width="9" height="9" /></td>
+          </tr>
+          <tr>
+            <td rowspan="3" background="images/main_l.gif"><img src="images/main_l.gif" width="16" height="7" /></td>
+            <td></td>
+            <td rowspan="3" background="images/main_r.gif"><img src="images/main_r.gif" width="9" height="7" /></td>
+          </tr>
+          <tr>
+            <td width="100%" align="center"  id="ContentPane" runat="server"></td>
+          </tr>
+          <tr>
+            <td><!-- InstanceBeginEditable name="Edit Here" -->
+              <h1>Theorem 16.1</h1>
+              <p>If X  = &lt;x1, ...,xm&gt; and If Y = &lt;y1, ...,yn&gt; are sequences and let Z  = &lt;z1, ...,zk&gt; be some LCS of X and Y. <br />
+If xm = yn then zk = xmand Zk-1 is an LCS of Xm-1 and Yn-1 <br />
+If xm &ne; yn then zk &ne; xm =&gt; Z is an LCS of Xm-1 and Y <br />
+If xm &ne; yn then zk &ne; yn =&gt; Z is an LCS of X and Y n-1 </p>
+              <h2>Proof</h2>
+              <ul><li>f zk &ne; xm then we could add xm = yn to Z to get an LCS of length  k + 1. By contradiction it must be that zk = xm  = yn . |zk-1 | = k - 1 and is an LCS of Xm-1 and Yn-1 . It is an LCS, if not then  &#61476;&#61472;W CS of Xm-1 and Yn-1 with | W | &gt; k - 1 and so  by appending xm = yn we get a CS of X and Y of  length greater than k, a contradiction.
+                <li>If zk &ne; xm then z is a CS of Xm-1 and Y. If &#61476;&#61472;W a CS with | W | &gt; k,  then W would be a CS of X and Y, a contradiction                  </li>
+                <li>Proof by reversing x and y </li>
+                </ul>
+              <h2>Equation</h2>
+              <p><img src="images/equation.jpg" width="539" height="72" /></p>
+            <!-- InstanceEndEditable -->                </td>
+          </tr>
+          <tr>
+            <td><img src="images/main_bl.gif" width="16" height="12" /></td>
+            <td background="images/main_b.gif"><img src="images/main_b.gif" width="7" height="12" /></td>
+            <td><img src="images/main_br.gif" width="9" height="12" /></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+<!-- InstanceEnd --></html>

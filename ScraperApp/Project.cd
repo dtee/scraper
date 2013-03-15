@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="ScraperApp.Main">
+    <Position X="0.75" Y="0.5" Width="6" />
+    <TypeIdentifier>
+      <FileName>Main.vb</FileName>
+      <HashCode>RXYXL9uHj2XZb7LFXpjPRthbwvVmVdFROO/p6QWnnv8=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+</ClassDiagram>

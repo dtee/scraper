@@ -1,0 +1,137 @@
+<?xml version="1.0" standalone="yes"?>
+<MovieList-3.xml>
+  <Shows>
+    <SYS_ID>-1</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <MovieName>Scary Movie </MovieName>
+    <ReleaseDate>10/13/84</ReleaseDate>
+    <Rating>5 Stars </Rating>
+  </Shows>
+  <Shows>
+    <SYS_ID>-2</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <MovieName>Mission Impossible </MovieName>
+    <ReleaseDate />
+    <Rating>5 Stars </Rating>
+  </Shows>
+  <ShowDay>
+    <SYS_ID>-1</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Date>Tuesday</Date>
+  </ShowDay>
+  <ShowDay>
+    <SYS_ID>-2</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Date>Monday</Date>
+  </ShowDay>
+  <ShowDay>
+    <SYS_ID>-3</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Date>Sunday</Date>
+  </ShowDay>
+  <ShowDay>
+    <SYS_ID>-4</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Date>Friday</Date>
+  </ShowDay>
+  <ShowDay>
+    <SYS_ID>-5</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Date>Thursday</Date>
+  </ShowDay>
+  <ShowDay>
+    <SYS_ID>-6</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Date>Saturday</Date>
+  </ShowDay>
+  <ShowTime>
+    <SYS_ID>-1</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Day> 9:10 AM</Day>
+  </ShowTime>
+  <ShowTime>
+    <SYS_ID>-2</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Day>12:00 PM</Day>
+  </ShowTime>
+  <ShowTime>
+    <SYS_ID>-3</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Day>2:40 PM</Day>
+  </ShowTime>
+  <ShowTime>
+    <SYS_ID>-4</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Day>11:40 AM</Day>
+  </ShowTime>
+  <ShowTime>
+    <SYS_ID>-5</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Day>2:20 PM</Day>
+  </ShowTime>
+  <ShowTime>
+    <SYS_ID>-6</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Day>5:40 PM</Day>
+  </ShowTime>
+  <ShowTime>
+    <SYS_ID>-7</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Day>2:40 PM</Day>
+  </ShowTime>
+  <ShowTime>
+    <SYS_ID>-8</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Day>3:20 PM</Day>
+  </ShowTime>
+  <ShowTime>
+    <SYS_ID>-9</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Day>6:40 PM</Day>
+  </ShowTime>
+  <ShowTime>
+    <SYS_ID>-10</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Day> 9:20 AM</Day>
+  </ShowTime>
+  <ShowTime>
+    <SYS_ID>-11</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Day>12:10 PM</Day>
+  </ShowTime>
+  <ShowTime>
+    <SYS_ID>-12</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Day>2:50 PM</Day>
+  </ShowTime>
+  <ShowTime>
+    <SYS_ID>-13</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Day>11:40 AM</Day>
+  </ShowTime>
+  <ShowTime>
+    <SYS_ID>-14</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Day>2:20 PM</Day>
+  </ShowTime>
+  <ShowTime>
+    <SYS_ID>-15</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Day>5:40 PM</Day>
+  </ShowTime>
+  <ShowTime>
+    <SYS_ID>-16</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Day>2:40 PM</Day>
+  </ShowTime>
+  <ShowTime>
+    <SYS_ID>-17</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Day>3:20 PM</Day>
+  </ShowTime>
+  <ShowTime>
+    <SYS_ID>-18</SYS_ID>
+    <SYS_URL>http://localhost/MovieList-3.xml.txt</SYS_URL>
+    <Day>6:40 PM</Day>
+  </ShowTime>
+</MovieList-3.xml>

@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>LCS Delta</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bordercolor="#999999">
+  <tr valign="top">
+    <td><table width="100%" border="1" cellpadding="5" cellspacing="0" bordercolor="#D4D0C8" bgcolor="#FFFFFF">
+      <tr>
+        <td colspan="2" valign="top"><h1>Longest Common Sub-Sequence (LCS) </h1></td>
+        </tr>
+      <tr>
+        <td width="25%" valign="top"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="containermaster_gray">
+          <tr>
+            <td><img src="images/main_tl.gif" width="16" height="9" /></td>
+            <td background="images/main_t.gif"><img src="images/main_t.gif" width="7" height="9" /></td>
+            <td><img src="images/main_tr.gif" width="9" height="9" /></td>
+          </tr>
+          <tr>
+            <td rowspan="3" background="images/main_l.gif"><img src="images/main_l.gif" width="16" height="7" /></td>
+            <td></td>
+            <td rowspan="3" background="images/main_r.gif"><img src="images/main_r.gif" width="9" height="7" /></td>
+          </tr>
+          <tr>
+            <td width="100%" align="center"  id="ContentPane" runat="server"></td>
+          </tr>
+          <tr>
+            <td><p><a href="index.htm">Introduction</a><br />
+                <a href="theorem.html">Theorem</a><br />
+                <a href="recursive.html">Recursive Algorithm</a><br />
+                <a href="memorizing.html">Memorizing</a> <br />
+                <a href="bottom-up.html">Bottom up LCS</a><br />
+                <a href="LCS-Delta.html">LCS-Delta </a><br />
+                <a href="Application.html">Applications</a><br />
+                <a href="references.html">References</a><br />
+              </p>              </td>
+          </tr>
+          <tr>
+            <td><img src="images/main_bl.gif" width="16" height="12" /></td>
+            <td background="images/main_b.gif"><img src="images/main_b.gif" width="7" height="12" /></td>
+            <td><img src="images/main_br.gif" width="9" height="12" /></td>
+          </tr>
+        </table></td>
+        <td valign="top"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="containermaster_gray">
+          <tr>
+            <td><img src="images/main_tl.gif" width="16" height="9" /></td>
+            <td background="images/main_t.gif"><img src="images/main_t.gif" width="7" height="9" /></td>
+            <td><img src="images/main_tr.gif" width="9" height="9" /></td>
+          </tr>
+          <tr>
+            <td rowspan="3" background="images/main_l.gif"><img src="images/main_l.gif" width="16" height="7" /></td>
+            <td></td>
+            <td rowspan="3" background="images/main_r.gif"><img src="images/main_r.gif" width="9" height="7" /></td>
+          </tr>
+          <tr>
+            <td width="100%" align="center"  id="ContentPane" runat="server"></td>
+          </tr>
+          <tr>
+            <td><!-- InstanceBeginEditable name="Edit Here" -->
+              <h1>LCS-Delta</h1>
+              <p>LCS-Delta(X,Y)  {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; m &lt;- LENGTH[X];<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; n &lt;- LENGTH[Y]; <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for i &lt;- 1 to m, do <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c[i,0] &lt;-0; <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for j &lt;- 0 to n, do <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c[0,j] &lt;-0; b &lt;- c; <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for i &lt;- 1 to m, do { <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for j &lt;- 1 to n do { <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (xi = yj) { <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c[i,j] &lt;-  c[i-1,j-1]+1; <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b[i,j] &lt;-  &quot;UP-LEFT&quot;; <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else if (c[i-1,j] &gt;=  c[i,j-1]) { <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c[i,j] &lt;-  c[i-1,j]; <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b[i,j] &lt;-  &quot;UP&quot;; <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else { <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c[i,j]  &lt;- c[i,j-1]; <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b[i,j] &lt;-  &quot;LEFT&quot;; <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return c and b</p>
+            }
+            <p>This solution is the most popular dynamic solution for  finding the Longest Common subsequence. This solution creates two matrixes; one  matrix stores the LCS information while the other matrix stores the LCS  sequence finding information. Also, notice this solution starts from the  beginning the string, at the position 0. Using the b matrix, you can trace back  the longest common sequence. This solution is better than the last solution  because easier to build the LCS sequence from the result matrix, and it&rsquo;s  easier to follow the arrows to find a sub common sequence beginning at any  given character in string. However the complexity is still the same O(nm). </p>
+            <h2>Improvements </h2>
+            <p>In this algorithm, we can get rid of the b table. To find  c[I,j] entry, we only need to know c[i-1, j-1], c[i-1, j] and c[i, j-1]. Give  c[i,j], we can find those three values without needing the need to construct  table b. With this, we can get rid of the b table saving us &Theta;(nm) space. </p>
+            <!-- InstanceEndEditable -->                </td>
+          </tr>
+          <tr>
+            <td><img src="images/main_bl.gif" width="16" height="12" /></td>
+            <td background="images/main_b.gif"><img src="images/main_b.gif" width="7" height="12" /></td>
+            <td><img src="images/main_br.gif" width="9" height="12" /></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+<!-- InstanceEnd --></html>

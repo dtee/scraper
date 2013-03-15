@@ -1,0 +1,199 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Data>
+    <SYS_ID>1</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>200.85.107.71:3128</Proxy>
+    <Status>   elite proxy</Status>
+    <Location> Argentina (Del Viso)</Location>
+  </Data>
+  <Data>
+    <SYS_ID>2</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>200.68.214.152:6588</Proxy>
+    <Status>  elite proxy</Status>
+    <Location> Argentina (Federal)</Location>
+  </Data>
+  <Data>
+    <SYS_ID>3</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>220.233.179.159:80</Proxy>
+    <Status>   anonymous</Status>
+    <Location>   Australia</Location>
+  </Data>
+  <Data>
+    <SYS_ID>4</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>195.248.41.226:8080</Proxy>
+    <Status>  elite proxy</Status>
+    <Location> Austria (Wien)</Location>
+  </Data>
+  <Data>
+    <SYS_ID>5</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>212.35.114.108:8080</Proxy>
+    <Status>  anonymous</Status>
+    <Location>   Belgium (Brussels)</Location>
+  </Data>
+  <Data>
+    <SYS_ID>6</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>193.220.192.33:553</Proxy>
+    <Status>   elite proxy</Status>
+    <Location> Botswana (Gaborone)</Location>
+  </Data>
+  <Data>
+    <SYS_ID>7</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>201.3.169.110:6588</Proxy>
+    <Status>   elite proxy</Status>
+    <Location> Brazil (Brasília)</Location>
+  </Data>
+  <Data>
+    <SYS_ID>8</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>200.142.178.167:6588</Proxy>
+    <Status> elite proxy</Status>
+    <Location> Brazil (Natal)</Location>
+  </Data>
+  <Data>
+    <SYS_ID>9</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>200.174.46.115:6588</Proxy>
+    <Status>  elite proxy</Status>
+    <Location> Brazil (São Paulo)</Location>
+  </Data>
+  <Data>
+    <SYS_ID>10</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>201.21.9.43:6588</Proxy>
+    <Status>     elite proxy</Status>
+    <Location> Brazil (São Paulo)</Location>
+  </Data>
+  <Data>
+    <SYS_ID>11</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>201.37.14.177:6588</Proxy>
+    <Status>   elite proxy</Status>
+    <Location> Brazil (São Paulo)</Location>
+  </Data>
+  <Data>
+    <SYS_ID>12</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>201.37.8.43:6588</Proxy>
+    <Status>     elite proxy</Status>
+    <Location> Brazil (São Paulo)</Location>
+  </Data>
+  <Data>
+    <SYS_ID>13</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>200.208.137.203:6588</Proxy>
+    <Status> elite proxy</Status>
+    <Location> Brazil</Location>
+  </Data>
+  <Data>
+    <SYS_ID>14</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>83.97.24.41:3128</Proxy>
+    <Status>     elite proxy</Status>
+    <Location> Bulgaria</Location>
+  </Data>
+  <Data>
+    <SYS_ID>15</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>68.145.21.230:2301</Proxy>
+    <Status>   elite proxy</Status>
+    <Location> Canada (AB, Calgary)</Location>
+  </Data>
+  <Data>
+    <SYS_ID>16</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>207.216.82.18:7212</Proxy>
+    <Status>   elite proxy</Status>
+    <Location> Canada (BC, Burnaby)</Location>
+  </Data>
+  <Data>
+    <SYS_ID>17</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>198.163.152.229:3127</Proxy>
+    <Status> elite proxy</Status>
+    <Location> Canada (MB, Winnipeg)</Location>
+  </Data>
+  <Data>
+    <SYS_ID>18</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>198.163.152.229:3128</Proxy>
+    <Status> elite proxy</Status>
+    <Location> Canada (MB, Winnipeg)</Location>
+  </Data>
+  <Data>
+    <SYS_ID>19</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>198.163.152.230:3128</Proxy>
+    <Status> elite proxy</Status>
+    <Location> Canada (MB, Winnipeg)</Location>
+  </Data>
+  <Data>
+    <SYS_ID>20</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>24.141.93.47:2301</Proxy>
+    <Status>    elite proxy</Status>
+    <Location> Canada (ON, Burlington)</Location>
+  </Data>
+  <Data>
+    <SYS_ID>21</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>132.204.102.20:3127</Proxy>
+    <Status>  elite proxy</Status>
+    <Location> Canada (QC, Montréal)</Location>
+  </Data>
+  <Data>
+    <SYS_ID>22</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>132.204.102.20:3128</Proxy>
+    <Status>  elite proxy</Status>
+    <Location> Canada (QC, Montréal)</Location>
+  </Data>
+  <Data>
+    <SYS_ID>23</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>216.197.181.197:80</Proxy>
+    <Status>   anonymous</Status>
+    <Location>   Canada (SK, Regina)</Location>
+  </Data>
+  <Data>
+    <SYS_ID>24</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>69.193.226.114:80</Proxy>
+    <Status>    anonymous</Status>
+    <Location>   Canada</Location>
+  </Data>
+  <Data>
+    <SYS_ID>25</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>69.193.44.198:2301</Proxy>
+    <Status>   elite proxy</Status>
+    <Location> Canada</Location>
+  </Data>
+  <Data>
+    <SYS_ID>26</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>70.28.135.201:8080</Proxy>
+    <Status>   elite proxy</Status>
+    <Location> Canada</Location>
+  </Data>
+  <Data>
+    <SYS_ID>27</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>216.155.95.163:8080</Proxy>
+    <Status>  elite proxy</Status>
+    <Location> Chile (Valdivia)</Location>
+  </Data>
+  <Data>
+    <SYS_ID>28</SYS_ID>
+    <SYS_PID>1</SYS_PID>
+    <Proxy>211.153.44.155:8080</Proxy>
+    <Status>  anonymous</Status>
+    <Location>   China (Beijing)</Location>
+  </Data>
+</NewDataSet>

@@ -1,0 +1,1844 @@
+<?xml version="1.0" standalone="yes"?>
+<ScraperDB xmlns="http://tempuri.org/ScraperDB.xsd">
+  <TagLibrary>
+    <TagID>-2</TagID>
+    <ProjectID>-2</ProjectID>
+    <TagName>Data</TagName>
+    <StartTag>&lt;TABLE cellSpacing=0</StartTag>
+    <EndTag>&lt;SCRIPT&gt;</EndTag>
+    <OrderNumber>0</OrderNumber>
+    <MaxChars>0</MaxChars>
+    <IsAppendStartTag>false</IsAppendStartTag>
+    <IsAppendEndTag>false</IsAppendEndTag>
+    <IsStartTagRegex>false</IsStartTagRegex>
+    <IsEndTagRegex>false</IsEndTagRegex>
+    <IsOptional>false</IsOptional>
+    <IsSingleRegex>false</IsSingleRegex>
+    <isReverseSearch>false</isReverseSearch>
+    <IsURL>false</IsURL>
+    <IsDisabled>false</IsDisabled>
+    <isSaveData>false</isSaveData>
+    <IsDataTable>false</IsDataTable>
+    <IsIdentfier>False</IsIdentfier>
+    <TagLibrary>
+      <TagID>-5</TagID>
+      <Parent_TagID>-2</Parent_TagID>
+      <ProjectID>-2</ProjectID>
+      <TagName>AZ_Artist</TagName>
+      <StartTag>&lt;/FORM&gt;&lt;FONT size=1&gt;&lt;STRONG&gt;Artists</StartTag>
+      <EndTag>&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;</EndTag>
+      <OrderNumber>0</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>false</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+      <TagLibrary>
+        <TagID>-4</TagID>
+        <Parent_TagID>-5</Parent_TagID>
+        <ProjectID>-2</ProjectID>
+        <TagName>ArtistLink</TagName>
+        <StartTag>href="</StartTag>
+        <EndTag>"&gt;</EndTag>
+        <OrderNumber>0</OrderNumber>
+        <MaxChars>0</MaxChars>
+        <IsAppendStartTag>false</IsAppendStartTag>
+        <IsAppendEndTag>false</IsAppendEndTag>
+        <IsStartTagRegex>false</IsStartTagRegex>
+        <IsEndTagRegex>false</IsEndTagRegex>
+        <IsOptional>false</IsOptional>
+        <IsSingleRegex>false</IsSingleRegex>
+        <isReverseSearch>true</isReverseSearch>
+        <IsURL>true</IsURL>
+        <IsDisabled>false</IsDisabled>
+        <isSaveData>false</isSaveData>
+        <IsDataTable>false</IsDataTable>
+        <IsIdentfier>False</IsIdentfier>
+      </TagLibrary>
+    </TagLibrary>
+  </TagLibrary>
+  <TagLibrary>
+    <TagID>-7</TagID>
+    <ProjectID>-3</ProjectID>
+    <TagName>Root</TagName>
+    <StartTag />
+    <EndTag />
+    <OrderNumber>0</OrderNumber>
+    <MaxChars>0</MaxChars>
+    <IsAppendStartTag>false</IsAppendStartTag>
+    <IsAppendEndTag>false</IsAppendEndTag>
+    <IsStartTagRegex>false</IsStartTagRegex>
+    <IsEndTagRegex>false</IsEndTagRegex>
+    <IsOptional>false</IsOptional>
+    <IsSingleRegex>false</IsSingleRegex>
+    <isReverseSearch>false</isReverseSearch>
+    <IsURL>false</IsURL>
+    <IsDisabled>false</IsDisabled>
+    <isSaveData>false</isSaveData>
+    <IsDataTable>false</IsDataTable>
+    <IsIdentfier>False</IsIdentfier>
+    <TagLibrary>
+      <TagID>-8</TagID>
+      <Parent_TagID>-7</Parent_TagID>
+      <ProjectID>-3</ProjectID>
+      <TagName>Artist</TagName>
+      <StartTag>&lt;br&gt;&lt;br&gt;</StartTag>
+      <EndTag>&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;</EndTag>
+      <OrderNumber>1</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>false</isSaveData>
+      <IsDataTable>true</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+      <TagLibrary>
+        <TagID>-9</TagID>
+        <Parent_TagID>-8</Parent_TagID>
+        <ProjectID>-3</ProjectID>
+        <TagName>Link</TagName>
+        <StartTag>&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="</StartTag>
+        <EndTag>"</EndTag>
+        <OrderNumber>0</OrderNumber>
+        <MaxChars>0</MaxChars>
+        <IsAppendStartTag>false</IsAppendStartTag>
+        <IsAppendEndTag>false</IsAppendEndTag>
+        <IsStartTagRegex>false</IsStartTagRegex>
+        <IsEndTagRegex>false</IsEndTagRegex>
+        <IsOptional>false</IsOptional>
+        <IsSingleRegex>false</IsSingleRegex>
+        <isReverseSearch>false</isReverseSearch>
+        <IsURL>true</IsURL>
+        <IsDisabled>false</IsDisabled>
+        <isSaveData>true</isSaveData>
+        <IsDataTable>false</IsDataTable>
+        <IsIdentfier>False</IsIdentfier>
+      </TagLibrary>
+      <TagLibrary>
+        <TagID>-10</TagID>
+        <Parent_TagID>-8</Parent_TagID>
+        <ProjectID>-3</ProjectID>
+        <TagName>Name</TagName>
+        <StartTag>&gt;</StartTag>
+        <EndTag>&lt;/a&gt;</EndTag>
+        <OrderNumber>1</OrderNumber>
+        <MaxChars>0</MaxChars>
+        <IsAppendStartTag>false</IsAppendStartTag>
+        <IsAppendEndTag>false</IsAppendEndTag>
+        <IsStartTagRegex>false</IsStartTagRegex>
+        <IsEndTagRegex>false</IsEndTagRegex>
+        <IsOptional>false</IsOptional>
+        <IsSingleRegex>false</IsSingleRegex>
+        <isReverseSearch>false</isReverseSearch>
+        <IsURL>false</IsURL>
+        <IsDisabled>false</IsDisabled>
+        <isSaveData>true</isSaveData>
+        <IsDataTable>false</IsDataTable>
+        <IsIdentfier>False</IsIdentfier>
+      </TagLibrary>
+    </TagLibrary>
+    <TagLibrary>
+      <TagID>-12</TagID>
+      <Parent_TagID>-7</Parent_TagID>
+      <ProjectID>-3</ProjectID>
+      <TagName>Node2</TagName>
+      <StartTag>&lt;/script&gt;</StartTag>
+      <EndTag />
+      <OrderNumber>0</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>false</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+      <TagLibrary>
+        <TagID>-11</TagID>
+        <Parent_TagID>-12</Parent_TagID>
+        <ProjectID>-3</ProjectID>
+        <TagName>NextArtistLink</TagName>
+        <StartTag>&lt;a href=</StartTag>
+        <EndTag>&gt;</EndTag>
+        <OrderNumber>0</OrderNumber>
+        <MaxChars>0</MaxChars>
+        <IsAppendStartTag>false</IsAppendStartTag>
+        <IsAppendEndTag>false</IsAppendEndTag>
+        <IsStartTagRegex>false</IsStartTagRegex>
+        <IsEndTagRegex>false</IsEndTagRegex>
+        <IsOptional>false</IsOptional>
+        <IsSingleRegex>false</IsSingleRegex>
+        <isReverseSearch>false</isReverseSearch>
+        <IsURL>true</IsURL>
+        <IsDisabled>false</IsDisabled>
+        <isSaveData>false</isSaveData>
+        <IsDataTable>false</IsDataTable>
+        <IsIdentfier>False</IsIdentfier>
+      </TagLibrary>
+    </TagLibrary>
+  </TagLibrary>
+  <TagLibrary>
+    <TagID>-13</TagID>
+    <ProjectID>-4</ProjectID>
+    <TagName>Root</TagName>
+    <StartTag />
+    <EndTag />
+    <OrderNumber>0</OrderNumber>
+    <MaxChars>0</MaxChars>
+    <IsAppendStartTag>false</IsAppendStartTag>
+    <IsAppendEndTag>false</IsAppendEndTag>
+    <IsStartTagRegex>false</IsStartTagRegex>
+    <IsEndTagRegex>false</IsEndTagRegex>
+    <IsOptional>false</IsOptional>
+    <IsSingleRegex>false</IsSingleRegex>
+    <isReverseSearch>false</isReverseSearch>
+    <IsURL>false</IsURL>
+    <IsDisabled>false</IsDisabled>
+    <isSaveData>false</isSaveData>
+    <IsDataTable>false</IsDataTable>
+    <IsIdentfier>False</IsIdentfier>
+    <TagLibrary>
+      <TagID>-14</TagID>
+      <Parent_TagID>-13</Parent_TagID>
+      <ProjectID>-4</ProjectID>
+      <TagName>Nod1</TagName>
+      <StartTag>//--&gt;&lt;/script&gt;</StartTag>
+      <EndTag>&lt;SCRIPT&gt;</EndTag>
+      <OrderNumber>0</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>false</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+      <TagLibrary>
+        <TagID>-17</TagID>
+        <Parent_TagID>-14</Parent_TagID>
+        <ProjectID>-4</ProjectID>
+        <TagName>Lyric</TagName>
+        <StartTag>&lt;li&gt;</StartTag>
+        <EndTag>&lt;a&gt;</EndTag>
+        <OrderNumber>0</OrderNumber>
+        <MaxChars>0</MaxChars>
+        <IsAppendStartTag>false</IsAppendStartTag>
+        <IsAppendEndTag>false</IsAppendEndTag>
+        <IsStartTagRegex>false</IsStartTagRegex>
+        <IsEndTagRegex>false</IsEndTagRegex>
+        <IsOptional>false</IsOptional>
+        <IsSingleRegex>false</IsSingleRegex>
+        <isReverseSearch>false</isReverseSearch>
+        <IsURL>false</IsURL>
+        <IsDisabled>false</IsDisabled>
+        <isSaveData>false</isSaveData>
+        <IsDataTable>true</IsDataTable>
+        <IsIdentfier>False</IsIdentfier>
+        <TagLibrary>
+          <TagID>-15</TagID>
+          <Parent_TagID>-17</Parent_TagID>
+          <ProjectID>-4</ProjectID>
+          <TagName>Title</TagName>
+          <StartTag>&lt;strong&gt;</StartTag>
+          <EndTag>&lt;/</EndTag>
+          <OrderNumber>1</OrderNumber>
+          <MaxChars>0</MaxChars>
+          <IsAppendStartTag>false</IsAppendStartTag>
+          <IsAppendEndTag>false</IsAppendEndTag>
+          <IsStartTagRegex>false</IsStartTagRegex>
+          <IsEndTagRegex>false</IsEndTagRegex>
+          <IsOptional>false</IsOptional>
+          <IsSingleRegex>false</IsSingleRegex>
+          <isReverseSearch>false</isReverseSearch>
+          <IsURL>false</IsURL>
+          <IsDisabled>false</IsDisabled>
+          <isSaveData>true</isSaveData>
+          <IsDataTable>false</IsDataTable>
+          <IsIdentfier>False</IsIdentfier>
+        </TagLibrary>
+        <TagLibrary>
+          <TagID>-16</TagID>
+          <Parent_TagID>-17</Parent_TagID>
+          <ProjectID>-4</ProjectID>
+          <TagName>Link</TagName>
+          <StartTag>&lt;a href="</StartTag>
+          <EndTag>"</EndTag>
+          <OrderNumber>0</OrderNumber>
+          <MaxChars>0</MaxChars>
+          <IsAppendStartTag>false</IsAppendStartTag>
+          <IsAppendEndTag>false</IsAppendEndTag>
+          <IsStartTagRegex>false</IsStartTagRegex>
+          <IsEndTagRegex>false</IsEndTagRegex>
+          <IsOptional>false</IsOptional>
+          <IsSingleRegex>false</IsSingleRegex>
+          <isReverseSearch>false</isReverseSearch>
+          <IsURL>true</IsURL>
+          <IsDisabled>false</IsDisabled>
+          <isSaveData>true</isSaveData>
+          <IsDataTable>false</IsDataTable>
+          <IsIdentfier>False</IsIdentfier>
+        </TagLibrary>
+      </TagLibrary>
+    </TagLibrary>
+  </TagLibrary>
+  <TagLibrary>
+    <TagID>-18</TagID>
+    <ProjectID>-5</ProjectID>
+    <TagName>Lyric</TagName>
+    <StartTag />
+    <EndTag />
+    <OrderNumber>0</OrderNumber>
+    <MaxChars>0</MaxChars>
+    <IsAppendStartTag>false</IsAppendStartTag>
+    <IsAppendEndTag>false</IsAppendEndTag>
+    <IsStartTagRegex>false</IsStartTagRegex>
+    <IsEndTagRegex>false</IsEndTagRegex>
+    <IsOptional>false</IsOptional>
+    <IsSingleRegex>false</IsSingleRegex>
+    <isReverseSearch>false</isReverseSearch>
+    <IsURL>false</IsURL>
+    <IsDisabled>false</IsDisabled>
+    <isSaveData>false</isSaveData>
+    <IsDataTable>true</IsDataTable>
+    <IsIdentfier>False</IsIdentfier>
+    <TagLibrary>
+      <TagID>-19</TagID>
+      <Parent_TagID>-18</Parent_TagID>
+      <ProjectID>-5</ProjectID>
+      <TagName>Artist</TagName>
+      <StartTag>Artist:</StartTag>
+      <EndTag />
+      <OrderNumber>0</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>false</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+    </TagLibrary>
+    <TagLibrary>
+      <TagID>-20</TagID>
+      <Parent_TagID>-18</Parent_TagID>
+      <ProjectID>-5</ProjectID>
+      <TagName>Song</TagName>
+      <StartTag>Song:</StartTag>
+      <EndTag>&lt;/strong&gt;</EndTag>
+      <OrderNumber>1</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>false</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+    </TagLibrary>
+    <TagLibrary>
+      <TagID>-21</TagID>
+      <Parent_TagID>-18</Parent_TagID>
+      <ProjectID>-5</ProjectID>
+      <TagName>Lyric</TagName>
+      <StartTag>&lt;/td&gt;&lt;td&gt;</StartTag>
+      <EndTag>&lt;br&gt;&lt;br&gt;The hottest songs from</EndTag>
+      <OrderNumber>2</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>true</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+    </TagLibrary>
+  </TagLibrary>
+  <CrawlProject>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>Untitled Crawl Project</Name>
+    <ProxyCheckUrl />
+    <ProxyCheckContent />
+    <IsSaveContent>false</IsSaveContent>
+    <Threads>1</Threads>
+    <DownloadDelay>0</DownloadDelay>
+    <TotalUrl>0</TotalUrl>
+    <TotalUrlLeft>0</TotalUrlLeft>
+    <ConnectionPerIP>5</ConnectionPerIP>
+    <DateRun>2006-09-23T17:08:33.15625-07:00</DateRun>
+    <MaxUrl>10</MaxUrl>
+    <TotalProjects>1</TotalProjects>
+    <AssignTimeOutMinute>30</AssignTimeOutMinute>
+  </CrawlProject>
+  <UrlStatus>
+    <UrlStatusID>1</UrlStatusID>
+    <Name>Assigned</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>3</UrlStatusID>
+    <Name>Finished</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>2</UrlStatusID>
+    <Name>Error</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>0</UrlStatusID>
+    <Name>Ready</Name>
+  </UrlStatus>
+  <LinkMapping>
+    <LinkMappingID>-1</LinkMappingID>
+    <TagID>-4</TagID>
+    <ProjectID>-3</ProjectID>
+    <IsPartialData>false</IsPartialData>
+  </LinkMapping>
+  <LinkMapping>
+    <LinkMappingID>-2</LinkMappingID>
+    <TagID>-11</TagID>
+    <ProjectID>-3</ProjectID>
+    <IsPartialData>false</IsPartialData>
+  </LinkMapping>
+  <LinkMapping>
+    <LinkMappingID>-3</LinkMappingID>
+    <TagID>-9</TagID>
+    <ProjectID>-4</ProjectID>
+    <IsPartialData>false</IsPartialData>
+  </LinkMapping>
+  <LinkMapping>
+    <LinkMappingID>-4</LinkMappingID>
+    <TagID>-16</TagID>
+    <ProjectID>-5</ProjectID>
+    <IsPartialData>false</IsPartialData>
+  </LinkMapping>
+  <Project>
+    <ProjectID>-2</ProjectID>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>SiteRoot</Name>
+    <UrlCheckContent />
+    <TotalUrl>0</TotalUrl>
+    <TotalUrlLeft>0</TotalUrlLeft>
+  </Project>
+  <Project>
+    <ProjectID>-3</ProjectID>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>ArtistList</Name>
+    <UrlCheckContent />
+    <TotalUrl>0</TotalUrl>
+    <TotalUrlLeft>0</TotalUrlLeft>
+  </Project>
+  <Project>
+    <ProjectID>-4</ProjectID>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>LyricList</Name>
+    <UrlCheckContent />
+    <TotalUrl>0</TotalUrl>
+    <TotalUrlLeft>0</TotalUrlLeft>
+  </Project>
+  <Project>
+    <ProjectID>-5</ProjectID>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>Lyric</Name>
+    <UrlCheckContent />
+    <TotalUrl>0</TotalUrl>
+    <TotalUrlLeft>0</TotalUrlLeft>
+  </Project>
+  <Proxy>
+    <ProxyID>-1</ProxyID>
+    <ProxyStatusID>0</ProxyStatusID>
+    <ProxyLink>localhost</ProxyLink>
+    <ProxyPort>80</ProxyPort>
+    <AverageSpeed>0</AverageSpeed>
+    <AveragePing>0</AveragePing>
+    <MaxConnection>0</MaxConnection>
+    <TotalTimeout>0</TotalTimeout>
+    <TotalAnonymous>0</TotalAnonymous>
+  </Proxy>
+  <ProxyStatus>
+    <ProxyStatusID>0</ProxyStatusID>
+    <StatusName>Ready</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>1</ProxyStatusID>
+    <StatusName>Checking</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>2</ProxyStatusID>
+    <StatusName>Unknown</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>3</ProxyStatusID>
+    <StatusName>Error</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <Project_Sample>
+    <SampleID>-1</SampleID>
+    <SampleUrl>http://www.lyrics007.com/</SampleUrl>
+    <SampleText>&lt;HTML&gt;&lt;HEAD&gt;
+&lt;Title&gt;LYRICS&lt;/Title&gt;
+&lt;BASE href="http://www.lyrics007.com/"
+&lt;META http-equiv=Content-Language content=en-us&gt;
+&lt;META  name="robots" content="INDEX,FOLLOW"&gt;
+&lt;META   name="description" content="lyrics" &gt;
+&lt;META content="lyrics,song lyrics" name="keywords"&gt;
+&lt;STYLE&gt;TD {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: verdana, arial,  helvetica
+}
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #336699; TEXT-DECORATION: underline
+}
+A:active {
+	TEXT-DECORATION: none
+}
+A.mecl {
+	COLOR: #ffffff
+}
+A.mecl:visited {
+	COLOR: #ffffff; TOP: 1px; TEXT-DECORATION: none
+}
+A.mecl:hover {
+	COLOR: #cccccc; POSITION: relative; TOP: 1px; TEXT-DECORATION: none
+}
+H1 {
+	FONT-SIZE: 12px; MARGIN-BOTTOM: 0px; color:#ffffff
+}
+H2 {
+	FONT-SIZE: 10px; MARGIN-BOTTOM: -5px
+}
+&lt;/STYLE&gt;
+&lt;SCRIPT LANGUAGE="JavaScript"&gt;
+&lt;!--
+var axel = Math.random() + "";
+var PageId = axel * 1000000000000000000;
+// This part of script alleviates a Netscape document.write bug
+NS4 = document.layers;
+if (NS4) {
+origWidth = innerWidth;
+origHeight = innerHeight;
+}
+function reDo() {
+if (innerWidth != origWidth || innerHeight != origHeight)
+location.reload();
+}
+if (NS4) onresize = reDo;
+//--&gt;
+&lt;/SCRIPT&gt;
+&lt;!-- Javascript END --&gt;
+
+&lt;/HEAD&gt;
+&lt;BODY vLink=#000000 link=#000000 bgColor=#0472bc leftMargin=0 topMargin=0 marginheight="0" marginwidth="0"&gt;
+&lt;TABLE cellSpacing=0 cellPadding=0 width=770 align=left border=0&gt;
+  &lt;TBODY&gt;
+  &lt;TR&gt;
+    &lt;TD height=10&gt;&lt;img src="/images/spacer.gif"&gt;&lt;/TD&gt;
+	&lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD bgColor=#000000 height=1&gt;&lt;img src="/images/spacer.gif"&gt;&lt;/TD&gt;
+  &lt;/TR&gt;
+    &lt;TR&gt;
+    &lt;TD&gt;
+      &lt;TABLE  cellSpacing=0 cellPadding=0 width=770 align=center height=66 bgColor=#ffffff border=0&gt;
+        &lt;TBODY&gt;
+        &lt;TR&gt;
+          &lt;TD align=middle width=194 height=64&gt;&lt;IMG src="http://www.lyrics007.com/images/logo.gif"&gt;&lt;/TD&gt;
+          &lt;TD height=64 align=right width=556&gt;&lt;script&gt;
+fiSearchFormMaxObj=new Object();
+fiSearchFormMaxObj.type=1;
+fiSearchFormMaxObj.clrBdr='#808080';
+fiSearchFormMaxObj.clrBg='#FFFFFF';
+fiSearchFormMaxObj.clrTtlTxt='#000000';
+fiSearchFormMaxObj.clrTagTxt='#000000';
+fiSearchFormMaxObj.width='160';
+fiSearchFormMaxObj.noBorder=true;
+          &lt;/script&gt;
+            &lt;script&gt;fiSearchFormMaxSetId='AX006188';&lt;/script&gt;
+            &lt;script src=http://bfc.myway.com/search/fiSearchMax.js&gt;&lt;/script&gt;&lt;/TD&gt;
+          &lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD&gt;
+      &lt;TABLE cellSpacing=0 cellPadding=0 width=770 align=center bgColor=#ffffff border=0&gt;
+        &lt;TBODY&gt;
+    &lt;TR&gt;
+    &lt;TD&gt;
+      &lt;TABLE height=1 cellSpacing=0 cellPadding=0 width=770 align=center bgColor=#ffcc00 border=0&gt;
+        &lt;TBODY&gt;
+        &lt;TR&gt;
+          &lt;TD height=2&gt;&lt;img src="/images/spacer.gif"&gt;&lt;/TD&gt;&lt;/TR&gt;
+        &lt;TR&gt;
+          &lt;TD width=555 bgColor=#666666 height=1&gt;&lt;img src="/images/spacer.gif"&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD&gt;
+      &lt;TABLE cellSpacing=0 cellPadding=0 width=770 bgColor=#abab81 border=0&gt;
+        &lt;TBODY&gt;
+        &lt;TR&gt;
+          &lt;TD align=middle height=80&gt;
+            &lt;FORM action="/cgi-bin/s.cgi" method=submit&gt;
+            &lt;INPUT maxLength=256 size=55 name=q&gt; &lt;INPUT type=hidden value=on name=kw&gt;&lt;INPUT type=submit value=go name=submit&gt;&lt;BR&gt;&lt;BR&gt;
+            &lt;/FORM&gt;&lt;FONT size=1&gt;&lt;STRONG&gt;Artists 
+            A to Z: &lt;/STRONG&gt;&lt;/FONT&gt;&lt;A href="lyrics/0-9.html"&gt;&lt;strong&gt;#&lt;/strong&gt;&lt;/A&gt; 
+            &lt;A href="lyrics/a.html"&gt;&lt;strong&gt;A&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/b.html"&gt;&lt;strong&gt;B&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/c.html"&gt;&lt;strong&gt;C&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/d.html"&gt;&lt;strong&gt;D&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/e.html"&gt;&lt;strong&gt;E&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/f.html"&gt;&lt;strong&gt;F&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/g.html"&gt;&lt;strong&gt;G&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/h.html"&gt;&lt;strong&gt;H&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/i.html"&gt;&lt;strong&gt;I&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/j.html"&gt;&lt;strong&gt;J&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/k.html"&gt;&lt;strong&gt;K&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/l.html"&gt;&lt;strong&gt;L&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/m.html"&gt;&lt;strong&gt;M&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/n.html"&gt;&lt;strong&gt;N&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/o.html"&gt;&lt;strong&gt;O&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/p.html"&gt;&lt;strong&gt;P&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/q.html"&gt;&lt;strong&gt;Q&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/r.html"&gt;&lt;strong&gt;R&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/s.html"&gt;&lt;strong&gt;S&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/t.html"&gt;&lt;strong&gt;T&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/u.html"&gt;&lt;strong&gt;U&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/v.html"&gt;&lt;strong&gt;V&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/w.html"&gt;&lt;strong&gt;W&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/x.html"&gt;&lt;strong&gt;X&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/y.html"&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="lyrics/z.html"&gt;&lt;strong&gt;Z&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="new.html"&gt;&lt;strong&gt;New&lt;/strong&gt;&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD width=770 height=5 bgColor=#ffcc00 &gt;&lt;img src="/images/spacer.gif"&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;/TR&gt;
+     &lt;TR&gt;
+          &lt;TD width=770 align="center" bgColor=#ffcc00 &gt;
+          &lt;SCRIPT&gt;
+&lt;!--
+ // MaxOnline JavaScript tag for: Wan Min (sing365.com)
+ if ((!document.images &amp;&amp; navigator.userAgent.indexOf('Mozilla/2.') &gt;= 0) || navigator.userAgent.indexOf("WebTV")&gt;= 0) { 
+document.write('&lt;A HREF="http://c4.maxserving.com/adclick/site=6188/area=ros/aamft=normal/aamsz=banner/PageID=' + PageId + '" target="_blank"&gt;');
+document.write('&lt;IMG SRC="http://c4.maxserving.com/iserver/site=6188/area=ros/aamft=normal/aamsz=banner/PageID=' + PageId + '" border="0"&gt;&lt;/A&gt;');
+}else{
+document.write('&lt;SCR'+'IPT src=http://c4.maxserving.com/gen.js?site=6188&amp;area=ros&amp;group=topbar&amp;PageID=' + PageId + '&gt;&lt;\/SCR'+'IPT&gt;');
+}
+//--&gt;
+&lt;/SCRIPT&gt;
+&lt;noscript&gt;
+&lt;a href="http://c4.maxserving.com/adclick/site=6188/area=ros/aamsz=banner/PageID=' + PageId + '" target="_blank"&gt;');
+&lt;img src="http://c4.maxserving.com/iserver/site=6188/area=ros/aamsz=banner/PageID=' + PageId + '" border="0"&gt;&lt;/A&gt;');
+&lt;/noscript&gt;
+          &lt;/TD&gt;&lt;/TR&gt;
+           &lt;TR&gt;
+          &lt;TD width=770 height=5  bgColor=#ffcc00 &gt;&lt;img src="/images/spacer.gif"&gt;&lt;/TD&gt;&lt;/TR&gt;
+        &lt;TR&gt;
+         &lt;TD width=770 height=10 bgcolor=#ffffff&gt;&lt;img src="/images/spacer.gif"&gt;&lt;/TD&gt;&lt;/TR&gt;
+        &lt;TR&gt;
+     &lt;TD&gt;
+        
+      &lt;TABLE cellSpacing=0 cellPadding=0 width=770 bgColor=#ffffff border=0&gt;
+        &lt;TBODY&gt;
+        &lt;TR align=middle&gt;
+          &lt;TD vAlign=top width=12&gt;&lt;/TD&gt;
+          &lt;TD vAlign=top width=120&gt;
+            &lt;CENTER&gt;
+            
+                 &lt;TABLE  borderColor=#398ec6  cellSpacing=0 cellPadding=2 width=120 bgColor=#ffffff border=1&gt;
+                 
+                    &lt;TBODY&gt;
+                    &lt;TR&gt;
+                &lt;TD width=96 bgColor=#0472bc&gt;&lt;FONT color=#ffffff&gt;&lt;B&gt;::Notes&lt;/B&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+              &lt;TR&gt;
+                    &lt;TR&gt;
+                      &lt;TD align=left&gt;You are  visiting &lt;font color=red&gt;&lt;strong&gt;the largest lyrics site around the world&lt;/strong&gt;&lt;/font&gt;. Bookmark and enjoy it please.&lt;/TD&gt;&lt;/TR&gt;
+             &lt;/TBODY&gt;&lt;/TABLE&gt;&lt;img src="" height=3&gt;
+              &lt;TABLE   cellSpacing=0 cellPadding=0 width=120 bgColor=#ffffff border=0&gt;
+              &lt;TBODY&gt;
+              &lt;TR&gt;
+                &lt;TD width=120 &gt;
+             
+&lt;script type="text/javascript"&gt;&lt;!--
+google_ad_client = "pub-0919305250342516";
+google_ad_width = 120;
+google_ad_height = 600;
+google_ad_format = "120x600_as";
+google_ad_channel ="";
+google_color_border = "003366";
+google_color_bg = "003366";
+google_color_link = "FF6600";
+google_color_url = "99CCFF";
+google_color_text = "FFFFFF";
+//--&gt;&lt;/script&gt;
+&lt;script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js"&gt;
+&lt;/script&gt;
+                &lt;/TD&gt;&lt;/TR&gt;
+              &lt;/TBODY&gt;&lt;/TABLE&gt;&lt;BR&gt;&lt;/CENTER&gt;&lt;/TD&gt;
+  &lt;TD vAlign=top width=12 &gt;&lt;/TD&gt;
+          &lt;TD vAlign=top &gt;
+            &lt;TABLE style="BORDER-COLLAPSE: collapse" borderColor=#111111 
+            cellSpacing=0 cellPadding=0 width=424 border=0&gt;
+              &lt;TBODY&gt;
+              &lt;TR&gt;
+                &lt;TD vAlign=top width=420 colSpan=2 rowSpan=2&gt;
+                  &lt;TABLE  borderColor=#111111 cellSpacing=0 cellPadding=0 width=420 border=0&gt;
+                    &lt;TBODY&gt;
+                    &lt;TR&gt;
+                      &lt;TD align=left width=460 bgColor=#0472bc height=18&gt;&lt;h1&gt;&amp;nbsp;What's Hot Song&lt;/h1&gt;&lt;/TD&gt;
+                     &lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+                  &lt;TABLE style="BORDER-COLLAPSE: collapse" borderColor=#0472bc 
+                   cellSpacing=0 cellPadding=0 width=420 border=1&gt;
+                    &lt;TBODY&gt;
+                    &lt;TR&gt;
+                      &lt;TD width="100%" &gt;
+                        &lt;TABLE style="BORDER-COLLAPSE: collapse" cellSpacing=0 
+                        borderColorDark=#999999 cellPadding=3 width="100%" 
+                        bgColor=#f6f6f6 borderColorLight=#e7e7e7 border=1&gt;
+                          &lt;TBODY&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Everclear%20Lyrics/Santa%20Monica%20Lyrics.html"&gt;Everclear - Santa Monica Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Diana%20Ross%20Lyrics/I%20Will%20Survive%20Lyrics.html"&gt;Diana Ross - I Will Survive Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Frou%20Frou%20Lyrics/It%27s%20Good%20To%20Be%20In%20Love%20By%20Frou%20Frou%20Lyrics.html"&gt;Frou Frou - It's Good To Be In Love By Frou Frou Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/The%20Diplomats%20Lyrics/Purple%20Haze%20Lyrics.html"&gt;The Diplomats - Purple Haze Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Atomic%20Kitten%20Lyrics/The%20Locomotion%20Lyrics.html"&gt;Atomic Kitten - The Locomotion Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/U%202%20Lyrics/With%20Or%20Without%20You%20Lyrics.html"&gt;U 2 - With Or Without You Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/The%20Faint%20Lyrics/Call%20Call%20Lyrics.html"&gt;The Faint - Call Call Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Joe%20Cocker%20Lyrics/With%20A%20Little%20Help%20From%20My%20Friends%20Lyrics.html"&gt;Joe Cocker - With A Little Help From My Friends Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Korn%20Lyrics/Freak%20on%20a%20Leash%20Lyrics.html"&gt;Korn - Freak on a Leash Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Blink%20182%20Lyrics/When%20You%20Fucked%20Grandpa%20Lyrics.html"&gt;Blink 182 - When You Fucked Grandpa Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Britney%20Spears%20Lyrics/Breath%20On%20Me%20Lyrics.html"&gt;Britney Spears - Breath On Me Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Fugees%20Lyrics/No%20Woman%20No%20Cry%20Lyrics.html"&gt;Fugees - No Woman No Cry Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Santana%20Lyrics/Santana%20Ft.%20Chad%20Kroeger%20Lyrics.html"&gt;Santana - Santana Ft. Chad Kroeger Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Rammstein%20Lyrics/Mutter%20Lyrics.html"&gt;Rammstein - Mutter Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/The%20Hives%20Lyrics/Two-Timing%20Touch%20and%20Broken%20Bones%20Lyrics.html"&gt;The Hives - Two-Timing Touch and Broken Bones Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Pantera%20Lyrics/Mouth%20For%20War%20Lyrics.html"&gt;Pantera - Mouth For War Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/J-Kwon%20Lyrics/They%20Ask%20Me%20Lyrics.html"&gt;J-Kwon - They Ask Me Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Brian%20McKnight%20Lyrics/6%2C8%2C12%20Lyrics.html"&gt;Brian McKnight - 6,8,12 Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Aretha%20Franklin%20Lyrics/Say%20A%20Little%20Lyrics.html"&gt;Aretha Franklin - Say A Little Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Seether%20Lyrics/Sold%20Me%20Lyrics.html"&gt;Seether - Sold Me Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/The%20Hives%20Lyrics/Hate%20To%20Say%20I%20Told%20You%20So%20Lyrics.html"&gt;The Hives - Hate To Say I Told You So Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Dashboard%20Confessional%20Lyrics/So%20Long%2C%20So%20Long%20Lyrics.html"&gt;Dashboard Confessional - So Long, So Long Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Village%20People%20Lyrics/Go%20West%20Lyrics.html"&gt;Village People - Go West Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Usher%20Lyrics/Confessions%20Part%20II%20%28Remix%29%20Lyrics.html"&gt;Usher - Confessions Part II (Remix) Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Michael%20Jackson%20Lyrics/Will%20You%20Be%20There%20Lyrics.html"&gt;Michael Jackson - Will You Be There Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Train%20Lyrics/I%20Want%20You%20To%20Want%20Me%20Lyrics.html"&gt;Train - I Want You To Want Me Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Lil%27%20Jon%20Lyrics/Throw%20It%20Up%20Lyrics.html"&gt;Lil' Jon - Throw It Up Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/CKY%20%28Camp%20Kill%20Yourself%29%20Lyrics/Chinese%20Freestyle%20Lyrics.html"&gt;CKY (Camp Kill Yourself) - Chinese Freestyle Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/The%20Stills%20Lyrics/Of%20Montreal%20Lyrics.html"&gt;The Stills - Of Montreal Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Remy%20Zero%20Lyrics/Belong%20Lyrics.html"&gt;Remy Zero - Belong Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Eva%20Cassidy%20Lyrics/Say%20Goodbye%20Lyrics.html"&gt;Eva Cassidy - Say Goodbye Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Enya%20Lyrics/Anywhere%20Is%20Lyrics.html"&gt;Enya - Anywhere Is Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Lifehouse%20Lyrics/Quasimodo%20Lyrics.html"&gt;Lifehouse - Quasimodo Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Bowling%20For%20Soup%20Lyrics/Drunk%20Enough%20To%20Dance%20Lyrics.html"&gt;Bowling For Soup - Drunk Enough To Dance Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Story%20Of%20The%20Year%20Lyrics/Nothing%20Can%20Fly%20Lyrics.html"&gt;Story Of The Year - Nothing Can Fly Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Ella%20Fitzgerald%20Lyrics/Stella%20By%20Starlight%20Lyrics.html"&gt;Ella Fitzgerald - Stella By Starlight Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Rod%20Stewart%20Lyrics/YOUNG%20TURKS%20Lyrics.html"&gt;Rod Stewart - YOUNG TURKS Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Eric%20Clapton%20Lyrics/Key%20To%20The%20Highway%20Lyrics.html"&gt;Eric Clapton - Key To The Highway Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Nine%20Inch%20Nails%20Lyrics/Dead%20Souls%20Lyrics.html"&gt;Nine Inch Nails - Dead Souls Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/ATB%20Lyrics/Don%27t%20Stop%20Lyrics.html"&gt;ATB - Don't Stop Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/K-OS%20Lyrics/B-Boy%20Stance%20Lyrics.html"&gt;K-OS - B-Boy Stance Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Selena%20Lyrics/Sukiyaki%20%28English%20Translation%29%20Lyrics.html"&gt;Selena - Sukiyaki (English Translation) Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Yeah%20Yeah%20Yeahs%20Lyrics/Black%20Tongue%20Lyrics.html"&gt;Yeah Yeah Yeahs - Black Tongue Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Anastacia%20Lyrics/Maybe%20Today%20Lyrics.html"&gt;Anastacia - Maybe Today Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Air%20Lyrics/Alone%20in%20Kyoto%20Lyrics.html"&gt;Air - Alone in Kyoto Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Alex%20Ubago%20Lyrics/Ahora%20Que%20No%20Estas%20Lyrics.html"&gt;Alex Ubago - Ahora Que No Estas Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Oasis%20Lyrics/Talk%20Tonight%20Lyrics.html"&gt;Oasis - Talk Tonight Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Sixpence%20None%20The%20Richer%20Lyrics/Eyes%20Wide%20Open%20Lyrics.html"&gt;Sixpence None The Richer - Eyes Wide Open Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Remy%20Zero%20Lyrics/Smile%20Lyrics.html"&gt;Remy Zero - Smile Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Blink-182%20Lyrics/Go%20Lyrics.html"&gt;Blink-182 - Go Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Shania%20Twain%20Lyrics/Thank%20You%20Baby%20Lyrics.html"&gt;Shania Twain - Thank You Baby Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/AC%20DC%20Lyrics/It%27s%20A%20Long%20Way%20To%20The%20Top%20%28If%20You%20Wanna%20Rock%20%27n%27%20Lyrics.html"&gt;AC DC - It's A Long Way To The Top (If You Wanna Rock 'n' Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Pink%20Lyrics/Eventually%20Lyrics.html"&gt;Pink - Eventually Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/P.%20Diddy%20%28Puff%20Daddy%29%20Lyrics/Satfisy%20You%20Ft%20Luniz%20Lyrics.html"&gt;P. Diddy (Puff Daddy) - Satfisy You Ft Luniz Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Nightwish%20Lyrics/Astral%20Romance%20Lyrics.html"&gt;Nightwish - Astral Romance Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Stacie%20Orrico%20Lyrics/Don%27t%20Look%20At%20Me%20Lyrics.html"&gt;Stacie Orrico - Don't Look At Me Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Twista%20Lyrics/Twisted%20Heat%20Lyrics.html"&gt;Twista - Twisted Heat Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/BLINK%20182%20Lyrics/Down%20Lyrics.html"&gt;BLINK 182 - Down Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Blink-182%20Lyrics/Apple%20Shampoo%20Lyrics.html"&gt;Blink-182 - Apple Shampoo Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Abba%20Lyrics/Super%20Trouper%20Lyrics.html"&gt;Abba - Super Trouper Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Christina%20Aguilera%20Lyrics/Come%20On%20Over%20Lyrics.html"&gt;Christina Aguilera - Come On Over Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/311%20Lyrics/First%20Straw%20Lyrics.html"&gt;311 - First Straw Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Goo%20Goo%20Dolls%20Lyrics/Naked%20Lyrics.html"&gt;Goo Goo Dolls - Naked Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Good%20Charlotte%20Lyrics/Mountain%20Lyrics.html"&gt;Good Charlotte - Mountain Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Babyface%20Lyrics/U%20Should%20Know%20Lyrics.html"&gt;Babyface - U Should Know Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Bryan%20Adams%20Lyrics/Dont%20Give%20Up%20Lyrics.html"&gt;Bryan Adams - Dont Give Up Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Korn%20Lyrics/Thoughtless%20Lyrics.html"&gt;Korn - Thoughtless Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/OutKast%20Lyrics/Xplosion%20Lyrics.html"&gt;OutKast - Xplosion Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Lea%20Salonga%20Lyrics/SOMEWHERE%20OVER%20THE%20RAINBOW%20Lyrics.html"&gt;Lea Salonga - SOMEWHERE OVER THE RAINBOW Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Yellowcard%20Lyrics/Inside%20Out%20Lyrics.html"&gt;Yellowcard - Inside Out Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Zion%20Y%20Lennox%20Lyrics/Hay%20Algo%20En%20Ti%20Lyrics.html"&gt;Zion Y Lennox - Hay Algo En Ti Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Destiny%27s%20Child%20Lyrics/Through%20With%20Love%20Lyrics.html"&gt;Destiny's Child - Through With Love Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/The%20Who%20Lyrics/The%20Kids%20are%20Alright%20Lyrics.html"&gt;The Who - The Kids are Alright Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Sublime%20Lyrics/All%20You%20Need%20Lyrics.html"&gt;Sublime - All You Need Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Christina%20Aguilera%20Lyrics/Impossible%20%28Feat.%20Alicia%20Keys%29%20Lyrics.html"&gt;Christina Aguilera - Impossible (Feat. Alicia Keys) Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Blue%20Lyrics/Breath%20easy%20Lyrics.html"&gt;Blue - Breath easy Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Train%20Lyrics/She%27s%20On%20Fire%20Lyrics.html"&gt;Train - She's On Fire Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Ozzy%20Osbourne%20Lyrics/Mr%20Crowley%20Lyrics.html"&gt;Ozzy Osbourne - Mr Crowley Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Notorious%20B.I.G.%20Lyrics/Cant%20You%20See%20Lyrics.html"&gt;Notorious B.I.G. - Cant You See Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Soundgarden%20Lyrics/Spoonman%20Lyrics.html"&gt;Soundgarden - Spoonman Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/ABBA%20Lyrics/Chiquitita%20%28In%20Spanish%29%20Lyrics.html"&gt;ABBA - Chiquitita (In Spanish) Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Alien%20Ant%20Farm%20Lyrics/Attitude%20Lyrics.html"&gt;Alien Ant Farm - Attitude Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Audioslave%20Lyrics/Set%20It%20Off%20Lyrics.html"&gt;Audioslave - Set It Off Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Abba%20Lyrics/Waterloo%20%28German%20version%29%20Lyrics.html"&gt;Abba - Waterloo (German version) Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Phil%20Collins%20Lyrics/Invisible%20Touch%20Lyrics.html"&gt;Phil Collins - Invisible Touch Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/George%20Michael%20Lyrics/Father%20Figure%20Lyrics.html"&gt;George Michael - Father Figure Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Lil%27%20Jon%20%26%20the%20Eastside%20Boyz%20Lyrics/Play%20No%20Games%20Lyrics.html"&gt;Lil' Jon &amp; the Eastside Boyz - Play No Games Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Lil%27%20Wayne%20Lyrics/This%20Is%20the%20Carter%20Lyrics.html"&gt;Lil' Wayne - This Is the Carter Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Michael%20Jackson%20Lyrics/Smile%20Lyrics.html"&gt;Michael Jackson - Smile Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Cake%20Lyrics/Comfort%20Eagle%20Lyrics.html"&gt;Cake - Comfort Eagle Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Savage%20Garden%20Lyrics/Carry%20on%20Dancing%20Lyrics.html"&gt;Savage Garden - Carry on Dancing Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Savage%20Garden%20Lyrics/You%20Can%20Still%20Be%20Free%20Lyrics.html"&gt;Savage Garden - You Can Still Be Free Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/112%20Lyrics/All%20Cried%20Out%20Lyrics.html"&gt;112 - All Cried Out Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Pearl%20Jam%20Lyrics/I%20Am%20Mine%20Lyrics.html"&gt;Pearl Jam - I Am Mine Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Ben%20Harper%20Lyrics/Beloved%20One%20Lyrics.html"&gt;Ben Harper - Beloved One Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Ja%20Rule%20Lyrics/Reign%2C%20The%20Lyrics.html"&gt;Ja Rule - Reign, The Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Donna%20Summer%20Lyrics/Love%20To%20Love%20You%20Baby%20Lyrics.html"&gt;Donna Summer - Love To Love You Baby Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Gin%20Blossoms%20Lyrics/Found%20Out%20About%20You%20Lyrics.html"&gt;Gin Blossoms - Found Out About You Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Air%20Supply%20Lyrics/Now%20And%20Forever%20Lyrics.html"&gt;Air Supply - Now And Forever Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;a href="http://www.lyrics007.com/Beach%20Boys%20Lyrics/God%20Only%20Knows%20Lyrics.html"&gt;Beach Boys - God Only Knows Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+ 
+&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/TD&gt;
+               &lt;/TR&gt;
+              
+              &lt;/TBODY&gt;&lt;/TABLE&gt;&lt;BR&gt;&lt;/TD&gt;
+  &lt;TD vAlign=top width=8 &gt;&lt;/TD&gt;
+  &lt;TD vAlign=top width=160 &gt;
+   &lt;SCRIPT&gt;
+            &lt;!--
+            // MaxOnline JavaScript tag for: Wan Min (sing365.com)
+            var randomNum=Math.round(Math.random() * 100000000000);
+            if ((!document.images &amp;&amp; navigator.userAgent.indexOf('Mozilla/2.') &gt;= 0) || navigator.userAgent.indexOf("WebTV")&gt;= 0) { 
+            document.write('&lt;A HREF="http://c4.maxserving.com/adclick/site=6188/area=side_ros/aamft=normal/aamsz=sideunit/PageID=' + randomNum + '" target="_blank"&gt;');
+            document.write('&lt;IMG SRC="http://c4.maxserving.com/iserver/site=6188/area=side_ros/aamft=normal/aamsz=sideunit/PageID=' + randomNum + '" border="0"&gt;&lt;/A&gt;');
+            }else{
+            document.write('&lt;SCR'+'IPT src=http://c4.maxserving.com/gen.js?site=6188&amp;area=side_ros&amp;group=sidebar&amp;PageID=' + randomNum + '&gt;&lt;\/SCR'+'IPT&gt;');
+            }
+            //--&gt;
+            &lt;/SCRIPT&gt;
+            &lt;noscript&gt;
+            &lt;a href="http://c4.maxserving.com/adclick/site=6188/area=side_ros/aamsz=sideunit/PageID=1234567" target="_blank"&gt;
+            &lt;img src="http://c4.maxserving.com/iserver/site=6188/area=side_ros/aamsz=sideunit/PageID=1234567" border="0"&gt;&lt;/A&gt;
+            &lt;/noscript&gt;
+  &lt;/TD&gt;
+  
+  &lt;TD vAlign=top width=12 &gt;&lt;/TD&gt;
+&lt;/TR&gt;
+&lt;tr&gt;
+&lt;td width=16 bgColor=#ffcc00 height=8&gt;&lt;/td&gt;
+&lt;td align=center bgColor=#ffcc00 colspan=6&gt;&lt;td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width=16 bgColor=#ffcc00&gt;&lt;/td&gt;
+&lt;td align=center bgColor=#ffcc00 colspan=6&gt;&lt;script&gt;
+if (typeof topbar_banner_0_ad == "function") { topbar_banner_0_ad(); }
+&lt;/script&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD&gt;
+      &lt;TABLE height=22 cellSpacing=0 cellPadding=0 width=770 align=center 
+      bgColor=#f9c700 border=0&gt;
+        &lt;TBODY&gt;
+        &lt;TR&gt;
+          &lt;TD width=580 height=22&gt;&amp;nbsp;&amp;nbsp;About Us - Copyright - Help - &lt;a href="privacy.html"&gt;Privacy Policy&lt;/a&gt; - Contact Us - Links&lt;/TD&gt;
+          &lt;TD width=180 height=22&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD&gt;
+      &lt;TABLE cellSpacing=0 cellPadding=0 width=770 align=center bgColor=#000000 
+      border=0&gt;
+        &lt;TBODY&gt;
+        &lt;TR&gt;
+          &lt;TD&gt;&lt;IMG height=1 width=770&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD&gt;
+      &lt;TABLE height=15 cellSpacing=0 cellPadding=0 width=770 align=center 
+      border=0&gt;
+        &lt;TBODY&gt;
+        &lt;TR&gt;
+          &lt;TD align=right width=150 bgColor=#000000 height=15&gt;&amp;nbsp; &lt;A 
+            href=""&gt;&lt;FONT 
+            color=#f9c700&gt;www.LYRICS007.com&lt;/FONT&gt;&lt;/A&gt;&amp;nbsp;&lt;/TD&gt;
+          &lt;TD align=right width=15 height=15&gt;&lt;IMG height=15 
+            src="http://www.lyrics007.com/images/img_bottom.gif" width=15 border=0&gt;&lt;/TD&gt;
+          &lt;TD width=* height=16&gt;&amp;nbsp;&lt;FONT 
+            style="FONT-SIZE: 9px; COLOR: #333333" face=Verdana, 
+            Helvetica,Arial, sans-serif&gt;&amp;copy;CopyRight 2003, LYRICS007.COM, Inc. 
+            All Rights Reserved  
+&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;/BODY&gt;
+
+&lt;/HTML&gt;
+</SampleText>
+    <ProjectID_FK>-2</ProjectID_FK>
+  </Project_Sample>
+  <Project_Sample>
+    <SampleID>-2</SampleID>
+    <SampleUrl>http://www.lyrics007.com/lyrics/0-9.html</SampleUrl>
+    <SampleText>        
+       &lt;HTML&gt;&lt;HEAD&gt;
+&lt;Title&gt;Artists(Bands) List&lt;/Title&gt;
+&lt;META http-equiv=Content-Type content="text/html; charset=windows-1252"&gt;
+&lt;META http-equiv=Content-Language content=en-us&gt;
+&lt;META content=INDEX,FOLLOW name=robots&gt;
+&lt;META content="Lyrics, Biography, Discography, Database,Search Engine" name=Keywords&gt;
+&lt;META content="lyrics" name=description&gt;
+&lt;STYLE&gt;TD {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: verdana, arial,  helvetica
+}
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #336699; TEXT-DECORATION: underline
+}
+A:active {
+	TEXT-DECORATION: none
+}
+A.mecl {
+	COLOR: #ffffff
+}
+A.mecl:visited {
+	COLOR: #ffffff; TOP: 1px; TEXT-DECORATION: none
+}
+A.mecl:hover {
+	COLOR: #cccccc; POSITION: relative; TOP: 1px; TEXT-DECORATION: none
+}
+H1 {
+	FONT-SIZE: 10px; MARGIN-BOTTOM: -17px
+}
+H2 {
+	FONT-SIZE: 18px; MARGIN-BOTTOM: -5px
+}
+&lt;/STYLE&gt;
+&lt;!-- Javascript BEGIN --&gt;
+&lt;SCRIPT LANGUAGE="JavaScript"&gt;
+&lt;!--
+var axel = Math.random() + "";
+var PageId = axel * 1000000000000000000;
+// This part of script alleviates a Netscape document.write bug
+NS4 = document.layers;
+if (NS4) {
+origWidth = innerWidth;
+origHeight = innerHeight;
+}
+function reDo() {
+if (innerWidth != origWidth || innerHeight != origHeight)
+location.reload();
+}
+if (NS4) onresize = reDo;
+//--&gt;
+&lt;/SCRIPT&gt;
+&lt;!-- Javascript END --&gt;
+&lt;BODY vLink=#000000 link=#000000 bgColor=#0472bc leftMargin=0 topMargin=0 
+marginheight="0" marginwidth="0"&gt;
+&lt;TABLE cellSpacing=0 cellPadding=0 width=760 align=left border=0&gt;
+  &lt;TBODY&gt;
+  &lt;TR&gt;
+    &lt;TD&gt;
+      &lt;TABLE cellSpacing=0 cellPadding=0 width=760 align=left bgColor=#000000 
+      border=0&gt;
+        &lt;TBODY&gt;
+        &lt;TR&gt;
+          &lt;TD&gt;&lt;IMG height=1 src="" width=760&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD&gt;
+      &lt;TABLE style="BORDER-COLLAPSE: collapse" borderColor=#111111 height=66 
+      cellSpacing=0 cellPadding=0 width=760 align=center bgColor=#ffffff 
+      border=0&gt;
+        &lt;TBODY&gt;
+        &lt;TR&gt;
+          &lt;TD align=middle width=194 height=64&gt;&lt;IMG 
+          src="http://www.lyrics007.com/images/logo.gif"&gt;&lt;/TD&gt;
+          &lt;TD align=middle width=85 height=64&gt;&lt;/TD&gt;
+          &lt;TD align=middle width=478 height=64&gt;&lt;/TD&gt;
+          &lt;TD align=middle width=1 bgColor=#000000 
+      height=64&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD&gt;
+      &lt;TABLE cellSpacing=0 cellPadding=0 width=760 align=center bgColor=#ffffff 
+      border=0&gt;
+        &lt;TBODY&gt;
+        &lt;TR&gt;
+          &lt;TD align=left width=245 height=22&gt;
+          &lt;/TD&gt;
+          &lt;TD align=right width=516 colSpan=3 height=20&gt;
+            &lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD&gt;
+      &lt;TABLE style="BORDER-COLLAPSE: collapse" borderColor=#111111 height=1 
+      cellSpacing=0 cellPadding=0 width=760 align=center bgColor=#ffcc00 
+      border=0&gt;
+        &lt;TBODY&gt;
+        &lt;TR&gt;
+          &lt;TD height=2&gt;&lt;/TD&gt;&lt;/TR&gt;
+        &lt;TR&gt;
+          &lt;TD width=555 bgColor=#666666 height=1&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD&gt;
+      &lt;TABLE style="BORDER-COLLAPSE: collapse" borderColor=#111111 height=71 
+      cellSpacing=0 cellPadding=0 width=760 bgColor=#abab81 border=0&gt;
+        &lt;TBODY&gt;
+        &lt;TR&gt;
+          &lt;TD align=middle height=80&gt;
+            &lt;FORM action="/cgi-bin/s.cgi" method=submit&gt;
+            &lt;INPUT maxLength=256 size=55 name=q&gt; &lt;INPUT type=submit value=go name=submit&gt;&lt;BR&gt;&lt;BR&gt;
+            &lt;/FORM&gt;&lt;FONT size=1&gt;&lt;STRONG&gt;Artists 
+            A to Z: &lt;/FONT&gt;&lt;A href="http://www.lyrics007.com/lyrics/0-9.html"&gt;&lt;strong&gt;#&lt;/strong&gt;&lt;/A&gt; 
+            &lt;A href="http://www.lyrics007.com/lyrics/a.html"&gt;&lt;strong&gt;A&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/b.html"&gt;&lt;strong&gt;B&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/c.html"&gt;&lt;strong&gt;C&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/d.html"&gt;&lt;strong&gt;D&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/e.html"&gt;&lt;strong&gt;E&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/f.html"&gt;&lt;strong&gt;F&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/g.html"&gt;&lt;strong&gt;G&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/h.html"&gt;&lt;strong&gt;H&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/i.html"&gt;&lt;strong&gt;I&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/j.html"&gt;&lt;strong&gt;J&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/k.html"&gt;&lt;strong&gt;K&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/l.html"&gt;&lt;strong&gt;L&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/m.html"&gt;&lt;strong&gt;M&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/n.html"&gt;&lt;strong&gt;N&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/o.html"&gt;&lt;strong&gt;O&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/p.html"&gt;&lt;strong&gt;P&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/q.html"&gt;&lt;strong&gt;Q&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/r.html"&gt;&lt;strong&gt;R&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/s.html"&gt;&lt;strong&gt;S&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/t.html"&gt;&lt;strong&gt;T&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/u.html"&gt;&lt;strong&gt;U&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/v.html"&gt;&lt;strong&gt;V&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/w.html"&gt;&lt;strong&gt;W&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/x.html"&gt;&lt;strong&gt;X&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/y.html"&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/A&gt; &lt;A 
+            href="http://www.lyrics007.com/lyrics/z.html"&gt;&lt;strong&gt;Z&lt;/strong&gt;&lt;/A&gt; &lt;BR&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD&gt;
+      &lt;TABLE style="BORDER-COLLAPSE: collapse" borderColor=#111111 height=1 
+      cellSpacing=0 cellPadding=0 width=760 bgColor=#d0ccd0 border=0&gt;
+        &lt;TBODY&gt;
+       &lt;TR&gt;
+          &lt;TD width=760 bgColor=#d0ccd0 height=1&gt;&lt;/TD&gt;&lt;/TR&gt;
+          &lt;TR&gt;&lt;TD width=760 bgcolor=#ffcc00 colspan=2 align=center&gt;
+&lt;br&gt;&lt;SCRIPT&gt;
+&lt;!--
+ // MaxOnline JavaScript tag for: Wan Min (sing365.com)
+ if ((!document.images &amp;&amp; navigator.userAgent.indexOf('Mozilla/2.') &gt;= 0) || navigator.userAgent.indexOf("WebTV")&gt;= 0) { 
+document.write('&lt;A HREF="http://c4.maxserving.com/adclick/site=6188/area=ros/aamft=normal/aamsz=banner/PageID=' + PageId + '" target="_blank"&gt;');
+document.write('&lt;IMG SRC="http://c4.maxserving.com/iserver/site=6188/area=ros/aamft=normal/aamsz=banner/PageID=' + PageId + '" border="0"&gt;&lt;/A&gt;');
+}else{
+document.write('&lt;SCR'+'IPT src=http://c4.maxserving.com/gen.js?site=6188&amp;area=ros&amp;group=topbar&amp;PageID=' + PageId + '&gt;&lt;\/SCR'+'IPT&gt;');
+}
+//--&gt;
+&lt;/SCRIPT&gt;
+          &lt;/TD&gt;&lt;/TR&gt;
+        &lt;TR&gt;
+          &lt;TD width=760 bgColor=#ffcc00 height=20&gt;&lt;font color=#ffffff&gt;&lt;b&gt;&amp;nbsp;::&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;a href="http://www.lyrics007.com"&gt;&lt;font color=white&gt;&lt;strong&gt;Lyrics&lt;/strong&gt;&lt;/font&gt;&lt;/a&gt;&lt;font color=white&gt;&lt;b&gt;&amp;nbsp;&gt;&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;
+&lt;font color=white&gt;&lt;strong&gt;::&amp;nbsp;Artists List&lt;/strong&gt;&lt;/font&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD width=760 bgColor=#ffffff height=10&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+      &lt;TABLE style="BORDER-COLLAPSE: collapse" cellSpacing=0 
+      cellPadding=0 width=760 bgColor=#ffffff border=0&gt;
+        &lt;TBODY&gt;
+        &lt;TR&gt;
+          &lt;TD width=132 align=center Valign=Top&gt;
+          &lt;!-- Tag for size 120 x 600 for site Sing365: Section: 4593 - DO NOT MODIFY --&gt;
+&lt;SCRIPT TYPE="text/javascript" SRC="http://ad.yieldmanager.com/rmtag2.js"&gt;&lt;/SCRIPT&gt;
+&lt;SCRIPT language="JavaScript"&gt;
+var rm_host = "http://ad.yieldmanager.com";
+var rm_section_id = 129;
+var rm_iframe_tags = 1;
+
+rmShowAd("120x600");
+&lt;/SCRIPT&gt;
+&lt;!-- End of tag --&gt;
+          &lt;/TD&gt;
+            &lt;td width=476 valign=top&gt;
+&lt;TABLE style="BORDER-COLLAPSE: collapse" cellSpacing=0 borderColorDark=#999999 cellPadding=3 width=100% bgColor=#f6f6f6 borderColorLight=#e7e7e7 border=1&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;script type="text/javascript"&gt;&lt;!--
+google_ad_client = "pub-0919305250342516";
+google_ad_width = 336;
+google_ad_height = 280;
+google_ad_format = "336x280_as";
+google_ad_channel ="";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "0000FF";
+google_color_url = "008000";
+google_color_text = "000000";
+//--&gt;&lt;/script&gt;
+&lt;script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js"&gt;
+&lt;/script&gt;
+&lt;/td&gt;&lt;/tr&gt;
+        &lt;b&gt;1&amp;nbsp;&lt;a href=0-91.html&gt;2&lt;/a&gt;&amp;nbsp;&lt;a href=0-92.html&gt;3&lt;/a&gt;&amp;nbsp;&lt;a href=0-93.html&gt;4&lt;/a&gt;&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/'N%20Sync%20Lyrics.html"&gt;'N Sync Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/(Daz%20Dillinger)%20&amp;%20JT%20The%20Bigga%20Figga%20Lyrics.html"&gt;(Daz Dillinger) &amp; JT The Bigga Figga Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/(HED)%20P.E.%20Lyrics.html"&gt;(HED) P.E. Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/(Hed)%20Pe%20Lyrics.html"&gt;(Hed) Pe Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/(HED)PE%20Lyrics.html"&gt;(HED)PE Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/...And%20Oceans%20Lyrics.html"&gt;...And Oceans Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/.calibre%20Lyrics.html"&gt;.calibre Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/10%20Cc%20Lyrics.html"&gt;10 Cc Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/10%20Petits%20Indiens%20Lyrics.html"&gt;10 Petits Indiens Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/10%20Things%20I%20Hate%20About%20You%20Lyrics.html"&gt;10 Things I Hate About You Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/10%20Whiskys%20&amp;%201%20Soda%20Lyrics.html"&gt;10 Whiskys &amp; 1 Soda Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/10%20Years%20Lyrics.html"&gt;10 Years Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/10,000%20Maniacs%20Lyrics.html"&gt;10,000 Maniacs Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/10.000%20Maniacs%20Lyrics.html"&gt;10.000 Maniacs Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/100%20Demons%20Lyrics.html"&gt;100 Demons Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/100.%20Debija%20Lyrics.html"&gt;100. Debija Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/1000%20Clowns%20Lyrics.html"&gt;1000 Clowns Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/10000%20Maniacs%20Lyrics.html"&gt;10000 Maniacs Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/1001%20Vies%20D'Ali%20Baba,%20Les%20Lyrics.html"&gt;1001 Vies D'Ali Baba, Les Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/10cc%20Lyrics.html"&gt;10cc Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/11%20Finger%20Lyrics.html"&gt;11 Finger Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/11/5%20Lyrics.html"&gt;11/5 Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/112%20Lyrics.html"&gt;112 Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/1140%20Mississippi%20Lyrics.html"&gt;1140 Mississippi Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/12%20Stones%20Lyrics.html"&gt;12 Stones Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/1200%20Techniques%20Lyrics.html"&gt;1200 Techniques Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/1208%20Lyrics.html"&gt;1208 Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/1280%20Almas%20Lyrics.html"&gt;1280 Almas Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/12:06%20A.M.%20Lyrics.html"&gt;12:06 A.M. Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/13%20Engines%20Lyrics.html"&gt;13 Engines Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/13%20Faces%20Lyrics.html"&gt;13 Faces Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/1349%20Lyrics.html"&gt;1349 Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/13th%20Floor%20Elevators%20Lyrics.html"&gt;13th Floor Elevators Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/14%20Bis%20Lyrics.html"&gt;14 Bis Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/16%20Horsepower%20Lyrics.html"&gt;16 Horsepower Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/16%20Volt%20Lyrics.html"&gt;16 Volt Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/17%20Heaven%20Lyrics.html"&gt;17 Heaven Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/19%20Dewa%20Lyrics.html"&gt;19 Dewa Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/1910%20Fruitgum%20Company%20Lyrics.html"&gt;1910 Fruitgum Company Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/1927%20Lyrics.html"&gt;1927 Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/2%204%20Family%20Lyrics.html"&gt;2 4 Family Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/2%20Be%203%20Lyrics.html"&gt;2 Be 3 Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/2%20Brothers%20On%20The%204th%20Floor%20Lyrics.html"&gt;2 Brothers On The 4th Floor Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/2%20Fabiola%20Lyrics.html"&gt;2 Fabiola Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/2%20Gether%20Lyrics.html"&gt;2 Gether Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/2%20Live%20Crew%20Lyrics.html"&gt;2 Live Crew Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/2%20Minutos%20Lyrics.html"&gt;2 Minutos Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/2%20Pac%20Lyrics.html"&gt;2 Pac Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/2%20Skinnee%20J's%20Lyrics.html"&gt;2 Skinnee J's Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/2%20Unlimited%20Lyrics.html"&gt;2 Unlimited Lyrics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+
+ &lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/TD&gt;
+                &lt;TD width=16&gt;&lt;/TD&gt;
+                &lt;TD width=120 valign=top&gt;
+            &lt;SCRIPT&gt;
+            &lt;!--
+            // MaxOnline JavaScript tag for: Wan Min (sing365.com)
+            var randomNum=Math.round(Math.random() * 100000000000);
+            if ((!document.images &amp;&amp; navigator.userAgent.indexOf('Mozilla/2.') &gt;= 0) || navigator.userAgent.indexOf("WebTV")&gt;= 0) { 
+            document.write('&lt;A HREF="http://c4.maxserving.com/adclick/site=6188/area=side_ros/aamft=normal/aamsz=sideunit/PageID=' + randomNum + '" target="_blank"&gt;');
+            document.write('&lt;IMG SRC="http://c4.maxserving.com/iserver/site=6188/area=side_ros/aamft=normal/aamsz=sideunit/PageID=' + randomNum + '" border="0"&gt;&lt;/A&gt;');
+            }else{
+            document.write('&lt;SCR'+'IPT src=http://c4.maxserving.com/gen.js?site=6188&amp;area=side_ros&amp;group=sidebar&amp;PageID=' + randomNum + '&gt;&lt;\/SCR'+'IPT&gt;');
+            }
+            //--&gt;
+            &lt;/SCRIPT&gt;
+            &lt;noscript&gt;
+            &lt;a href="http://c4.maxserving.com/adclick/site=6188/area=side_ros/aamsz=sideunit/PageID=1234567" target="_blank"&gt;
+            &lt;img src="http://c4.maxserving.com/iserver/site=6188/area=side_ros/aamsz=sideunit/PageID=1234567" border="0"&gt;&lt;/A&gt;
+            &lt;/noscript&gt;
+              &lt;/TD&gt;
+                &lt;TD width=16&gt;&lt;/TD&gt;
+        &lt;/TR&gt;
+        &lt;TR&gt;
+        &lt;TD width=16 height=22 bgcolor=#ffffff&gt;&lt;/TD&gt;
+        &lt;TD width=744 bgcolor=#ffffff colspan=5&gt;&lt;/TD&gt;&lt;/TR&gt;
+      &lt;/TABLE&gt;
+        &lt;/TD&gt;&lt;/TR&gt;
+       &lt;TR&gt;
+       &lt;TD width=760 bgColor=#f9c700 align=center&gt;
+&lt;br&gt;&lt;script&gt;
+if (typeof topbar_banner_0_ad == "function") { topbar_banner_0_ad(); }
+&lt;/script&gt;
+        &lt;/TD&gt;&lt;/TR&gt;
+        &lt;TR&gt;&lt;TD&gt;
+      &lt;TABLE height=22 cellSpacing=0 cellPadding=0 width=760 bgColor=#f9c700 align=center border=0&gt;
+      &lt;TBODY&gt;&lt;TR&gt;
+          &lt;TD width=580 height=22&gt;&amp;nbsp;&amp;nbsp;About Us - Copyright 
+            - Help - &lt;a href=http://www.lyrics007.com/privacy.html&gt;Privacy 
+            Policy&lt;/a&gt; - Contact Us - Links&lt;/TD&gt;
+          &lt;TD width=180 height=22&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD&gt;
+      &lt;TABLE cellSpacing=0 cellPadding=0 width=760 align=center bgColor=#000000 
+      border=0&gt;
+        &lt;TBODY&gt;
+        &lt;TR&gt;
+          &lt;TD&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD&gt;
+      &lt;TABLE height=15 cellSpacing=0 cellPadding=0 width=760 align=center 
+      border=0&gt;
+        &lt;TBODY&gt;
+        &lt;TR&gt;
+          &lt;TD align=right width=150 bgColor=#000000 height=15&gt;&lt;FONT 
+            style="FONT-SIZE: 10px" color=#ffffff&gt;&amp;nbsp; &lt;A 
+            href="http://www.lyrics007.com/"&gt;&lt;B&gt;&lt;FONT 
+            color=#f9c700&gt;www.LYRICS007.com&lt;/FONT&gt;&lt;/B&gt;&lt;/A&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/TD&gt;
+          &lt;TD align=right width=15 height=15&gt;&lt;IMG height=15 
+            src="http://www.lyrics007.com/images/img_bottom.gif" width=15 border=0&gt;&lt;/TD&gt;
+          &lt;TD width=* height=16&gt;&amp;nbsp;&lt;FONT 
+            style="FONT-SIZE: 9px; COLOR: #333333" face=Verdana, 
+            Helvetica,Arial, sans-serif&gt;&amp;copy;CopyRight 2003, LYRICS007.COM, Inc. 
+            All Rights Reserved 
+&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/BODY&gt;	
+&lt;/HTML&gt;
+
+ </SampleText>
+    <ProjectID_FK>-3</ProjectID_FK>
+  </Project_Sample>
+  <Project_Sample>
+    <SampleID>-3</SampleID>
+    <SampleUrl>http://www.lyrics007.com/'N%20Sync%20Lyrics.html</SampleUrl>
+    <SampleText> 
+&lt;HTML&gt;&lt;HEAD&gt;
+&lt;Title&gt;'N Sync Lyrics&lt;/Title&gt;
+&lt;META http-equiv=Content-Type content="text/html; charset=windows-1252"&gt;
+&lt;META http-equiv=Content-Language content=en-us&gt;
+&lt;META name="robots" content="INDEX,FOLLOW" &gt;
+&lt;META  name="Keywords" content="'N Sync Lyrics"&gt;
+&lt;META content="'N Sync Lyrics" name="description"&gt;
+
+&lt;link rel="stylesheet" href="http://www.lyrics007.com/lyrics007.css" type="text/css"&gt;
+
+&lt;!-- Javascript BEGIN --&gt;
+&lt;SCRIPT LANGUAGE="JavaScript"&gt;
+&lt;!--
+var axel = Math.random() + "";
+var PageId = axel * 1000000000000000000;
+// This part of script alleviates a Netscape document.write bug
+NS4 = document.layers;
+if (NS4) {
+origWidth = innerWidth;
+origHeight = innerHeight;
+}
+function reDo() {
+if (innerWidth != origWidth || innerHeight != origHeight)
+location.reload();
+}
+if (NS4) onresize = reDo;
+//--&gt;
+&lt;/SCRIPT&gt;
+&lt;!-- Javascript END --&gt;
+&lt;/HEAD&gt;
+&lt;BODY vLink=#000000 link=#000000 bgColor=#0472bc leftMargin=0 topMargin=0 marginheight="0" marginwidth="0" &gt;
+&lt;h1&gt;'N Sync Lyrics&lt;/h1&gt;&lt;TABLE cellSpacing=0 cellPadding=0 width=770 border=0&gt;
+  &lt;TBODY&gt;
+   &lt;TR&gt;
+    &lt;TD&gt;
+      &lt;TABLE style="BORDER-COLLAPSE: collapse" borderColor=#111111 cellSpacing=0 cellPadding=0 width=770 align=center height=66 bgColor=#ffffff border=0&gt;
+        &lt;TBODY&gt;
+        &lt;TR&gt;
+          &lt;TD align=middle width=194 height=64&gt;&lt;IMG 
+          src="/images/logo.gif"&gt;&lt;/TD&gt;
+          &lt;TD align=middle width=95 height=64&gt;&lt;/TD&gt;
+          &lt;TD width=448 height=64 align=right&gt;&lt;script&gt;
+fiSearchFormMaxObj=new Object();
+fiSearchFormMaxObj.type=1;
+fiSearchFormMaxObj.clrBdr='#808080';
+fiSearchFormMaxObj.clrBg='#FFFFFF';
+fiSearchFormMaxObj.clrTtlTxt='#000000';
+fiSearchFormMaxObj.clrTagTxt='#000000';
+fiSearchFormMaxObj.width='160';
+fiSearchFormMaxObj.noBorder=true;
+&lt;/script&gt;
+&lt;script&gt;fiSearchFormMaxSetId='AX006188';&lt;/script&gt;
+&lt;script src=http://bfc.myway.com/search/fiSearchMax.js&gt;&lt;/script&gt;&lt;/TD&gt;
+          &lt;TD align=middle width=31 height=64&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/TD&gt;&lt;/TR&gt;
+ 
+  &lt;TR&gt;
+    &lt;TD&gt;
+      &lt;TABLE style="BORDER-COLLAPSE: collapse" borderColor=#111111 height=1 cellSpacing=0 cellPadding=0 width=770 align=center bgColor=#ffcc00 border=0&gt;
+        &lt;TBODY&gt;
+        &lt;TR&gt;
+          &lt;TD height=2&gt;&lt;/TD&gt;&lt;/TR&gt;
+        &lt;TR&gt;
+          &lt;TD width=555 bgColor=#666666 height=1&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD&gt;
+        &lt;script language="JavaScript" src="/search.js"&gt;
+           &lt;/script&gt;
+     &lt;/TD&gt;&lt;/TR&gt;
+&lt;tr&gt;&lt;td&gt;            
+&lt;TABLE style="BORDER-COLLAPSE: collapse" borderColor=#111111 height=1 cellSpacing=0 cellPadding=0 width=770 bgColor=#d0ccd0 border=0&gt;
+&lt;TBODY&gt;
+&lt;tr&gt;&lt;td width=770 bgcolor=#ffcc00 colspan=2 height=5&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td width=770 bgcolor=#ffcc00 colspan=2 align=center&gt;&lt;SCRIPT&gt;
+&lt;!--
+ // MaxOnline JavaScript tag for: Wan Min (sing365.com)
+ if ((!document.images &amp;&amp; navigator.userAgent.indexOf('Mozilla/2.') &gt;= 0) || navigator.userAgent.indexOf("WebTV")&gt;= 0) { 
+document.write('&lt;A HREF="http://c4.maxserving.com/adclick/site=6188/area=ros/aamft=normal/aamsz=banner/PageID=' + PageId + '" target="_blank"&gt;');
+document.write('&lt;IMG SRC="http://c4.maxserving.com/iserver/site=6188/area=ros/aamft=normal/aamsz=banner/PageID=' + PageId + '" border="0"&gt;&lt;/A&gt;');
+}else{
+document.write('&lt;SCR'+'IPT src=http://c4.maxserving.com/gen.js?site=6188&amp;area=ros&amp;group=topbar&amp;PageID=' + PageId + '&gt;&lt;\/SCR'+'IPT&gt;');
+}
+//--&gt;
+&lt;/SCRIPT&gt;
+&lt;noscript&gt;
+&lt;a href="http://c4.maxserving.com/adclick/site=6188/area=ros/aamsz=banner/PageID=' + PageId + '" target="_blank"&gt;');
+&lt;img src="http://c4.maxserving.com/iserver/site=6188/area=ros/aamsz=banner/PageID=' + PageId + '" border="0"&gt;&lt;/A&gt;');
+&lt;/noscript&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;TR&gt;
+&lt;TD width=16 bgColor=#ffcc00 height=20&gt;&lt;/td&gt;
+&lt;TD width=744 bgColor=#ffcc00 height=20 valign="top"&gt;&lt;strong&gt;&amp;nbsp;::&lt;a href="http://www.lyrics007.com"&gt;Lyrics&lt;/a&gt;&amp;nbsp;&gt;&gt;&amp;nbsp;&lt;/strong&gt;
+&lt;strong&gt;:: 'N Sync Lyrics&lt;/strong&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+
+ &lt;TABLE style="BORDER-COLLAPSE: collapse" cellSpacing=0 cellPadding=0 width=770 bgColor=#ffffff border=0&gt;
+        &lt;TBODY&gt;
+		&lt;TR&gt;&lt;TD HEIght=16  colspan=7&gt;&lt;/TD&gt;&lt;/TR&gt;   
+        &lt;TR &gt;
+          
+          &lt;TD vAlign=top width=5&gt;&lt;/TD&gt;
+          &lt;TD vAlign=top width=120&gt;&lt;!-- Tag for size 120 x 600 for site Sing365: Section: 4593 - DO NOT MODIFY --&gt;
+&lt;SCRIPT TYPE="text/javascript" SRC="http://ad.yieldmanager.com/rmtag2.js"&gt;&lt;/SCRIPT&gt;
+&lt;SCRIPT language="JavaScript"&gt;
+var rm_host = "http://ad.yieldmanager.com";
+var rm_section_id = 129;
+var rm_iframe_tags = 1;
+
+rmShowAd("120x600");
+&lt;/SCRIPT&gt;
+&lt;!-- End of tag --&gt;&lt;/TD&gt;
+           &lt;TD vAlign=top width=5&gt;&lt;/TD&gt;
+          &lt;TD vAlign=top width=460&gt;
+           
+                
+&lt;br&gt;&lt;a href=http://sing365.mp3advance.hop.clickbank.net target=_blank&gt;&lt;font color=red&gt;MP3 Downloads&lt;/font&gt;&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="http://lyrics007.ringtone-logo-game.com/polyphonic-ringtones.php?k='N Sync"&gt;&lt;font color=red&gt;Click here to send 'N Sync polyphonic ringtone to your cell phone.&lt;/font&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;script type="text/javascript"&gt;&lt;!--
+google_ad_client = "pub-0919305250342516";
+google_ad_width = 336;
+google_ad_height = 280;
+google_ad_format = "336x280_as";
+google_ad_channel ="";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "0000FF";
+google_color_url = "008000";
+google_color_text = "000000";
+//--&gt;&lt;/script&gt;
+&lt;script type="text/javascript"  src="http://pagead2.googlesyndication.com/pagead/show_ads.js"&gt;
+&lt;/script&gt;
+&lt;br&gt;&lt;br&gt;&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/(God%20Must%20Have%20Spent)%20A%20Little%20More%20Time%20On%20You%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - (God Must Have Spent) A Little More Time On You Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/2003%20Grammy%20Awards,%20Bee%20Gees%20Medley,%20Acapella%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - 2003 Grammy Awards, Bee Gees Medley, Acapella Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/A%20Long%20Road%20Ahead%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - A Long Road Ahead Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/All%20I%20Want%20For%20Christmas%20Is%20You%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - All I Want For Christmas Is You Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/All%20I%20Want%20Is%20You%20This%20Christmas%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - All I Want Is You This Christmas Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Are%20You%20Gonna%20Be%20There%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Are You Gonna Be There Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Atlantis%20Medely(From%20Cbs%20Concert%20Special)%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Atlantis Medely(From Cbs Concert Special) Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Ave%20Viajera%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Ave Viajera Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Bananas%20In%20Pajamas%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Bananas In Pajamas Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Bee%20Gees'%20Medley%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Bee Gees' Medley Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Believe%20In%20Yourself%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Believe In Yourself Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Best%20Of%20My%20Life%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Best Of My Life Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Best%20Of%20My%20Life%20(European%20Version)%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Best Of My Life (European Version) Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Blowin'%20Me%20Up%20(With%20Her%20Love)%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Blowin' Me Up (With Her Love) Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Bringin'%20Da%20Noise%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Bringin' Da Noise Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Bye%20Bye%20Bye%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Bye Bye Bye Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Bye,%20Bye,%20Bye%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Bye, Bye, Bye Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Celebrity%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Celebrity Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Could%20It%20Be%20You%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Could It Be You Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Crazy%20For%20You%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Crazy For You Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Digital%20Get%20Down%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Digital Get Down Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Dirty%20Pop%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Dirty Pop Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Do%20Your%20Thing%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Do Your Thing Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Don't%20Want%20To%20Spend%20One%20More%20Christmas%20Without%20U%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Don't Want To Spend One More Christmas Without U Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Eat,%20Eat,%20Eat%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Eat, Eat, Eat Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Everything%20I%20Own%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Everything I Own Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Falling%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Falling Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/For%20The%20Girl%20Who%20Has%20Everything%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - For The Girl Who Has Everything Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Forever%20in%20you%20Heart%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Forever in you Heart Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Forever%20in%20your%20Heart%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Forever in your Heart Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Forever%20Young%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Forever Young Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Game%20Is%20Over%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Game Is Over Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Giddy%20Up%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Giddy Up Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Girl%20Friend%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Girl Friend Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Girlfriend%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Girlfriend Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Girlfriend%20(Remix%20With%20Nelly)%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Girlfriend (Remix With Nelly) Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Girlfriend%20(Remix)%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Girlfriend (Remix) Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Girlfriend%20Remix%20Featuring%20Nelly%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Girlfriend Remix Featuring Nelly Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Give%20In%20To%20Me%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Give In To Me Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/God%20Must%20of%20Spent%20Alittle%20More%20Time%20On%20You%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - God Must of Spent Alittle More Time On You Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Gone%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Gone Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Gone%20(Spanish%20Version)%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Gone (Spanish Version) Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Hard%20To%20Say%20Goodbye%20To%20Yesterday%20[Acapella]%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Hard To Say Goodbye To Yesterday [Acapella] Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Here%20And%20Now%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Here And Now Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Here%20We%20Go%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Here We Go Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Home%20For%20Christmas%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Home For Christmas Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/How%20Deep%20Is%20Your%20Love%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - How Deep Is Your Love Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/I%20Believe%20In%20You%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - I Believe In You Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/I%20Don't%20Wanna%20Spend%20One%20More%20Christmas%20Without%20You%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - I Don't Wanna Spend One More Christmas Without You Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/I%20Drive%20Myself%20Crazy%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - I Drive Myself Crazy Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/I%20Guess%20It's%20Christmas%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - I Guess It's Christmas Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/I%20Guess%20It's%20Christmas%20Time%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - I Guess It's Christmas Time Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/I%20Just%20Wanna%20Be%20With%20You%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - I Just Wanna Be With You Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/I%20Need%20Love%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - I Need Love Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/I%20Never%20Knew%20The%20Meaning%20Of%20Christmas%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - I Never Knew The Meaning Of Christmas Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/I%20Thought%20She%20Knew%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - I Thought She Knew Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/I%20Wanna%20Be%20With%20You%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - I Wanna Be With You Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/I%20Want%20You%20Back%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - I Want You Back Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/I%20Want%20You%20Back%20(Blues%20Version)%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - I Want You Back (Blues Version) Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/I%20Will%20Never%20Stop%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - I Will Never Stop Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/I'll%20Be%20Back%20For%20More%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - I'll Be Back For More Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/I'll%20Be%20Good%20For%20You%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - I'll Be Good For You Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/I'll%20Never%20Stop%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - I'll Never Stop Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/If%20I'm%20Not%20The%20One%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - If I'm Not The One Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/If%20Only%20In%20Heaven's%20Eyes%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - If Only In Heaven's Eyes Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/If%20Only%20Through%20Heaven's%20Eyes%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - If Only Through Heaven's Eyes Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/In%20Love%20On%20Christmas%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - In Love On Christmas Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/It%20Makes%20Me%20Ill%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - It Makes Me Ill Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/It's%20Christmas%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - It's Christmas Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/It's%20Gonna%20Be%20Me%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - It's Gonna Be Me Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/It's%20Gonna%20Be%20Me%20(Remix)%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - It's Gonna Be Me (Remix) Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Its%20Christmas%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Its Christmas Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/James%20Rusionz%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - James Rusionz Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Jingle%20Bells%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Jingle Bells Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Jive%20Talkin'%20(Bee%20Gees%20Medley,%20Acapella)%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Jive Talkin' (Bee Gees Medley, Acapella) Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Just%20Don't%20Tell%20Me%20That%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Just Don't Tell Me That Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Just%20Got%20Paid%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Just Got Paid Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Kiss%20Me%20At%20Midnight%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Kiss Me At Midnight Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Like%20I%20Love%20You%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Like I Love You Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Love's%20In%20Our%20Hearts%20On%20Christmas%20Day%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Love's In Our Hearts On Christmas Day Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Merry%20Christmas%20Happy%20Holidays%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Merry Christmas Happy Holidays Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Merry%20Christmas,%20Happy%20Holidays%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Merry Christmas, Happy Holidays Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Messed%20Around%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Messed Around Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/More%20Than%20A%20Feeling%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - More Than A Feeling Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Music%20Of%20My%20Heart%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Music Of My Heart Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Music%20Of%20My%20Heart%20(Pablo%20Flores%20Remix)%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Music Of My Heart (Pablo Flores Remix) Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/My%20My%20Threesome%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - My My Threesome Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/No%20Estas%20(Spanish%20Version%20Of%20Gone)%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - No Estas (Spanish Version Of Gone) Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/No%20Strings%20Attached%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - No Strings Attached Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Now%20I'm%20Here%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Now I'm Here Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/O%20Holy%20Night%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - O Holy Night Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/On%20The%20Line%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - On The Line Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/One%20Last%20Cry%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - One Last Cry Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Other%20Songs%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Other Songs Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Overjoyed%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Overjoyed Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Pop%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Pop Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Ready%20To%20Fall%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Ready To Fall Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Ready%20To%20Fall%20-%20Joey%20Fatone%20-%20On%20The%20Line%20Soundtra%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Ready To Fall - Joey Fatone - On The Line Soundtra Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Riddle%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Riddle Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Sailing%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Sailing Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/See%20Right%20Through%20You%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - See Right Through You Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Selfish%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Selfish Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Some%20Dreams%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Some Dreams Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Someday,Somewhere%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Someday,Somewhere Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Something%20Like%20You%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Something Like You Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Somewhere%20Someday%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Somewhere Someday Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Space%20Cowboy%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Space Cowboy Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Sundreams%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Sundreams Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Super%20Size%20It%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Super Size It Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Te%20Has%20Hido%20(Gone%20Spanish%20Version)%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Te Has Hido (Gone Spanish Version) Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Te%20Has%20Ido%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Te Has Ido Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Tearin'%20Up%20My%20Heart%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Tearin' Up My Heart Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Tearin'up%20My%20Heart%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Tearin'up My Heart Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Tell%20Me,%20Tell%20Me...Baby%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Tell Me, Tell Me...Baby Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/That%20Girl%20(Will%20Never%20Be%20Mine)%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - That Girl (Will Never Be Mine) Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/That%20Girl%20Will%20Never%20Be%20Mine%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - That Girl Will Never Be Mine Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/That's%20the%20Way%20Love%20Goes%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - That's the Way Love Goes Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/That's%20When%20I'll%20Stop%20Loving%20You%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - That's When I'll Stop Loving You Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/The%20Christmas%20Song%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - The Christmas Song Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/The%20Christmas%20Song%20(Chestnuts%20Roasting%20On%20An%20Open%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - The Christmas Song (Chestnuts Roasting On An Open Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/The%20Christmas%20Song%20(Chestnuts%20Roasting%20On%20An%20Open%20Fire)%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - The Christmas Song (Chestnuts Roasting On An Open Fire) Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/The%20First%20Noel%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - The First Noel Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/The%20Game%20Is%20Over%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - The Game Is Over Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/The%20Lion%20Sleeps%20Tonight%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - The Lion Sleeps Tonight Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/The%20Lion%20Sleeps%20Tonight%20(Funky%20Version)%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - The Lion Sleeps Tonight (Funky Version) Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/The%20Only%20Gift%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - The Only Gift Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/The%20Two%20Of%20Us%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - The Two Of Us Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/The%20Winter%20Album%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - The Winter Album Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Thinking%20Of%20You(I%20Drive%20Myself%20Crazy)%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Thinking Of You(I Drive Myself Crazy) Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/This%20I%20Promis%20You%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - This I Promis You Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/This%20I%20Promise%20You%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - This I Promise You Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/This%20I%20Promise%20You%20(Hex%20Hector%20Radio%20Mix)%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - This I Promise You (Hex Hector Radio Mix) Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/This%20Is%20Where%20The%20Party'S%20At%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - This Is Where The Party'S At Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Together%20Again%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Together Again Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Two%20Of%20Us%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Two Of Us Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/U%20Drive%20Me%20Crazy%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - U Drive Me Crazy Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Under%20My%20Tree%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Under My Tree Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Up%20Against%20The%20Wall%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Up Against The Wall Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Whats%20Going%20On%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Whats Going On Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/When%20I'm%20Missing%20U%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - When I'm Missing U Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/When%20You%20Wish%20Upon%20A%20Star%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - When You Wish Upon A Star Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Would%20You%20Be%20My%20Girlfriend?%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Would You Be My Girlfriend? Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Ya%20No%20Estas%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Ya No Estas Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Year%203000%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Year 3000 Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Yo%20Te%20Voy%20A%20Amar%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Yo Te Voy A Amar Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/Yo%20te%20voy%20a%20amar%20(This%20I%20promise%20you)%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - Yo te voy a amar (This I promise you) Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/You%20Don't%20Have%20To%20Be%20Alone%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - You Don't Have To Be Alone Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/You%20Drive%20Me%20Crazy%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - You Drive Me Crazy Lyrics&lt;/strong&gt;&lt;a&gt;
+&lt;li&gt;&lt;a href="'N%20Sync%20Lyrics/You%20Got%20It%20Lyrics.html"&gt;&lt;strong&gt;'N Sync - You Got It Lyrics&lt;/strong&gt;&lt;a&gt;
+
+
+
+&lt;/TD&gt; &lt;TD vAlign=top width=5&gt;&lt;/TD&gt;
+	&lt;TD width=160 valign=top align=center&gt;
+	  &lt;SCRIPT&gt;
+            &lt;!--
+            // MaxOnline JavaScript tag for: Wan Min (sing365.com)
+            var randomNum=Math.round(Math.random() * 100000000000);
+            if ((!document.images &amp;&amp; navigator.userAgent.indexOf('Mozilla/2.') &gt;= 0) || navigator.userAgent.indexOf("WebTV")&gt;= 0) { 
+            document.write('&lt;A HREF="http://c4.maxserving.com/adclick/site=6188/area=side_ros/aamft=normal/aamsz=sideunit/PageID=' + randomNum + '" target="_blank"&gt;');
+            document.write('&lt;IMG SRC="http://c4.maxserving.com/iserver/site=6188/area=side_ros/aamft=normal/aamsz=sideunit/PageID=' + randomNum + '" border="0"&gt;&lt;/A&gt;');
+            }else{
+            document.write('&lt;SCR'+'IPT src=http://c4.maxserving.com/gen.js?site=6188&amp;area=side_ros&amp;group=sidebar&amp;PageID=' + randomNum + '&gt;&lt;\/SCR'+'IPT&gt;');
+            }
+            //--&gt;
+            &lt;/SCRIPT&gt;
+            &lt;noscript&gt;
+            &lt;a href="http://c4.maxserving.com/adclick/site=6188/area=side_ros/aamsz=sideunit/PageID=1234567" target="_blank"&gt;
+            &lt;img src="http://c4.maxserving.com/iserver/site=6188/area=side_ros/aamsz=sideunit/PageID=1234567" border="0"&gt;&lt;/A&gt;
+            &lt;/noscript&gt;
+
+&lt;/TD&gt;
+ &lt;TD vAlign=top width=5&gt;&lt;/TD&gt;
+&lt;/TR&gt;
+&lt;TR&gt;&lt;TD HEIght=16  colspan=3&gt;&lt;/TD&gt;&lt;/TR&gt;              
+              &lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;TABLE height=22 cellSpacing=0 cellPadding=0 width=770 align=left border=0&gt;
+        &lt;TBODY&gt;
+  &lt;TR&gt;&lt;TD width=16 bgColor=#ffcc00 height=20&gt;&lt;/td&gt;
+          &lt;TD width=770 height=20 valign="top" bgColor=#f9c700&gt;
+          &lt;h2&gt;:: 'N Sync Lyrics&lt;/h2&gt;&lt;/TD&gt;
+          &lt;/TR&gt;
+      
+         &lt;TR&gt;
+          &lt;TD width=770 height=6 bgColor=#f9c700 colspan=2&gt;&lt;/TD&gt;
+          &lt;/TR&gt;
+          &lt;TR&gt;
+          &lt;TD width=770 bgColor=#f9c700 align=center colspan=2&gt;&lt;script&gt;
+if (typeof topbar_banner_0_ad == "function") { topbar_banner_0_ad(); }
+&lt;/script&gt;&lt;/TD&gt;
+          &lt;/TR&gt;
+          &lt;TR&gt;
+          &lt;TD width=770 height=6 bgColor=#f9c700 colspan=2&gt;&lt;/TD&gt;
+          &lt;/TR&gt;
+        &lt;TR&gt;
+          &lt;TD width=770 height=22 bgColor=#f9c700 colspan=2&gt;
+ Partner: &lt;a href="http://www.sing365.com" class="NoUnder" onMouseOver="window.status=' '; return true" onMouseOut="window.status=' '; return true" &gt;Lyrics&lt;/A&gt;&lt;/TD&gt;
+          &lt;/TR&gt;
+        &lt;TR&gt;
+        &lt;td colspan=2&gt;&lt;table cellSpacing=0 cellPadding=0 width=770 align=left border=0 bgColor=#0472bc&gt;&lt;tr&gt;
+         &lt;TD height=16 &gt;&lt;FONT style="FONT-SIZE: 9px; COLOR: #333333" face=Verdana,Helvetica,Arial, sans-serif&gt;
+&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;font color=white size=1 face="Helvetica,Arial, sans-serif"&gt;
+Welcome to &lt;strong&gt;'N Sync Lyrics&lt;/strong&gt;&lt;/font&gt;
+&lt;/BODY&gt;
+&lt;/HTML&gt;
+</SampleText>
+    <ProjectID_FK>-4</ProjectID_FK>
+  </Project_Sample>
+  <Project_Sample>
+    <SampleID>-4</SampleID>
+    <SampleUrl>http://www.lyrics007.com/'N%20Sync%20Lyrics/(God%20Must%20Have%20Spent)%20A%20Little%20More%20Time%20On%20You%20Lyrics.html</SampleUrl>
+    <SampleText> 
+&lt;HTML&gt;&lt;HEAD&gt;
+&lt;Title&gt;(God Must Have Spent) A Little More Time On You Lyrics - 'N Sync&lt;/Title&gt;
+&lt;META http-equiv=Content-Type content="text/html; charset=windows-1252"&gt;
+&lt;META http-equiv=Content-Language content=en-us&gt;
+&lt;META name="robots" content="INDEX,FOLLOW" &gt;
+&lt;META  name="Keywords" content="(God Must Have Spent) A Little More Time On You Lyrics - 'N Sync"&gt;
+&lt;META content="(God Must Have Spent) A Little More Time On You Lyrics - 'N Sync" name="description"&gt;
+
+&lt;link rel="stylesheet" href="http://www.lyrics007.com/lyrics007.css" type="text/css"&gt;
+
+&lt;!-- Javascript BEGIN --&gt;
+&lt;SCRIPT LANGUAGE="JavaScript"&gt;
+&lt;!--
+var axel = Math.random() + "";
+var PageId = axel * 1000000000000000000;
+// This part of script alleviates a Netscape document.write bug
+NS4 = document.layers;
+if (NS4) {
+origWidth = innerWidth;
+origHeight = innerHeight;
+}
+function reDo() {
+if (innerWidth != origWidth || innerHeight != origHeight)
+location.reload();
+}
+if (NS4) onresize = reDo;
+//--&gt;
+&lt;/SCRIPT&gt;
+&lt;!-- Javascript END --&gt;
+&lt;/HEAD&gt;
+&lt;BODY vLink=#000000 link=#000000 bgColor=#0472bc leftMargin=0 topMargin=0 marginheight="0" marginwidth="0" &gt;
+&lt;h1&gt;'N Sync - (God Must Have Spent) A Little More Time On You Lyrics &lt;/h1&gt;&lt;TABLE cellSpacing=0 cellPadding=0 width=770 border=0&gt;
+  &lt;TBODY&gt;
+   &lt;TR&gt;
+    &lt;TD&gt;
+      &lt;TABLE style="BORDER-COLLAPSE: collapse" borderColor=#111111 cellSpacing=0 cellPadding=0 width=770 align=center height=66 bgColor=#ffffff border=0&gt;
+        &lt;TBODY&gt;
+        &lt;TR&gt;
+          &lt;TD align=middle width=194 height=64&gt;&lt;IMG 
+          src="/images/logo.gif"&gt;&lt;/TD&gt;
+          &lt;TD align=middle width=95 height=64&gt;&lt;/TD&gt;
+          &lt;TD width=448 height=64 align=right&gt;&lt;script&gt;
+fiSearchFormMaxObj=new Object();
+fiSearchFormMaxObj.type=1;
+fiSearchFormMaxObj.clrBdr='#808080';
+fiSearchFormMaxObj.clrBg='#FFFFFF';
+fiSearchFormMaxObj.clrTtlTxt='#000000';
+fiSearchFormMaxObj.clrTagTxt='#000000';
+fiSearchFormMaxObj.width='160';
+fiSearchFormMaxObj.noBorder=true;
+&lt;/script&gt;
+&lt;script&gt;fiSearchFormMaxSetId='AX006188';&lt;/script&gt;
+&lt;script src=http://bfc.myway.com/search/fiSearchMax.js&gt;&lt;/script&gt;&lt;/TD&gt;
+          &lt;TD align=middle width=31 height=64&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/TD&gt;&lt;/TR&gt;
+ 
+  &lt;TR&gt;
+    &lt;TD&gt;
+      &lt;TABLE style="BORDER-COLLAPSE: collapse" borderColor=#111111 height=1 cellSpacing=0 cellPadding=0 width=770 align=center bgColor=#ffcc00 border=0&gt;
+        &lt;TBODY&gt;
+        &lt;TR&gt;
+          &lt;TD height=2&gt;&lt;/TD&gt;&lt;/TR&gt;
+        &lt;TR&gt;
+          &lt;TD width=555 bgColor=#666666 height=1&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD&gt;
+        &lt;script language="JavaScript" src="/search.js"&gt;
+           &lt;/script&gt;
+     &lt;/TD&gt;&lt;/TR&gt;
+&lt;tr&gt;&lt;td&gt;            
+&lt;TABLE style="BORDER-COLLAPSE: collapse" borderColor=#111111 height=1 cellSpacing=0 cellPadding=0 width=770 bgColor=#d0ccd0 border=0&gt;
+&lt;TBODY&gt;
+&lt;tr&gt;&lt;td width=770 bgcolor=#ffcc00 colspan=2 height=5&gt;&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td width=770 bgcolor=#ffcc00 colspan=2 align=center&gt;&lt;SCRIPT&gt;
+&lt;!--
+ // MaxOnline JavaScript tag for: Wan Min (sing365.com)
+ if ((!document.images &amp;&amp; navigator.userAgent.indexOf('Mozilla/2.') &gt;= 0) || navigator.userAgent.indexOf("WebTV")&gt;= 0) { 
+document.write('&lt;A HREF="http://c4.maxserving.com/adclick/site=6188/area=ros/aamft=normal/aamsz=banner/PageID=' + PageId + '" target="_blank"&gt;');
+document.write('&lt;IMG SRC="http://c4.maxserving.com/iserver/site=6188/area=ros/aamft=normal/aamsz=banner/PageID=' + PageId + '" border="0"&gt;&lt;/A&gt;');
+}else{
+document.write('&lt;SCR'+'IPT src=http://c4.maxserving.com/gen.js?site=6188&amp;area=ros&amp;group=topbar&amp;PageID=' + PageId + '&gt;&lt;\/SCR'+'IPT&gt;');
+}
+//--&gt;
+&lt;/SCRIPT&gt;
+&lt;noscript&gt;
+&lt;a href="http://c4.maxserving.com/adclick/site=6188/area=ros/aamsz=banner/PageID=' + PageId + '" target="_blank"&gt;');
+&lt;img src="http://c4.maxserving.com/iserver/site=6188/area=ros/aamsz=banner/PageID=' + PageId + '" border="0"&gt;&lt;/A&gt;');
+&lt;/noscript&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;TR&gt;
+&lt;TD width=16 bgColor=#ffcc00 height=20&gt;&lt;/td&gt;
+&lt;TD width=744 bgColor=#ffcc00 height=20 valign="top"&gt;&lt;strong&gt;&amp;nbsp;::&lt;a href="http://www.lyrics007.com"&gt;Lyrics&lt;/a&gt;&amp;nbsp;&gt;&gt;&amp;nbsp;&lt;/strong&gt;
+&lt;strong&gt;:: 'N Sync - (God Must Have Spent) A Little More Time On You Lyrics &lt;/strong&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+
+ &lt;TABLE style="BORDER-COLLAPSE: collapse" cellSpacing=0 cellPadding=0 width=770 bgColor=#ffffff border=0&gt;
+        &lt;TBODY&gt;
+		&lt;TR&gt;&lt;TD HEIght=16  colspan=7&gt;&lt;/TD&gt;&lt;/TR&gt;   
+        &lt;TR &gt;
+          
+          &lt;TD vAlign=top width=5&gt;&lt;/TD&gt;
+          &lt;TD vAlign=top width=120&gt;&lt;!-- Tag for size 120 x 600 for site Sing365: Section: 4593 - DO NOT MODIFY --&gt;
+&lt;SCRIPT TYPE="text/javascript" SRC="http://ad.yieldmanager.com/rmtag2.js"&gt;&lt;/SCRIPT&gt;
+&lt;SCRIPT language="JavaScript"&gt;
+var rm_host = "http://ad.yieldmanager.com";
+var rm_section_id = 129;
+var rm_iframe_tags = 1;
+
+rmShowAd("120x600");
+&lt;/SCRIPT&gt;
+&lt;!-- End of tag --&gt;&lt;/TD&gt;
+           &lt;TD vAlign=top width=5&gt;&lt;/TD&gt;
+          &lt;TD vAlign=top width=460&gt;
+           
+                
+&lt;TABLE width=100% bgColor=#f6f6f6&gt;&lt;tr&gt;&lt;td width=10&gt;&lt;/td&gt;&lt;td colspan=2&gt;&lt;script type="text/javascript"&gt;&lt;!--
+google_ad_client = "pub-0919305250342516";
+google_ad_width = 336;
+google_ad_height = 280;
+google_ad_format = "336x280_as";
+google_ad_channel ="";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "0000FF";
+google_color_url = "008000";
+google_color_text = "000000";
+//--&gt;&lt;/script&gt;
+&lt;script type="text/javascript"  src="http://pagead2.googlesyndication.com/pagead/show_ads.js"&gt;
+&lt;/script&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=10&gt;&lt;/td&gt;&lt;td colspan=2&gt;&lt;br&gt;Artist: &lt;a href="http://www.lyrics007.com/%27N%20Sync%20Lyrics.html"&gt;&lt;strong&gt;'N Sync Lyrics&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=10&gt;&lt;/td&gt;&lt;td&gt;Song: &lt;strong&gt;(God Must Have Spent) A Little More Time On You Lyrics&lt;/strong&gt;&lt;br&gt;&lt;br&gt;&lt;a href=http://sing365.mp3advance.hop.clickbank.net/ target=_blank&gt;&lt;font color=red&gt;MP3 Downloads&lt;/font&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;a href="http://lyrics007.ringtone-logo-game.com/polyphonic-ringtones.php?k='N Sync"&gt;&lt;font color=red&gt;Click here to send 'N Sync polyphonic ringtone to your cell phone.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=10&gt;&lt;/td&gt;&lt;td&gt;Yeah....&lt;BR&gt;
+Oh yes&lt;BR&gt;
+Ohhh..yeah..&lt;BR&gt;
+Can this be true?&lt;BR&gt;
+Tell me, can this be real?&lt;BR&gt;
+How can I put into words what I feel?&lt;BR&gt;
+My life was complete&lt;BR&gt;
+I thought I was whole&lt;BR&gt;
+Why do I feel like I'm losing control?&lt;BR&gt;
+I never thought that love could feel like this&lt;BR&gt;
+and you've changed my world with just one kiss.&lt;BR&gt;
+How can it be that right here with me&lt;BR&gt;
+there's an angel?&lt;BR&gt;
+It's a miracle...&lt;BR&gt;
+&lt;BR&gt;
+&lt;BR&gt;
+Your love is like a river&lt;BR&gt;
+Peaceful and deep&lt;BR&gt;
+Your soul is like a secret&lt;BR&gt;
+That I never could keep&lt;BR&gt;
+When I look into your eyes&lt;BR&gt;
+I know that it's true&lt;BR&gt;
+God must have spent...&lt;BR&gt;
+A little more time&lt;BR&gt;
+On you...&lt;BR&gt;
+(A little more time, yes he did baby)&lt;BR&gt;
+&lt;BR&gt;
+&lt;BR&gt;
+In all of creation&lt;BR&gt;
+All things great and small&lt;BR&gt;
+You are the one that surpasses them all&lt;BR&gt;
+More precious than&lt;BR&gt;
+Any diamond or pearl&lt;BR&gt;
+They broke the mold&lt;BR&gt;
+When you came in this world&lt;BR&gt;
+And I'm trying hard to figure out&lt;BR&gt;
+Just how I ever did without&lt;BR&gt;
+The warmth of your smile&lt;BR&gt;
+The heart of a child&lt;BR&gt;
+That's deep inside&lt;BR&gt;
+Leaves me purified&lt;BR&gt;
+&lt;BR&gt;
+Your love is like a river&lt;BR&gt;
+Peaceful and deep (and deep)&lt;BR&gt;
+Your soul is like a secret&lt;BR&gt;
+That I never could keep&lt;BR&gt;
+When I look into your eyes&lt;BR&gt;
+I know that it's true&lt;BR&gt;
+God must of spent...&lt;BR&gt;
+A little more time&lt;BR&gt;
+On you...&lt;BR&gt;
+(on you, on you, on you, you....on you, on you, on you, you..) ohhh...&lt;BR&gt;
+(on you, on you, on you, you....on you, on you, on you, you..) yeah...&lt;BR&gt;
+&lt;BR&gt;
+Never thought that love could feel like this&lt;BR&gt;
+and you changed my world with just one kiss.&lt;BR&gt;
+How can it be that right here with me&lt;BR&gt;
+There's an angel?&lt;BR&gt;
+It's a miracle...&lt;BR&gt;
+&lt;BR&gt;
+Your love is like a river&lt;BR&gt;
+Peaceful and deep (peaceful and deep)&lt;BR&gt;
+Your soul is like a secret&lt;BR&gt;
+That I never could keep&lt;BR&gt;
+When I look into your eyes&lt;BR&gt;
+I know that it's true&lt;BR&gt;
+God must of spent...&lt;BR&gt;
+A little more time&lt;BR&gt;
+On you...&lt;BR&gt;
+(on you, on you, on you, you..)&lt;BR&gt;
+God must of spent...&lt;BR&gt;
+A little more time&lt;BR&gt;
+on you&lt;BR&gt;
+(on you, on you..you....you..oooh..yeah)&lt;BR&gt;
+A little more time&lt;BR&gt;
+on you...ohhh
+
+&lt;br&gt;&lt;br&gt;The hottest songs from 'N Sync&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;
+Fans who visit this lyrics also like:&lt;br&gt;&lt;br&gt;
+&lt;li&gt;&lt;a href="http://www.lyrics007.com/John%20Lennon%20Lyrics/Nobody%20Told%20Me%20Lyrics.html"&gt;John Lennon - Nobody Told Me Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Green%20Day%20Lyrics/Good%20Ridence%20%28Time%20Of%20Your%20Life%29%20Lyrics.html"&gt;Green Day - Good Ridence (Time Of Your Life) Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Palominos%20Lyrics/Duele%20El%20Amor%20Lyrics.html"&gt;Palominos - Duele El Amor Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Lionel%20Richie%20Lyrics/Brick%20House%20Lyrics.html"&gt;Lionel Richie - Brick House Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Carpenters%20Lyrics/I%27ll%20Never%20Fall%20In%20Love%20Again%20Lyrics.html"&gt;Carpenters - I'll Never Fall In Love Again Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Eminem%20Lyrics/Kids%20Lyrics.html"&gt;Eminem - Kids Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/R.E.M.%20Lyrics/Star%20Me%20Kitten%20Lyrics.html"&gt;R.E.M. - Star Me Kitten Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Evanescence%20Lyrics/Zero%20Lyrics.html"&gt;Evanescence - Zero Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Foo%20Fighters%20Lyrics/Tired%20Lyrics.html"&gt;Foo Fighters - Tired Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Papa%20Roach%20Lyrics/Black%20Clouds%20Lyrics.html"&gt;Papa Roach - Black Clouds Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Baby%20Bash%20Lyrics/Early%20In%20The%20Morning%20Lyrics.html"&gt;Baby Bash - Early In The Morning Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/System%20of%20a%20Down%20Lyrics/Boom%20Lyrics.html"&gt;System of a Down - Boom Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Air%20Supply%20Lyrics/Even%20The%20Nights%20Are%20Better%20Lyrics.html"&gt;Air Supply - Even The Nights Are Better Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Liz%20Phair%20Lyrics/Sway%20Lyrics.html"&gt;Liz Phair - Sway Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Phantom%20Planet%20Lyrics/Counting%20To%20100%20By%20Matt%20Wertz%20Lyrics.html"&gt;Phantom Planet - Counting To 100 By Matt Wertz Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Fuel%20Lyrics/Don%27t%20Fall%20Away%20Lyrics.html"&gt;Fuel - Don't Fall Away Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Amerie%20Lyrics/1%20Thing%20Lyrics.html"&gt;Amerie - 1 Thing Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Skye%20Sweetnam%20Lyrics/Wild%20World%20feat.%20Britney%20Spears%20Lyrics.html"&gt;Skye Sweetnam - Wild World feat. Britney Spears Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Sting%20%26%20Police%20Lyrics/Message%20In%20A%20Bottle%20Lyrics.html"&gt;Sting &amp; Police - Message In A Bottle Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Jessica%20Simpson%20Lyrics/A%20Little%20Bit%20Lyrics.html"&gt;Jessica Simpson - A Little Bit Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Eagles%20Lyrics/I%20Cant%20Tell%20You%20Why%20Lyrics.html"&gt;Eagles - I Cant Tell You Why Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Hilary%20Duff%20Lyrics/Fly%20Lyrics.html"&gt;Hilary Duff - Fly Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Vitamin%20C%20Lyrics/Volare%20Lyrics.html"&gt;Vitamin C - Volare Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Lea%20Salonga%20Lyrics/FRIEND%20OF%20MINE%20Lyrics.html"&gt;Lea Salonga - FRIEND OF MINE Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Bette%20Midler%20Lyrics/Gift%20of%20Love%20Lyrics.html"&gt;Bette Midler - Gift of Love Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Bread%20Lyrics/Aubrey%20Lyrics.html"&gt;Bread - Aubrey Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Christina%20Milian%20Lyrics/Down%20For%20You%20Lyrics.html"&gt;Christina Milian - Down For You Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Busted%20Lyrics/Crash%20The%20Wedding%20Lyrics.html"&gt;Busted - Crash The Wedding Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Cyndi%20Lauper%20Lyrics/You%20Have%20to%20Learn%20to%20Live%20Alone%20Lyrics.html"&gt;Cyndi Lauper - You Have to Learn to Live Alone Lyrics&lt;/a&gt;&lt;li&gt;&lt;a href="http://www.lyrics007.com/Matchbook%20Romance%20Lyrics/She%27ll%20Never%20Understand%20Lyrics.html"&gt;Matchbook Romance - She'll Never Understand Lyrics&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;FONT style="FONT-SIZE: 9px; COLOR: #333333" face=Verdana,Helvetica,Arial, sans-serif&gt;search &lt;strong&gt;'N Sync - (God Must Have Spent) A Little More Time On You Lyrics&lt;/strong&gt; @ Google&lt;br&gt;search &lt;strong&gt;'N Sync - (God Must Have Spent) A Little More Time On You Lyrics&lt;/strong&gt; @ MSN&lt;br&gt;search &lt;strong&gt;'N Sync - (God Must Have Spent) A Little More Time On You Lyrics&lt;/strong&gt; @ Yahoo&lt;br&gt;search &lt;strong&gt;'N Sync - (God Must Have Spent) A Little More Time On You Lyrics&lt;/strong&gt; @ LookSmart&lt;br&gt;search &lt;strong&gt;'N Sync - (God Must Have Spent) A Little More Time On You Lyrics&lt;/strong&gt; @ Ask&lt;br&gt;search &lt;strong&gt;'N Sync - (God Must Have Spent) A Little More Time On You Lyrics&lt;/strong&gt; @ AOL&lt;br&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+
+&lt;/TD&gt; &lt;TD vAlign=top width=5&gt;&lt;/TD&gt;
+	&lt;TD width=160 valign=top align=center&gt;
+	  &lt;SCRIPT&gt;
+            &lt;!--
+            // MaxOnline JavaScript tag for: Wan Min (sing365.com)
+            var randomNum=Math.round(Math.random() * 100000000000);
+            if ((!document.images &amp;&amp; navigator.userAgent.indexOf('Mozilla/2.') &gt;= 0) || navigator.userAgent.indexOf("WebTV")&gt;= 0) { 
+            document.write('&lt;A HREF="http://c4.maxserving.com/adclick/site=6188/area=side_ros/aamft=normal/aamsz=sideunit/PageID=' + randomNum + '" target="_blank"&gt;');
+            document.write('&lt;IMG SRC="http://c4.maxserving.com/iserver/site=6188/area=side_ros/aamft=normal/aamsz=sideunit/PageID=' + randomNum + '" border="0"&gt;&lt;/A&gt;');
+            }else{
+            document.write('&lt;SCR'+'IPT src=http://c4.maxserving.com/gen.js?site=6188&amp;area=side_ros&amp;group=sidebar&amp;PageID=' + randomNum + '&gt;&lt;\/SCR'+'IPT&gt;');
+            }
+            //--&gt;
+            &lt;/SCRIPT&gt;
+            &lt;noscript&gt;
+            &lt;a href="http://c4.maxserving.com/adclick/site=6188/area=side_ros/aamsz=sideunit/PageID=1234567" target="_blank"&gt;
+            &lt;img src="http://c4.maxserving.com/iserver/site=6188/area=side_ros/aamsz=sideunit/PageID=1234567" border="0"&gt;&lt;/A&gt;
+            &lt;/noscript&gt;
+
+&lt;/TD&gt;
+ &lt;TD vAlign=top width=5&gt;&lt;/TD&gt;
+&lt;/TR&gt;
+&lt;TR&gt;&lt;TD HEIght=16  colspan=3&gt;&lt;/TD&gt;&lt;/TR&gt;              
+              &lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;TABLE height=22 cellSpacing=0 cellPadding=0 width=770 align=left border=0&gt;
+        &lt;TBODY&gt;
+  &lt;TR&gt;&lt;TD width=16 bgColor=#ffcc00 height=20&gt;&lt;/td&gt;
+          &lt;TD width=770 height=20 valign="top" bgColor=#f9c700&gt;
+          &lt;H2&gt;:: 'N Sync - (God Must Have Spent) A Little More Time On You Lyrics &lt;/h2&gt;&lt;/TD&gt;
+          &lt;/TR&gt;
+      
+         &lt;TR&gt;
+          &lt;TD width=770 height=6 bgColor=#f9c700 colspan=2&gt;&lt;/TD&gt;
+          &lt;/TR&gt;
+          &lt;TR&gt;
+          &lt;TD width=770 bgColor=#f9c700 align=center colspan=2&gt;&lt;script&gt;
+if (typeof topbar_banner_0_ad == "function") { topbar_banner_0_ad(); }
+&lt;/script&gt;&lt;/TD&gt;
+          &lt;/TR&gt;
+          &lt;TR&gt;
+          &lt;TD width=770 height=6 bgColor=#f9c700 colspan=2&gt;&lt;/TD&gt;
+          &lt;/TR&gt;
+        &lt;TR&gt;
+          &lt;TD width=770 height=22 bgColor=#f9c700 colspan=2&gt;
+ Partner: &lt;a href="http://www.sing365.com" class="NoUnder" onMouseOver="window.status=' '; return true" onMouseOut="window.status=' '; return true" &gt;Lyrics&lt;/A&gt;&lt;/TD&gt;
+          &lt;/TR&gt;
+        &lt;TR&gt;
+        &lt;td colspan=2&gt;&lt;table cellSpacing=0 cellPadding=0 width=770 align=left border=0 bgColor=#0472bc&gt;&lt;tr&gt;
+         &lt;TD height=16 &gt;&lt;FONT style="FONT-SIZE: 9px; COLOR: #333333" face=Verdana,Helvetica,Arial, sans-serif&gt;
+The CopyRight of &lt;strong&gt;'N Sync - (God Must Have Spent) A Little More Time On You Lyrics&lt;/strong&gt; belongs to the writer or performer of &lt;strong&gt;'N Sync - (God Must Have Spent) A Little More Time On You Lyrics&lt;/strong&gt;, If you want to use &lt;strong&gt;'N Sync - (God Must Have Spent) A Little More Time On You Lyrics&lt;/strong&gt;, Please contact the writer or performer of &lt;strong&gt;'N Sync - (God Must Have Spent) A Little More Time On You Lyrics&lt;/strong&gt;.&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;font color=white size=1 face="Helvetica,Arial, sans-serif"&gt;
+Welcome to &lt;strong&gt;'N Sync - (God Must Have Spent) A Little More Time On You Lyrics&lt;/strong&gt;&lt;/font&gt;
+&lt;/BODY&gt;
+&lt;/HTML&gt;
+</SampleText>
+    <ProjectID_FK>-5</ProjectID_FK>
+  </Project_Sample>
+</ScraperDB>

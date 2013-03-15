@@ -1,0 +1,396 @@
+<?xml version="1.0" standalone="yes"?>
+<ScraperDB xmlns="http://tempuri.org/ScraperDB.xsd">
+  <TagLibrary>
+    <TagID>-491</TagID>
+    <ProjectID>-199</ProjectID>
+    <TagName>SYSROOT</TagName>
+    <StartTag />
+    <EndTag />
+    <DynamicCode />
+    <OrderNumber>0</OrderNumber>
+    <MaxChars>32767</MaxChars>
+    <IsAppendStartTag>false</IsAppendStartTag>
+    <IsAppendEndTag>false</IsAppendEndTag>
+    <IsStartTagRegex>false</IsStartTagRegex>
+    <IsEndTagRegex>false</IsEndTagRegex>
+    <IsOptional>false</IsOptional>
+    <IsSingleRegex>false</IsSingleRegex>
+    <isReverseSearch>false</isReverseSearch>
+    <IsURL>false</IsURL>
+    <IsDisabled>false</IsDisabled>
+    <isSaveData>false</isSaveData>
+    <IsDataTable>false</IsDataTable>
+    <TagLibrary>
+      <TagID>-492</TagID>
+      <Parent_TagID>-491</Parent_TagID>
+      <ProjectID>-199</ProjectID>
+      <TagName>body</TagName>
+      <StartTag>&lt;body</StartTag>
+      <EndTag>&lt;/body&gt;</EndTag>
+      <DynamicCode />
+      <OrderNumber>0</OrderNumber>
+      <MaxChars>32767</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>false</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <TagLibrary>
+        <TagID>-493</TagID>
+        <Parent_TagID>-492</Parent_TagID>
+        <ProjectID>-199</ProjectID>
+        <TagName>Shows</TagName>
+        <StartTag>&lt;table width="80%" border="1"&gt;</StartTag>
+        <EndTag>  &lt;/tr&gt;
+&lt;/table&gt;</EndTag>
+        <DynamicCode />
+        <OrderNumber>0</OrderNumber>
+        <MaxChars>32767</MaxChars>
+        <IsAppendStartTag>false</IsAppendStartTag>
+        <IsAppendEndTag>false</IsAppendEndTag>
+        <IsStartTagRegex>false</IsStartTagRegex>
+        <IsEndTagRegex>false</IsEndTagRegex>
+        <IsOptional>false</IsOptional>
+        <IsSingleRegex>false</IsSingleRegex>
+        <isReverseSearch>false</isReverseSearch>
+        <IsURL>false</IsURL>
+        <IsDisabled>false</IsDisabled>
+        <isSaveData>false</isSaveData>
+        <IsDataTable>false</IsDataTable>
+        <TagLibrary>
+          <TagID>-494</TagID>
+          <Parent_TagID>-493</Parent_TagID>
+          <ProjectID>-199</ProjectID>
+          <TagName>MovieName</TagName>
+          <StartTag>&lt;td&gt;</StartTag>
+          <EndTag>&lt;/td&gt;</EndTag>
+          <DynamicCode />
+          <OrderNumber>0</OrderNumber>
+          <MaxChars>2147483647</MaxChars>
+          <IsAppendStartTag>false</IsAppendStartTag>
+          <IsAppendEndTag>false</IsAppendEndTag>
+          <IsStartTagRegex>false</IsStartTagRegex>
+          <IsEndTagRegex>false</IsEndTagRegex>
+          <IsOptional>false</IsOptional>
+          <IsSingleRegex>false</IsSingleRegex>
+          <isReverseSearch>false</isReverseSearch>
+          <IsURL>false</IsURL>
+          <IsDisabled>false</IsDisabled>
+          <isSaveData>true</isSaveData>
+          <IsDataTable>false</IsDataTable>
+        </TagLibrary>
+        <TagLibrary>
+          <TagID>-495</TagID>
+          <Parent_TagID>-493</Parent_TagID>
+          <ProjectID>-199</ProjectID>
+          <TagName>ReleaseDate</TagName>
+          <StartTag>&lt;td&gt;</StartTag>
+          <EndTag>&lt;/td&gt;</EndTag>
+          <DynamicCode />
+          <OrderNumber>1</OrderNumber>
+          <MaxChars>2147483647</MaxChars>
+          <IsAppendStartTag>false</IsAppendStartTag>
+          <IsAppendEndTag>false</IsAppendEndTag>
+          <IsStartTagRegex>false</IsStartTagRegex>
+          <IsEndTagRegex>false</IsEndTagRegex>
+          <IsOptional>true</IsOptional>
+          <IsSingleRegex>false</IsSingleRegex>
+          <isReverseSearch>false</isReverseSearch>
+          <IsURL>false</IsURL>
+          <IsDisabled>false</IsDisabled>
+          <isSaveData>true</isSaveData>
+          <IsDataTable>false</IsDataTable>
+        </TagLibrary>
+        <TagLibrary>
+          <TagID>-496</TagID>
+          <Parent_TagID>-493</Parent_TagID>
+          <ProjectID>-199</ProjectID>
+          <TagName>ShowDay</TagName>
+          <StartTag>&lt;table width="100%" border="1"&gt;</StartTag>
+          <EndTag>&lt;/table&gt;</EndTag>
+          <DynamicCode />
+          <OrderNumber>2</OrderNumber>
+          <MaxChars>32767</MaxChars>
+          <IsAppendStartTag>false</IsAppendStartTag>
+          <IsAppendEndTag>false</IsAppendEndTag>
+          <IsStartTagRegex>false</IsStartTagRegex>
+          <IsEndTagRegex>false</IsEndTagRegex>
+          <IsOptional>false</IsOptional>
+          <IsSingleRegex>false</IsSingleRegex>
+          <isReverseSearch>false</isReverseSearch>
+          <IsURL>false</IsURL>
+          <IsDisabled>false</IsDisabled>
+          <isSaveData>false</isSaveData>
+          <IsDataTable>false</IsDataTable>
+          <TagLibrary>
+            <TagID>-497</TagID>
+            <Parent_TagID>-496</Parent_TagID>
+            <ProjectID>-199</ProjectID>
+            <TagName>Date</TagName>
+            <StartTag>&lt;tr&gt;
+        &lt;td width="25%"&gt;</StartTag>
+            <EndTag>&lt;/td&gt;</EndTag>
+            <DynamicCode />
+            <OrderNumber>0</OrderNumber>
+            <MaxChars>2147483647</MaxChars>
+            <IsAppendStartTag>false</IsAppendStartTag>
+            <IsAppendEndTag>false</IsAppendEndTag>
+            <IsStartTagRegex>false</IsStartTagRegex>
+            <IsEndTagRegex>false</IsEndTagRegex>
+            <IsOptional>false</IsOptional>
+            <IsSingleRegex>false</IsSingleRegex>
+            <isReverseSearch>false</isReverseSearch>
+            <IsURL>false</IsURL>
+            <IsDisabled>false</IsDisabled>
+            <isSaveData>true</isSaveData>
+            <IsDataTable>false</IsDataTable>
+          </TagLibrary>
+          <TagLibrary>
+            <TagID>-498</TagID>
+            <Parent_TagID>-496</Parent_TagID>
+            <ProjectID>-199</ProjectID>
+            <TagName>ShowTime</TagName>
+            <StartTag>&lt;td width="25%"&gt;</StartTag>
+            <EndTag>&lt;/tr&gt;</EndTag>
+            <DynamicCode />
+            <OrderNumber>1</OrderNumber>
+            <MaxChars>32767</MaxChars>
+            <IsAppendStartTag>true</IsAppendStartTag>
+            <IsAppendEndTag>false</IsAppendEndTag>
+            <IsStartTagRegex>false</IsStartTagRegex>
+            <IsEndTagRegex>false</IsEndTagRegex>
+            <IsOptional>false</IsOptional>
+            <IsSingleRegex>false</IsSingleRegex>
+            <isReverseSearch>false</isReverseSearch>
+            <IsURL>false</IsURL>
+            <IsDisabled>false</IsDisabled>
+            <isSaveData>false</isSaveData>
+            <IsDataTable>false</IsDataTable>
+            <TagLibrary>
+              <TagID>-499</TagID>
+              <Parent_TagID>-498</Parent_TagID>
+              <ProjectID>-199</ProjectID>
+              <TagName>Day</TagName>
+              <StartTag>width="25%"&gt;</StartTag>
+              <EndTag>&lt;/td&gt;</EndTag>
+              <DynamicCode />
+              <OrderNumber>0</OrderNumber>
+              <MaxChars>32767</MaxChars>
+              <IsAppendStartTag>false</IsAppendStartTag>
+              <IsAppendEndTag>false</IsAppendEndTag>
+              <IsStartTagRegex>false</IsStartTagRegex>
+              <IsEndTagRegex>false</IsEndTagRegex>
+              <IsOptional>false</IsOptional>
+              <IsSingleRegex>false</IsSingleRegex>
+              <isReverseSearch>false</isReverseSearch>
+              <IsURL>false</IsURL>
+              <IsDisabled>false</IsDisabled>
+              <isSaveData>true</isSaveData>
+              <IsDataTable>false</IsDataTable>
+            </TagLibrary>
+          </TagLibrary>
+        </TagLibrary>
+        <TagLibrary>
+          <TagID>-500</TagID>
+          <Parent_TagID>-493</Parent_TagID>
+          <ProjectID>-199</ProjectID>
+          <TagName>Rating</TagName>
+          <StartTag>&lt;td&gt;</StartTag>
+          <EndTag>&lt;/td&gt;</EndTag>
+          <DynamicCode />
+          <OrderNumber>3</OrderNumber>
+          <MaxChars>2147483647</MaxChars>
+          <IsAppendStartTag>false</IsAppendStartTag>
+          <IsAppendEndTag>false</IsAppendEndTag>
+          <IsStartTagRegex>false</IsStartTagRegex>
+          <IsEndTagRegex>false</IsEndTagRegex>
+          <IsOptional>false</IsOptional>
+          <IsSingleRegex>false</IsSingleRegex>
+          <isReverseSearch>false</isReverseSearch>
+          <IsURL>false</IsURL>
+          <IsDisabled>false</IsDisabled>
+          <isSaveData>true</isSaveData>
+          <IsDataTable>false</IsDataTable>
+        </TagLibrary>
+      </TagLibrary>
+    </TagLibrary>
+  </TagLibrary>
+  <CrawlProject>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>MovieList-3.sprj</Name>
+    <ProxyCheckUrl />
+    <ProxyCheckContent />
+    <IsSaveContent>false</IsSaveContent>
+    <Threads>10</Threads>
+    <DownloadDelay>10</DownloadDelay>
+    <TotalUrl>0</TotalUrl>
+    <TotalUrlLeft>0</TotalUrlLeft>
+    <ConnectionPerIP>5</ConnectionPerIP>
+  </CrawlProject>
+  <UrlStatus>
+    <UrlStatusID>1</UrlStatusID>
+    <Name>Assigned</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>3</UrlStatusID>
+    <Name>Finished</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>2</UrlStatusID>
+    <Name>Error</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>0</UrlStatusID>
+    <Name>Ready</Name>
+  </UrlStatus>
+  <Project>
+    <ProjectID>-199</ProjectID>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>MovieList-3.xml</Name>
+  </Project>
+  <Project_Url>
+    <UrlID>-2639</UrlID>
+    <ProjectID>-199</ProjectID>
+    <IsScraped>false</IsScraped>
+    <ProjUrlID>-1</ProjUrlID>
+  </Project_Url>
+  <Proxy>
+    <ProxyID>-1</ProxyID>
+    <ProxyStatusID>0</ProxyStatusID>
+    <ProxyLink>localhost</ProxyLink>
+    <ProxyPort>80</ProxyPort>
+    <AverageSpeed>0</AverageSpeed>
+    <AveragePing>0</AveragePing>
+    <MaxConnection>0</MaxConnection>
+    <TotalTimeout>0</TotalTimeout>
+    <TotalAnonymous>0</TotalAnonymous>
+  </Proxy>
+  <ProxyStatus>
+    <ProxyStatusID>0</ProxyStatusID>
+    <StatusName>Ready</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>1</ProxyStatusID>
+    <StatusName>Checking</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>2</ProxyStatusID>
+    <StatusName>Unknown</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>3</ProxyStatusID>
+    <StatusName>Error</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <Url>
+    <UrlID>-2639</UrlID>
+    <UrlStatusID>0</UrlStatusID>
+    <Url>http://localhost/MovieList-3.xml.txt</Url>
+    <Content>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd"&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Untitled Document&lt;/title&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;div align="center"&gt;&lt;strong&gt;MOVIE LIST 1
+  &lt;/strong&gt;&lt;br&gt;
+&lt;/div&gt;
+&lt;table width="80%" border="1"&gt;
+  &lt;tr&gt;
+    &lt;td width="150"&gt;Movie Name: &lt;/td&gt;
+    &lt;td&gt;Scary Movie &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width="150"&gt;Release Date: &lt;/td&gt;
+    &lt;td&gt;10/13/84&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width="150"&gt;Show Time: &lt;/td&gt;
+    &lt;td&gt;&lt;table width="100%" border="1"&gt;
+      &lt;tr&gt;
+        &lt;td width="25%"&gt;Tuesday&lt;/td&gt;
+        &lt;td width="25%"&gt; 9:10 AM&lt;/td&gt;
+        &lt;td width="25%"&gt;12:00 PM&lt;/td&gt;
+        &lt;td width="25%"&gt;2:40 PM&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td width="25%"&gt;Monday&lt;/td&gt;
+        &lt;td width="25%"&gt;11:40 AM&lt;/td&gt;
+        &lt;td width="25%"&gt;2:20 PM&lt;/td&gt;
+        &lt;td width="25%"&gt;5:40 PM&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td width="25%"&gt;Sunday&lt;/td&gt;
+        &lt;td width="25%"&gt;2:40 PM&lt;/td&gt;
+        &lt;td width="25%"&gt;3:20 PM&lt;/td&gt;
+        &lt;td width="25%"&gt;6:40 PM&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width="150"&gt;Rating:&lt;/td&gt;
+    &lt;td&gt;5 Stars &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table width="80%" border="1"&gt;
+  &lt;tr&gt;
+    &lt;td width="150"&gt;Movie Name: &lt;/td&gt;
+    &lt;td&gt;Mission Impossible &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width="150"&gt;Show Time: &lt;/td&gt;
+    &lt;td&gt;&lt;table width="100%" border="1"&gt;
+      &lt;tr&gt;
+        &lt;td width="25%"&gt;Friday&lt;/td&gt;
+        &lt;td width="25%"&gt; 9:20 AM&lt;/td&gt;
+        &lt;td width="25%"&gt;12:10 PM&lt;/td&gt;
+        &lt;td width="25%"&gt;2:50 PM&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td width="25%"&gt;Thursday&lt;/td&gt;
+        &lt;td width="25%"&gt;11:40 AM&lt;/td&gt;
+        &lt;td width="25%"&gt;2:20 PM&lt;/td&gt;
+        &lt;td width="25%"&gt;5:40 PM&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td width="25%"&gt;Saturday&lt;/td&gt;
+        &lt;td width="25%"&gt;2:40 PM&lt;/td&gt;
+        &lt;td width="25%"&gt;3:20 PM&lt;/td&gt;
+        &lt;td width="25%"&gt;6:40 PM&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width="150"&gt;Rating:&lt;/td&gt;
+    &lt;td&gt;5 Stars &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table width="200" border="1"&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;div align="center"&gt;&amp;lt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;div align="center"&gt;&lt;a href="movieList1.htm"&gt;1&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;div align="center"&gt;&lt;a href="movieList2.htm"&gt;2&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;div align="center"&gt;&lt;a href="movieList3.htm"&gt;3&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;div align="center"&gt;&lt;a href="movieList3.htm"&gt;&amp;gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</Content>
+    <DateAdded>2006-04-10T13:22:07.687-07:00</DateAdded>
+  </Url>
+</ScraperDB>

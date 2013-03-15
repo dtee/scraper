@@ -1,0 +1,1032 @@
+<?xml version="1.0" standalone="yes"?>
+<ScraperDB xmlns="http://tempuri.org/ScraperDB.xsd">
+  <TagLibrary>
+    <TagID>-389</TagID>
+    <ProjectID>-165</ProjectID>
+    <TagName>SYS_ROOT</TagName>
+    <StartTag />
+    <EndTag />
+    <DynamicCode />
+    <OrderNumber>0</OrderNumber>
+    <MaxChars>32767</MaxChars>
+    <IsAppendStartTag>false</IsAppendStartTag>
+    <IsAppendEndTag>false</IsAppendEndTag>
+    <IsStartTagRegex>false</IsStartTagRegex>
+    <IsEndTagRegex>false</IsEndTagRegex>
+    <IsOptional>false</IsOptional>
+    <IsSingleRegex>false</IsSingleRegex>
+    <isReverseSearch>false</isReverseSearch>
+    <IsURL>false</IsURL>
+    <IsDisabled>false</IsDisabled>
+    <isSaveData>false</isSaveData>
+    <IsDataTable>false</IsDataTable>
+    <TagLibrary>
+      <TagID>-390</TagID>
+      <Parent_TagID>-389</Parent_TagID>
+      <ProjectID>-165</ProjectID>
+      <TagName>ShopName</TagName>
+      <StartTag>17:fbT:0"&gt;</StartTag>
+      <EndTag>&lt;/a&gt;&lt;/b&gt;&lt;b</EndTag>
+      <DynamicCode />
+      <OrderNumber>0</OrderNumber>
+      <MaxChars>32767</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>true</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>true</isSaveData>
+      <IsDataTable>false</IsDataTable>
+    </TagLibrary>
+  </TagLibrary>
+  <CrawlProject>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>yahooShops.sprj</Name>
+    <ProxyCheckUrl />
+    <ProxyCheckContent />
+    <IsSaveContent>false</IsSaveContent>
+    <Threads>10</Threads>
+    <DownloadDelay>10</DownloadDelay>
+    <TotalUrl>0</TotalUrl>
+    <TotalUrlLeft>0</TotalUrlLeft>
+    <ConnectionPerIP>5</ConnectionPerIP>
+  </CrawlProject>
+  <UrlStatus>
+    <UrlStatusID>1</UrlStatusID>
+    <Name>Assigned</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>3</UrlStatusID>
+    <Name>Finished</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>2</UrlStatusID>
+    <Name>Error</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>0</UrlStatusID>
+    <Name>Ready</Name>
+  </UrlStatus>
+  <Project>
+    <ProjectID>-165</ProjectID>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>yahooShops.xml</Name>
+  </Project>
+  <Project_Url>
+    <UrlID>-2345</UrlID>
+    <ProjectID>-165</ProjectID>
+    <IsScraped>false</IsScraped>
+    <ProjUrlID>-1</ProjUrlID>
+  </Project_Url>
+  <Proxy>
+    <ProxyID>-1</ProxyID>
+    <ProxyStatusID>0</ProxyStatusID>
+    <ProxyLink>localhost</ProxyLink>
+    <ProxyPort>80</ProxyPort>
+    <AverageSpeed>0</AverageSpeed>
+    <AveragePing>0</AveragePing>
+    <MaxConnection>0</MaxConnection>
+    <TotalTimeout>0</TotalTimeout>
+    <TotalAnonymous>0</TotalAnonymous>
+  </Proxy>
+  <ProxyStatus>
+    <ProxyStatusID>0</ProxyStatusID>
+    <StatusName>Ready</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>1</ProxyStatusID>
+    <StatusName>Checking</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>2</ProxyStatusID>
+    <StatusName>Unknown</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>3</ProxyStatusID>
+    <StatusName>Error</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <Url>
+    <UrlID>-2345</UrlID>
+    <UrlStatusID>0</UrlStatusID>
+    <Url>http://yp.yahoo.com/py/ypResults.py?stp=y&amp;stx=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--</Url>
+    <Content>
+&lt;HTML&gt;
+&lt;HEAD&gt;&lt;TITLE&gt; Yahoo! Yellow Pages&lt;/TITLE&gt;
+&lt;!-- YAHOO INC - web4.yp.scd.yahoo.com:Wed May 18 10:14:38 2005 --&gt;
+
+
+&lt;script type="text/javascript" language="javascript" src="http://us.js1.yimg.com/us.yimg.com/lib/g/util/yg_browserext.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://us.js1.yimg.com/us.yimg.com/lib/common/yg_csstare.js"&gt;&lt;/script&gt;
+
+&lt;link rel="stylesheet" href="/yp.css" type="text/css"&gt;
+
+
+
+
+&lt;script language="JavaScript1.1"&gt;
+&lt;!-- 
+function setFL(field) {
+  var val = field.options[field.selectedIndex].value;
+  if (val == "NONE") {
+    document.yp.addr_in.value = ""
+    document.yp.csz_in.value = ""
+    return
+  }
+  var keyValue = val.split("&#x1;")
+  if (keyValue.length &lt; 2) {
+    return;
+  }
+  var addrArray = keyValue[1].split("&#x14;");
+  if (addrArray[0] &amp;&amp; addrArray[0] != "") {
+    document.yp.addr_in.value = addrArray[0]
+  }
+  else {
+    document.yp.addr_in.value = ""
+  }
+  if (addrArray[1] &amp;&amp; addrArray[1] != "") {
+    document.yp.csz_in.value = addrArray[1]
+  }
+  else {
+    document.yp.csz_in.value = ""
+  }
+  if (addrArray[2] &amp;&amp; addrArray[2] == "ca") {
+    document.yp.country_in.selectedIndex = 1
+  }
+  else {
+    document.yp.country_in.selectedIndex = 0
+  }
+ }
+
+
+
+
+var windowNameArray = null
+var windowPntrArray = null
+var browserType = "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; yie6; Q312461)"
+
+function launchWindow( url, HT, WD ) {
+var windowOptions
+var myLocation = url
+var WN = "newWindow"
+var AR = "yes"
+var TB = "no"
+var LC = "no"
+var SB = "no"
+var DR = "no"
+var ST = "no"
+var MB = "no"
+var RS = "yes"
+var CH = "yes"
+var PX = ""
+var PY = ""
+switch( arguments.length ) {
+case 16:
+case 15: PY = arguments[14];
+case 14: PX = arguments[13];
+case 13: CH = arguments[12];
+case 12: RS = arguments[11];
+case 11: MB = arguments[10];
+case 10: ST = arguments[9];
+case  9: DR = arguments[8];
+case  8: SB = arguments[7];
+case  7: LC = arguments[6];
+case  6: TB = arguments[5];
+case  5: AR = arguments[4];
+case  4: WN = arguments[3];
+}
+
+windowOptions  = "height="
+windowOptions += HT
+windowOptions += ",width="
+windowOptions += WD
+windowOptions += ",alwaysRaised="
+windowOptions += AR
+windowOptions += ",toolbar="
+windowOptions += TB 
+windowOptions += ",location="
+windowOptions += LC 
+windowOptions += ",scrollbars="
+windowOptions += SB 
+windowOptions += ",directories="
+windowOptions += DR 
+windowOptions += ",status="
+windowOptions += ST
+windowOptions += ",menubar="
+windowOptions += MB 
+windowOptions += ",resizable="
+windowOptions += RS 
+windowOptions += ",copyhistory="
+windowOptions += CH
+windowOptions += ",screenX="
+windowOptions += PX
+windowOptions += ",screenY="
+windowOptions += PY
+windowOptions += ",left="
+windowOptions += PX
+windowOptions += ",top="
+windowOptions += PY
+if( ! windowNameArray ) {
+windowNameArray = new Array()
+windowPntrArray = new Array()
+}
+for( index=0; index &lt; windowNameArray.length; ++index ) {
+if( windowNameArray[index] == WN ) {
+break
+}
+}
+
+var msieBrowser = navigator.appName.indexOf("Microsoft") != -1 
+if( !(windowPntrArray[index]) || (windowPntrArray[index].closed) ) {
+windowNameArray[index] = WN
+windowPntrArray[index] = window.open( myLocation, WN ,windowOptions )
+} else {
+if( msieBrowser ) {
+windowPntrArray[index].close()
+while( ! windowPntrArray[index].closed )
+{}
+windowPntrArray[index] = window.open( myLocation, WN ,windowOptions )
+} else {
+windowPntrArray[index].close()
+windowNameArray[index] = WN
+windowPntrArray[index] = window.open( myLocation, WN ,windowOptions )
+windowPntrArray[index].focus()
+}
+}
+}
+
+function closeLaunchedWindows() {
+var msieBrowser = navigator.appName.indexOf("Microsoft") != -1 
+for( index=0; index &lt; windowNameArray.length; ++index ) {
+windowPntrArray[index].close()
+if( msieBrowser ) {
+while( ! windowPntrArray[index].closed )
+{}
+}
+}
+windowPntrArray.length = 0
+windowNameArray.length = 0
+}
+name = 'hotslistwindow';
+var windowNameArray = null
+var windowPntrArray = null
+var browserType = "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; yie6; Q312461)"
+
+function launchWindow( url, HT, WD ) {
+var windowOptions
+var myLocation = url
+var WN = "newWindow"
+var AR = "yes"
+var TB = "no"
+var LC = "no"
+var SB = "no"
+var DR = "no"
+var ST = "no"
+var MB = "no"
+var RS = "yes"
+var CH = "yes"
+var PX = ""
+var PY = ""
+switch( arguments.length ) {
+case 16:
+case 15: PY = arguments[14];
+case 14: PX = arguments[13];
+case 13: CH = arguments[12];
+case 12: RS = arguments[11];
+case 11: MB = arguments[10];
+case 10: ST = arguments[9];
+case  9: DR = arguments[8];
+case  8: SB = arguments[7];
+case  7: LC = arguments[6];
+case  6: TB = arguments[5];
+case  5: AR = arguments[4];
+case  4: WN = arguments[3];
+}
+
+windowOptions  = "height="
+windowOptions += HT
+windowOptions += ",width="
+windowOptions += WD
+windowOptions += ",alwaysRaised="
+windowOptions += AR
+windowOptions += ",toolbar="
+windowOptions += TB 
+windowOptions += ",location="
+windowOptions += LC 
+windowOptions += ",scrollbars="
+windowOptions += SB 
+windowOptions += ",directories="
+windowOptions += DR 
+windowOptions += ",status="
+windowOptions += ST
+windowOptions += ",menubar="
+windowOptions += MB 
+windowOptions += ",resizable="
+windowOptions += RS 
+windowOptions += ",copyhistory="
+windowOptions += CH
+windowOptions += ",screenX="
+windowOptions += PX
+windowOptions += ",screenY="
+windowOptions += PY
+windowOptions += ",left="
+windowOptions += PX
+windowOptions += ",top="
+windowOptions += PY
+if( ! windowNameArray ) {
+windowNameArray = new Array()
+windowPntrArray = new Array()
+}
+for( index=0; index &lt; windowNameArray.length; ++index ) {
+if( windowNameArray[index] == WN ) {
+break
+}
+}
+
+var msieBrowser = navigator.appName.indexOf("Microsoft") != -1 
+if( !(windowPntrArray[index]) || (windowPntrArray[index].closed) ) {
+windowNameArray[index] = WN
+windowPntrArray[index] = window.open( myLocation, WN ,windowOptions )
+} else {
+if( msieBrowser ) {
+windowPntrArray[index].close()
+while( ! windowPntrArray[index].closed )
+{}
+windowPntrArray[index] = window.open( myLocation, WN ,windowOptions )
+} else {
+windowPntrArray[index].close()
+windowNameArray[index] = WN
+windowPntrArray[index] = window.open( myLocation, WN ,windowOptions )
+windowPntrArray[index].focus()
+}
+}
+}
+
+function closeLaunchedWindows() {
+var msieBrowser = navigator.appName.indexOf("Microsoft") != -1 
+for( index=0; index &lt; windowNameArray.length; ++index ) {
+windowPntrArray[index].close()
+if( msieBrowser ) {
+while( ! windowPntrArray[index].closed )
+{}
+}
+}
+windowPntrArray.length = 0
+windowNameArray.length = 0
+}
+//--&gt;
+&lt;/script&gt;
+
+&lt;/HEAD&gt;&lt;body bgcolor="#ffffff"&gt;
+
+&lt;center&gt;
+
+
+&lt;style type="text/css"&gt;&lt;!--
+@import url("http://us.js1.yimg.com/us.yimg.com/lib/hdr/ygma.css");
+body{margin:0px 4px;}
+--&gt;&lt;/style&gt;&lt;div align=center id=ygma&gt;&lt;form style="margin:0" action="http://srd.yahoo.com/fp=150500001&amp;loc=head&amp;st=yahoo/*http://search.yahoo.com/search" target="_top"&gt;&lt;input type=hidden name="fr" value="ush-yp"&gt;&lt;table width=750 cellpadding=0 cellspacing=0 border=0&gt;&lt;tr bgcolor="#efefef"&gt;&lt;td id=ygmalinks class=ygmabk width="100%" colspan=3&gt;&lt;font face="arial,helvetica,sans-serif" size="-2"&gt;&lt;a href="http://us.ard.yahoo.com/SIG=12719qdle/M=251521.4272479.5471648.4163675/D=yp/S=292210046:HEADR/EXP=1116443678/A=1896777/R=0/SIG=10mgpruen/*http://www.yahoo.com" target="_top"&gt;&lt;font color=000000&gt;Yahoo!&lt;/font&gt;&lt;/a&gt; &amp;nbsp; &lt;a href="http://us.ard.yahoo.com/SIG=12719qdle/M=251521.4272479.5471648.4163675/D=yp/S=292210046:HEADR/EXP=1116443678/A=1896777/R=1/SIG=10l2nj3k8/*http://my.yahoo.com" target="_top"&gt;&lt;font color=000000&gt;My Yahoo!&lt;/font&gt;&lt;/a&gt; &amp;nbsp; &lt;a href="http://us.ard.yahoo.com/SIG=12719qdle/M=251521.4272479.5471648.4163675/D=yp/S=292210046:HEADR/EXP=1116443678/A=1896777/R=2/SIG=10n3m6b64/*http://mail.yahoo.com" target="_top"&gt;&lt;font color=000000&gt;Mail&lt;/font&gt;&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;&lt;td class=ygmatcrn&gt;&lt;spacer type=block width=1 height=1&gt;&lt;/td&gt;&lt;td class=ygmabk rowspan=2&gt;&lt;img src=http://us.i1.yimg.com/us.yimg.com/i/us/search/test/stw2.gif width=38 height=16 border=0 hspace=4 alt="Search the web"&gt;&lt;/td&gt;&lt;td id=ygmasearch class=ygmabk rowspan=2 nowrap&gt;&lt;font face="verdana,geneva,sans-serif" size="-2"&gt; &lt;input type=text name=p size=12 title="Enter search terms here" maxlength=100&gt; &lt;input class=ygbt type=submit value=Search title=Search&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td rowspan=2 valign=top&gt;&lt;a href="http://us.ard.yahoo.com/SIG=12719qdle/M=251521.4272479.5471648.4163675/D=yp/S=292210046:HEADR/EXP=1116443678/A=1896777/R=3/SIG=10llilqvb/*http://yp.yahoo.com"&gt;&lt;img src=http://us.a1.yimg.com/us.yimg.com/i/us/nt/ma/ma_loc-yp_1.gif id=ygmalogo width=217 height=33 border=0 alt="Yahoo! Yellow Pages"&gt;&lt;/a&gt;&lt;/td&gt;&lt;td id=ygmagreet width="100%" rowspan=2&gt;&lt;font face="verdana,geneva,sans-serif" size="-2"&gt;&lt;font size="-1"&gt;&lt;strong&gt;&lt;a href="http://us.ard.yahoo.com/SIG=12719qdle/M=251521.4272479.5471648.4163675/D=yp/S=292210046:HEADR/EXP=1116443678/A=1896777/R=4/SIG=1275is6bg/*http://login.yahoo.com/config/login?.src=yp&amp;.done=http://yp.yahoo.com" target="_top"&gt;Sign In&lt;/a&gt;&lt;/strong&gt;&lt;/font&gt;&lt;br&gt;New User? &lt;a href="http://us.ard.yahoo.com/SIG=12719qdle/M=251521.4272479.5471648.4163675/D=yp/S=292210046:HEADR/EXP=1116443678/A=1896777/R=5/SIG=12ef67obm/*http://edit.yahoo.com/config/eval_register?.done=http://yp.yahoo.com&amp;.src=yp" target="_top"&gt;Sign Up&lt;/a&gt;&lt;br&gt;&lt;/font&gt;&lt;/td&gt;&lt;td rowspan=2&gt;&lt;/td&gt;&lt;td class=ygmacrn width=13 height=14 valign=top bgcolor=efefef nowrap&gt;&lt;spacer type=block width=13 height=14&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;spacer type=block width=1 height=1&gt;&lt;/td&gt;&lt;td id=ygmaproplinks colspan=2 align=right&gt;&lt;font face="verdana,geneva,sans-serif" size="-2"&gt;&lt;a href="http://us.ard.yahoo.com/SIG=12719qdle/M=251521.4272479.5471648.4163675/D=yp/S=292210046:HEADR/EXP=1116443678/A=1896777/R=6/SIG=10llilqvb/*http://yp.yahoo.com" target="_top"&gt;Yellow Pages Home&lt;/a&gt; - &lt;a href="http://us.ard.yahoo.com/SIG=12719qdle/M=251521.4272479.5471648.4163675/D=yp/S=292210046:HEADR/EXP=1116443678/A=1896777/R=7/SIG=10vpptc4k/*http://help.yahoo.com/help/yp" target="_top"&gt;Help&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/form&gt;&lt;/div&gt;&lt;script type="text/javascript"&gt;
+if (window.yzq_a == null) document.write("&lt;scr" + "ipt type=text/javascript src=http://us.js1.yimg.com/us.yimg.com/lib/bc/bc_1.7.0.js&gt;&lt;/scr" + "ipt&gt;");
+&lt;/script&gt;&lt;script type="text/javascript"&gt;
+if (window.yzq_a)
+{
+yzq_a('p', 'P=0F6ID0LaR96nYNfBG81E5wJTgUE3E0KLd_4ACSel&amp;T=15o3sfbn9%2fX%3d1116436478%2fE%3d292210046%2fR%3dyp%2fK%3d5%2fV%3d1.1%2fW%3ddefault%2fY%3dYAHOO%2fF%3d2799276313%2fG%3dCgpjYQo4MDc-%2fH%3deXBsb2M9Jm5hbWU9OTIyMTAwNDYmc3RhdGU9Q0E-%2fS%3d1%2fJ%3dA349DA42');
+yzq_a('a', '&amp;U=13atgq5ba%2fN%3dVKPKPELaRYo-%2fC%3d251521.4272479.5471648.4163675%2fD%3dHEADR%2fB%3d1896777');
+}
+&lt;/script&gt;&lt;noscript&gt;&lt;img width=1 height=1 alt="" src="http://bc.us.yahoo.com/b?P=0F6ID0LaR96nYNfBG81E5wJTgUE3E0KLd_4ACSel&amp;T=15tgd9atr%2fX%3d1116436478%2fE%3d292210046%2fR%3dyp%2fK%3d5%2fV%3d2.1%2fW%3ddefault%2fY%3dYAHOO%2fF%3d3627719376%2fG%3dCgpjYQo4MDc-%2fH%3deXBsb2M9Jm5hbWU9OTIyMTAwNDYmc3RhdGU9Q0E-%2fQ%3d-1%2fS%3d1%2fJ%3dA349DA42&amp;U=13atgq5ba%2fN%3dVKPKPELaRYo-%2fC%3d251521.4272479.5471648.4163675%2fD%3dHEADR%2fB%3d1896777"&gt;&lt;/noscript&gt;
+&lt;table border=0 cellspacing=0 cellpadding=0 width="750"&gt;
+&lt;tr&gt;
+&lt;td height=10&gt;&lt;spacer type=block height=10&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;!-- SpaceID=292210046 loc=N noad --&gt;
+&lt;script type="text/javascript"&gt;
+if (window.yzq_a == null) document.write("&lt;scr" + "ipt type=text/javascript src=http://us.js1.yimg.com/us.yimg.com/lib/bc/bc_1.7.0.js&gt;&lt;/scr" + "ipt&gt;");
+&lt;/script&gt;&lt;script type="text/javascript"&gt;
+if (window.yzq_a)
+{
+yzq_a('p', 'P=0F6ID0LaR96nYNfBG81E5wJTgUE3E0KLd_4ACSel&amp;T=15o1j3ul9%2fX%3d1116436478%2fE%3d292210046%2fR%3dyp%2fK%3d5%2fV%3d1.1%2fW%3ddefault%2fY%3dYAHOO%2fF%3d3823851902%2fG%3dCgpjYQo4MDc-%2fH%3deXBsb2M9Jm5hbWU9OTIyMTAwNDYmc3RhdGU9Q0E-%2fS%3d1%2fJ%3dA349DA42');
+yzq_a('a', '&amp;U=1256ji7rk%2fN%3dT6PKPELaRYo-%2fC%3d-1%2fD%3dN%2fB%3d-1');
+}
+&lt;/script&gt;&lt;noscript&gt;&lt;img width=1 height=1 alt="" src="http://bc.us.yahoo.com/b?P=0F6ID0LaR96nYNfBG81E5wJTgUE3E0KLd_4ACSel&amp;T=15tspr55c%2fX%3d1116436478%2fE%3d292210046%2fR%3dyp%2fK%3d5%2fV%3d2.1%2fW%3ddefault%2fY%3dYAHOO%2fF%3d1719411203%2fG%3dCgpjYQo4MDc-%2fH%3deXBsb2M9Jm5hbWU9OTIyMTAwNDYmc3RhdGU9Q0E-%2fQ%3d-1%2fS%3d1%2fJ%3dA349DA42&amp;U=1256ji7rk%2fN%3dT6PKPELaRYo-%2fC%3d-1%2fD%3dN%2fB%3d-1"&gt;&lt;/noscript&gt;
+&lt;table border=0 cellspacing=0 cellpadding=0 width="750"&gt;
+&lt;tr&gt;
+&lt;td height=10&gt;&lt;spacer type=block height=10&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+
+&lt;!-- YELLOW HEADER BAR:BEGIN --&gt;
+&lt;table border=0 cellspacing=0 cellpadding=0 width=750&gt;
+&lt;tr&gt;
+&lt;td&gt;
+    &lt;table border=0 cellspacing=0 cellpadding=3 bgcolor=#ffe566 width="100%"&gt;
+    &lt;tr&gt;
+    &lt;td&gt;
+        &lt;big&gt;
+        &lt;font face=arial&gt;
+        &lt;b&gt;Yahoo! Yellow Pages&lt;/b&gt;
+        &lt;/font&gt;
+        &lt;/big&gt;
+    &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+
+  &lt;table border=0 cellspacing=0 cellpadding=0 bgcolor=a9a9a9 width="750"&gt;
+    &lt;tr&gt; 
+      &lt;td height=1&gt;&lt;spacer type=block height=1 width=1&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+  &lt;table border=0 cellspacing=0 cellpadding=0 bgcolor=#FFFFFF width="750"&gt;
+    &lt;tr&gt; 
+      &lt;td height=1&gt;&lt;spacer type=block height=1 width=1&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+  &lt;!-- Begining of Addess Table w/ STAR --&gt;
+  &lt;table border=0 cellspacing=0 cellpadding=0 width="750" bgcolor=eeeeee&gt;
+    &lt;tr&gt; 
+      &lt;td height=7&gt;&lt;spacer type=block height=1 width=1&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+  &lt;table border=0 cellspacing=0 cellpadding=0 bgcolor=eeeeee width="750"&gt;
+    &lt;tr&gt; 
+      &lt;td width="50%"&gt;
+        &lt;table border="0" cellspacing="0" cellpadding="0"&gt;
+          &lt;tr&gt; 
+	    &lt;td rowspan="2" width="5"&gt;&lt;spacer type=block height=1 width=5&gt;&lt;/td&gt;
+            &lt;td nowrap align="right"&gt;&lt;font face="arial" size="-1"&gt;&lt;b&gt;Your Search:&amp;nbsp;&lt;/b&gt;&lt;/font&gt; 
+            &lt;/td&gt;
+&lt;form name="locbar" method="get" action="/py/ypResults.py"&gt;
+            &lt;td nowrap align="right"&gt;&lt;font face=arial size=-1&gt; 
+	                    &lt;input type=text name="stx" value="" size=23&gt;
+	                    &lt;/font&gt;&lt;/td&gt;
+            &lt;td width="10"&gt;&lt;spacer type=block height=1 width=10&gt;&lt;/td&gt;
+            &lt;td&gt; 
+                &lt;input type="hidden" name="stp" value="a"&gt;
+                &lt;input type="hidden" name="tab" value="B2C"&gt;
+                &lt;INPUT TYPE="hidden" NAME="city" VALUE="San Francisco"&gt;&lt;INPUT TYPE="hidden" NAME="state" VALUE="CA"&gt;&lt;INPUT TYPE="hidden" NAME="zip" VALUE="94134"&gt;&lt;INPUT TYPE="hidden" NAME="uzip" VALUE="94134"&gt;&lt;INPUT TYPE="hidden" NAME="country" VALUE="us"&gt;&lt;INPUT TYPE="hidden" NAME="msa" VALUE="7360"&gt;&lt;INPUT TYPE="hidden" NAME="slt" VALUE="37.722000"&gt;&lt;INPUT TYPE="hidden" NAME="sln" VALUE="-122.408700"&gt;&lt;INPUT TYPE="hidden" NAME="cs" VALUE="5"&gt;
+                &lt;input type="submit" name="Submit" value="Search"&gt;
+		
+            &lt;/td&gt;
+&lt;/form&gt;
+	    &lt;td width="73"&gt;&amp;nbsp;&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td nowrap colspan="5"&gt;&lt;font face="arial" size="-2"&gt;
+	      Search by Category or Business Name (e.g. Hotel or Holiday Inn)
+	    &lt;/font&gt;&lt;/td&gt;
+          &lt;/tr&gt;
+
+        &lt;/table&gt;
+        &lt;spacer type=block height=1 width=1&gt;&lt;/td&gt;
+      &lt;td height=3 align="right"&gt; 
+        &lt;table border="0" cellspacing="0" cellpadding="0"&gt;
+          &lt;tr&gt; 
+            &lt;td nowrap align="right"&gt;&lt;font face=arial size=2&gt;&lt;b&gt;Location:&lt;/b&gt;&amp;nbsp;
+    &lt;img src="http://us.a1.yimg.com/us.yimg.com/i/us/mp/gr/star.gif" height="15" width="15"&gt;
+        Beyond
+                  San Francisco, CA 94134
+           &lt;/font&gt;
+           &lt;font face=arial size=2&gt;
+     &lt;br&gt;
+     &lt;a href="http://edit.yahoo.com/config/set_yp?.src=yp&amp;.page=p1&amp;.cmd=n&amp;.yn=&amp;.zip=San+Francisco,+CA+94134&amp;.done=http%3a//web4.yp.scd.yahoo.com/py/ypResults.py%3fstp=y%26stx=92210046%26city=San%2bFrancisco%26state=CA%26zip=94134%26uzip=94134%26country=us%26msa=7360%26cs=5%26ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--"&gt;Save Location&lt;/a&gt; | 
+     &lt;a href="/py/yploc.py?&amp;clr=ypResults&amp;stp=y&amp;stx=92210046&amp;desc=Cafes&amp;qtx=&amp;tab=B2C&amp;country_in=us"&gt;Change Location&lt;/a&gt;
+     &lt;/font&gt;
+                  &lt;/td&gt;
+            &lt;td width="10"&gt;&lt;spacer type=block height=1 width=10&gt;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+  &lt;table border=0 cellspacing=0 cellpadding=0 bgcolor=eeeeee width="750"&gt;
+    &lt;tr&gt; 
+      &lt;td height=3&gt;&lt;spacer type=block height=1 width=1&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+  &lt;table border=0 cellspacing=0 cellpadding=0 bgcolor=#cccccc width="750"&gt;
+    &lt;tr&gt;
+      &lt;td height=1&gt;&lt;spacer type=block height=1 width=1&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+&lt;!-- YELLOW HEADER BAR:END --&gt;
+
+ 
+
+
+&lt;!-- START: BREADCRUMB --&gt;
+&lt;CENTER&gt;&lt;table border=0 cellspacing=0 cellpadding=1 width=750&gt;
+
+&lt;TR&gt;&lt;TD&gt;
+&lt;FONT FACE="arial" SIZE=-1&gt;
+&lt;A HREF="/py/ypBrowse.py?Pyt=Typ&amp;ycat=7737166&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--"&gt;&lt;B&gt;Top&lt;/B&gt;&lt;/A&gt; &amp;gt; &lt;A HREF="/py/ypBrowse.py?Pyt=Typ&amp;ycat=7737228&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--"&gt;&lt;B&gt;Food and Dining&lt;/B&gt;&lt;/A&gt; &amp;gt; &lt;A HREF="/py/ypBrowse.py?Pyt=Typ&amp;ycat=7766842&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--"&gt;&lt;B&gt;Restaurants&lt;/B&gt;&lt;/A&gt; &amp;gt; &lt;B&gt;Cafes&lt;/B&gt;
+&lt;/FONT&gt;
+&lt;/TD&gt;
+&lt;/TR&gt;
+&lt;/table&gt;&lt;/CENTER&gt;
+&lt;!-- END: BREADCRUMB --&gt;
+
+
+&lt;table border=0 cellspacing=0 cellpadding=0 width=750&gt;
+  &lt;tr&gt;
+    &lt;td height=2&gt;&lt;spacer type=block height=1&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+
+
+&lt;!-- START: MESSAGING --&gt;
+
+
+
+&lt;table border=0 bgcolor=FFCC33 cellpadding=0 cellspacing=0&gt;
+&lt;tr&gt;&lt;td&gt;
+  &lt;table width=100% border=0 cellspacing=1 cellpadding=5&gt; 
+&lt;tr align=center bgcolor=FFFFFF&gt;
+&lt;!-- SpaceID=292210046 loc=C1 noad --&gt;
+&lt;script type="text/javascript"&gt;
+if (window.yzq_a == null) document.write("&lt;scr" + "ipt type=text/javascript src=http://us.js1.yimg.com/us.yimg.com/lib/bc/bc_1.7.0.js&gt;&lt;/scr" + "ipt&gt;");
+&lt;/script&gt;&lt;script type="text/javascript"&gt;
+if (window.yzq_a)
+{
+yzq_a('p', 'P=0F6ID0LaR96nYNfBG81E5wJTgUE3E0KLd_4ACSel&amp;T=15nuet7p7%2fX%3d1116436478%2fE%3d292210046%2fR%3dyp%2fK%3d5%2fV%3d1.1%2fW%3ddefault%2fY%3dYAHOO%2fF%3d343383843%2fG%3dCgpjYQo4MDc-%2fH%3deXBsb2M9Jm5hbWU9OTIyMTAwNDYmc3RhdGU9Q0E-%2fS%3d1%2fJ%3dA349DA42');
+yzq_a('a', '&amp;U=1268ui6gc%2fN%3dUqPKPELaRYo-%2fC%3d-1%2fD%3dC1%2fB%3d-1');
+}
+&lt;/script&gt;&lt;noscript&gt;&lt;img width=1 height=1 alt="" src="http://bc.us.yahoo.com/b?P=0F6ID0LaR96nYNfBG81E5wJTgUE3E0KLd_4ACSel&amp;T=15t8gs4j5%2fX%3d1116436478%2fE%3d292210046%2fR%3dyp%2fK%3d5%2fV%3d2.1%2fW%3ddefault%2fY%3dYAHOO%2fF%3d1187443325%2fG%3dCgpjYQo4MDc-%2fH%3deXBsb2M9Jm5hbWU9OTIyMTAwNDYmc3RhdGU9Q0E-%2fQ%3d-1%2fS%3d1%2fJ%3dA349DA42&amp;U=1268ui6gc%2fN%3dUqPKPELaRYo-%2fC%3d-1%2fD%3dC1%2fB%3d-1"&gt;&lt;/noscript&gt;&lt;!-- SpaceID=292210046 loc=C noad --&gt;
+&lt;script type="text/javascript"&gt;
+if (window.yzq_a == null) document.write("&lt;scr" + "ipt type=text/javascript src=http://us.js1.yimg.com/us.yimg.com/lib/bc/bc_1.7.0.js&gt;&lt;/scr" + "ipt&gt;");
+&lt;/script&gt;&lt;script type="text/javascript"&gt;
+if (window.yzq_a)
+{
+yzq_a('p', 'P=0F6ID0LaR96nYNfBG81E5wJTgUE3E0KLd_4ACSel&amp;T=15ok85vh5%2fX%3d1116436478%2fE%3d292210046%2fR%3dyp%2fK%3d5%2fV%3d1.1%2fW%3ddefault%2fY%3dYAHOO%2fF%3d4055243402%2fG%3dCgpjYQo4MDc-%2fH%3deXBsb2M9Jm5hbWU9OTIyMTAwNDYmc3RhdGU9Q0E-%2fS%3d1%2fJ%3dA349DA42');
+yzq_a('a', '&amp;U=125ptf40k%2fN%3dUaPKPELaRYo-%2fC%3d-1%2fD%3dC%2fB%3d-1');
+}
+&lt;/script&gt;&lt;noscript&gt;&lt;img width=1 height=1 alt="" src="http://bc.us.yahoo.com/b?P=0F6ID0LaR96nYNfBG81E5wJTgUE3E0KLd_4ACSel&amp;T=15t3b25vi%2fX%3d1116436478%2fE%3d292210046%2fR%3dyp%2fK%3d5%2fV%3d2.1%2fW%3ddefault%2fY%3dYAHOO%2fF%3d3477419842%2fG%3dCgpjYQo4MDc-%2fH%3deXBsb2M9Jm5hbWU9OTIyMTAwNDYmc3RhdGU9Q0E-%2fQ%3d-1%2fS%3d1%2fJ%3dA349DA42&amp;U=125ptf40k%2fN%3dUaPKPELaRYo-%2fC%3d-1%2fD%3dC%2fB%3d-1"&gt;&lt;/noscript&gt;&lt;/tr&gt;
+  &lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+
+
+&lt;!-- OVERALL TABLE :BEGIN --&gt;
+&lt;CENTER&gt;&lt;table border=0 cellspacing=0 cellpadding=0 width=750&gt;
+
+&lt;!-- T-TABLE:BEGIN --&gt;
+&lt;TR&gt;
+&lt;!-- LEFT SIDEBAR:BEGIN --&gt;
+&lt;td width=750 valign=top align=center&gt;
+
+
+&lt;CENTER&gt;
+
+
+&lt;!-- RESULTS SECTION:BEGIN --&gt; 
+&lt;!-- RESULTS TABLE:BEGIN, FB Headers, FB Data, Counts, Header and Data  --&gt; 
+
+
+&lt;!-- OVERALL TABLE: ALL LISTINGS :BEGIN --&gt;
+
+
+
+
+&lt;div id="ypAllBus"&gt;
+
+&lt;!-- 3.2 TABLE: ALL LISTINGS :BEGIN --&gt;
+
+                &lt;div class="ypTab"&gt;&lt;big&gt;&lt;b&gt;All Businesses&lt;/b&gt;&lt;/big&gt;&lt;/div&gt;
+		                &lt;div class="ypPrevNext"&gt;&lt;small&gt;Showing 1 to 17 of 61
+&lt;br&gt;&lt;b&gt;
+    Previous
+    |&amp;nbsp;            &lt;A HREF="/py/ypResults.py?Pyt=Typ&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;doprox=1&amp;sorttype=distance&amp;beyond=1&amp;desc=Cafes&amp;offset=17&amp;FBoffset=0&amp;toggle=&amp;stat=ClkNxtUpper&amp;ls=&amp;lp=&amp;xargs=12KPjg1tpSrIGmmvmnCOObHb%5F%2Dvj0Zlpi3g5UzTYR6a9RL8nR2OdBELPDUmLF4WO5hm0aBnrYhyfZPHvDg4MsuJla8cRHYR7jq3%5Fic%5FJAVB5zwCsRE87MN9to%2E"&gt;Next&lt;/A&gt;
+      &lt;/b&gt;
+&lt;/small&gt;&lt;/div&gt;
+          &lt;table cellpadding="5" cellspacing="0" id="ypResultAll" width="750" border="0"&gt;
+                &lt;tr align="left"&gt;
+                    &lt;th width="500"&gt;&lt;small&gt;Business Name:&lt;/small&gt;&lt;/th&gt;
+                    &lt;th&gt;&lt;small&gt;Address:&lt;/small&gt;&lt;/th&gt;
+        	            	    &lt;th align="center"&gt;&lt;small&gt;Miles**&lt;/small&gt;&lt;/th&gt;
+        	    
+                &lt;/tr&gt;
+
+
+&lt;!-- ACTUAL RECORDS  --&gt; 
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;b&gt;&lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=14117822&amp;ck=1513534767&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:0:regular:regT:17:fbT:0"&gt;Fresh &amp; Natural Bobby's Cafe&lt;/a&gt;&lt;/b&gt;&lt;br&gt;
+                    &lt;b&gt;(415) 641-0177&lt;/b&gt;&amp;nbsp; 
+  		    &lt;/td&gt;
+                    &lt;td&gt;1300 Evans Ave&lt;br&gt;
+		    		    &lt;B&gt;San Francisco, CA&lt;/B&gt;
+                    &lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=14117822&amp;ck=1513534767&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:0:regular:regT:17:fbT:0"&gt;Map&lt;/a&gt;
+		                        &lt;/td&gt;
+                    &lt;td&gt;
+			  			&lt;p&gt;1.8&lt;/p&gt;
+			                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;b&gt;&lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=9852943&amp;ck=4079648465&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:1:regular:regT:17:fbT:0"&gt;Wok-In Cafeteria&lt;/a&gt;&lt;/b&gt;&lt;br&gt;
+                    &lt;b&gt;(415) 550-7200&lt;/b&gt;&amp;nbsp; 
+  		    &lt;/td&gt;
+                    &lt;td&gt;50 Mendell St # 6&lt;br&gt;
+		    		    &lt;B&gt;San Francisco, CA&lt;/B&gt;
+                    &lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=9852943&amp;ck=4079648465&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:1:regular:regT:17:fbT:0"&gt;Map&lt;/a&gt;
+		                        &lt;/td&gt;
+                    &lt;td&gt;
+			  			&lt;p&gt;2.0&lt;/p&gt;
+			                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;b&gt;&lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=9821781&amp;ck=2540218131&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:2:regular:regT:17:fbT:0"&gt;Mariposa Cafeteria&lt;/a&gt;&lt;/b&gt;&lt;br&gt;
+                    &lt;b&gt;(415) 285-5105&lt;/b&gt;&amp;nbsp; 
+  		    &lt;/td&gt;
+                    &lt;td&gt;1599 Tennessee St&lt;br&gt;
+		    		    &lt;B&gt;San Francisco, CA&lt;/B&gt;
+                    &lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=9821781&amp;ck=2540218131&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:2:regular:regT:17:fbT:0"&gt;Map&lt;/a&gt;
+		                        &lt;/td&gt;
+                    &lt;td&gt;
+			  			&lt;p&gt;2.3&lt;/p&gt;
+			                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;b&gt;&lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=21339942&amp;ck=2094231138&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:3:regular:regT:17:fbT:0"&gt;Bajoentalo&lt;/a&gt;&lt;/b&gt;&lt;br&gt;
+                    &lt;b&gt;(650) 758-1720&lt;/b&gt;&amp;nbsp; 
+  		    &lt;/td&gt;
+                    &lt;td&gt;6331 Mission St&lt;br&gt;
+		    		    &lt;B&gt;Daly City, CA&lt;/B&gt;
+                    &lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=21339942&amp;ck=2094231138&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:3:regular:regT:17:fbT:0"&gt;Map&lt;/a&gt;
+		                        &lt;/td&gt;
+                    &lt;td&gt;
+			  			&lt;p&gt;3.1&lt;/p&gt;
+			                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;b&gt;&lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=24475613&amp;ck=2695159003&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:4:regular:regT:17:fbT:0"&gt;S &amp; S Caesars Cafe&lt;/a&gt;&lt;/b&gt;&lt;br&gt;
+                    &lt;b&gt;(415) 621-3800&lt;/b&gt;&amp;nbsp; 
+  		    &lt;/td&gt;
+                    &lt;td&gt;208 Valencia St&lt;br&gt;
+		    		    &lt;B&gt;San Francisco, CA&lt;/B&gt;
+                    &lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=24475613&amp;ck=2695159003&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:4:regular:regT:17:fbT:0"&gt;Map&lt;/a&gt;
+		                        &lt;/td&gt;
+                    &lt;td&gt;
+			  			&lt;p&gt;3.3&lt;/p&gt;
+			                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;b&gt;&lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=9810868&amp;ck=507346175&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:5:regular:regT:17:fbT:0"&gt;Betty's Cafeteria&lt;/a&gt;&lt;/b&gt;&lt;br&gt;
+                    &lt;b&gt;(415) 431-2525&lt;/b&gt;&amp;nbsp; 
+  		    &lt;/td&gt;
+                    &lt;td&gt;167 11th St&lt;br&gt;
+		    		    &lt;B&gt;San Francisco, CA&lt;/B&gt;
+                    &lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=9810868&amp;ck=507346175&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:5:regular:regT:17:fbT:0"&gt;Map&lt;/a&gt;
+		                        &lt;/td&gt;
+                    &lt;td&gt;
+			  			&lt;p&gt;3.5&lt;/p&gt;
+			                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;b&gt;&lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=9809343&amp;ck=4073495391&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:6:regular:regT:17:fbT:0"&gt;Espace&lt;/a&gt;&lt;/b&gt;&lt;br&gt;
+                    &lt;b&gt;(415) 861-9473&lt;/b&gt;&amp;nbsp; 
+  		    &lt;/td&gt;
+                    &lt;td&gt;520 Hayes St&lt;br&gt;
+		    		    &lt;B&gt;San Francisco, CA&lt;/B&gt;
+                    &lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=9809343&amp;ck=4073495391&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:6:regular:regT:17:fbT:0"&gt;Map&lt;/a&gt;
+		                        &lt;/td&gt;
+                    &lt;td&gt;
+			  			&lt;p&gt;3.8&lt;/p&gt;
+			                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;b&gt;&lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=9808972&amp;ck=404063910&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:7:regular:regT:17:fbT:0"&gt;Russell's Cafeteria&lt;/a&gt;&lt;/b&gt;&lt;br&gt;
+                    &lt;b&gt;(415) 626-0321&lt;/b&gt;&amp;nbsp; 
+  		    &lt;/td&gt;
+                    &lt;td&gt;505 Van Ness Ave&lt;br&gt;
+		    		    &lt;B&gt;San Francisco, CA&lt;/B&gt;
+                    &lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=9808972&amp;ck=404063910&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:7:regular:regT:17:fbT:0"&gt;Map&lt;/a&gt;
+		                        &lt;/td&gt;
+                    &lt;td&gt;
+			  			&lt;p&gt;4.0&lt;/p&gt;
+			                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;b&gt;&lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=24288104&amp;ck=511941914&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:8:regular:regT:17:fbT:0"&gt;E &amp; M Cafe&lt;/a&gt;&lt;/b&gt;&lt;br&gt;
+                    &lt;b&gt;(415) 775-5339&lt;/b&gt;&amp;nbsp; 
+  		    &lt;/td&gt;
+                    &lt;td&gt;380 Golden Gate Ave&lt;br&gt;
+		    		    &lt;B&gt;San Francisco, CA&lt;/B&gt;
+                    &lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=24288104&amp;ck=511941914&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:8:regular:regT:17:fbT:0"&gt;Map&lt;/a&gt;
+		                        &lt;/td&gt;
+                    &lt;td&gt;
+			  			&lt;p&gt;4.1&lt;/p&gt;
+			                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;b&gt;&lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=11047799&amp;ck=215894533&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:9:regular:regT:17:fbT:0"&gt;Quynh Nhi Coffee Shop&lt;/a&gt;&lt;/b&gt;&lt;br&gt;
+                    &lt;b&gt;(415) 885-3361&lt;/b&gt;&amp;nbsp; 
+  		    &lt;/td&gt;
+                    &lt;td&gt;642 Eddy St&lt;br&gt;
+		    		    &lt;B&gt;San Francisco, CA&lt;/B&gt;
+                    &lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=11047799&amp;ck=215894533&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:9:regular:regT:17:fbT:0"&gt;Map&lt;/a&gt;
+		                        &lt;/td&gt;
+                    &lt;td&gt;
+			  			&lt;p&gt;4.2&lt;/p&gt;
+			                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;b&gt;&lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=9807484&amp;ck=4050089805&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:10:regular:regT:17:fbT:0"&gt;Kim Huong Banh Mi&lt;/a&gt;&lt;/b&gt;&lt;br&gt;
+                    &lt;b&gt;(415) 928-0928&lt;/b&gt;&amp;nbsp; 
+  		    &lt;/td&gt;
+                    &lt;td&gt;325 Leavenworth St&lt;br&gt;
+		    		    &lt;B&gt;San Francisco, CA&lt;/B&gt;
+                    &lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=9807484&amp;ck=4050089805&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:10:regular:regT:17:fbT:0"&gt;Map&lt;/a&gt;
+		                        &lt;/td&gt;
+                    &lt;td&gt;
+			  			&lt;p&gt;4.2&lt;/p&gt;
+			                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;b&gt;&lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=24476986&amp;ck=3739479811&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:11:regular:regT:17:fbT:0"&gt;Slider&lt;/a&gt;&lt;/b&gt;&lt;br&gt;
+                    &lt;b&gt;(415) 753-1453&lt;/b&gt;&amp;nbsp; 
+  		    &lt;/td&gt;
+                    &lt;td&gt;1233 9th Ave&lt;br&gt;
+		    		    &lt;B&gt;San Francisco, CA&lt;/B&gt;
+                    &lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=24476986&amp;ck=3739479811&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:11:regular:regT:17:fbT:0"&gt;Map&lt;/a&gt;
+		                        &lt;/td&gt;
+                    &lt;td&gt;
+			  			&lt;p&gt;4.3&lt;/p&gt;
+			                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;b&gt;&lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=21342971&amp;ck=1315069630&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:12:regular:regT:17:fbT:0"&gt;Cafe Hurghada&lt;/a&gt;&lt;/b&gt;&lt;br&gt;
+                    &lt;b&gt;(415) 614-2420&lt;/b&gt;&amp;nbsp; 
+  		    &lt;/td&gt;
+                    &lt;td&gt;457 Hyde St&lt;br&gt;
+		    		    &lt;B&gt;San Francisco, CA&lt;/B&gt;
+                    &lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=21342971&amp;ck=1315069630&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:12:regular:regT:17:fbT:0"&gt;Map&lt;/a&gt;
+		                        &lt;/td&gt;
+                    &lt;td&gt;
+			  			&lt;p&gt;4.3&lt;/p&gt;
+			                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;b&gt;&lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=9828421&amp;ck=838646497&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:13:regular:regT:17:fbT:0"&gt;Hoang Dat Coffee Shop&lt;/a&gt;&lt;/b&gt;&lt;br&gt;
+                    &lt;b&gt;(510) 923-5254&lt;/b&gt;&amp;nbsp; 
+  		    &lt;/td&gt;
+                    &lt;td&gt;930 Geary St&lt;br&gt;
+		    		    &lt;B&gt;San Francisco, CA&lt;/B&gt;
+                    &lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=9828421&amp;ck=838646497&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:13:regular:regT:17:fbT:0"&gt;Map&lt;/a&gt;
+		                        &lt;/td&gt;
+                    &lt;td&gt;
+			  			&lt;p&gt;4.4&lt;/p&gt;
+			                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;b&gt;&lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=20532238&amp;ck=3980881656&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:14:regular:regT:17:fbT:0"&gt;Gabby Cafe&lt;/a&gt;&lt;/b&gt;&lt;br&gt;
+                    &lt;b&gt;(415) 777-3354&lt;/b&gt;&amp;nbsp; 
+  		    &lt;/td&gt;
+                    &lt;td&gt;201 Harrison St&lt;br&gt;
+		    		    &lt;B&gt;San Francisco, CA&lt;/B&gt;
+                    &lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=20532238&amp;ck=3980881656&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:14:regular:regT:17:fbT:0"&gt;Map&lt;/a&gt;
+		                        &lt;/td&gt;
+                    &lt;td&gt;
+			  			&lt;p&gt;4.6&lt;/p&gt;
+			                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;b&gt;&lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=9827437&amp;ck=2428682141&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:15:regular:regT:17:fbT:0"&gt;Tomato &amp; Basil&lt;/a&gt;&lt;/b&gt;&lt;br&gt;
+                    &lt;b&gt;(415) 433-2800&lt;/b&gt;&amp;nbsp; 
+  		    &lt;/td&gt;
+                    &lt;td&gt;305 Kearny St&lt;br&gt;
+		    		    &lt;B&gt;San Francisco, CA&lt;/B&gt;
+                    &lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=9827437&amp;ck=2428682141&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:15:regular:regT:17:fbT:0"&gt;Map&lt;/a&gt;
+		                        &lt;/td&gt;
+                    &lt;td&gt;
+			  			&lt;p&gt;4.7&lt;/p&gt;
+			                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&lt;b&gt;&lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=21345266&amp;ck=376483192&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:16:regular:regT:17:fbT:0"&gt;Maze Cafe&lt;/a&gt;&lt;/b&gt;&lt;br&gt;
+                    &lt;b&gt;(415) 379-1668&lt;/b&gt;&amp;nbsp; 
+  		    &lt;/td&gt;
+                    &lt;td&gt;4134 Geary Blvd&lt;br&gt;
+		    		    &lt;B&gt;San Francisco, CA&lt;/B&gt;
+                    &lt;a href="/py/ypMap.py?Pyt=Typ&amp;tuid=21345266&amp;ck=376483192&amp;tab=B2C&amp;ycat=92210046&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;stat=:pos:16:regular:regT:17:fbT:0"&gt;Map&lt;/a&gt;
+		                        &lt;/td&gt;
+                    &lt;td&gt;
+			  			&lt;p&gt;5.0&lt;/p&gt;
+			                    &lt;/td&gt;
+                &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;!-- DISTANCE FOOTNOTE --&gt;
+&lt;div id="ypAllBusDis"&gt;&lt;small&gt;
+** Distances are in Miles from 
+  the center of San Francisco, CA 94134
+ &lt;/small&gt;&lt;/div&gt;
+
+        &lt;div id="ypPagination"&gt;&lt;small&gt;Showing 1-17 of 61
+  &amp;nbsp;|&amp;nbsp;&lt;b&gt;
+    Previous
+    |&amp;nbsp;            &lt;A HREF="/py/ypResults.py?Pyt=Typ&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;doprox=1&amp;sorttype=distance&amp;beyond=1&amp;desc=Cafes&amp;offset=17&amp;FBoffset=0&amp;toggle=&amp;stat=ClkNxtUpper&amp;ls=&amp;lp=&amp;xargs=12KPjg1tpSrIGmmvmnCOObHb%5F%2Dvj0Zlpi3g5UzTYR6a9RL8nR2OdBELPDUmLF4WO5hm0aBnrYhyfZPHvDg4MsuJla8cRHYR7jq3%5Fic%5FJAVB5zwCsRE87MN9to%2E"&gt;Next&lt;/A&gt;
+      &lt;/b&gt;
+	&lt;/small&gt;&lt;/div&gt;
+
+
+
+&lt;!-- 3.2 TABLE: ALL LISTINGS :END --&gt;
+
+
+
+&lt;!-- RESULTS TABLE:END --&gt; 
+
+		&lt;!-- ALPHABETIC SEARCH.. A, B, C, etc --&gt;
+	&lt;div id="ypAlphaSrch"&gt;&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=A"&gt;A&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=B"&gt;B&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=C"&gt;C&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=D"&gt;D&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=E"&gt;E&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=F"&gt;F&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=G"&gt;G&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=H"&gt;H&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=I"&gt;I&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=J"&gt;J&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=K"&gt;K&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=L"&gt;L&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=M"&gt;M&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=N"&gt;N&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=O"&gt;O&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=P"&gt;P&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=Q"&gt;Q&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=R"&gt;R&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=S"&gt;S&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=T"&gt;T&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=U"&gt;U&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=V"&gt;V&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=W"&gt;W&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=X"&gt;X&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=Y"&gt;Y&lt;/a&gt;
+&lt;a href="/py/ypResults.py?Pyt=&amp;city=San+Francisco&amp;state=CA&amp;zip=94134&amp;uzip=94134&amp;country=us&amp;msa=7360&amp;cs=5&amp;ed=qlCd9q1o2TzYcSQjmowHYbB25Xr_iTRSS3KhrZnjSWlCbw--&amp;tab=B2C&amp;stx=92210046&amp;stp=y&amp;desc=Cafes&amp;doprox=1&amp;a=Z"&gt;Z&lt;/a&gt;
+all
+&lt;/div&gt;
+	
+
+&lt;CENTER&gt;
+&lt;!-- SpaceID=292210046 loc=SL noad-spid --&gt;
+&lt;script type="text/javascript"&gt;
+if (window.yzq_a == null) document.write("&lt;scr" + "ipt type=text/javascript src=http://us.js1.yimg.com/us.yimg.com/lib/bc/bc_1.7.0.js&gt;&lt;/scr" + "ipt&gt;");
+&lt;/script&gt;&lt;script type="text/javascript"&gt;
+if (window.yzq_a)
+{
+yzq_a('p', 'P=0F6ID0LaR96nYNfBG81E5wJTgUE3E0KLd_4ACSel&amp;T=15oaqb9fk%2fX%3d1116436478%2fE%3d292210046%2fR%3dyp%2fK%3d5%2fV%3d1.1%2fW%3ddefault%2fY%3dYAHOO%2fF%3d3713693898%2fG%3dCgpjYQo4MDc-%2fH%3deXBsb2M9Jm5hbWU9OTIyMTAwNDYmc3RhdGU9Q0E-%2fS%3d1%2fJ%3dA349DA42');
+yzq_a('a', '&amp;U=126kch9al%2fN%3dV6PKPELaRYo-%2fC%3d-2%2fD%3dSL%2fB%3d-2');
+}
+&lt;/script&gt;&lt;noscript&gt;&lt;img width=1 height=1 alt="" src="http://bc.us.yahoo.com/b?P=0F6ID0LaR96nYNfBG81E5wJTgUE3E0KLd_4ACSel&amp;T=15t67gkaa%2fX%3d1116436478%2fE%3d292210046%2fR%3dyp%2fK%3d5%2fV%3d2.1%2fW%3ddefault%2fY%3dYAHOO%2fF%3d1852365374%2fG%3dCgpjYQo4MDc-%2fH%3deXBsb2M9Jm5hbWU9OTIyMTAwNDYmc3RhdGU9Q0E-%2fQ%3d-1%2fS%3d1%2fJ%3dA349DA42&amp;U=126kch9al%2fN%3dV6PKPELaRYo-%2fC%3d-2%2fD%3dSL%2fB%3d-2"&gt;&lt;/noscript&gt;&lt;/CENTER&gt;
+
+
+
+
+
+&lt;div id="ypAllBusDis"&gt;&lt;small&gt;
+Some links and information accompanying the All Businesses listings may be provided by Yahoo! and Yahoo!'s content providers, and are not affiliated with or endorsed by the listers or their listing agents.
+&lt;/small&gt;&lt;/div&gt;
+
+&lt;!-- NEW SEARCH BOX --&gt;
+&lt;form name="yp" method="GET" action="/py/yploc.py" &gt;
+   &lt;center&gt;&lt;div id="ypModSearchHdr"&gt;&lt;big&gt;&lt;b&gt;Modify your Search&lt;/b&gt;&lt;/big&gt;&lt;/div&gt;
+   &lt;div id="ypModSearch"&gt;
+   &lt;table cellpadding="3" cellspacing="0" border="0" id="ypModSearchTbl"&gt;
+   &lt;tr valign="top"&gt;&lt;td width="120" align="right"&gt;&lt;small&gt;&lt;b&gt;SEARCH:&lt;/b&gt;&lt;/small&gt;&lt;/td&gt;&lt;td&gt;
+        &lt;input type="text" name="stx" size=25&gt;
+     &lt;input type="hidden" name="syct" value="92210046"&gt;
+        &lt;input type="hidden" name="stp" value="a"&gt;
+     &lt;input type="hidden" name="clr"  value="ypResults"&gt;
+     &lt;input type="hidden" name="submit" value="1"&gt;
+      &lt;br&gt;&lt;small&gt;(by name or category)&lt;/small&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr valign="top"&gt;&lt;td align="right"&gt;&lt;small&gt;&lt;b&gt;Locations:&lt;/b&gt;&lt;/small&gt;&lt;/td&gt;
+     &lt;td&gt;&lt;select name="newFL" onChange="setFL(document.yp.newFL)"&gt;
+	&lt;option size="25"&gt;---none selected---&lt;option&gt;
+  		
+	&lt;/select&gt;&lt;br&gt;&lt;small&gt;(Address, Intersection or &lt;a href="http://help.yahoo.com/help/maps/maps-13.html"&gt;Airport Code&lt;/a&gt;)&lt;/small&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;&lt;td colspan="2"&gt;&lt;hr&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr valign="top"&gt;&lt;td align="right"&gt;&lt;small&gt;&lt;b&gt;Address:&lt;/b&gt;&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;div style="float:left;"&gt;&lt;input type="text" size="25" name="addr_in" value=""&gt;&lt;br&gt;&lt;small&gt;(Optional)&lt;/small&gt;&lt;/div&gt;
+   &lt;div id="ypTips"&gt;&lt;small&gt;&lt;b&gt;Tip:&lt;/b&gt; If you specify an address, we will search for businesses closest to that address.&lt;/small&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;&lt;td colspan="2"&gt;&lt;hr&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr valign="top"&gt;&lt;td align="right"&gt;&lt;small&gt;&lt;b&gt;City, State or Zip:&lt;/b&gt;&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;input type="text" size="25" name="csz_in" value="San Francisco CA 94134"&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr valign="top"&gt;&lt;td align="right"&gt;&lt;small&gt;&lt;b&gt;Country:&lt;/b&gt;&lt;/small&gt;&lt;/td&gt;&lt;td&gt;&lt;select name="country_in"&gt;
+	&lt;option value="us" selected&gt;United States
+	&lt;option value="ca"&gt;Canada
+	&lt;/select&gt;&lt;/td&gt;
+&lt;/tr&gt;
+   &lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;input type="submit" value="Continue"&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;/table&gt;
+   &lt;/div&gt;
+   &lt;/center&gt;
+&lt;/form&gt;
+
+&lt;/div&gt; &lt;!-- END YP CONTAINER DIV --&gt;
+
+
+&lt;/CENTER&gt;
+&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;
+&lt;/CENTER&gt;
+&lt;!-- RESULTS SECTION:END --&gt; 
+
+
+
+&lt;center&gt;
+&lt;HR SIZE=1 WIDTH=750 NOSHADE&gt;
+
+&lt;BR&gt;
+&lt;FONT FACE="ARIAL" SIZE=-1&gt;&lt;B&gt;In Affiliation With&lt;/B&gt;&lt;/FONT&gt;
+&lt;center&gt;
+&lt;table border=0 cellspacing=0 cellpadding=0&gt;&lt;tr&gt;
+&lt;td&gt;&lt;img border=0 src="http://us.i1.yimg.com/us.yimg.com/i/us/smartpages2_131.gif" WIDTH="131" HEIGHT="40" ALT="SMARTpages.com"&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;/center&gt;
+
+
+
+&lt;font face=arial size="-2"&gt;Business Information provided by &lt;A HREF="http://list.infousa.com/dbupdate.htm"&gt;InfoUSA&lt;/A&gt; &amp;#174;,
+Omaha, Nebraska Copyright &amp;#169; 2005.&lt;br&gt; 
+All Rights Reserved. Use Subject to &lt;A HREF="http://help.yahoo.com/help/us/yp/yp-16.html"&gt;License&lt;/A&gt;.&lt;/font&gt;&lt;p&gt;
+
+&lt;!-- CROSS LINK --&gt;
+
+&lt;table width="750" border="0" cellspacing="0" cellpadding="1" bgcolor="#999999"&gt;
+&lt;tr&gt;&lt;td&gt;
+
+&lt;table width="100%" border="0" cellspacing="0" cellpadding="2" bgcolor="#999999"&gt;
+&lt;tr&gt;
+&lt;td bgcolor=#ffffff align=center&gt;&lt;font face="Arial" size="-1"&gt;
+&lt;a href="http://maps.yahoo.com/dd"&gt;Driving Directions&lt;/a&gt; - 
+ &lt;a href="http://local.yahoo.com/"&gt;Local&lt;/a&gt; -
+&lt;a href="http://maps.yahoo.com"&gt;Maps&lt;/a&gt; - 
+ &lt;a href="http://realestate.yahoo.com/"&gt;Real Estate&lt;/a&gt; -
+&lt;a href="http://yp.yahoo.com/"&gt;Yellow Pages&lt;/a&gt;
+&lt;/font&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+
+&lt;BR&gt;
+
+&lt;FONT SIZE=-2 FACE=Arial&gt;
+Copyright &amp;copy; 2005 Yahoo! Inc. All rights reserved. &lt;A HREF="http://us.ard.yahoo.com/SIG=126040o7f/M=289534.5977034.7000504.5520761/D=yp/S=292210046:FOOT/EXP=1116443678/A=2558486/R=0/SIG=110b1204c/*http://help.yahoo.com/help/yp/"&gt;Help&lt;/A&gt; - &lt;A HREF="http://us.ard.yahoo.com/SIG=126040o7f/M=289534.5977034.7000504.5520761/D=yp/S=292210046:FOOT/EXP=1116443678/A=2558486/R=1/SIG=11lp7krrc/*http://docs.yahoo.com/info/copyright/copyright.html"&gt;Copyright/IP Policy&lt;/A&gt; - &lt;a href=http://us.ard.yahoo.com/SIG=126040o7f/M=289534.5977034.7000504.5520761/D=yp/S=292210046:FOOT/EXP=1116443678/A=2558486/R=2/SIG=118sbmeoc/*http://privacy.yahoo.com/privacy/us/yp&gt;Privacy Policy&lt;/a&gt; - &lt;a href=http://us.ard.yahoo.com/SIG=126040o7f/M=289534.5977034.7000504.5520761/D=yp/S=292210046:FOOT/EXP=1116443678/A=2558486/R=3/SIG=1136qnvkg/*http://docs.yahoo.com/info/terms/&gt;Terms of Service&lt;/a&gt;&lt;script type="text/javascript"&gt;
+if (window.yzq_a == null) document.write("&lt;scr" + "ipt type=text/javascript src=http://us.js1.yimg.com/us.yimg.com/lib/bc/bc_1.7.0.js&gt;&lt;/scr" + "ipt&gt;");
+&lt;/script&gt;&lt;script type="text/javascript"&gt;
+if (window.yzq_a)
+{
+yzq_a('p', 'P=0F6ID0LaR96nYNfBG81E5wJTgUE3E0KLd_4ACSel&amp;T=15o90ikil%2fX%3d1116436478%2fE%3d292210046%2fR%3dyp%2fK%3d5%2fV%3d1.1%2fW%3ddefault%2fY%3dYAHOO%2fF%3d2765337765%2fG%3dCgpjYQo4MDc-%2fH%3deXBsb2M9Jm5hbWU9OTIyMTAwNDYmc3RhdGU9Q0E-%2fS%3d1%2fJ%3dA349DA42');
+yzq_a('a', '&amp;U=1399heu7e%2fN%3dVaPKPELaRYo-%2fC%3d289534.5977034.7000504.5520761%2fD%3dFOOT%2fB%3d2558486');
+}
+&lt;/script&gt;&lt;noscript&gt;&lt;img width=1 height=1 alt="" src="http://bc.us.yahoo.com/b?P=0F6ID0LaR96nYNfBG81E5wJTgUE3E0KLd_4ACSel&amp;T=15tgdog63%2fX%3d1116436478%2fE%3d292210046%2fR%3dyp%2fK%3d5%2fV%3d2.1%2fW%3ddefault%2fY%3dYAHOO%2fF%3d1636722553%2fG%3dCgpjYQo4MDc-%2fH%3deXBsb2M9Jm5hbWU9OTIyMTAwNDYmc3RhdGU9Q0E-%2fQ%3d-1%2fS%3d1%2fJ%3dA349DA42&amp;U=1399heu7e%2fN%3dVaPKPELaRYo-%2fC%3d289534.5977034.7000504.5520761%2fD%3dFOOT%2fB%3d2558486"&gt;&lt;/noscript&gt;&lt;/FONT&gt;
+&lt;BR&gt;
+
+&lt;script language="javascript" src="http://us.i1.yimg.com/us.yimg.com/i/mc/mc.js"&gt;&lt;/script&gt; 
+&lt;/center&gt;
+
+&lt;/center&gt;
+&lt;!-- SpaceID=292210046 loc=SPON noad-spid --&gt;
+&lt;script type="text/javascript"&gt;
+if (window.yzq_a == null) document.write("&lt;scr" + "ipt type=text/javascript src=http://us.js1.yimg.com/us.yimg.com/lib/bc/bc_1.7.0.js&gt;&lt;/scr" + "ipt&gt;");
+&lt;/script&gt;&lt;script type="text/javascript"&gt;
+if (window.yzq_a)
+{
+yzq_a('p', 'P=0F6ID0LaR96nYNfBG81E5wJTgUE3E0KLd_4ACSel&amp;T=15nrj97fv%2fX%3d1116436478%2fE%3d292210046%2fR%3dyp%2fK%3d5%2fV%3d1.1%2fW%3ddefault%2fY%3dYAHOO%2fF%3d410327290%2fG%3dCgpjYQo4MDc-%2fH%3deXBsb2M9Jm5hbWU9OTIyMTAwNDYmc3RhdGU9Q0E-%2fS%3d1%2fJ%3dA349DA42');
+yzq_a('a', '&amp;U=128fceuo8%2fN%3dVqPKPELaRYo-%2fC%3d-2%2fD%3dSPON%2fB%3d-2');
+}
+&lt;/script&gt;&lt;noscript&gt;&lt;img width=1 height=1 alt="" src="http://bc.us.yahoo.com/b?P=0F6ID0LaR96nYNfBG81E5wJTgUE3E0KLd_4ACSel&amp;T=15tstjeia%2fX%3d1116436478%2fE%3d292210046%2fR%3dyp%2fK%3d5%2fV%3d2.1%2fW%3ddefault%2fY%3dYAHOO%2fF%3d1304907703%2fG%3dCgpjYQo4MDc-%2fH%3deXBsb2M9Jm5hbWU9OTIyMTAwNDYmc3RhdGU9Q0E-%2fQ%3d-1%2fS%3d1%2fJ%3dA349DA42&amp;U=128fceuo8%2fN%3dVqPKPELaRYo-%2fC%3d-2%2fD%3dSPON%2fB%3d-2"&gt;&lt;/noscript&gt;
+
+&lt;!-- Times:   s:1116436478.600,gc:1116436478.708,e:1116436478.725 --&gt;
+&lt;/BODY&gt;&lt;/HTML&gt;
+&lt;script type="text/javascript"&gt;
+if (window.yzq_a == null) document.write("&lt;scr" + "ipt type=text/javascript src=http://us.js1.yimg.com/us.yimg.com/lib/bc/bc_1.7.0.js&gt;&lt;/scr" + "ipt&gt;");
+&lt;/script&gt;&lt;script type="text/javascript"&gt;
+if (window.yzq_a) yzq_a('p', 'P=0F6ID0LaR96nYNfBG81E5wJTgUE3E0KLd_4ACSel&amp;T=15ohamhml%2fX%3d1116436478%2fE%3d292210046%2fR%3dyp%2fK%3d5%2fV%3d1.1%2fW%3ddefault%2fY%3dYAHOO%2fF%3d1191155856%2fG%3dCgpjYQo4MDc-%2fH%3deXBsb2M9Jm5hbWU9OTIyMTAwNDYmc3RhdGU9Q0E-%2fS%3d1%2fJ%3dA349DA42');
+if (window.yzq_gb &amp;&amp; window.yzq4) yzq4();
+else if (window.yzq_eh) yzq_eh();
+&lt;/script&gt;&lt;noscript&gt;&lt;img width=1 height=1 alt="" src="http://bc.us.yahoo.com/b?P=0F6ID0LaR96nYNfBG81E5wJTgUE3E0KLd_4ACSel&amp;T=15tbcllgo%2fX%3d1116436478%2fE%3d292210046%2fR%3dyp%2fK%3d5%2fV%3d3.1%2fW%3ddefault%2fY%3dYAHOO%2fF%3d3722356357%2fG%3dCgpjYQo4MDc-%2fH%3deXBsb2M9Jm5hbWU9OTIyMTAwNDYmc3RhdGU9Q0E-%2fQ%3d-1%2fS%3d1%2fJ%3dA349DA42"&gt;&lt;/noscript&gt;
+&lt;!-- web4.yp.scd.yahoo.com uncompressed/chunked Wed May 18 10:14:38 PDT 2005 --&gt;
+</Content>
+    <DateAdded>2006-04-10T13:22:07.687-07:00</DateAdded>
+  </Url>
+</ScraperDB>

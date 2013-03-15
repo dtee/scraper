@@ -1,0 +1,125 @@
+<?xml version="1.0" standalone="yes"?>
+<ScraperDB xmlns="http://tempuri.org/ScraperDB.xsd">
+  <TagLibrary>
+    <TagID>-1</TagID>
+    <ProjectID>-1</ProjectID>
+    <TagName>Root</TagName>
+    <StartTag />
+    <EndTag />
+    <DynamicCode />
+    <OrderNumber>0</OrderNumber>
+    <MaxChars>0</MaxChars>
+    <IsAppendStartTag>false</IsAppendStartTag>
+    <IsAppendEndTag>false</IsAppendEndTag>
+    <IsStartTagRegex>false</IsStartTagRegex>
+    <IsEndTagRegex>false</IsEndTagRegex>
+    <IsOptional>false</IsOptional>
+    <IsSingleRegex>false</IsSingleRegex>
+    <isReverseSearch>false</isReverseSearch>
+    <IsURL>false</IsURL>
+    <IsDisabled>false</IsDisabled>
+    <isSaveData>false</isSaveData>
+    <IsDataTable>false</IsDataTable>
+    <TagLibrary>
+      <TagID>-2</TagID>
+      <Parent_TagID>-1</Parent_TagID>
+      <ProjectID>-1</ProjectID>
+      <TagName>TempNode0</TagName>
+      <StartTag>\d+</StartTag>
+      <EndTag />
+      <DynamicCode />
+      <OrderNumber>0</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>true</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>false</isSaveData>
+      <IsDataTable>false</IsDataTable>
+    </TagLibrary>
+  </TagLibrary>
+  <CrawlProject>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>SingleRegexDigit.sprj</Name>
+    <ProxyCheckUrl />
+    <ProxyCheckContent />
+    <IsSaveContent>false</IsSaveContent>
+    <Threads>10</Threads>
+    <DownloadDelay>10</DownloadDelay>
+    <TotalUrl>0</TotalUrl>
+    <TotalUrlLeft>0</TotalUrlLeft>
+    <ConnectionPerIP>5</ConnectionPerIP>
+  </CrawlProject>
+  <UrlStatus>
+    <UrlStatusID>1</UrlStatusID>
+    <Name>Assigned</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>3</UrlStatusID>
+    <Name>Finished</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>2</UrlStatusID>
+    <Name>Error</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>0</UrlStatusID>
+    <Name>Ready</Name>
+  </UrlStatus>
+  <Project>
+    <ProjectID>-1</ProjectID>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>Project 1</Name>
+  </Project>
+  <Project_Url>
+    <UrlID>-1</UrlID>
+    <ProjectID>-1</ProjectID>
+    <IsScraped>false</IsScraped>
+    <ProjUrlID>-1</ProjUrlID>
+  </Project_Url>
+  <Proxy>
+    <ProxyID>-1</ProxyID>
+    <ProxyStatusID>0</ProxyStatusID>
+    <ProxyLink>localhost</ProxyLink>
+    <ProxyPort>80</ProxyPort>
+    <AverageSpeed>0</AverageSpeed>
+    <AveragePing>0</AveragePing>
+    <MaxConnection>0</MaxConnection>
+    <TotalTimeout>0</TotalTimeout>
+    <TotalAnonymous>0</TotalAnonymous>
+  </Proxy>
+  <ProxyStatus>
+    <ProxyStatusID>0</ProxyStatusID>
+    <StatusName>Ready</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>1</ProxyStatusID>
+    <StatusName>Checking</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>2</ProxyStatusID>
+    <StatusName>Unknown</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>3</ProxyStatusID>
+    <StatusName>Error</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <Url>
+    <UrlID>-1</UrlID>
+    <UrlStatusID>0</UrlStatusID>
+    <Url>http://www.slickdeals.net</Url>
+    <UrlReferer />
+    <PostData />
+    <Content>Enter Sample Content</Content>
+    <DateAdded>2006-05-12T20:17:16.0307123-07:00</DateAdded>
+  </Url>
+</ScraperDB>

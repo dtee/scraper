@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Data>
+    <Major>CSC</Major>
+    <Name>David</Name>
+  </Data>
+  <Data>
+    <Major>MU</Major>
+    <Name>John</Name>
+  </Data>
+  <Data>
+    <Major>CPE</Major>
+    <Name>Joe</Name>
+  </Data>
+</DocumentElement>

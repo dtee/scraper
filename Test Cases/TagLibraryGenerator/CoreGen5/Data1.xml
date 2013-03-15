@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Data>
+    <Major>CSC</Major>
+    <F1>3</F1>
+    <F2>2</F2>
+    <F3>1</F3>
+    <Name>David</Name>
+  </Data>
+  <Data>
+    <Major>MU</Major>
+    <F1>5</F1>
+    <F2>6</F2>
+    <F3>7</F3>
+    <Name>John</Name>
+  </Data>
+  <Data>
+    <Major>CPE</Major>
+    <F1>8</F1>
+    <F2>9</F2>
+    <F3>4</F3>
+    <Name>Joe</Name>
+  </Data>
+</DocumentElement>

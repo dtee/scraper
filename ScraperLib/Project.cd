@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="ScraperLib.CrawlProject">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Project\CrawlProject.vb</FileName>
+      <HashCode>GAIUABAQAAICCBFACAAAkAAgEAACABgBIAANAEgUIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScraperLib.UrlManager">
+    <Position X="6.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Project\UrlManager.vb</FileName>
+      <HashCode>gAAAoAABAQAAAEAwAAAIIQACCABAAAAgAhEEABAAEQA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="ScraperLib.UrlManager.UrlStatus">
+        <TypeIdentifier>
+          <NewMemberFileName>Project\UrlManager.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="ScraperLib.UrlManager.UrlMap">
+        <TypeIdentifier>
+          <NewMemberFileName>Project\UrlManager.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+  </Class>
+  <Class Name="ScraperLib.CrawlProjectManager">
+    <Position X="4.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Project\CrawlProjectManager.vb</FileName>
+      <HashCode>AAAEAAAAAAIAAAAAAAAAAAAAEAIAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScraperLib.DataMappingManager">
+    <Position X="0.5" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Project\DataMappingManager.vb</FileName>
+      <HashCode>AAAAABAAQAAAAAAAAAgAAAAAAAAACAgAAAAAAAAkAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScraperLib.LinkMap">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Project\LinkMap.vb</FileName>
+      <HashCode>ABAAAAAAABABKAAEACAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScraperLib.LinkMappingManager">
+    <Position X="4.5" Y="3" Width="2" />
+    <TypeIdentifier>
+      <FileName>Project\LinkMappingManager.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAEgABAgAgAgCkQEACAAAAAAACAAgAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScraperLib.Project">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Project\Project.vb</FileName>
+      <HashCode>AAAAQAAAAAIQAAAACAAABAAABAAAAEoAAGAAAAAhAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScraperLib.ProjectManager">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Project\ProjectManager.vb</FileName>
+      <HashCode>AAAAgAAAAAEAAAAAAAAAAgAAgAAAAEAAAAAAACAgAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScraperLib.Cron">
+    <Position X="8.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Cron\Cron.vb</FileName>
+      <HashCode>ACgAAEAAAEACAAAAAJAAAAACAIAEAKIEBAAEAgIBAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="ScraperLib.Cron.CronDate">
+        <TypeIdentifier>
+          <NewMemberFileName>Cron\Cron.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+  </Class>
+  <Class Name="ScraperLib.CronManager">
+    <Position X="4.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Cron\CronManager.vb</FileName>
+      <HashCode>AAAAAAAAAACAAgAACACABAAAAAABAAAEAAAAAAAgAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScraperLib.Scraper">
+    <Position X="8.75" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Extraction\Scraper.vb</FileName>
+      <HashCode>AAAICAIIAAAICAAABAAAAAAAAAAEAAAgAACAACAhAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScraperLib.URLGenerator">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Url\UrlGenerator.vb</FileName>
+      <HashCode>gAAAAACBMAABBAA0AAAgAEAChCAAAREUACAAQABAAAA=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Class Name="ScraperLib.URLGenerator.URLGeneratorPattern" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Url\UrlGenerator.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+  </Class>
+  <Class Name="ScraperLib.ProxyManager">
+    <Position X="10.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Misc\ProxyManager.vb</FileName>
+      <HashCode>AQAAgAAECgAAAAQAAAAABAAAAAAAAgQARAAAABAgCAE=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="ScraperLib.ProxyManager.ProxyStatus">
+        <TypeIdentifier>
+          <NewMemberFileName>Misc\ProxyManager.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="ScraperLib.Log">
+    <Position X="4.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Log\Log.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAYQAAAgAAAAAAAAAAAEAAAAAAEAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScraperLib.CrawlClient">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Crawler\CrawlClient.vb</FileName>
+      <HashCode>AAAAAABAAAAAAAAiAAAAAAAAAAAgAAAAABAgAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScraperLib.CrawlHelper">
+    <Position X="12.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Crawler\CrawlHelper.vb</FileName>
+      <HashCode>AAAAAAAAAAAEAEBAAAAAAAAAAAAAAAAQAAAIIAAgAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScraperLib.Crawler">
+    <Position X="14" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Crawler\Crawler.vb</FileName>
+      <HashCode>QAgAEAQAAEANQQACAVAAgQEFAAAAAEAgAAAQACFgAAA=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Class Name="ScraperLib.Crawler.CrawlInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Crawler\Crawler.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Enum Name="ScraperLib.Crawler.ScrapeStatus" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Crawler\Crawler.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="ScraperLib.Crawler.CrawlStatus" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Crawler\Crawler.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="ScraperLib.DataType">
+    <Position X="13" Y="7" Width="2" />
+    <TypeIdentifier>
+      <FileName>DataType\DataType.vb</FileName>
+      <HashCode>AAAAAAEAABAAAAAAAAAAAAAAAQAgAgEAAAIAAAAQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScraperLib.DataTypeManager">
+    <Position X="15.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataType\DataTypeManager.vb</FileName>
+      <HashCode>AAAAAAAAFAIAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

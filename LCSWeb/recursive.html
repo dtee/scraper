@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Recursive Algorithm</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bordercolor="#999999">
+  <tr valign="top">
+    <td><table width="100%" border="1" cellpadding="5" cellspacing="0" bordercolor="#D4D0C8" bgcolor="#FFFFFF">
+      <tr>
+        <td colspan="2" valign="top"><h1>Longest Common Sub-Sequence (LCS) </h1></td>
+        </tr>
+      <tr>
+        <td width="25%" valign="top"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="containermaster_gray">
+          <tr>
+            <td><img src="images/main_tl.gif" width="16" height="9" /></td>
+            <td background="images/main_t.gif"><img src="images/main_t.gif" width="7" height="9" /></td>
+            <td><img src="images/main_tr.gif" width="9" height="9" /></td>
+          </tr>
+          <tr>
+            <td rowspan="3" background="images/main_l.gif"><img src="images/main_l.gif" width="16" height="7" /></td>
+            <td></td>
+            <td rowspan="3" background="images/main_r.gif"><img src="images/main_r.gif" width="9" height="7" /></td>
+          </tr>
+          <tr>
+            <td width="100%" align="center"  id="ContentPane" runat="server"></td>
+          </tr>
+          <tr>
+            <td><p><a href="index.htm">Introduction</a><br />
+                <a href="theorem.html">Theorem</a><br />
+                <a href="recursive.html">Recursive Algorithm</a><br />
+                <a href="memorizing.html">Memorizing</a> <br />
+                <a href="bottom-up.html">Bottom up LCS</a><br />
+                <a href="LCS-Delta.html">LCS-Delta </a><br />
+                <a href="Application.html">Applications</a><br />
+                <a href="references.html">References</a><br />
+              </p>              </td>
+          </tr>
+          <tr>
+            <td><img src="images/main_bl.gif" width="16" height="12" /></td>
+            <td background="images/main_b.gif"><img src="images/main_b.gif" width="7" height="12" /></td>
+            <td><img src="images/main_br.gif" width="9" height="12" /></td>
+          </tr>
+        </table></td>
+        <td valign="top"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="containermaster_gray">
+          <tr>
+            <td><img src="images/main_tl.gif" width="16" height="9" /></td>
+            <td background="images/main_t.gif"><img src="images/main_t.gif" width="7" height="9" /></td>
+            <td><img src="images/main_tr.gif" width="9" height="9" /></td>
+          </tr>
+          <tr>
+            <td rowspan="3" background="images/main_l.gif"><img src="images/main_l.gif" width="16" height="7" /></td>
+            <td></td>
+            <td rowspan="3" background="images/main_r.gif"><img src="images/main_r.gif" width="9" height="7" /></td>
+          </tr>
+          <tr>
+            <td width="100%" align="center"  id="ContentPane" runat="server"></td>
+          </tr>
+          <tr>
+            <td><!-- InstanceBeginEditable name="Edit Here" -->
+              <h1>Recursive Algorithm</h1>
+              <p>int  lcs_length(char * A, char * B) { <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (*A == '\0' || *B == '\0') <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return 0; <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else if (*A == *B) <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return 1 + lcs_length(A+1, B+1); <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return max(lcs_length(A+1,B),  lcs_length(A,B+1)); </p>
+            }
+            <p>This solution is correct because it implements the Theorem  but it&rsquo;s really time consuming and makes a lot of recursive calls. If string  A&rsquo;s length (n) equals string B&rsquo;s length (m), then there would be 2^n  possible subsequences. Based on this, this recursive solution  takes exponential time. Notice this solution contains optimal sub structure;  its recursively comparing something is compared in the previous recursion call.  We can use dynamic programming technique and optimize this.              </p>
+            <p>Worst Case: Exponential (2^n) </p>
+            <!-- InstanceEndEditable -->                </td>
+          </tr>
+          <tr>
+            <td><img src="images/main_bl.gif" width="16" height="12" /></td>
+            <td background="images/main_b.gif"><img src="images/main_b.gif" width="7" height="12" /></td>
+            <td><img src="images/main_br.gif" width="9" height="12" /></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+<!-- InstanceEnd --></html>

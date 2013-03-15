@@ -1,0 +1,12 @@
+Imports System
+Imports Microsoft.VisualBasic
+Imports System.Text.RegularExpressions
+Imports DataRefinerAsm
+
+Public Class DefaultDataRefiner
+   Inherits DataRefinerAsm.DataRefiner
+
+   Public Overrides Function Refine(ByVal Text As String) As Object
+      Return text
+   End Function
+End Class

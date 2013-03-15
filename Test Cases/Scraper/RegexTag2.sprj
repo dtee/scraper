@@ -1,0 +1,125 @@
+<?xml version="1.0" standalone="yes"?>
+<ScraperDB xmlns="http://tempuri.org/ScraperDB.xsd">
+  <TagLibrary>
+    <TagID>-509</TagID>
+    <ProjectID>-204</ProjectID>
+    <TagName>SYS_ROOT</TagName>
+    <StartTag />
+    <EndTag />
+    <DynamicCode />
+    <OrderNumber>0</OrderNumber>
+    <MaxChars>32767</MaxChars>
+    <IsAppendStartTag>false</IsAppendStartTag>
+    <IsAppendEndTag>false</IsAppendEndTag>
+    <IsStartTagRegex>false</IsStartTagRegex>
+    <IsEndTagRegex>false</IsEndTagRegex>
+    <IsOptional>false</IsOptional>
+    <IsSingleRegex>false</IsSingleRegex>
+    <isReverseSearch>false</isReverseSearch>
+    <IsURL>false</IsURL>
+    <IsDisabled>false</IsDisabled>
+    <isSaveData>false</isSaveData>
+    <IsDataTable>false</IsDataTable>
+    <TagLibrary>
+      <TagID>-510</TagID>
+      <Parent_TagID>-509</Parent_TagID>
+      <ProjectID>-204</ProjectID>
+      <TagName>Name</TagName>
+      <StartTag>&lt;t&gt;</StartTag>
+      <EndTag>&lt;/t\d+</EndTag>
+      <DynamicCode />
+      <OrderNumber>0</OrderNumber>
+      <MaxChars>30</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>true</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>true</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>true</isSaveData>
+      <IsDataTable>false</IsDataTable>
+    </TagLibrary>
+  </TagLibrary>
+  <CrawlProject>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>RegexTag2.sprj</Name>
+    <ProxyCheckUrl />
+    <ProxyCheckContent />
+    <IsSaveContent>false</IsSaveContent>
+    <Threads>10</Threads>
+    <DownloadDelay>10</DownloadDelay>
+    <TotalUrl>0</TotalUrl>
+    <TotalUrlLeft>0</TotalUrlLeft>
+    <ConnectionPerIP>5</ConnectionPerIP>
+  </CrawlProject>
+  <UrlStatus>
+    <UrlStatusID>1</UrlStatusID>
+    <Name>Assigned</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>3</UrlStatusID>
+    <Name>Finished</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>2</UrlStatusID>
+    <Name>Error</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>0</UrlStatusID>
+    <Name>Ready</Name>
+  </UrlStatus>
+  <Project>
+    <ProjectID>-204</ProjectID>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>RegexTag2.xml</Name>
+  </Project>
+  <Project_Url>
+    <UrlID>-2644</UrlID>
+    <ProjectID>-204</ProjectID>
+    <IsScraped>false</IsScraped>
+    <ProjUrlID>-1</ProjUrlID>
+  </Project_Url>
+  <Proxy>
+    <ProxyID>-1</ProxyID>
+    <ProxyStatusID>0</ProxyStatusID>
+    <ProxyLink>localhost</ProxyLink>
+    <ProxyPort>80</ProxyPort>
+    <AverageSpeed>0</AverageSpeed>
+    <AveragePing>0</AveragePing>
+    <MaxConnection>0</MaxConnection>
+    <TotalTimeout>0</TotalTimeout>
+    <TotalAnonymous>0</TotalAnonymous>
+  </Proxy>
+  <ProxyStatus>
+    <ProxyStatusID>0</ProxyStatusID>
+    <StatusName>Ready</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>1</ProxyStatusID>
+    <StatusName>Checking</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>2</ProxyStatusID>
+    <StatusName>Unknown</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>3</ProxyStatusID>
+    <StatusName>Error</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <Url>
+    <UrlID>-2644</UrlID>
+    <UrlStatusID>0</UrlStatusID>
+    <Url>http://localhost/RegexTag2.xml.txt</Url>
+    <Content>&lt;t&gt; David &lt;/t1&gt;
+&lt;t&gt; Jimmy &lt;/t24&gt;
+&lt;t&gt; Joe &lt;/t34536&gt;</Content>
+    <DateAdded>2006-04-10T13:22:07.687-07:00</DateAdded>
+  </Url>
+</ScraperDB>

@@ -1,0 +1,21 @@
+Imports System
+Imports Microsoft.VisualBasic
+Imports System.Text.RegularExpressions
+Imports DataRefinerAsm
+
+Public Class TextDataRefiner
+   Inherits DataRefinerAsm.DataRefiner
+
+   Public Overrides Function Refine(ByVal Text As String) As Object
+      Dim evl As New MatchEvaluator(AddressOf replaceFunction)
+      dim pat as String = Regex.Escape("<BR>")
+      text = Regex.Replace(text, pat, evl, System.Text.RegularExpressions.RegexOptions.IgnoreCase)
+      text = Regex.Replace(Text, "([\n\r\f]+)", evl).Trim
+      
+      return text
+   End Function
+
+   Private Function replaceFunction(ByVal m As Match) As String
+      Return controlchars.newline
+   End Function
+End Class

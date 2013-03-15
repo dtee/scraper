@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<test some="something" nothing ="nothing">
+  Test Value
+  <data nothing="nothing" newthing="newthing"/>
+  <data nothing="nothing" newthing="newthing">
+    Data
+    <datachild child="not a child">
+      
+    </datachild>
+  </data>
+  <something>
+    What up
+  </something>
+</test>

@@ -1,0 +1,807 @@
+<?xml version="1.0" standalone="yes"?>
+<ScraperDB xmlns="http://tempuri.org/ScraperDB.xsd">
+  <TagLibrary>
+    <TagID>-1</TagID>
+    <ProjectID>-1</ProjectID>
+    <TagName>Root</TagName>
+    <StartTag />
+    <EndTag />
+    <DynamicCode />
+    <OrderNumber>0</OrderNumber>
+    <MaxChars>0</MaxChars>
+    <IsAppendStartTag>false</IsAppendStartTag>
+    <IsAppendEndTag>false</IsAppendEndTag>
+    <IsStartTagRegex>false</IsStartTagRegex>
+    <IsEndTagRegex>false</IsEndTagRegex>
+    <IsOptional>false</IsOptional>
+    <IsSingleRegex>false</IsSingleRegex>
+    <isReverseSearch>false</isReverseSearch>
+    <IsURL>false</IsURL>
+    <IsDisabled>false</IsDisabled>
+    <isSaveData>false</isSaveData>
+    <IsDataTable>false</IsDataTable>
+    <IsIdentfier>False</IsIdentfier>
+    <TagLibrary>
+      <TagID>-7</TagID>
+      <Parent_TagID>-1</Parent_TagID>
+      <ProjectID>-1</ProjectID>
+      <TagName>Merchant</TagName>
+      <StartTag />
+      <EndTag />
+      <DynamicCode />
+      <OrderNumber>0</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>false</isSaveData>
+      <IsDataTable>true</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+      <TagLibrary>
+        <TagID>-6</TagID>
+        <Parent_TagID>-7</Parent_TagID>
+        <ProjectID>-1</ProjectID>
+        <TagName>Name</TagName>
+        <StartTag />
+        <EndTag />
+        <DynamicCode />
+        <OrderNumber>0</OrderNumber>
+        <MaxChars>0</MaxChars>
+        <IsAppendStartTag>false</IsAppendStartTag>
+        <IsAppendEndTag>false</IsAppendEndTag>
+        <IsStartTagRegex>false</IsStartTagRegex>
+        <IsEndTagRegex>false</IsEndTagRegex>
+        <IsOptional>false</IsOptional>
+        <IsSingleRegex>false</IsSingleRegex>
+        <isReverseSearch>false</isReverseSearch>
+        <IsURL>false</IsURL>
+        <IsDisabled>false</IsDisabled>
+        <isSaveData>true</isSaveData>
+        <IsDataTable>false</IsDataTable>
+        <IsIdentfier>True</IsIdentfier>
+      </TagLibrary>
+      <TagLibrary>
+        <TagID>-30</TagID>
+        <Parent_TagID>-7</Parent_TagID>
+        <ProjectID>-1</ProjectID>
+        <TagName>Url</TagName>
+        <StartTag />
+        <EndTag />
+        <DynamicCode />
+        <OrderNumber>1</OrderNumber>
+        <MaxChars>0</MaxChars>
+        <IsAppendStartTag>false</IsAppendStartTag>
+        <IsAppendEndTag>false</IsAppendEndTag>
+        <IsStartTagRegex>false</IsStartTagRegex>
+        <IsEndTagRegex>false</IsEndTagRegex>
+        <IsOptional>false</IsOptional>
+        <IsSingleRegex>false</IsSingleRegex>
+        <isReverseSearch>false</isReverseSearch>
+        <IsURL>true</IsURL>
+        <IsDisabled>false</IsDisabled>
+        <isSaveData>true</isSaveData>
+        <IsDataTable>false</IsDataTable>
+        <IsIdentfier>False</IsIdentfier>
+      </TagLibrary>
+    </TagLibrary>
+    <TagLibrary>
+      <TagID>-27</TagID>
+      <Parent_TagID>-1</Parent_TagID>
+      <ProjectID>-1</ProjectID>
+      <TagName>Retailer</TagName>
+      <StartTag />
+      <EndTag />
+      <DynamicCode />
+      <OrderNumber>1</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>false</isSaveData>
+      <IsDataTable>true</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+      <TagLibrary>
+        <TagID>-29</TagID>
+        <Parent_TagID>-27</Parent_TagID>
+        <ProjectID>-1</ProjectID>
+        <TagName>Name</TagName>
+        <StartTag />
+        <EndTag />
+        <DynamicCode />
+        <OrderNumber>0</OrderNumber>
+        <MaxChars>0</MaxChars>
+        <IsAppendStartTag>false</IsAppendStartTag>
+        <IsAppendEndTag>false</IsAppendEndTag>
+        <IsStartTagRegex>false</IsStartTagRegex>
+        <IsEndTagRegex>false</IsEndTagRegex>
+        <IsOptional>false</IsOptional>
+        <IsSingleRegex>false</IsSingleRegex>
+        <isReverseSearch>false</isReverseSearch>
+        <IsURL>false</IsURL>
+        <IsDisabled>false</IsDisabled>
+        <isSaveData>true</isSaveData>
+        <IsDataTable>false</IsDataTable>
+        <IsIdentfier>True</IsIdentfier>
+      </TagLibrary>
+      <TagLibrary>
+        <TagID>-31</TagID>
+        <Parent_TagID>-27</Parent_TagID>
+        <ProjectID>-1</ProjectID>
+        <TagName>Url</TagName>
+        <StartTag />
+        <EndTag />
+        <DynamicCode />
+        <OrderNumber>1</OrderNumber>
+        <MaxChars>0</MaxChars>
+        <IsAppendStartTag>false</IsAppendStartTag>
+        <IsAppendEndTag>false</IsAppendEndTag>
+        <IsStartTagRegex>false</IsStartTagRegex>
+        <IsEndTagRegex>false</IsEndTagRegex>
+        <IsOptional>false</IsOptional>
+        <IsSingleRegex>false</IsSingleRegex>
+        <isReverseSearch>false</isReverseSearch>
+        <IsURL>true</IsURL>
+        <IsDisabled>false</IsDisabled>
+        <isSaveData>true</isSaveData>
+        <IsDataTable>false</IsDataTable>
+        <IsIdentfier>False</IsIdentfier>
+      </TagLibrary>
+    </TagLibrary>
+  </TagLibrary>
+  <TagLibrary>
+    <TagID>-2</TagID>
+    <ProjectID>-2</ProjectID>
+    <TagName>Category</TagName>
+    <StartTag />
+    <EndTag />
+    <DynamicCode />
+    <OrderNumber>0</OrderNumber>
+    <MaxChars>0</MaxChars>
+    <IsAppendStartTag>false</IsAppendStartTag>
+    <IsAppendEndTag>false</IsAppendEndTag>
+    <IsStartTagRegex>false</IsStartTagRegex>
+    <IsEndTagRegex>false</IsEndTagRegex>
+    <IsOptional>false</IsOptional>
+    <IsSingleRegex>false</IsSingleRegex>
+    <isReverseSearch>false</isReverseSearch>
+    <IsURL>false</IsURL>
+    <IsDisabled>false</IsDisabled>
+    <isSaveData>false</isSaveData>
+    <IsDataTable>true</IsDataTable>
+    <IsIdentfier>False</IsIdentfier>
+    <TagLibrary>
+      <TagID>-8</TagID>
+      <Parent_TagID>-2</Parent_TagID>
+      <ProjectID>-2</ProjectID>
+      <TagName>Name</TagName>
+      <StartTag />
+      <EndTag />
+      <DynamicCode />
+      <OrderNumber>0</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>true</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>True</IsIdentfier>
+    </TagLibrary>
+    <TagLibrary>
+      <TagID>-9</TagID>
+      <Parent_TagID>-2</Parent_TagID>
+      <ProjectID>-2</ProjectID>
+      <TagName>Category</TagName>
+      <StartTag />
+      <EndTag />
+      <DynamicCode />
+      <OrderNumber>1</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>false</isSaveData>
+      <IsDataTable>true</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+      <TagLibrary>
+        <TagID>-10</TagID>
+        <Parent_TagID>-9</Parent_TagID>
+        <ProjectID>-2</ProjectID>
+        <TagName>Name</TagName>
+        <StartTag />
+        <EndTag />
+        <DynamicCode />
+        <OrderNumber>0</OrderNumber>
+        <MaxChars>0</MaxChars>
+        <IsAppendStartTag>false</IsAppendStartTag>
+        <IsAppendEndTag>false</IsAppendEndTag>
+        <IsStartTagRegex>false</IsStartTagRegex>
+        <IsEndTagRegex>false</IsEndTagRegex>
+        <IsOptional>false</IsOptional>
+        <IsSingleRegex>false</IsSingleRegex>
+        <isReverseSearch>false</isReverseSearch>
+        <IsURL>false</IsURL>
+        <IsDisabled>false</IsDisabled>
+        <isSaveData>true</isSaveData>
+        <IsDataTable>false</IsDataTable>
+        <IsIdentfier>True</IsIdentfier>
+      </TagLibrary>
+      <TagLibrary>
+        <TagID>-12</TagID>
+        <Parent_TagID>-9</Parent_TagID>
+        <ProjectID>-2</ProjectID>
+        <TagName>Url</TagName>
+        <StartTag />
+        <EndTag />
+        <DynamicCode />
+        <OrderNumber>1</OrderNumber>
+        <MaxChars>0</MaxChars>
+        <IsAppendStartTag>false</IsAppendStartTag>
+        <IsAppendEndTag>false</IsAppendEndTag>
+        <IsStartTagRegex>false</IsStartTagRegex>
+        <IsEndTagRegex>false</IsEndTagRegex>
+        <IsOptional>false</IsOptional>
+        <IsSingleRegex>false</IsSingleRegex>
+        <isReverseSearch>false</isReverseSearch>
+        <IsURL>true</IsURL>
+        <IsDisabled>false</IsDisabled>
+        <isSaveData>true</isSaveData>
+        <IsDataTable>false</IsDataTable>
+        <IsIdentfier>False</IsIdentfier>
+      </TagLibrary>
+    </TagLibrary>
+    <TagLibrary>
+      <TagID>-11</TagID>
+      <Parent_TagID>-2</Parent_TagID>
+      <ProjectID>-2</ProjectID>
+      <TagName>Url</TagName>
+      <StartTag />
+      <EndTag />
+      <DynamicCode />
+      <OrderNumber>2</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>true</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>false</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+    </TagLibrary>
+  </TagLibrary>
+  <TagLibrary>
+    <TagID>-3</TagID>
+    <ProjectID>-3</ProjectID>
+    <TagName>Category</TagName>
+    <StartTag />
+    <EndTag />
+    <DynamicCode />
+    <OrderNumber>0</OrderNumber>
+    <MaxChars>0</MaxChars>
+    <IsAppendStartTag>false</IsAppendStartTag>
+    <IsAppendEndTag>false</IsAppendEndTag>
+    <IsStartTagRegex>false</IsStartTagRegex>
+    <IsEndTagRegex>false</IsEndTagRegex>
+    <IsOptional>false</IsOptional>
+    <IsSingleRegex>false</IsSingleRegex>
+    <isReverseSearch>false</isReverseSearch>
+    <IsURL>false</IsURL>
+    <IsDisabled>false</IsDisabled>
+    <isSaveData>false</isSaveData>
+    <IsDataTable>true</IsDataTable>
+    <IsIdentfier>False</IsIdentfier>
+    <TagLibrary>
+      <TagID>-13</TagID>
+      <Parent_TagID>-3</Parent_TagID>
+      <ProjectID>-3</ProjectID>
+      <TagName>Name</TagName>
+      <StartTag />
+      <EndTag />
+      <DynamicCode />
+      <OrderNumber>0</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>true</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>True</IsIdentfier>
+    </TagLibrary>
+    <TagLibrary>
+      <TagID>-14</TagID>
+      <Parent_TagID>-3</Parent_TagID>
+      <ProjectID>-3</ProjectID>
+      <TagName>Url</TagName>
+      <StartTag />
+      <EndTag />
+      <DynamicCode />
+      <OrderNumber>1</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>true</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>true</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+    </TagLibrary>
+  </TagLibrary>
+  <TagLibrary>
+    <TagID>-4</TagID>
+    <ProjectID>-4</ProjectID>
+    <TagName>Product</TagName>
+    <StartTag />
+    <EndTag />
+    <DynamicCode />
+    <OrderNumber>0</OrderNumber>
+    <MaxChars>0</MaxChars>
+    <IsAppendStartTag>false</IsAppendStartTag>
+    <IsAppendEndTag>false</IsAppendEndTag>
+    <IsStartTagRegex>false</IsStartTagRegex>
+    <IsEndTagRegex>false</IsEndTagRegex>
+    <IsOptional>false</IsOptional>
+    <IsSingleRegex>false</IsSingleRegex>
+    <isReverseSearch>false</isReverseSearch>
+    <IsURL>false</IsURL>
+    <IsDisabled>false</IsDisabled>
+    <isSaveData>false</isSaveData>
+    <IsDataTable>true</IsDataTable>
+    <IsIdentfier>False</IsIdentfier>
+    <TagLibrary>
+      <TagID>-15</TagID>
+      <Parent_TagID>-4</Parent_TagID>
+      <ProjectID>-4</ProjectID>
+      <TagName>Name</TagName>
+      <StartTag />
+      <EndTag />
+      <DynamicCode />
+      <OrderNumber>0</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>true</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>True</IsIdentfier>
+    </TagLibrary>
+    <TagLibrary>
+      <TagID>-16</TagID>
+      <Parent_TagID>-4</Parent_TagID>
+      <ProjectID>-4</ProjectID>
+      <TagName>Price</TagName>
+      <StartTag />
+      <EndTag />
+      <DynamicCode />
+      <OrderNumber>1</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>false</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+    </TagLibrary>
+    <TagLibrary>
+      <TagID>-20</TagID>
+      <Parent_TagID>-4</Parent_TagID>
+      <ProjectID>-4</ProjectID>
+      <TagName>DetailUrl</TagName>
+      <StartTag />
+      <EndTag />
+      <DynamicCode />
+      <OrderNumber>2</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>true</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>true</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+    </TagLibrary>
+  </TagLibrary>
+  <TagLibrary>
+    <TagID>-5</TagID>
+    <ProjectID>-5</ProjectID>
+    <TagName>Product</TagName>
+    <StartTag />
+    <EndTag />
+    <DynamicCode />
+    <OrderNumber>0</OrderNumber>
+    <MaxChars>0</MaxChars>
+    <IsAppendStartTag>false</IsAppendStartTag>
+    <IsAppendEndTag>false</IsAppendEndTag>
+    <IsStartTagRegex>false</IsStartTagRegex>
+    <IsEndTagRegex>false</IsEndTagRegex>
+    <IsOptional>false</IsOptional>
+    <IsSingleRegex>false</IsSingleRegex>
+    <isReverseSearch>false</isReverseSearch>
+    <IsURL>false</IsURL>
+    <IsDisabled>false</IsDisabled>
+    <isSaveData>false</isSaveData>
+    <IsDataTable>true</IsDataTable>
+    <IsIdentfier>False</IsIdentfier>
+    <TagLibrary>
+      <TagID>-17</TagID>
+      <Parent_TagID>-5</Parent_TagID>
+      <ProjectID>-5</ProjectID>
+      <TagName>Name</TagName>
+      <StartTag />
+      <EndTag />
+      <DynamicCode />
+      <OrderNumber>0</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>true</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>True</IsIdentfier>
+    </TagLibrary>
+    <TagLibrary>
+      <TagID>-18</TagID>
+      <Parent_TagID>-5</Parent_TagID>
+      <ProjectID>-5</ProjectID>
+      <TagName>Detail</TagName>
+      <StartTag />
+      <EndTag />
+      <DynamicCode />
+      <OrderNumber>1</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>true</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+    </TagLibrary>
+    <TagLibrary>
+      <TagID>-19</TagID>
+      <Parent_TagID>-5</Parent_TagID>
+      <ProjectID>-5</ProjectID>
+      <TagName>Price</TagName>
+      <StartTag />
+      <EndTag />
+      <DynamicCode />
+      <OrderNumber>2</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>true</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+    </TagLibrary>
+  </TagLibrary>
+  <TagLibrary>
+    <TagID>-32</TagID>
+    <ProjectID>-6</ProjectID>
+    <TagName>Root</TagName>
+    <StartTag />
+    <EndTag />
+    <DynamicCode />
+    <OrderNumber>0</OrderNumber>
+    <MaxChars>0</MaxChars>
+    <IsAppendStartTag>false</IsAppendStartTag>
+    <IsAppendEndTag>false</IsAppendEndTag>
+    <IsStartTagRegex>false</IsStartTagRegex>
+    <IsEndTagRegex>false</IsEndTagRegex>
+    <IsOptional>false</IsOptional>
+    <IsSingleRegex>false</IsSingleRegex>
+    <isReverseSearch>false</isReverseSearch>
+    <IsURL>false</IsURL>
+    <IsDisabled>false</IsDisabled>
+    <isSaveData>false</isSaveData>
+    <IsDataTable>false</IsDataTable>
+    <IsIdentfier>False</IsIdentfier>
+    <TagLibrary>
+      <TagID>-33</TagID>
+      <Parent_TagID>-32</Parent_TagID>
+      <ProjectID>-6</ProjectID>
+      <TagName>Link</TagName>
+      <StartTag />
+      <EndTag />
+      <DynamicCode />
+      <OrderNumber>0</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>true</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>false</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+    </TagLibrary>
+  </TagLibrary>
+  <TagLibrary>
+    <TagID>-34</TagID>
+    <ProjectID>-7</ProjectID>
+    <TagName>Brand</TagName>
+    <StartTag />
+    <EndTag />
+    <DynamicCode />
+    <OrderNumber>0</OrderNumber>
+    <MaxChars>0</MaxChars>
+    <IsAppendStartTag>false</IsAppendStartTag>
+    <IsAppendEndTag>false</IsAppendEndTag>
+    <IsStartTagRegex>false</IsStartTagRegex>
+    <IsEndTagRegex>false</IsEndTagRegex>
+    <IsOptional>false</IsOptional>
+    <IsSingleRegex>false</IsSingleRegex>
+    <isReverseSearch>false</isReverseSearch>
+    <IsURL>false</IsURL>
+    <IsDisabled>false</IsDisabled>
+    <isSaveData>false</isSaveData>
+    <IsDataTable>true</IsDataTable>
+    <IsIdentfier>False</IsIdentfier>
+    <TagLibrary>
+      <TagID>-35</TagID>
+      <Parent_TagID>-34</Parent_TagID>
+      <ProjectID>-7</ProjectID>
+      <TagName>Name</TagName>
+      <StartTag />
+      <EndTag />
+      <DynamicCode />
+      <OrderNumber>0</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>true</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>True</IsIdentfier>
+    </TagLibrary>
+    <TagLibrary>
+      <TagID>-36</TagID>
+      <Parent_TagID>-34</Parent_TagID>
+      <ProjectID>-7</ProjectID>
+      <TagName>Link</TagName>
+      <StartTag />
+      <EndTag />
+      <DynamicCode />
+      <OrderNumber>1</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>true</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>true</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+    </TagLibrary>
+  </TagLibrary>
+  <CrawlProject>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>Untitled Crawl Project</Name>
+    <ProxyCheckUrl />
+    <ProxyCheckContent />
+    <IsSaveContent>false</IsSaveContent>
+    <Threads>1</Threads>
+    <DownloadDelay>0</DownloadDelay>
+    <TotalUrl>0</TotalUrl>
+    <TotalUrlLeft>0</TotalUrlLeft>
+    <ConnectionPerIP>5</ConnectionPerIP>
+    <DateRun>2006-09-16T15:28:55.0625-07:00</DateRun>
+  </CrawlProject>
+  <UrlStatus>
+    <UrlStatusID>1</UrlStatusID>
+    <Name>Assigned</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>3</UrlStatusID>
+    <Name>Finished</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>2</UrlStatusID>
+    <Name>Error</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>0</UrlStatusID>
+    <Name>Ready</Name>
+  </UrlStatus>
+  <LinkMapping>
+    <LinkMappingID>-17</LinkMappingID>
+    <TagID>-30</TagID>
+    <ProjectID>-2</ProjectID>
+    <IsPartialData>false</IsPartialData>
+  </LinkMapping>
+  <LinkMapping>
+    <LinkMappingID>-20</LinkMappingID>
+    <TagID>-31</TagID>
+    <ProjectID>-6</ProjectID>
+    <IsPartialData>false</IsPartialData>
+  </LinkMapping>
+  <LinkMapping>
+    <LinkMappingID>-21</LinkMappingID>
+    <TagID>-33</TagID>
+    <ProjectID>-7</ProjectID>
+    <IsPartialData>false</IsPartialData>
+  </LinkMapping>
+  <LinkMapping>
+    <LinkMappingID>-22</LinkMappingID>
+    <TagID>-36</TagID>
+    <ProjectID>-4</ProjectID>
+    <IsPartialData>false</IsPartialData>
+  </LinkMapping>
+  <LinkMapping>
+    <LinkMappingID>-23</LinkMappingID>
+    <TagID>-20</TagID>
+    <ProjectID>-5</ProjectID>
+    <IsPartialData>true</IsPartialData>
+  </LinkMapping>
+  <LinkMapping>
+    <LinkMappingID>-24</LinkMappingID>
+    <TagID>-12</TagID>
+    <ProjectID>-3</ProjectID>
+    <IsPartialData>false</IsPartialData>
+  </LinkMapping>
+  <LinkMapping>
+    <LinkMappingID>-25</LinkMappingID>
+    <TagID>-14</TagID>
+    <ProjectID>-4</ProjectID>
+    <IsPartialData>false</IsPartialData>
+  </LinkMapping>
+  <Project>
+    <ProjectID>-1</ProjectID>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>SiteRoot</Name>
+    <UrlCheckContent />
+  </Project>
+  <Project>
+    <ProjectID>-2</ProjectID>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>Category</Name>
+    <UrlCheckContent />
+  </Project>
+  <Project>
+    <ProjectID>-3</ProjectID>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>SubCategory</Name>
+    <UrlCheckContent />
+  </Project>
+  <Project>
+    <ProjectID>-4</ProjectID>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>Product</Name>
+    <UrlCheckContent />
+  </Project>
+  <Project>
+    <ProjectID>-5</ProjectID>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>Product Detail</Name>
+    <UrlCheckContent />
+  </Project>
+  <Project>
+    <ProjectID>-6</ProjectID>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>Brand List</Name>
+    <UrlCheckContent />
+  </Project>
+  <Project>
+    <ProjectID>-7</ProjectID>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>Brand</Name>
+    <UrlCheckContent />
+  </Project>
+  <Proxy>
+    <ProxyID>-1</ProxyID>
+    <ProxyStatusID>0</ProxyStatusID>
+    <ProxyLink>localhost</ProxyLink>
+    <ProxyPort>80</ProxyPort>
+    <AverageSpeed>0</AverageSpeed>
+    <AveragePing>0</AveragePing>
+    <MaxConnection>0</MaxConnection>
+    <TotalTimeout>0</TotalTimeout>
+    <TotalAnonymous>0</TotalAnonymous>
+  </Proxy>
+  <ProxyStatus>
+    <ProxyStatusID>0</ProxyStatusID>
+    <StatusName>Ready</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>1</ProxyStatusID>
+    <StatusName>Checking</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>2</ProxyStatusID>
+    <StatusName>Unknown</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>3</ProxyStatusID>
+    <StatusName>Error</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+</ScraperDB>

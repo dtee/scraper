@@ -1,0 +1,167 @@
+<?xml version="1.0" standalone="yes"?>
+<ScraperDB xmlns="http://tempuri.org/ScraperDB.xsd">
+  <TagLibrary>
+    <TagID>-561</TagID>
+    <ProjectID>-220</ProjectID>
+    <TagName>Root</TagName>
+    <StartTag />
+    <EndTag />
+    <DynamicCode />
+    <OrderNumber>0</OrderNumber>
+    <MaxChars>0</MaxChars>
+    <IsAppendStartTag>false</IsAppendStartTag>
+    <IsAppendEndTag>false</IsAppendEndTag>
+    <IsStartTagRegex>false</IsStartTagRegex>
+    <IsEndTagRegex>false</IsEndTagRegex>
+    <IsOptional>false</IsOptional>
+    <IsSingleRegex>false</IsSingleRegex>
+    <isReverseSearch>false</isReverseSearch>
+    <IsURL>false</IsURL>
+    <IsDisabled>false</IsDisabled>
+    <isSaveData>false</isSaveData>
+    <IsDataTable>false</IsDataTable>
+    <TagLibrary>
+      <TagID>-564</TagID>
+      <Parent_TagID>-561</Parent_TagID>
+      <ProjectID>-220</ProjectID>
+      <TagName>Artist</TagName>
+      <StartTag>ion:none'&gt;</StartTag>
+      <EndTag>&lt;/a&gt;&lt;/b&gt;&lt;/</EndTag>
+      <DynamicCode />
+      <OrderNumber>1</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>true</isSaveData>
+      <IsDataTable>false</IsDataTable>
+    </TagLibrary>
+    <TagLibrary>
+      <TagID>-562</TagID>
+      <Parent_TagID>-561</Parent_TagID>
+      <ProjectID>-220</ProjectID>
+      <TagName>Link</TagName>
+      <StartTag>b&gt;&lt;a href='</StartTag>
+      <EndTag>' style='tex</EndTag>
+      <DynamicCode />
+      <OrderNumber>0</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>true</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>true</isSaveData>
+      <IsDataTable>false</IsDataTable>
+    </TagLibrary>
+    <TagLibrary>
+      <TagID>-563</TagID>
+      <Parent_TagID>-561</Parent_TagID>
+      <ProjectID>-220</ProjectID>
+      <TagName>Albums</TagName>
+      <StartTag>valign=top&gt;</StartTag>
+      <EndTag>&lt;/td&gt;&lt;td w</EndTag>
+      <DynamicCode />
+      <OrderNumber>2</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>true</isSaveData>
+      <IsDataTable>false</IsDataTable>
+    </TagLibrary>
+  </TagLibrary>
+  <CrawlProject>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>Lyrics.com.sprj</Name>
+    <ProxyCheckUrl />
+    <ProxyCheckContent />
+    <IsSaveContent>false</IsSaveContent>
+    <Threads>10</Threads>
+    <DownloadDelay>10</DownloadDelay>
+    <TotalUrl>0</TotalUrl>
+    <TotalUrlLeft>0</TotalUrlLeft>
+    <ConnectionPerIP>5</ConnectionPerIP>
+  </CrawlProject>
+  <UrlStatus>
+    <UrlStatusID>1</UrlStatusID>
+    <Name>Assigned</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>3</UrlStatusID>
+    <Name>Finished</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>2</UrlStatusID>
+    <Name>Error</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>0</UrlStatusID>
+    <Name>Ready</Name>
+  </UrlStatus>
+  <Project>
+    <ProjectID>-220</ProjectID>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>Lyrics.com</Name>
+  </Project>
+  <Project_Url>
+    <UrlID>-2931</UrlID>
+    <ProjectID>-220</ProjectID>
+    <IsScraped>false</IsScraped>
+    <ProjUrlID>-1</ProjUrlID>
+  </Project_Url>
+  <Proxy>
+    <ProxyID>-1</ProxyID>
+    <ProxyStatusID>0</ProxyStatusID>
+    <ProxyLink>localhost</ProxyLink>
+    <ProxyPort>80</ProxyPort>
+    <AverageSpeed>0</AverageSpeed>
+    <AveragePing>0</AveragePing>
+    <MaxConnection>0</MaxConnection>
+    <TotalTimeout>0</TotalTimeout>
+    <TotalAnonymous>0</TotalAnonymous>
+  </Proxy>
+  <ProxyStatus>
+    <ProxyStatusID>0</ProxyStatusID>
+    <StatusName>Ready</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>1</ProxyStatusID>
+    <StatusName>Checking</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>2</ProxyStatusID>
+    <StatusName>Unknown</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>3</ProxyStatusID>
+    <StatusName>Error</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <Url>
+    <UrlID>-2931</UrlID>
+    <UrlStatusID>0</UrlStatusID>
+    <Url>http://lyrics.com/Artists.aspx?Start=0</Url>
+    <Content>Enter Sample Content</Content>
+    <DateAdded>2006-05-05T09:44:27.293-07:00</DateAdded>
+  </Url>
+</ScraperDB>

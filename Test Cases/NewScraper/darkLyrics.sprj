@@ -1,0 +1,1265 @@
+<?xml version="1.0" standalone="yes"?>
+<ScraperDB xmlns="http://tempuri.org/ScraperDB.xsd">
+  <TagLibrary>
+    <TagID>-1</TagID>
+    <ProjectID>-1</ProjectID>
+    <TagName>Root</TagName>
+    <StartTag />
+    <EndTag />
+    <OrderNumber>0</OrderNumber>
+    <MaxChars>0</MaxChars>
+    <IsAppendStartTag>false</IsAppendStartTag>
+    <IsAppendEndTag>false</IsAppendEndTag>
+    <IsStartTagRegex>false</IsStartTagRegex>
+    <IsEndTagRegex>false</IsEndTagRegex>
+    <IsOptional>false</IsOptional>
+    <IsSingleRegex>false</IsSingleRegex>
+    <isReverseSearch>false</isReverseSearch>
+    <IsURL>false</IsURL>
+    <IsDisabled>false</IsDisabled>
+    <isSaveData>false</isSaveData>
+    <IsDataTable>false</IsDataTable>
+    <IsIdentfier>False</IsIdentfier>
+    <TagLibrary>
+      <TagID>-2</TagID>
+      <Parent_TagID>-1</Parent_TagID>
+      <ProjectID>-1</ProjectID>
+      <TagName>AzList</TagName>
+      <StartTag>&lt;TR BGCOLOR="#666666" valign=middle align=center&gt;</StartTag>
+      <EndTag>  &lt;/TR&gt;</EndTag>
+      <OrderNumber>0</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>false</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+      <TagLibrary>
+        <TagID>-3</TagID>
+        <Parent_TagID>-2</Parent_TagID>
+        <ProjectID>-1</ProjectID>
+        <TagName>Link</TagName>
+        <StartTag>&gt;&lt;A HREF="</StartTag>
+        <EndTag>"&gt;</EndTag>
+        <OrderNumber>0</OrderNumber>
+        <MaxChars>0</MaxChars>
+        <IsAppendStartTag>false</IsAppendStartTag>
+        <IsAppendEndTag>false</IsAppendEndTag>
+        <IsStartTagRegex>false</IsStartTagRegex>
+        <IsEndTagRegex>false</IsEndTagRegex>
+        <IsOptional>false</IsOptional>
+        <IsSingleRegex>false</IsSingleRegex>
+        <isReverseSearch>false</isReverseSearch>
+        <IsURL>true</IsURL>
+        <IsDisabled>false</IsDisabled>
+        <isSaveData>false</isSaveData>
+        <IsDataTable>false</IsDataTable>
+        <IsIdentfier>False</IsIdentfier>
+      </TagLibrary>
+    </TagLibrary>
+  </TagLibrary>
+  <TagLibrary>
+    <TagID>-4</TagID>
+    <ProjectID>-2</ProjectID>
+    <TagName>Root</TagName>
+    <StartTag />
+    <EndTag />
+    <OrderNumber>0</OrderNumber>
+    <MaxChars>0</MaxChars>
+    <IsAppendStartTag>false</IsAppendStartTag>
+    <IsAppendEndTag>false</IsAppendEndTag>
+    <IsStartTagRegex>false</IsStartTagRegex>
+    <IsEndTagRegex>false</IsEndTagRegex>
+    <IsOptional>false</IsOptional>
+    <IsSingleRegex>false</IsSingleRegex>
+    <isReverseSearch>false</isReverseSearch>
+    <IsURL>false</IsURL>
+    <IsDisabled>false</IsDisabled>
+    <isSaveData>false</isSaveData>
+    <IsDataTable>false</IsDataTable>
+    <IsIdentfier>False</IsIdentfier>
+    <TagLibrary>
+      <TagID>-5</TagID>
+      <Parent_TagID>-4</Parent_TagID>
+      <ProjectID>-2</ProjectID>
+      <TagName>Artist</TagName>
+      <StartTag>&lt;TABLE CELLSPACING=5 CELLPADDING=5 BORDER=0&gt;</StartTag>
+      <EndTag>&lt;/TABLE&gt;</EndTag>
+      <OrderNumber>0</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>false</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+      <TagLibrary>
+        <TagID>-6</TagID>
+        <Parent_TagID>-5</Parent_TagID>
+        <ProjectID>-2</ProjectID>
+        <TagName>Link</TagName>
+        <StartTag>
+&lt;A HREF="</StartTag>
+        <EndTag>"</EndTag>
+        <OrderNumber>0</OrderNumber>
+        <MaxChars>0</MaxChars>
+        <IsAppendStartTag>false</IsAppendStartTag>
+        <IsAppendEndTag>false</IsAppendEndTag>
+        <IsStartTagRegex>false</IsStartTagRegex>
+        <IsEndTagRegex>false</IsEndTagRegex>
+        <IsOptional>false</IsOptional>
+        <IsSingleRegex>false</IsSingleRegex>
+        <isReverseSearch>false</isReverseSearch>
+        <IsURL>false</IsURL>
+        <IsDisabled>false</IsDisabled>
+        <isSaveData>false</isSaveData>
+        <IsDataTable>false</IsDataTable>
+        <IsIdentfier>False</IsIdentfier>
+      </TagLibrary>
+      <TagLibrary>
+        <TagID>-7</TagID>
+        <Parent_TagID>-5</Parent_TagID>
+        <ProjectID>-2</ProjectID>
+        <TagName>Name</TagName>
+        <StartTag>&gt;</StartTag>
+        <EndTag>&lt;/</EndTag>
+        <OrderNumber>1</OrderNumber>
+        <MaxChars>0</MaxChars>
+        <IsAppendStartTag>false</IsAppendStartTag>
+        <IsAppendEndTag>false</IsAppendEndTag>
+        <IsStartTagRegex>false</IsStartTagRegex>
+        <IsEndTagRegex>false</IsEndTagRegex>
+        <IsOptional>false</IsOptional>
+        <IsSingleRegex>false</IsSingleRegex>
+        <isReverseSearch>true</isReverseSearch>
+        <IsURL>false</IsURL>
+        <IsDisabled>false</IsDisabled>
+        <isSaveData>false</isSaveData>
+        <IsDataTable>false</IsDataTable>
+        <IsIdentfier>False</IsIdentfier>
+      </TagLibrary>
+    </TagLibrary>
+  </TagLibrary>
+  <TagLibrary>
+    <TagID>-10</TagID>
+    <ProjectID>-3</ProjectID>
+    <TagName>Root</TagName>
+    <StartTag />
+    <EndTag />
+    <OrderNumber>0</OrderNumber>
+    <MaxChars>0</MaxChars>
+    <IsAppendStartTag>false</IsAppendStartTag>
+    <IsAppendEndTag>false</IsAppendEndTag>
+    <IsStartTagRegex>false</IsStartTagRegex>
+    <IsEndTagRegex>false</IsEndTagRegex>
+    <IsOptional>false</IsOptional>
+    <IsSingleRegex>false</IsSingleRegex>
+    <isReverseSearch>false</isReverseSearch>
+    <IsURL>false</IsURL>
+    <IsDisabled>false</IsDisabled>
+    <isSaveData>false</isSaveData>
+    <IsDataTable>false</IsDataTable>
+    <IsIdentfier>False</IsIdentfier>
+    <TagLibrary>
+      <TagID>-11</TagID>
+      <Parent_TagID>-10</Parent_TagID>
+      <ProjectID>-3</ProjectID>
+      <TagName>Album</TagName>
+      <StartTag />
+      <EndTag />
+      <OrderNumber>0</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>false</isSaveData>
+      <IsDataTable>true</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+      <TagLibrary>
+        <TagID>-12</TagID>
+        <Parent_TagID>-11</Parent_TagID>
+        <ProjectID>-3</ProjectID>
+        <TagName>Name</TagName>
+        <StartTag>lbum: &lt;B&gt;"</StartTag>
+        <EndTag>"&lt;/b&gt;</EndTag>
+        <OrderNumber>0</OrderNumber>
+        <MaxChars>0</MaxChars>
+        <IsAppendStartTag>false</IsAppendStartTag>
+        <IsAppendEndTag>false</IsAppendEndTag>
+        <IsStartTagRegex>false</IsStartTagRegex>
+        <IsEndTagRegex>false</IsEndTagRegex>
+        <IsOptional>false</IsOptional>
+        <IsSingleRegex>false</IsSingleRegex>
+        <isReverseSearch>false</isReverseSearch>
+        <IsURL>false</IsURL>
+        <IsDisabled>false</IsDisabled>
+        <isSaveData>true</isSaveData>
+        <IsDataTable>false</IsDataTable>
+        <IsIdentfier>False</IsIdentfier>
+      </TagLibrary>
+      <TagLibrary>
+        <TagID>-13</TagID>
+        <Parent_TagID>-11</Parent_TagID>
+        <ProjectID>-3</ProjectID>
+        <TagName>Year</TagName>
+        <StartTag>(</StartTag>
+        <EndTag>)</EndTag>
+        <OrderNumber>1</OrderNumber>
+        <MaxChars>0</MaxChars>
+        <IsAppendStartTag>false</IsAppendStartTag>
+        <IsAppendEndTag>false</IsAppendEndTag>
+        <IsStartTagRegex>false</IsStartTagRegex>
+        <IsEndTagRegex>false</IsEndTagRegex>
+        <IsOptional>false</IsOptional>
+        <IsSingleRegex>false</IsSingleRegex>
+        <isReverseSearch>false</isReverseSearch>
+        <IsURL>false</IsURL>
+        <IsDisabled>false</IsDisabled>
+        <isSaveData>true</isSaveData>
+        <IsDataTable>false</IsDataTable>
+        <IsIdentfier>False</IsIdentfier>
+      </TagLibrary>
+      <TagLibrary>
+        <TagID>-14</TagID>
+        <Parent_TagID>-11</Parent_TagID>
+        <ProjectID>-3</ProjectID>
+        <TagName>Song</TagName>
+        <StartTag>&lt;a href=".</StartTag>
+        <EndTag>#1" target=</EndTag>
+        <OrderNumber>2</OrderNumber>
+        <MaxChars>0</MaxChars>
+        <IsAppendStartTag>false</IsAppendStartTag>
+        <IsAppendEndTag>false</IsAppendEndTag>
+        <IsStartTagRegex>false</IsStartTagRegex>
+        <IsEndTagRegex>false</IsEndTagRegex>
+        <IsOptional>false</IsOptional>
+        <IsSingleRegex>false</IsSingleRegex>
+        <isReverseSearch>false</isReverseSearch>
+        <IsURL>true</IsURL>
+        <IsDisabled>false</IsDisabled>
+        <isSaveData>true</isSaveData>
+        <IsDataTable>true</IsDataTable>
+        <IsIdentfier>False</IsIdentfier>
+      </TagLibrary>
+    </TagLibrary>
+  </TagLibrary>
+  <CrawlProject>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>Untitled Crawl Project</Name>
+    <ProxyCheckUrl />
+    <ProxyCheckContent />
+    <IsSaveContent>false</IsSaveContent>
+    <Threads>1</Threads>
+    <DownloadDelay>0</DownloadDelay>
+    <TotalUrl>0</TotalUrl>
+    <TotalUrlLeft>0</TotalUrlLeft>
+    <ConnectionPerIP>5</ConnectionPerIP>
+    <DateRun>2006-09-23T20:44:36.515625-07:00</DateRun>
+    <MaxUrl>10</MaxUrl>
+    <TotalProjects>1</TotalProjects>
+    <AssignTimeOutMinute>30</AssignTimeOutMinute>
+  </CrawlProject>
+  <UrlStatus>
+    <UrlStatusID>1</UrlStatusID>
+    <Name>Assigned</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>3</UrlStatusID>
+    <Name>Finished</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>2</UrlStatusID>
+    <Name>Error</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>0</UrlStatusID>
+    <Name>Ready</Name>
+  </UrlStatus>
+  <Project>
+    <ProjectID>-1</ProjectID>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>SiteRoot</Name>
+    <UrlCheckContent />
+    <TotalUrl>0</TotalUrl>
+    <TotalUrlLeft>0</TotalUrlLeft>
+  </Project>
+  <Project>
+    <ProjectID>-2</ProjectID>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>ArtistList</Name>
+    <UrlCheckContent />
+    <TotalUrl>0</TotalUrl>
+    <TotalUrlLeft>0</TotalUrlLeft>
+  </Project>
+  <Project>
+    <ProjectID>-3</ProjectID>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>Album</Name>
+    <UrlCheckContent />
+    <TotalUrl>0</TotalUrl>
+    <TotalUrlLeft>0</TotalUrlLeft>
+  </Project>
+  <Proxy>
+    <ProxyID>-1</ProxyID>
+    <ProxyStatusID>0</ProxyStatusID>
+    <ProxyLink>localhost</ProxyLink>
+    <ProxyPort>80</ProxyPort>
+    <AverageSpeed>0</AverageSpeed>
+    <AveragePing>0</AveragePing>
+    <MaxConnection>0</MaxConnection>
+    <TotalTimeout>0</TotalTimeout>
+    <TotalAnonymous>0</TotalAnonymous>
+  </Proxy>
+  <ProxyStatus>
+    <ProxyStatusID>0</ProxyStatusID>
+    <StatusName>Ready</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>1</ProxyStatusID>
+    <StatusName>Checking</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>2</ProxyStatusID>
+    <StatusName>Unknown</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>3</ProxyStatusID>
+    <StatusName>Error</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <Project_Sample>
+    <SampleID>-1</SampleID>
+    <SampleUrl>http://www.darklyrics.com/</SampleUrl>
+    <SampleText>&lt;html&gt;
+&lt;head&gt;
+&lt;META NAME="robots" CONTENT="ALL"&gt;
+&lt;META NAME="Author" CONTENT="Dennis Venzhego AKA EvDeon"&gt;
+&lt;META NAME="name" CONTENT="Dark Lyrics - Metal Lyrics Site"&gt;
+&lt;META NAME="description" CONTENT="Metal lyrics. Black death doom heavy power thrash metal hardcore grindcore. Lyrics of metal bands - over 1800 full albums lyrics."&gt;
+&lt;META NAME="keywords" CONTENT="metal lyrics,black metal lyrics,doom metal lyrics,death metal lyrics,heavy metal lyrics,power metal lyrics,thrash metal lyrics,rock,ambient,evdeon,grindcore lyrics,hardcore lyrics,industrial,text,texts,paroles,letras,mp3,loud,extreme lyrics,dark,brutal death,satan,satanic,diabolic,blood,gothic,sick"&gt;
+&lt;title&gt;Dark Lyrics - metal lyrics archive&lt;/title&gt;
+&lt;!-- FASTCLICK.COM POP-UNDER CODE v1.6 for darklyrics.com --&gt;
+&lt;script language="javascript"&gt;&lt;!--
+var doc=document;  var url=escape(doc.location.href); var date_ob=new Date();
+doc.cookie='h2=o; path=/;';var bust=date_ob.getSeconds();
+if(doc.cookie.indexOf('e=llo') &lt;= 0 &amp;&amp; doc.cookie.indexOf('2=o') &gt; 0){
+doc.write('&lt;scr'+'ipt language="javascript" src="http://media.fastclick.net');
+doc.write('/w/pop.cgi?sid=6181&amp;m=2&amp;v=1.6&amp;u='+url+'&amp;c='+bust+'"&gt;&lt;/scr'+'ipt&gt;');
+doc.cookie='he=llo; path=/;';} // --&gt;
+&lt;/script&gt;
+&lt;!-- FASTCLICK.COM POP-UNDER CODE v1.6 for darklyrics.com --&gt;
+&lt;/HEAD&gt;
+&lt;body bgcolor=#222222 text=#FFFFCC link=#FFFFCC vlink=#FFFFCC alink=#FFFFCC&gt;
+&lt;CENTER&gt;
+&lt;TABLE WIDTH=750 HEIGHT=80 border=0&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;A HREF="http://www.darklyrics.com"&gt;&lt;IMG SRC="images/dlogo.gif" BORDER=0 alt="DarkLyrics.com"&gt;&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=right&gt;&lt;SCRIPT LANGUAGE="javascript" src="tban.js"&gt;&lt;/SCRIPT&gt;&lt;/TD&gt;
+&lt;/TR&gt;
+&lt;/TABLE&gt;
+
+&lt;TABLE WIDTH=750 CELLSPACING=0 CELLPADDING=0 border=0&gt;
+&lt;TR&gt;&lt;TD align=center&gt;
+
+ &lt;!-- search zone --&gt;
+ &lt;TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0&gt;
+ &lt;TR&gt;&lt;TD align=center bgcolor=#444444&gt;
+
+&lt;TABLE CELLSPACING=0 CELLPADDING=2 BORDER=0&gt;&lt;TR&gt;&lt;TD align=center NOWRAP&gt;&lt;SCRIPT LANGUAGE="javascript" src="upl.js"&gt;&lt;/SCRIPT&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;
+
+&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;
+ &lt;TD BGCOLOR=BLACK align=center&gt;
+ &lt;TABLE CELLSPACING=1 CELLPADDING=4 BORDER=0 HEIGHT=30&gt;
+  &lt;TR BGCOLOR="#666666" valign=middle align=center&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="a.html"&gt;&lt;b&gt;A&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="b.html"&gt;&lt;b&gt;B&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="c.html"&gt;&lt;b&gt;C&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="d.html"&gt;&lt;b&gt;D&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="e.html"&gt;&lt;b&gt;E&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="f.html"&gt;&lt;b&gt;F&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="g.html"&gt;&lt;b&gt;G&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="h.html"&gt;&lt;b&gt;H&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="i.html"&gt;&lt;b&gt;I&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="j.html"&gt;&lt;b&gt;J&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="k.html"&gt;&lt;b&gt;K&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="l.html"&gt;&lt;b&gt;L&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="m.html"&gt;&lt;b&gt;M&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="n.html"&gt;&lt;b&gt;N&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="o.html"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="p.html"&gt;&lt;b&gt;P&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="q.html"&gt;&lt;b&gt;Q&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="r.html"&gt;&lt;b&gt;R&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="s.html"&gt;&lt;b&gt;S&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="t.html"&gt;&lt;b&gt;T&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="u.html"&gt;&lt;b&gt;U&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="v.html"&gt;&lt;b&gt;V&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="w.html"&gt;&lt;b&gt;W&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="x.html"&gt;&lt;b&gt;X&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="y.html"&gt;&lt;b&gt;Y&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="z.html"&gt;&lt;b&gt;Z&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="19.html"&gt;&lt;b&gt;#&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;/TR&gt;
+ &lt;/TABLE&gt;
+ &lt;/TD&gt;
+ &lt;/TR&gt;
+
+&lt;TR&gt;&lt;TD align=center bgcolor=#666666&gt;
+&lt;form method="get" action="http://www.darklyrics.com/dseek"&gt;
+&lt;table border="0" cellspacing="2" cellpadding="2" width=100%&gt;
+&lt;tr&gt;&lt;td width="100%" align="center"&gt;
+&lt;FONT FACE="Verdana" COLOR=#DDDDDD size=2&gt;Browse by band name or enter band/album/song to search lyrics for: &lt;/FONT&gt;&lt;/td&gt;&lt;td&gt;&lt;input type="text" NAME="q" SIZE="20" MAXLENGTH="100" VALUE=""&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;input type="submit" value="Search"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/TD&gt;&lt;/TR&gt;&lt;/form&gt;
+ &lt;TR&gt;&lt;TD align=center bgcolor=#444444&gt;
+ &lt;TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0&gt;
+ &lt;TR&gt;
+ &lt;TD ALIGN=CENTER&gt;- [ &lt;A HREF="http://www.darklyrics.com/forum/list.php?f=1"&gt;&lt;FONT FACE="Verdana" COLOR=#CCCC99 SIZE=2&gt;REQUEST LYRICS&lt;/FONT&gt;&lt;/A&gt; ] - [ &lt;A HREF="submit.html"&gt;&lt;FONT FACE="Verdana" COLOR=#CCCC99 SIZE=2&gt;SUBMIT LYRICS&lt;/FONT&gt;&lt;/A&gt; ] - [ &lt;A HREF="links.html"&gt;&lt;FONT FACE="Verdana" COLOR=#CCCC99 SIZE=2&gt;LINKS&lt;/FONT&gt;&lt;/A&gt; ] - [ &lt;A HREF="guestb.html"&gt;&lt;FONT FACE="Verdana" COLOR=#CCCC99 SIZE=2&gt;GUESTBOOK&lt;/FONT&gt;&lt;/A&gt; ] - [ &lt;A HREF="http://www.darklyrics.com/forum/list.php?f=2"&gt;&lt;FONT FACE="Verdana" COLOR=#CCCC99 SIZE=2&gt;TALK FORUM&lt;/FONT&gt;&lt;/A&gt; ] -&lt;/TD&gt;
+ &lt;/TR&gt;
+ &lt;TR&gt;&lt;TD&gt;&lt;IMG SRC="images/px.gif" HEIGHT=5&gt;&lt;/TD&gt;&lt;/TR&gt;
+ &lt;/TABLE&gt;
+ &lt;!-- end of search zone --&gt;
+
+ &lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;&lt;TD&gt;
+
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;&lt;TD bgcolor=#444444 width=8&gt;&lt;IMG src="images/px.gif" width=8&gt;&lt;/TD&gt;&lt;TD&gt;&lt;IMG src="images/leftup.gif"&gt;&lt;/TD&gt;&lt;TD WIDTH=734&gt;&lt;IMG src="images/px.gif"&gt;&lt;/TD&gt;&lt;TD&gt;&lt;IMG src="images/rightup.gif"&gt;&lt;/TD&gt;&lt;TD bgcolor=#444444 width=8&gt;&lt;IMG src="images/px.gif" width=8&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;
+
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;&lt;TD align=center&gt;
+
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;&lt;TD bgcolor=#444444&gt;&lt;IMG src="images/px.gif" width=10&gt;&lt;/TD&gt;&lt;TD width=730 align=center&gt;
+&lt;FONT FACE="Helvetica" COLOR=#CCCC99 SIZE=3&gt;&lt;br&gt;&lt;b&gt;Welcome to the DARK LYRICS !&lt;/b&gt;&lt;BR&gt;&lt;FONT FACE="Verdana" COLOR=#CCCCCC SIZE=2&gt;Dark Lyrics is the largest &lt;FONT COLOR="#DDDDDD"&gt;&lt;b&gt;metal lyrics&lt;/b&gt;&lt;/FONT&gt; archive on the Web.&lt;/FONT&gt;&lt;FONT FACE="Verdana,Arial" SIZE="1" COLOR="#CCCCCC"&gt;&lt;br&gt;( if you're looking for rock/pop lyrics, go &lt;A HREF="http://www.azlyrics.com" target="_blank"&gt;here&lt;/a&gt; )&lt;/FONT&gt;
+
+&lt;br&gt;&lt;br&gt;
+SITE NEWS&lt;br&gt;
+&lt;/FONT&gt;
+&lt;TABLE CELLPADDING=5 CELLSPACING=5 BORDER=0&gt;
+
+&lt;TR&gt;
+&lt;TD VALIGN=TOP&gt;&lt;FONT FACE="Verdana" COLOR=#CCCC99 SIZE=2&gt;Aug.23.2006&lt;/font&gt;&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT COLOR=#CCCCCC FACE="Verdana" SIZE=2&gt;New lyrics: &lt;a href="19/3inchesofblood.html"&gt;3 INCHES OF BLOOD&lt;/a&gt; - 1 more song from album "Advance And Vanquish" (2004), &lt;a href="19/3.html"&gt;3&lt;/a&gt; - album "Wake Pig" (2005), &lt;a href="19/36crazyfists.html"&gt;36 CRAZYFISTS&lt;/a&gt; - album "Rest Inside The Flames" (2006), &lt;a href="t/theaccsed.html"&gt;the ACCSED&lt;/a&gt; - album "Grinning Like An Undertaker" (1990), &lt;a href="a/actofgod.html"&gt;ACT OF GOD&lt;/a&gt; - album "The Place Of Worship" (2005), &lt;a href="a/adagio.html"&gt;ADAGIO&lt;/a&gt; - album "Dominate" (2006), &lt;a href="a/alogia.html"&gt;ALOGIA&lt;/a&gt; - album "Secret Spheres" (2005), &lt;a href="a/ancientrites.html"&gt;ANCIENT RITES&lt;/a&gt; - album "Rubicon" (2006), &lt;a href="a/angelesdelinfierno.html"&gt;ANGELES DEL INFIERNO&lt;/a&gt; - 1 more song from album "Joven Para Morir" (1986), &lt;a href="a/anthemon.html"&gt;ANTHEMON&lt;/a&gt; - albums "Arcanes" (2003), "Dystopia" (2004), &lt;a href="a/anubi.html"&gt;ANUBI&lt;/a&gt; - album "Kai Pilnaties Akis Umerks Mirtis" (1997), &lt;a href="a/aphotic.html"&gt;APHOTIC&lt;/a&gt; - album "Stillness Grows" (2004), &lt;a href="a/apocalyptica.html"&gt;APOCALYPTICA&lt;/a&gt; - 1 more song from album "Apocalyptica" (2005), &lt;a href="a/astraldoors.html"&gt;ASTRAL DOORS&lt;/a&gt; - album "Evil Is Forever" (2005), &lt;a href="a/augury.html"&gt;AUGURY&lt;/a&gt; - album "Concealed" (2004), &lt;a href="a/axxis.html"&gt;AXXIS&lt;/a&gt; - album "Paradise In Flames" (2006), &lt;a href="b/balsagoth.html"&gt;BAL-SAGOTH&lt;/a&gt; - album "The Chthonic Chronicles" (2006), &lt;a href="b/beastcraft.html"&gt;BEASTCRAFT&lt;/a&gt; - album "Into the Burning Pit of Hell" (2005), &lt;a href="b/benedictum.html"&gt;BENEDICTUM&lt;/a&gt; - album "Uncreation" (2006), &lt;a href="b/beyondshadows.html"&gt;BEYOND SHADOWS&lt;/a&gt; - album "Descent To Damnation" (2005), &lt;a href="b/beyondsurface.html"&gt;BEYOND SURFACE&lt;/a&gt; - album "Destination's End" (2004), &lt;a href="b/beyondtwilight.html"&gt;BEYOND TWILIGHT&lt;/a&gt; - album "For The Love Of Art And The Making" (2006), &lt;a href="b/blackomen.html"&gt;BLACK OMEN&lt;/a&gt; - album "When Pure Darkness Covers False World Of Light" (2005), &lt;a href="b/blinddog.html"&gt;BLIND DOG&lt;/a&gt; - album "Captain Dog Rides Again" (2003), &lt;a href="t/theblindinglight.html"&gt;the BLINDING LIGHT&lt;/a&gt; - album "The Ascension Attempt" (2004), &lt;a href="b/blodenwedd.html"&gt;BLODEN-WEDD&lt;/a&gt; - album "Eye Of Horus" (2005), &lt;a href="b/bloodbound.html"&gt;BLOODBOUND&lt;/a&gt; - album "Nosferatu" (2006), &lt;a href="b/burst.html"&gt;BURST&lt;/a&gt; - album "Origo" (2005), &lt;a href="c/carpathian.html"&gt;CARPATHIAN&lt;/a&gt; - album "Nothing To Lose" (2006), &lt;a href="c/carpatia.html"&gt;CARPATIA&lt;/a&gt; - album "Infant Brutality" (2005), &lt;a href="c/celldweller.html"&gt;CELLDWELLER&lt;/a&gt; - album "Tragedy" (2006 SINGLE), &lt;a href="c/chimaira.html"&gt;CHIMAIRA&lt;/a&gt; - 1 more song from album "The Impossibility Of Reason" (2003), &lt;a href="c/chinchilla.html"&gt;CHINCHILLA&lt;/a&gt; - album "Madness" (2001), &lt;a href="c/confligo.html"&gt;CONFLIGO&lt;/a&gt; - albums "Heathen Pride" (2002), "The Edge Of Pain" (2003), &lt;a href="c/consummatumest.html"&gt;CONSUMMATUM EST&lt;/a&gt; - album "Funeral Procession" (2005), &lt;a href="t/thecrest.html"&gt;the CREST&lt;/a&gt; - album "Vain City Chronicles" (2004), &lt;a href="c/crossover.html"&gt;CROSSOVER&lt;/a&gt; - album "Dogma" (2004), &lt;a href="c/crownofthorns.html"&gt;CROWN OF THORNS&lt;/a&gt; - album "Mentally Vexed" (1996), &lt;a href="d/darwin.html"&gt;DARWIN&lt;/a&gt; - albums "This Mental Nourishment.. My Drive" (2001 EP), "In the Eye of the Beholder" (2003), &lt;a href="d/deademotions.html"&gt;DEAD EMOTIONS&lt;/a&gt; - albums "Gates To The Unseen" (1999), "The Genesis Behind" (2004), &lt;a href="d/deadjesus.html"&gt;DEAD JESUS&lt;/a&gt; - albums "...When Your Soul Is The Sickness" (2000), "...Let Them Suffer" (2004), &lt;a href="d/deadsoultribe.html"&gt;DEAD SOUL TRIBE&lt;/a&gt; - album "The Dead Word" (2005), &lt;a href="d/deathbeforedishonor.html"&gt;DEATH BEFORE DISHONOR&lt;/a&gt; - album "Friends Family Forever" (2004), &lt;a href="d/deathrow.html"&gt;DEATHROW&lt;/a&gt; - album "Life Beyond" (1992), &lt;a href="d/demise.html"&gt;DEMISE&lt;/a&gt; - album "Torture Garden" (2005), &lt;a href="d/diabolicalmasquerade.html"&gt;DIABOLICAL MASQUERADE&lt;/a&gt; - album "Death's Design" (2001), &lt;a href="d/dimmak.html"&gt;DIM MAK&lt;/a&gt; - album "Knives Of Ice" (2006), &lt;a href="d/dimension.html"&gt;DIMENSION&lt;/a&gt; - album "Dimension" (2004), &lt;a href="d/distorted.html"&gt;DISTORTED&lt;/a&gt; - 1 more song from album "Memorial" (2006), &lt;a href="d/divinefire.html"&gt;DIVINEFIRE&lt;/a&gt; - albums "Hero" (2005), "Glory Thy Name" (2005), &lt;a href="d/dogfashiondisco.html"&gt;DOG FASHION DISCO&lt;/a&gt; - album "Adultery" (2006), &lt;a href="d/dragonforce.html"&gt;DRAGONFORCE&lt;/a&gt; - 1 more song from album "Inhuman Rampage" (2006), &lt;a href="d/dropdeadgorgeous.html"&gt;DROP DEAD, GORGEOUS&lt;/a&gt; - albums "Be Mine, Valentine" (2006 EP), "In Vogue" (2006), &lt;a href="d/drudkh.html"&gt;DRUDKH&lt;/a&gt; - album "&amp;#1051;e&amp;#1073;&amp;#1077;&amp;#1076;&amp;#1080;&amp;#1085;&amp;#1099;&amp;#1081; &amp;#1064;&amp;#1083;&amp;#1103;&amp;#1093;" (2005), &lt;a href="d/dyingpassion.html"&gt;DYING PASSION&lt;/a&gt; - Czech translation of the album "No Time" (1999 DEMO), &lt;a href="e/edenbeast.html"&gt;EDENBEAST&lt;/a&gt; - album "Shortcuts Of Erotic Violence" (2005), &lt;a href="e/edenbridge.html"&gt;EDENBRIDGE&lt;/a&gt; - album "The Grand Design" (2006), &lt;a href="e/eisblut.html"&gt;EISBLUT&lt;/a&gt; - 6 more songs from album "Schlachtwerk" (2005), &lt;a href="e/eisregen.html"&gt;EISREGEN&lt;/a&gt; - album "Hexenhaus" (2005), &lt;a href="e/elvenking.html"&gt;ELVENKING&lt;/a&gt; - album "The Winter Wake" (2006), &lt;a href="e/empireauriga.html"&gt;EMPIRE AURIGA&lt;/a&gt; - album "Auriga Dying" (2006), &lt;a href="e/enshadowed.html"&gt;ENSHADOWED&lt;/a&gt; - album "Messengers Of The Darkest Dawn" (2001), &lt;a href="e/enslaved.html"&gt;ENSLAVED&lt;/a&gt; - album "Ruun" (2006), &lt;a href="e/entwine.html"&gt;ENTWINE&lt;/a&gt; - album "Silver" (2005 EP), &lt;a href="e/evemaster.html"&gt;EVEMASTER&lt;/a&gt; - 1 more song from album "Wither" (2003), &lt;a href="e/eyesoffire.html"&gt;EYES OF FIRE&lt;/a&gt; - album "Prisons" (2006), &lt;a href="f/fallofempyrean.html"&gt;FALL OF EMPYREAN&lt;/a&gt; - album "A Darkness Remembered" (2004), &lt;a href="f/fightback.html"&gt;FIGHT BACK&lt;/a&gt; - album "It's All In Our World... And We Must Change It" (2004), &lt;a href="f/finsterforst.html"&gt;FINSTERFORST&lt;/a&gt; - album "Wiege Der Finsternis" (2006 EP), &lt;a href="f/folklord.html"&gt;FOLKLORD&lt;/a&gt; - album "Resistance" (2004), &lt;a href="f/folly.html"&gt;FOLLY&lt;/a&gt; - album "Resist Convenience" (2006), &lt;a href="f/forceofevil.html"&gt;FORCE OF EVIL&lt;/a&gt; - albums "Force Of Evil" (2003), "Black Empire" (2005), &lt;a href="f/fragilevastness.html"&gt;FRAGILE VASTNESS&lt;/a&gt; - album "A Tribute To Life" (2005), &lt;a href="f/frostlikeashes.html"&gt;FROST LIKE ASHES&lt;/a&gt; - album "Pure As The Blood Covered Snow" (2003 MCD), &lt;a href="f/funeralfog.html"&gt;FUNERAL FOG&lt;/a&gt; - album "Under The Black Veil" (2004), &lt;a href="g/glittertind.html"&gt;GLITTERTIND&lt;/a&gt; - album "Til Dovre Faller" (2005 EP), &lt;a href="g/godamonginsects.html"&gt;GOD AMONG INSECTS&lt;/a&gt; - album "World Wide Death" (2004), &lt;a href="g/grandbelialskey.html"&gt;GRAND BELIAL'S KEY&lt;/a&gt; - album "Triumph Of The Hordes" (1994 DEMO), &lt;a href="g/grandmagus.html"&gt;GRAND MAGUS&lt;/a&gt; - album "Wolf's Return" (2005), &lt;a href="g/grenouer.html"&gt;GRENOUER&lt;/a&gt; - album "Try" (2005 EP), &lt;a href="g/grimreaper.html"&gt;GRIM REAPER&lt;/a&gt; - album "Rock You To Hell" (1987), &lt;a href="h/hardline.html"&gt;HARDLINE&lt;/a&gt; - 1 more song from album "Double Eclipse" (1992), &lt;a href="h/harvist.html"&gt;HARVIST&lt;/a&gt; - albums "A Gleam In The Night" (2000), "Lightning Storm In The Veins..." (2005 EP), &lt;a href="h/heathen.html"&gt;HEATHEN&lt;/a&gt; - album "Recovered" (2004), &lt;a href="h/heimdall.html"&gt;HEIMDALL&lt;/a&gt; - album "Hard As Iron" (2004), &lt;a href="h/hevein.html"&gt;HEVEIN&lt;/a&gt; - album "Sound Over Matter" (2006), &lt;a href="h/honor.html"&gt;HONOR&lt;/a&gt; - album "Ogie&amp;#324; Ostatniej Bitwy" (1997), &lt;a href="h/hypocrisy.html"&gt;HYPOCRISY&lt;/a&gt; - 1 more song from album "Virus" (2005), &lt;a href="h/hyubris.html"&gt;HYUBRIS&lt;/a&gt; - album "Hyubris" (2005), &lt;a href="i/ifhopedies.html"&gt;IF HOPE DIES&lt;/a&gt; - album "Life In Ruin" (2006), &lt;a href="i/immortalrites.html"&gt;IMMORTAL RITES&lt;/a&gt; - album "Art Of Devolution" (2003), &lt;a href="i/intormentataquiete.html"&gt;IN TORMENTATA QUIETE&lt;/a&gt; - album "In Tormentata Quiete" (2005), &lt;a href="i/inkubussukkubus.html"&gt;INKUBUS SUKKUBUS&lt;/a&gt; - albums "Wytches" (1994), "The Beast With Two Backs" (2004), &lt;a href="j/jackslater.html"&gt;JACK SLATER&lt;/a&gt; - English translation of the album "Playcorpse" (2000), album "Metzgore" (2004), English translation of the album "Crescendo" (1998 MCD), &lt;a href="j/jameslabrie.html"&gt;JAMES LABRIE&lt;/a&gt; - 1 more song from album "Elements Of Persuasion" (2005), &lt;a href="j/jamesmurphy.html"&gt;JAMES MURPHY&lt;/a&gt; - album "Feeding The Machine" (1999), &lt;a href="k/kampfar.html"&gt;KAMPFAR&lt;/a&gt; - album "Kvass" (2006), &lt;a href="k/katatonia.html"&gt;KATATONIA&lt;/a&gt; - 2 more songs from album "My Twin" (2006 EP), &lt;a href="k/keepofkalessin.html"&gt;KEEP OF KALESSIN&lt;/a&gt; - album "Armada" (2006), &lt;a href="k/kimaera.html"&gt;KIMAERA&lt;/a&gt; - album "Ebony Veiled" (2006), &lt;a href="k/kingstonfalls.html"&gt;KINGSTON FALLS&lt;/a&gt; - album "The Crescendo of Sirens" (2006), &lt;a href="k/kmfdm.html"&gt;KMFDM&lt;/a&gt; - album "Opium" (1984), &lt;a href="k/korpiklaani.html"&gt;KORPIKLAANI&lt;/a&gt; - album "Tales Along This Road" (2006), &lt;a href="k/kratos.html"&gt;KRATOS&lt;/a&gt; - album "Looking Behind The Mirror..." (1999), &lt;a href="k/kromlek.html"&gt;KROMLEK&lt;/a&gt; - album "Kveldridhur" (2005), &lt;a href="l/lacrimasprofundere.html"&gt;LACRIMAS PROFUNDERE&lt;/a&gt; - albums "Again It's Over" (2006 SINGLE), "Filthy Notes For Frozen Hearts" (2006), &lt;a href="l/lacunacoil.html"&gt;LACUNA COIL&lt;/a&gt; - 1 more song from album "Our Truth" (2006 SINGLE), 4 more song from album "Karmacode" (2006), &lt;a href="l/lakupaavi.html"&gt;LAKUPAAVI&lt;/a&gt; - album "Raah Raah Blh" (2005), &lt;a href="l/lawnmowerdeth.html"&gt;LAWNMOWER DETH&lt;/a&gt; - album "Return Of The Fabulous Metal Bozo Clowns" (1992), &lt;a href="l/lesion.html"&gt;LESION&lt;/a&gt; - album "Post-Modern Zibaldone" (2004 DEMO), &lt;a href="l/lordi.html"&gt;LORDI&lt;/a&gt; - album "The Arockalypse" (2006), &lt;a href="l/luciferian.html"&gt;LUCIFERIAN&lt;/a&gt; - album "Supreme Infernal Legions" (2006), &lt;a href="l/lucifugum.html"&gt;LUCIFUGUM&lt;/a&gt; - album "Vector 33" (2005), &lt;a href="l/lullacry.html"&gt;LULLACRY&lt;/a&gt; - album "Vol. 4" (2005), &lt;a href="l/lunaraurora.html"&gt;LUNAR AURORA&lt;/a&gt; - album "Elixir Of Sorrow" (2004), &lt;a href="l/lyfthrasyr.html"&gt;LYFTHRASYR&lt;/a&gt; - album "The Final Resurrection" (2005), &lt;a href="m/maddermortem.html"&gt;MADDER MORTEM&lt;/a&gt; - album "Desiderata" (2006), &lt;a href="m/majesty.html"&gt;MAJESTY&lt;/a&gt; - album "HellForces" (2006), &lt;a href="m/malpractice.html"&gt;MALPRACTICE&lt;/a&gt; - album "Deviation From The Flow" (2005), &lt;a href="m/maras.html"&gt;MARAS&lt;/a&gt; - albums "Orlova Planina (Mountain Of Eagles)" (2004), "Himni Od Devette Kralstva" (2005), &lt;a href="t/themass.html"&gt;the MASS&lt;/a&gt; - album "Towards Darkness" (2004), &lt;a href="m/mindfield.html"&gt;MINDFIELD&lt;/a&gt; - album "Be-Low" (2004), &lt;a href="m/ministry.html"&gt;MINISTRY&lt;/a&gt; - album "Rio Grande Blood" (2006), &lt;a href="m/mistweaver.html"&gt;MISTWEAVER&lt;/a&gt; - album "Age Of Darkness" (2005), &lt;a href="m/moonspell.html"&gt;MOONSPELL&lt;/a&gt; - album "Memorial" (2006), &lt;a href="m/morke.html"&gt;MORKE&lt;/a&gt; - album "Blutrausch" (1996 DEMO), &lt;a href="m/mortem.html"&gt;MORTEM&lt;/a&gt; - albums "Amputator" (1993), "Filicide" (2000), "Death Is My Name" (2002), &lt;a href="m/mortification.html"&gt;MORTIFICATION&lt;/a&gt; - 1 more song from album "Break The Curse" (1990), &lt;a href="n/neaera.html"&gt;NEAERA&lt;/a&gt; - album "Let The Tempest Come" (2006), &lt;a href="n/necrophagia.html"&gt;NECROPHAGIA&lt;/a&gt; - 1 more song from album "Harvest Ritual Vol. 1" (2005), &lt;a href="n/neformat.html"&gt;NEFORMAT&lt;/a&gt; - album "Breathe With Hatred" (2005), &lt;a href="n/negurabunget.html"&gt;NEGURA BUNGET&lt;/a&gt; - album "From Transilvanian Forest" (2002 DEMO), &lt;a href="n/neurosisinc.html"&gt;NEUROSIS INC.&lt;/a&gt; - 1 more song from album "15 Aos De Guerra" (2002), &lt;a href="n/nocternity.html"&gt;NOCTERNITY&lt;/a&gt; - album "Onyx" (2003), &lt;a href="n/nostradameus.html"&gt;NOSTRADAMEUS&lt;/a&gt; - album "Hellbound" (2004), &lt;a href="n/novembre.html"&gt;NOVEMBRE&lt;/a&gt; - album "Materia" (2006), &lt;a href="o/ofgravesandgods.html"&gt;OF GRAVES AND GODS&lt;/a&gt; - album "Slit Throat Andromeda" (2006), &lt;a href="t/theolddeadtree.html"&gt;the OLD DEAD TREE&lt;/a&gt; - album "The Perpetual Motion" (2005), &lt;a href="o/ophis.html"&gt;OPHIS&lt;/a&gt; - album "Nostrae Mortis Signaculum" (2004 EP), &lt;a href="o/orkrist.html"&gt;ORKRIST&lt;/a&gt; - albums "Reginae Mysterium" (2002), "Grond" (2003), &lt;a href="o/orthodox.html"&gt;ORTHODOX&lt;/a&gt; - album "Gran Poder" (2006), &lt;a href="o/osi.html"&gt;OSI&lt;/a&gt; - album "Free" (2006), &lt;a href="p/pathofresistance.html"&gt;PATH OF RESISTANCE&lt;/a&gt; - album "Can't Stop The Truth" (2006), &lt;a href="p/pharaoh.html"&gt;PHARAOH&lt;/a&gt; - album "After The Fire" (2003), &lt;a href="p/prostitutedisfigurement.html"&gt;PROSTITUTE DISFIGUREMENT&lt;/a&gt; - album "Left In Grisly Fashion" (2005), &lt;a href="r/raindelay.html"&gt;RAIN DELAY&lt;/a&gt; - album "As I Bequeath My Yesterday" (2005), &lt;a href="r/raintime.html"&gt;RAINTIME&lt;/a&gt; - album "Tales From Sadness" (2005), &lt;a href="r/redwine.html"&gt;RED WINE&lt;/a&gt; - album "Cenizas" (2004), &lt;a href="r/requiemaeternam.html"&gt;REQUIEM AETERNAM&lt;/a&gt; - album "Philosopher" (2004), &lt;a href="r/rossomahaar.html"&gt;ROSSOMAHAAR&lt;/a&gt; - album "A Divinity For The Worthless" (2004), &lt;a href="r/rune.html"&gt;RUNE&lt;/a&gt; - album "The End Of Nothing" (2003), &lt;a href="s/sabbat.html"&gt;SABBAT&lt;/a&gt; - album "Karmagmassacre" (2003), &lt;a href="s/satan.html"&gt;SATAN&lt;/a&gt; - album "Court In The Act" (1983), &lt;a href="s/satariel.html"&gt;SATARIEL&lt;/a&gt; - album "Hydra" (2005), &lt;a href="s/satyricon.html"&gt;SATYRICON&lt;/a&gt; - album "Now, Diabolical" (2006), &lt;a href="s/saxon.html"&gt;SAXON&lt;/a&gt; - album "Lionheart" (2004), &lt;a href="s/scarsymmetry.html"&gt;SCAR SYMMETRY&lt;/a&gt; - album "Pitch Black Progress" (2006), &lt;a href="s/sengir.html"&gt;SENGIR&lt;/a&gt; - albums "Guilty Water" (2003), "Sign Of Devotion" (2006), &lt;a href="s/sepultura.html"&gt;SEPULTURA&lt;/a&gt; - 1 more song from album "Dante XXI" (2006), &lt;a href="s/silentscythe.html"&gt;SILENT SCYTHE&lt;/a&gt; - album "Suffer In Silence" (2004), &lt;a href="s/skidrow.html"&gt;SKID ROW&lt;/a&gt; - album "Skid Row" (1989), &lt;a href="s/slumparkcorrectional.html"&gt;SLUMPARK CORRECTIONAL&lt;/a&gt; - album "Dreaming Underneath Destruction" (2005 EP), &lt;a href="s/sorcery.html"&gt;SORCERY&lt;/a&gt; - album "Eternity" (1998), &lt;a href="s/soulrelic.html"&gt;SOULRELIC&lt;/a&gt; - album "Love Is A Lie We Both Believed" (2005), &lt;a href="s/stone.html"&gt;STONE&lt;/a&gt; - album "Colours" (1991), &lt;a href="t/thestoryteller.html"&gt;the STORYTELLER&lt;/a&gt; - album "Underworld" (2005), &lt;a href="s/strommoussheld.html"&gt;STROMMOUSSHELD&lt;/a&gt; - album "Halfdecadance" (2004 EP), &lt;a href="s/svartkraft.html"&gt;SVARTKRAFT&lt;/a&gt; - album "Den Onda Pesten" (2004), &lt;a href="t/thanatoschizo.html"&gt;THANATOSCHIZO&lt;/a&gt; - album "Turbulence" (2004), &lt;a href="t/theatresdesvampires.html"&gt;THEATRES DES VAMPIRES&lt;/a&gt; - album "Nightbreed Of Macabria" (2004), &lt;a href="t/thineeyesbleed.html"&gt;THINE EYES BLEED&lt;/a&gt; - album "In The Wake Of Separation" (2005), &lt;a href="t/throneofchaos.html"&gt;THRONE OF CHAOS&lt;/a&gt; - album "Loss Angeles" (2004), &lt;a href="t/thycatafalque.html"&gt;THY CATAFALQUE&lt;/a&gt; - album "Sublunary Tragedies" (1999), &lt;a href="t/thydisease.html"&gt;THY DISEASE&lt;/a&gt; - album "Cold Skin Obsession" (2002), &lt;a href="t/torchbearer.html"&gt;TORCHBEARER&lt;/a&gt; - album "Yersinia Pestis" (2004), &lt;a href="t/trooper.html"&gt;TROOPER&lt;/a&gt; - album "Desant" (2005), &lt;a href="t/twilightguardians.html"&gt;TWILIGHT GUARDIANS&lt;/a&gt; - album "Sin Trade" (2006), &lt;a href="u/ulfhethnar.html"&gt;ULFHETHNAR&lt;/a&gt; - albums "Beyond Their Mortal Boundaries" (2001), "Essence Of Superiority" (2005), &lt;a href="u/underoath.html"&gt;UNDEROATH&lt;/a&gt; - 1 more song from album "Define The Great Line" (2006), &lt;a href="u/urt.html"&gt;URT&lt;/a&gt; - album "Varjuring" (2005), &lt;a href="v/vahladian.html"&gt;VAHLADIAN&lt;/a&gt; - album "Vahladian" (2004), &lt;a href="v/vandenplas.html"&gt;VANDEN PLAS&lt;/a&gt; - album "Christ 0" (2006), &lt;a href="v/vesania.html"&gt;VESANIA&lt;/a&gt; - albums "Firefrost Arcanum" (2003), "God The Lux" (2005), &lt;a href="v/vortex.html"&gt;VORTEX&lt;/a&gt; - album "Imminence Of Death!" (2005), &lt;a href="w/warriorsoul.html"&gt;WARRIOR SOUL&lt;/a&gt; - album "Chill Pill" (1993), &lt;a href="w/watchtower.html"&gt;WATCHTOWER&lt;/a&gt; - album "Energetic Disassembly" (1985), &lt;a href="w/whitecross.html"&gt;WHITECROSS&lt;/a&gt; - album "Hammer And Nail" (1988), &lt;a href="w/witchery.html"&gt;WITCHERY&lt;/a&gt; - album "Don't Fear The Reaper" (2006), &lt;a href="w/withintemptation.html"&gt;WITHIN TEMPTATION&lt;/a&gt; - 2 more songs from album "The Silent Force" (2004), &lt;a href="w/wolfmother.html"&gt;WOLFMOTHER&lt;/a&gt; - album "Dimensions" (2006 EP), &lt;a href="w/wolvenancestry.html"&gt;WOLVEN ANCESTRY&lt;/a&gt; - album "The Wrath Of Gaia" (2006), &lt;a href="y/yyrkoon.html"&gt;YYRKOON&lt;/a&gt; - album "Dying Sun" (2002), &lt;a href="z/zao.html"&gt;ZAO&lt;/a&gt; - 1 more song from album "The Funeral Of God" (2004), &lt;a href="z/zavorash.html"&gt;ZAVORASH&lt;/a&gt; - album "In Odium Veritas 1996-2002" (2004).
+&lt;/font&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;TR&gt;
+&lt;TD VALIGN=TOP&gt;&lt;FONT FACE="Verdana" COLOR=#CCCC99 SIZE=2&gt;Jun.29.2006&lt;/font&gt;&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT COLOR=#CCCCCC FACE="Verdana" SIZE=2&gt;New lyrics: &lt;a href="a/aarni.html"&gt;AARNI&lt;/a&gt; - album "Bathos" (2004), &lt;a href="a/abhorrance.html"&gt;ABHORRANCE&lt;/a&gt; - album "The Right Disease" (2005), &lt;a href="a/aborym.html"&gt;ABORYM&lt;/a&gt; - album "Fire Walk With Us" (2001), &lt;a href="a/abyssichate.html"&gt;ABYSSIC HATE&lt;/a&gt; - album "Cleansing Of An Ancient Race" (1995), &lt;a href="a/adramelech.html"&gt;ADRAMELECH&lt;/a&gt; - album "Terror Of Thousand Faces" (2005), &lt;a href="a/agonizer.html"&gt;AGONIZER&lt;/a&gt; - album "Lord Of Lies" (2001 DEMO), &lt;a href="a/amorphis.html"&gt;AMORPHIS&lt;/a&gt; - albums "Privilege Of Evil" (1993), "Story - 10th Anniversary" (2000), &lt;a href="a/anael.html"&gt;ANAEL&lt;/a&gt; - album "On Wings Of Mercury" (2005), &lt;a href="a/ancientprophecy.html"&gt;ANCIENT PROPHECY&lt;/a&gt; - album "Days Of Doom" (1999 DEMO), &lt;a href="a/annihilator.html"&gt;ANNIHILATOR&lt;/a&gt; - album "Bag Of Tricks" (1994), &lt;a href="a/apophis.html"&gt;APOPHIS&lt;/a&gt; - album "Heliopolis" (1998), &lt;a href="a/archaios.html"&gt;ARCHAIOS&lt;/a&gt; - album "Out Of The Shadows" (2005), &lt;a href="a/aridavortex.html"&gt;ARIDA VORTEX&lt;/a&gt; - album "Evil Sorcery" (2003), &lt;a href="a/arkanos.html"&gt;ARKANOS&lt;/a&gt; - album "La Cruz En La Espada" (2003), &lt;a href="a/asunder.html"&gt;ASUNDER&lt;/a&gt; - album "A Clarion Call" (2004), &lt;a href="a/atreyu.html"&gt;ATREYU&lt;/a&gt; - album "A Death-Grip On Yesterday" (2006), &lt;a href="a/atrophy.html"&gt;ATROPHY&lt;/a&gt; - album "Violent By Nature" (1990), &lt;a href="a/audiopain.html"&gt;AUDIOPAIN&lt;/a&gt; - album "The Traumatizer" (2004), &lt;a href="a/axisofadvance.html"&gt;AXIS OF ADVANCE&lt;/a&gt; - album "Purify" (2006 MCD), &lt;a href="b/becomingthearchetype.html"&gt;BECOMING THE ARCHETYPE&lt;/a&gt; - album "Terminate Damnation" (2005), &lt;a href="b/beseech.html"&gt;BESEECH&lt;/a&gt; - album "Sunless Days" (2005), &lt;a href="b/blackdawn.html"&gt;BLACK DAWN&lt;/a&gt; - album "Blood For Satan" (2001), &lt;a href="b/blackmyheart.html"&gt;BLACK MY HEART&lt;/a&gt; - album "Before The Devil" (2005), &lt;a href="b/blindguardian.html"&gt;BLIND GUARDIAN&lt;/a&gt; - album "Fly" (2006 SINGLE), &lt;a href="b/bloodredthrone.html"&gt;BLOOD RED THRONE&lt;/a&gt; - album "Altered Genesis" (2005), &lt;a href="b/bongzilla.html"&gt;BONGZILLA&lt;/a&gt; - album "Amerijuanican" (2005), &lt;a href="b/bunkur.html"&gt;BUNKUR&lt;/a&gt; - album "Bludgeon" (2003), &lt;a href="c/caliban.html"&gt;CALIBAN&lt;/a&gt; - album "The Undying Darkness" (2006), &lt;a href="c/cannibalcorpse.html"&gt;CANNIBAL CORPSE&lt;/a&gt; - album "Kill" (2006), &lt;a href="c/carnivalincoal.html"&gt;CARNIVAL IN COAL&lt;/a&gt; - albums "French Cancan" (1999), "Vivaladiva" (1999), "Fear Not" (2001), "Collection Prestige" (2005), &lt;a href="c/carpathian.html"&gt;CARPATHIAN&lt;/a&gt; - 1 more song from album "Carpathian" (2005), &lt;a href="c/caseyjones.html"&gt;CASEY JONES&lt;/a&gt; - 1 more song from album "Few, The Proud, The Crucial" (2004), &lt;a href="c/cattledecapitation.html"&gt;CATTLE DECAPITATION&lt;/a&gt; - album "Ten Torments Of The Damned" (1996), &lt;a href="c/charme.html"&gt;CHARME&lt;/a&gt; - album "Gothica Prog Poetry" (2005 DEMO), &lt;a href="c/chimaira.html"&gt;CHIMAIRA&lt;/a&gt; - 1 more song from album "The Impossibility Of Reason" (2003), &lt;a href="c/cliteater.html"&gt;CLITEATER&lt;/a&gt; - album "Eat Clit Or Die" (2005), &lt;a href="c/coalfield.html"&gt;COALFIELD&lt;/a&gt; - album "Transmitter" (2003), &lt;a href="c/cobalto.html"&gt;COBALTO&lt;/a&gt; - album "Elemental" (2005), &lt;a href="c/craft.html"&gt;CRAFT&lt;/a&gt; - album "Fuck The Universe" (2005), &lt;a href="c/criminal.html"&gt;CRIMINAL&lt;/a&gt; - album "Sicario" (2005), &lt;a href="t/thecumshots.html"&gt;the CUMSHOTS&lt;/a&gt; - album "Just Quit Trying" (2006), &lt;a href="d/dagoba.html"&gt;DAGOBA&lt;/a&gt; - album "What Hell Is About" (2006), &lt;a href="d/darkfortress.html"&gt;DARK FORTRESS&lt;/a&gt; - album "Sance" (2006), &lt;a href="d/darkthrone.html"&gt;DARKTHRONE&lt;/a&gt; - 1 more song from album "Panzerfaust" (1995), album "The Cult Is Alive" (2006), &lt;a href="d/deadtofall.html"&gt;DEAD TO FALL&lt;/a&gt; - album "The Phoenix Throne" (2006), &lt;a href="d/death.html"&gt;DEATH&lt;/a&gt; - album "Fate" (1992), &lt;a href="d/decapitated.html"&gt;DECAPITATED&lt;/a&gt; - 1 more song from album "The Negation" (2004), album "Organic Hallucinosis" (2006), &lt;a href="d/deliveranceitaly.html"&gt;DELIVERANCE (ITALY)&lt;/a&gt; - album "The Executioner" (2002), &lt;a href="d/desensitised.html"&gt;DESENSITISED&lt;/a&gt; - album "Thriving On Carnage" (2002 MCD), &lt;a href="d/despisedicon.html"&gt;DESPISED ICON&lt;/a&gt; - album "The Healing Process" (2005), &lt;a href="d/diablo.html"&gt;DIABLO&lt;/a&gt; - album "Mimic 47" (2006), &lt;a href="d/dinaddict.html"&gt;DIN-ADDICT&lt;/a&gt; - album "Music For Opened Minds" (2004), &lt;a href="d/dismember.html"&gt;DISMEMBER&lt;/a&gt; - album "The God That Never Was" (2006), &lt;a href="e/enforsaken.html"&gt;ENFORSAKEN&lt;/a&gt; - album "Sinner's Intuition" (2006), &lt;a href="e/ensiferum.html"&gt;ENSIFERUM&lt;/a&gt; - album "Dragonheads" (2006 EP), &lt;a href="e/ephelduath.html"&gt;EPHEL DUATH&lt;/a&gt; - album "Pain Necessary To Know" (2005), &lt;a href="e/epica.html"&gt;EPICA&lt;/a&gt; - 1 more song from album "The Phantom Agony" (2003 SINGLE), album "Consign To Oblivion" (2005), &lt;a href="e/essenceofexistence.html"&gt;ESSENCE OF EXISTENCE&lt;/a&gt; - album "Ephemeris Sun" (2001), &lt;a href="e/evergrey.html"&gt;EVERGREY&lt;/a&gt; - album "Monday Morning Apocalypse" (2006), &lt;a href="e/extremeviolence.html"&gt;EXTREME VIOLENCE&lt;/a&gt; - album "Ecstasy In Pain" (2005), &lt;a href="f/fk.html"&gt;F.K..&lt;/a&gt; - album "Metal Moshing Mad" (1999), &lt;a href="f/fahrenheit.html"&gt;FAHRENHEIT&lt;/a&gt; - album "Uncharted Dreams" (2005), &lt;a href="f/filiinigrantiuminfernalium.html"&gt;FILII NIGRANTIUM INFERNALIUM&lt;/a&gt; - album "Fellatrix Discordia Pantokrator" (2005), &lt;a href="f/fluisterwoud.html"&gt;FLUISTERWOUD&lt;/a&gt; - English translation of album "Langs Galg En Rad" (2003), &lt;a href="f/frightmare.html"&gt;FRIGHTMARE&lt;/a&gt; - album "Bringing Back The Bloodshed" (2006), &lt;a href="f/funerarydirge.html"&gt;FUNERARY DIRGE&lt;/a&gt; - album "Prologue: Memoria In Aeterna" (2004), &lt;a href="t/thegathering.html"&gt;THE GATHERING&lt;/a&gt; - album "Home" (2005), &lt;a href="g/glenntipton.html"&gt;GLENN TIPTON&lt;/a&gt; - album "Edge Of The World" (2006), &lt;a href="g/godforbid.html"&gt;GOD FORBID&lt;/a&gt; - album "Reject The Sickness" (2000), &lt;a href="g/gravedigger.html"&gt;GRAVE DIGGER&lt;/a&gt; - 2 more songs from album "Rheingold" (2003), &lt;a href="g/greencarnation.html"&gt;GREEN CARNATION&lt;/a&gt; - album "Acoustic Verses" (2006), &lt;a href="g/greenfly.html"&gt;GREENFLY&lt;/a&gt; - album "Hidden Pleasures Of A Nonexistent Reality" (2003), &lt;a href="g/gutted.html"&gt;GUTTED&lt;/a&gt; - albums "Defiled" (2001), "Human Race Deserves To Die" (2005), &lt;a href="h/hacavitz.html"&gt;HACAVITZ&lt;/a&gt; - album "Venganza" (2006), &lt;a href="h/hermeticvastness.html"&gt;HERMETIC VASTNESS&lt;/a&gt; - album "Hermetic Vastness" (2005), &lt;a href="i/ihsahn.html"&gt;IHSAHN&lt;/a&gt; - album "The Adversary" (2006), &lt;a href="i/inheaven.html"&gt;IN HEAVEN&lt;/a&gt; - album "Darchangel" (2005), &lt;a href="i/ironmaiden.html"&gt;IRON MAIDEN&lt;/a&gt; - album "Death On The Road" (2005 LIVE), &lt;a href="i/irreverencia.html"&gt;IRREVERENCIA&lt;/a&gt; - albums "Irreverencia" (1999), "Dadme La Otra Mejilla" (2001), &lt;a href="j/japunga.html"&gt;JAPUNGA&lt;/a&gt; - album "Light At Days End" (2003), &lt;a href="k/kalmah.html"&gt;KALMAH&lt;/a&gt; - album "The Black Waltz" (2006), &lt;a href="k/kataklysm.html"&gt;KATAKLYSM&lt;/a&gt; - album "In The Arms Of Devastation" (2006), &lt;a href="k/katatonia.html"&gt;KATATONIA&lt;/a&gt; - album "My Twin" (2006 EP), &lt;a href="k/kataxu.html"&gt;KATAXU&lt;/a&gt; - album "Roots Thunder" (2000 DEMO), &lt;a href="k/klimt1918.html"&gt;KLIMT 1918&lt;/a&gt; - albums "Dopoguerra" (2003), "Undressed Momento" (2005), &lt;a href="k/knaan.html"&gt;KNA'AN&lt;/a&gt; - album "Slavery" (2005 DEMO), &lt;a href="l/lacrimosa.html"&gt;LACRIMOSA&lt;/a&gt; - English translation of the album "Lichtgestalt" (2005), &lt;a href="l/lacunacoil.html"&gt;LACUNA COIL&lt;/a&gt; - album "Our Truth" (2006 SINGLE), "Karmacode" (2006), &lt;a href="l/lalu.html"&gt;LALU&lt;/a&gt; - album "Oniric Metal" (2005), &lt;a href="l/lengtche.html"&gt;LENG TCH'E&lt;/a&gt; - album "The Process Of Elimination" (2005), &lt;a href="l/ligeia.html"&gt;LIGEIA&lt;/a&gt; - album "Your Ghost Is A Gift" (2006), &lt;a href="l/lillianaxe.html"&gt;LILLIAN AXE&lt;/a&gt; - album "Psychoschizophrenia" (1993), &lt;a href="l/livkristine.html"&gt;LIV KRISTINE&lt;/a&gt; - album "Enter My Religion" (2006), &lt;a href="l/lordgore.html"&gt;LORD GORE&lt;/a&gt; - album "Resickened" (2004), &lt;a href="m/makeachangekillyourself.html"&gt;MAKE A CHANGE... KILL YOURSELF&lt;/a&gt; - album "Make A Change... Kill Yourself" (2005), &lt;a href="m/master.html"&gt;MASTER&lt;/a&gt; - album "Faith Is In Season" (1998), &lt;a href="m/medea.html"&gt;MEDEA&lt;/a&gt; - album Room XVII" (2006), &lt;a href="m/midnattsol.html"&gt;MIDNATTSOL&lt;/a&gt; - 1 more song from album "Where Twilight Dwells" (2004), &lt;a href="m/mindsnare.html"&gt;MINDSNARE&lt;/a&gt; - album "From Blood To Dust" (2005), &lt;a href="m/mokoma.html"&gt;MOKOMA&lt;/a&gt; - album "Kuoleman Laulukunnaat" (2006), &lt;a href="m/moonspell.html"&gt;MOONSPELL&lt;/a&gt; - 2 more songs from album "Under The Moonspell" (1994 MCD), &lt;a href="m/mylidian.html"&gt;MYLIDIAN&lt;/a&gt; - album "Birth Of The Prophet" (2006), &lt;a href="n/necrotize.html"&gt;NECROTIZE&lt;/a&gt; - album "Necrotize" (2006), &lt;a href="n/neurosisinc.html"&gt;NEUROSIS INC.&lt;/a&gt; - albums "15 Years At War" (2002), "Subversivos Espirituales" (2005), &lt;a href="n/nihilobstat.html"&gt;NIHIL OBSTAT&lt;/a&gt; - album "Inherited Primitive Behaviors" (2004), &lt;a href="n/nine.html"&gt;NINE&lt;/a&gt; - albums "Killing Angels" (2003), "Death Is Glorious" (2006 EP), &lt;a href="n/nocturnalrites.html"&gt;NOCTURNAL RITES&lt;/a&gt; - 2 more songs from album "New World Messiah" (2004), &lt;a href="n/nordvykk.html"&gt;NORDVYKK&lt;/a&gt; - album "Nordland" (2004), &lt;a href="n/normajean.html"&gt;NORMA JEAN&lt;/a&gt; - album "Masters Of Horror" (2005), &lt;a href="n/nuclearassault.html"&gt;NUCLEAR ASSAULT&lt;/a&gt; - album "Out Of Order" (1991), &lt;a href="o/obtest.html"&gt;OBTEST&lt;/a&gt; - album "Is Kartos I Karta" (2005), &lt;a href="t/theocean.html"&gt;the OCEAN&lt;/a&gt; - album "FluXion" (2004), &lt;a href="o/octaviasperati.html"&gt;OCTAVIA SPERATI&lt;/a&gt; - album "Winter Enclosure" (2005), &lt;a href="o/ofinfinity.html"&gt;OF INFINITY&lt;/a&gt; - album "The Essence Of Infinity" (2004), &lt;a href="o/oratory.html"&gt;ORATORY&lt;/a&gt; - albums "Last Prophecy" (1998 SINGLE), "Interludium" (2005), &lt;a href="o/ordalium.html"&gt;ORDALIUM&lt;/a&gt; - album "Fanatioma" (2004), &lt;a href="o/ordodraconis.html"&gt;ORDO DRACONIS&lt;/a&gt; - album "In Speculis Noctis" (1999), &lt;a href="p/paganizer.html"&gt;PAGANIZER&lt;/a&gt; - albums "Promoting Total Death" (2001), "Dead Unburied" (2002), &lt;a href="t/theplague.html"&gt;THE PLAGUE&lt;/a&gt; - album "Let The World Burn" (2006 DEMO), &lt;a href="p/porcupinetree.html"&gt;PORCUPINE TREE&lt;/a&gt; - 1 more song from album "Deadwing" (2005), &lt;a href="p/psycroptic.html"&gt;PSYCROPTIC&lt;/a&gt; - album "Symbols Of Failure" (2006), &lt;a href="p/pyramaze.html"&gt;PYRAMAZE&lt;/a&gt; - album "Legend Of The Bone Carver" (2006), &lt;a href="q/queensryche.html"&gt;QUEENSRYCHE&lt;/a&gt; - album "Operation: Mindcrime II" (2006), &lt;a href="r/rage.html"&gt;RAGE&lt;/a&gt; - album "Speak Of The Dead" (2006), &lt;a href="r/ramzet.html"&gt;RAM-ZET&lt;/a&gt; - album "Intra" (2005), &lt;a href="r/raunchy.html"&gt;RAUNCHY&lt;/a&gt; - album "Death Pop Romance" (2006), &lt;a href="r/redcircuit.html"&gt;RED CIRCUIT&lt;/a&gt; - album "Trance State" (2006), &lt;a href="r/rellik.html"&gt;RELLIK&lt;/a&gt; - album "Heritage Of Abomination" (2005), &lt;a href="r/rememberingnever.html"&gt;REMEMBERING NEVER&lt;/a&gt; - album "God Save Us" (2006), &lt;a href="r/reverendbizarre.html"&gt;REVEREND BIZARRE&lt;/a&gt; - albums "You Shall Suffer" (2003 DEMO), "II: Crush The Insects" (2005), &lt;a href="r/rigorsardonicous.html"&gt;RIGOR SARDONICOUS&lt;/a&gt; - albums "Apocalypsis Damnare" (1999), "Principia Sardonica" (2004), &lt;a href="s/seemless.html"&gt;SEEMLESS&lt;/a&gt; - album "Seemless" (2004), &lt;a href="s/sepultura.html"&gt;SEPULTURA&lt;/a&gt; - album "Dante XXI" (2006), &lt;a href="s/silentium.html"&gt;SILENTIUM&lt;/a&gt; - albums "Illacrim" (1996 DEMO), "Seducia" (2006), &lt;a href="s/sinate.html"&gt;SINATE&lt;/a&gt; - album "Beyond Human" (2005), &lt;a href="s/sixfeetunder.html"&gt;SIX FEET UNDER&lt;/a&gt; - album "Legions Of The Undead" (1986 DEMO), &lt;a href="s/sixtywattshaman.html"&gt;SIXTY WATT SHAMAN&lt;/a&gt; - album "Reason To Live" (2002), &lt;a href="s/soilentgreen.html"&gt;SOILENT GREEN&lt;/a&gt; - album "Confrontation" (2005), &lt;a href="s/solicide.html"&gt;SOLICIDE&lt;/a&gt; - album "Der Untergang Des Abendlandes" (2003), &lt;a href="s/sorrow.html"&gt;SORROW&lt;/a&gt; - album "Forgotten Sunrise" (1991 EP), &lt;a href="s/stormwitch.html"&gt;STORMWITCH&lt;/a&gt; - album "Witchcraft" (2004), &lt;a href="s/strappingyounglad.html"&gt;STRAPPING YOUNG LAD&lt;/a&gt; - 1 more song from album "Heavy As A Really Heavy Thing" (1995), &lt;a href="s/streamofpassion.html"&gt;STREAM OF PASSION&lt;/a&gt; - album "Out In The Real World" (2005 SINGLE), &lt;a href="s/summoning.html"&gt;SUMMONING&lt;/a&gt; - album "Oath Bound" (2006), &lt;a href="s/symbols.html"&gt;SYMBOLS&lt;/a&gt; - album "Faces" (2002), &lt;a href="s/sympathy.html"&gt;SYMPATHY&lt;/a&gt; - album "Abyssal Throne" (2005), &lt;a href="s/syntheticbreed.html"&gt;SYNTHETIC BREED&lt;/a&gt; - album "Fractured" (2005 EP), &lt;a href="t/tenhi.html"&gt;TENHI&lt;/a&gt; - album "Maaet" (2006), &lt;a href="t/tersbetoni.html"&gt;TERSBETONI&lt;/a&gt; - album "Metallitotuus" (2005), &lt;a href="t/thalarion.html"&gt;THALARION&lt;/a&gt; - album "Hellium" (2004), &lt;a href="t/theatreoftragedy.html"&gt;THEATRE OF TRAGEDY&lt;/a&gt; - albums "Storm" (2006), "Storm" (2006 SINGLE), &lt;a href="t/theatresdesvampires.html"&gt;THEATRES DES VAMPIRES&lt;/a&gt; - 1 more song from album "Suicide Vampire" (2002), &lt;a href="t/thronar.html"&gt;THRONAR&lt;/a&gt; - album "For Death And Glory" (2005), &lt;a href="t/trailoftears.html"&gt;TRAIL OF TEARS&lt;/a&gt; - album "Free Fall Into Fear" (2004), &lt;a href="t/transcendingbizarre.html"&gt;TRANSCENDING BIZARRE?&lt;/a&gt; - album "The Four Scissors" (2003), &lt;a href="t/turmionktilt.html"&gt;TURMION KTILT&lt;/a&gt; - album "Pirun Nyrkki" (2006), &lt;a href="u/undereden.html"&gt;UNDER EDEN&lt;/a&gt; - album "The Savage Circle" (2005), &lt;a href="u/underoath.html"&gt;UNDEROATH&lt;/a&gt; - 1 song from album "Define The Great Line" (2006), &lt;a href="u/unleashed.html"&gt;UNLEASHED&lt;/a&gt; - album "Sworn Allegiance" (2004), &lt;a href="v/verjnuarmu.html"&gt;VERJNUARMU&lt;/a&gt; - album "Muanpillinen Helevetti" (2006), &lt;a href="v/visiondivine.html"&gt;VISION DIVINE&lt;/a&gt; - album "The Perfect Machine" (2005), &lt;a href="v/vomiturition.html"&gt;VOMITURITION&lt;/a&gt; - album "A Leftover" (1995), &lt;a href="w/waltari.html"&gt;WALTARI&lt;/a&gt; - album "Space Avenue" (1997), &lt;a href="w/warbreed.html"&gt;WARBREED&lt;/a&gt; - album "So Cry Havoc..." (2006 EP), &lt;a href="w/whitewillow.html"&gt;WHITE WILLOW&lt;/a&gt; - album "Storm Season" (2004), &lt;a href="w/wigrid.html"&gt;WIGRID&lt;/a&gt; - album "...Die Asche Eines Lebens" (2005), &lt;a href="w/witchfindergeneral.html"&gt;WITCHFINDER GENERAL&lt;/a&gt; - album "Friends Of Hell" (1983), &lt;a href="w/withintemptation.html"&gt;WITHIN TEMPTATION&lt;/a&gt; - 2 more songs from album "The Silent Force" (2004), &lt;a href="x/xordeal.html"&gt;XORDEAL&lt;/a&gt; - album "Introspective" (2005), &lt;a href="y/yngwiemalmsteen.html"&gt;YNGWIE MALMSTEEN&lt;/a&gt; - album "Unleash The Fury" (2005).
+&lt;/font&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;TR&gt;
+&lt;TD VALIGN=TOP&gt;&lt;FONT FACE="Verdana" COLOR=#CCCC99 SIZE=2&gt;Apr.27.2006&lt;/font&gt;&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT COLOR=#CCCCCC FACE="Verdana" SIZE=2&gt;New lyrics: &lt;a href="19/122stabwounds.html"&gt;122 STAB WOUNDS&lt;/a&gt; - album "The Deity Of Perversion" (1996), &lt;a href="19/1349.html"&gt;1349&lt;/a&gt; - album "Hellfire" (2005), &lt;a href="t/the69eyes.html"&gt;THE 69 EYES&lt;/a&gt; - album "Feel Berlin" (2005 SINGLE), &lt;a href="a/act.html"&gt;A.C.T.&lt;/a&gt; - albums "Imaginary Friends" (2002), "Last Epic" (2003), &lt;a href="t/theabsence.html"&gt;THE ABSENCE&lt;/a&gt; - album "From Your Grave" (2005), &lt;a href="a/advent.html"&gt;ADVENT&lt;/a&gt; - album "The Dawn" (2003), &lt;a href="a/aeon.html"&gt;AEON&lt;/a&gt; - album "Bleeding The False" (2005), &lt;a href="a/agathodaimon.html"&gt;AGATHODAIMON&lt;/a&gt; - albums "Carpe Noctem" (1996 DEMO), "Near Dark" (1997 DEMO), 1 more song from album "Higher Art Of Rebellion" (1999), &lt;a href="a/ajattara.html"&gt;AJATTARA&lt;/a&gt; - English translation of the album "Kuolema" (2003), &lt;a href="a/almafuerte.html"&gt;ALMAFUERTE&lt;/a&gt; - album "Profeta En Su Tierra" (1998), &lt;a href="a/amorphis.html"&gt;AMORPHIS&lt;/a&gt; - album "Eclipse" (2006), &lt;a href="a/anathema.html"&gt;ANATHEMA&lt;/a&gt; - 1 more song from album "Alternative 4" (1998), &lt;a href="a/angelesdelinfierno.html"&gt;ANGELES DEL INFIERNO&lt;/a&gt; - albums "Pacto Con El Diablo" (1984), "Diabolica" (1985), "Joven Para Morir" (1986), "Lo Mejor De Angeles Del Infierno" (1987), "666" (1988), "Lo Mejor De Angeles Del Infierno: 1984-1993" (1997), "Exitos Diabolicos" (2001), "Todos Somos Angeles" (2003), &lt;a href="a/animal.html"&gt;A.N.I.M.A.L.&lt;/a&gt; - album "Animal 6" (2001), &lt;a href="a/annihilator.html"&gt;ANNIHILATOR&lt;/a&gt; - album "Schizo Deluxe" (2005), &lt;a href="a/apocalyptica.html"&gt;APOCALYPTICA&lt;/a&gt; - albums "Path Vol. 2" (2001 EP), "Cult" (2001 SPECIAL EDITION), "Seemann" (2003), "Faraway Vol. 2" (2003 EP), "Bittersweet" (2004), "En Vie" (2005 SINGLE), "Apocalyptica" (2005), &lt;a href="a/ark.html"&gt;ARK&lt;/a&gt; - 1 more song from album "Burn The Sun" (2001), &lt;a href="a/arsis.html"&gt;ARSIS&lt;/a&gt; - album "A Diamond For Disease" (2005 EP), &lt;a href="a/ashtar.html"&gt;ASHTAR&lt;/a&gt; - album "Urantia" (2002), &lt;a href="a/asp.html"&gt;ASP&lt;/a&gt; - albums "Weltunter" (2003), "Aus Der Tiefe" (2005), &lt;a href="a/asperity.html"&gt;ASPERITY&lt;/a&gt; - album "The Final Demand" (2004), &lt;a href="a/ataraxie.html"&gt;ATARAXIE&lt;/a&gt; - albums "The Other Path" (2003), "Slow Transcending Agony" (2005), &lt;a href="a/aura.html"&gt;AURA&lt;/a&gt; - album "Scenario II" (2006), &lt;a href="a/auranoir.html"&gt;AURA NOIR&lt;/a&gt; - album "The Merciless" (2004), &lt;a href="t/theautumnoffering.html"&gt;THE AUTUMN OFFERING&lt;/a&gt; - album "Revelations Of The Unsung" (2004), &lt;a href="t/thebanner.html"&gt;THE BANNER&lt;/a&gt; - album "Each Breath Haunted" (2005), &lt;a href="b/battlelore.html"&gt;BATTLELORE&lt;/a&gt; - album "Third Age Of The Sun" (2005), &lt;a href="b/beatrik.html"&gt;BEATRIK&lt;/a&gt; - albums "Journey Through The End Of Life" (2002), "Requiem Of December" (2005), &lt;a href="b/bekhira.html"&gt;BEKHIRA&lt;/a&gt; - album "L'Elu Du Mal" (2005), &lt;a href="b/berzerker.html"&gt;BERZERKER&lt;/a&gt; - album "World Of Lies" (2005), &lt;a href="b/blackmajesty.html"&gt;BLACK MAJESTY&lt;/a&gt; - album "Silent Company" (2005), &lt;a href="b/blacksabbath.html"&gt;BLACK SABBATH&lt;/a&gt; - album "Sold Our Souls For Rock'n'Roll" (1976), &lt;a href="b/blacksteel.html"&gt;BLACK STEEL&lt;/a&gt; - albums "Battle Call" (2000 EP), "Destructor" (2001), &lt;a href="b/blackfield.html"&gt;BLACKFIELD&lt;/a&gt; - album "Blackfield" (2004), &lt;a href="b/blaspheme.html"&gt;BLASPHEME&lt;/a&gt; - album "Dsir De Vampyr" (1985), &lt;a href="b/bleedingthrough.html"&gt;BLEEDING THROUGH&lt;/a&gt; - album "The Truth" (2005), &lt;a href="b/bloodthirstydemons.html"&gt;BLOOD THIRSTY DEMONS&lt;/a&gt; - album "Let The War Begin" (2005), &lt;a href="b/bloodshed.html"&gt;BLOODSHED&lt;/a&gt; - album "March Of The Undead" (2005), &lt;a href="b/bluecheer.html"&gt;BLUE CHEER&lt;/a&gt; - album "Vincebus Eruptum" (1968), &lt;a href="b/boltthrower.html"&gt;BOLT THROWER&lt;/a&gt; - album "Those Once Loyal" (2005), 1 more song from album "Cenotaph" (1991 EP), 1 more song from album "Who Dares Wins" (1999), &lt;a href="b/botch.html"&gt;BOTCH&lt;/a&gt; - album "An Anthology Of Dead Ends" (2002), &lt;a href="b/brainstorm.html"&gt;BRAINSTORM&lt;/a&gt; - album "Liquid Monster" (2005), &lt;a href="b/butterflytemple.html"&gt;BUTTERFLY TEMPLE&lt;/a&gt; - album "&amp;#x0412;&amp;#x0440;&amp;#x0435;&amp;#x043C;&amp;#x044F;&amp;#x0020;&amp;#x004D;&amp;#x0430;&amp;#x0440;&amp;#x044B;" (2005), &lt;a href="c/callisto.html"&gt;CALLISTO&lt;/a&gt; - album "True Nature Unfolds" (2004), &lt;a href="c/catafalque.html"&gt;CATAFALQUE&lt;/a&gt; - album "Unique" (2003), &lt;a href="c/celestialcrown.html"&gt;CELESTIAL CROWN&lt;/a&gt; - album "A Veiled Empire" (2005), &lt;a href="c/cemkksal.html"&gt;CEM KKSAL&lt;/a&gt; - album "Just Set Me Free" (2004), &lt;a href="c/chain.html"&gt;CHAIN&lt;/a&gt; - album "Chain.exe" (2004), &lt;a href="t/thechariot.html"&gt;THE CHARIOT&lt;/a&gt; - album "Unsung" (2005 EP), &lt;a href="c/chiodos.html"&gt;CHIODOS&lt;/a&gt; - album "All's Well That End's Well" (2005), &lt;a href="c/christianepidemic.html"&gt;CHRISTIAN EPIDEMIC&lt;/a&gt; - English translation of the album "Knnyek Knyve" (2005), &lt;a href="c/circleofgrief.html"&gt;CIRCLE OF GRIEF&lt;/a&gt; - album "Enter The Gallery" (2004), &lt;a href="c/cockandballtorture.html"&gt;COCK AND BALL TORTURE&lt;/a&gt; - album "Opus(sy) VI" (2000), &lt;a href="c/cradleoffilth.html"&gt;CRADLE OF FILTH&lt;/a&gt; - album "No Time To Cry" (2002 EP), &lt;a href="c/collapse7.html"&gt;COLLAPSE 7&lt;/a&gt; - album "In Deep Silence" (2004), &lt;a href="c/composmentis.html"&gt;COMPOS MENTIS&lt;/a&gt; - albums "Quadrology Of Sorrow" (2000), "Fragments Of A Withered Dream" (2003), &lt;a href="c/condemnedcell.html"&gt;CONDEMNED CELL&lt;/a&gt; - album "Shadows Of The Past" (2004), &lt;a href="c/consolation.html"&gt;CONSOLATION&lt;/a&gt; - album "Stahlplaat" (1998), &lt;a href="c/cornonmacabre.html"&gt;CORN ON MACABRE&lt;/a&gt; - album "Chapter II" (2002), &lt;a href="c/corpuschristii.html"&gt;CORPUS CHRISTII&lt;/a&gt; - album "The Torment Continues" (2005), &lt;a href="c/corrupted.html"&gt;CORRUPTED&lt;/a&gt; - album "El Mundo Frio" (2005), &lt;a href="c/crucifiedbarbara.html"&gt;CRUCIFIED BARBARA&lt;/a&gt; - album "In Distortion We Trust" (2005), &lt;a href="c/crystalball.html"&gt;CRYSTAL BALL&lt;/a&gt; - album "Hellvetia" (2003), &lt;a href="c/curlupanddie.html"&gt;CURL UP AND DIE&lt;/a&gt; - album "The One Of Above All, The End Of All That Is" (2005), &lt;a href="c/cyphilis.html"&gt;CYPHILIS&lt;/a&gt; - album "Buff Shined Scars" (2004), &lt;a href="d/dagorlad.html"&gt;DAGORLAD&lt;/a&gt; - album "The End Of The Dark Ages" (2002), &lt;a href="d/damnable.html"&gt;DAMNABLE&lt;/a&gt; - album "Completely Devoted" (2001), &lt;a href="d/darksanctuary.html"&gt;DARK SANCTUARY&lt;/a&gt; - album "Exaudi Vocem Mean - Part 1" (2005), &lt;a href="d/darksuns.html"&gt;DARK SUNS&lt;/a&gt; - albums "Swanlike" (2002), "Existence" (2005), &lt;a href="d/darzamat.html"&gt;DARZAMAT&lt;/a&gt; - album "Transkarpatia" (2005), &lt;a href="d/dawnofdreamsgermany.html"&gt;DAWN OF DREAMS (GERMANY)&lt;/a&gt; - album "Darklight Awakening" (2000), &lt;a href="d/deadanddivine.html"&gt;DEAD AND DIVINE&lt;/a&gt; - album "What Really Happened At Lover's Lane" (2005), &lt;a href="d/deathstars.html"&gt;DEATHSTARS&lt;/a&gt; - album "Termination Bliss" (2006), &lt;a href="d/delirious.html"&gt;DELIRIOUS&lt;/a&gt; - album "Designed By Violence" (2001), &lt;a href="d/demon.html"&gt;DEMON&lt;/a&gt; - album "Better The Devil You Know!" (2005), &lt;a href="d/depresy.html"&gt;DEPRESY&lt;/a&gt; - album "Sighting" (2000), &lt;a href="d/descendintonothingness.html"&gt;DESCEND INTO NOTHINGNESS&lt;/a&gt; - album "Darkened Reality" (2003), &lt;a href="d/destiny.html"&gt;DESTINY&lt;/a&gt; - album "Diving Into Eternity" (2002), &lt;a href="d/destructor.html"&gt;DESTRUCTOR&lt;/a&gt; - albums "Maximum Destruction" (1985), "Sonic Bullet" (2003 EP), &lt;a href="d/devildriver.html"&gt;DEVILDRIVER&lt;/a&gt; - 2 more songs from album "The Fury Of Our Maker's Hand" (2005), &lt;a href="d/devintownsend.html"&gt;DEVIN TOWNSEND&lt;/a&gt; - 1 more song from album "Physicist" (2000), album "Synchestra" (2006), &lt;a href="d/deviser.html"&gt;DEVISER&lt;/a&gt; - album "Unspeakable Cults" (1997), &lt;a href="d/diagnsticofinal.html"&gt;DIAGNSTICO FINAL&lt;/a&gt; - album "Involucin" (2001), &lt;a href="d/dimmak.html"&gt;DIM MAK&lt;/a&gt; - album "Enter The Dragon" (1999), &lt;a href="d/dimmuborgir.html"&gt;DIMMU BORGIR&lt;/a&gt; - 2 more songs from album "Stormblst" (1996), &lt;a href="d/dionysus.html"&gt;DIONYSUS&lt;/a&gt; - 1 more song from album "Sign Of Truth" (2002), &lt;a href="d/dissonant.html"&gt;DISSONANT&lt;/a&gt; - album "Consolidated Reality Fragments" (2005 EP), &lt;a href="d/distorted.html"&gt;DISTORTED&lt;/a&gt; - album "Memorial" (2006), &lt;a href="d/divinitydestroyed.html"&gt;DIVINITY DESTROYED&lt;/a&gt; - albums "Divinity Destroyed" (2003 EP), "The Plague" (2005 EP), &lt;a href="d/dominationblack.html"&gt;DOMINATION BLACK&lt;/a&gt; - album "Fearbringer" (2005), &lt;a href="d/dominium.html"&gt;DOMINIUM&lt;/a&gt; - album "Psycho Path Fever" (2002), &lt;a href="d/dornenreich.html"&gt;DORNENREICH&lt;/a&gt; - album "Hexenwind" (2005), &lt;a href="d/dorsalatlantica.html"&gt;DORSAL ATLANTICA&lt;/a&gt; - albums "Antes Do Fim" (1986), "Dividir &amp; Conquistar" (1988), "Search For The Light" (1990), "Musical Guide From Stellium" (1992), "Alea Jacta Est" (1994), &lt;a href="d/dragonforce.html"&gt;DRAGONFORCE&lt;/a&gt; - album "Inhuman Rampage" (2006), &lt;a href="d/dragonland.html"&gt;DRAGONLAND&lt;/a&gt; - album "Starfall" (2004), &lt;a href="d/dreamland.html"&gt;DREAMLAND&lt;/a&gt; - album "Future's Calling" (2005), &lt;a href="d/dreamtale.html"&gt;DREAMTALE&lt;/a&gt; - album "Difference" (2005), &lt;a href="d/drillerkiller.html"&gt;DRILLER KILLER&lt;/a&gt; - albums "Brutalize" (1994), "Total Fucking Hate" (1995), "Fuck The World" (1997), "Reality Bites" (1998), "And The Winner Is..." (2000), "Cold, Cheap &amp; Disconnected" (2002), &lt;a href="d/dungeon.html"&gt;DUNGEON&lt;/a&gt; - album "Resurrection" (2005), &lt;a href="d/dyingpassion.html"&gt;DYING PASSION&lt;/a&gt; - albums "No Time" (1999 DEMO), "Secretly" (2000), "Voyage" (2002), "Sweet Disillusions" (2004), &lt;a href="d/dyingwish.html"&gt;DYING WISH&lt;/a&gt; - album "D.Y.I.N.G. W.I.S.H." (2005), &lt;a href="e/edguy.html"&gt;EDGUY&lt;/a&gt; - album "Rocket Ride" (2006), &lt;a href="e/eisblut.html"&gt;EISBLUT&lt;/a&gt; - album "Schlachtwerk" (2005), &lt;a href="e/emerald.html"&gt;EMERALD&lt;/a&gt; - albums "Rebels Of Our Time" (1999), "Calling The Knights" (2001), "Forces Of Doom" (2004), &lt;a href="e/empyrium.html"&gt;EMPYRIUM&lt;/a&gt; - album "A Wintersunset" (1996 LP), &lt;a href="e/ensiferum.html"&gt;ENSIFERUM&lt;/a&gt; - album "1997-1999" (2005 DEMO RE-RELEASE), &lt;a href="e/entreat.html"&gt;ENTREAT&lt;/a&gt; - album "Shaded" (2001), &lt;a href="e/evereve.html"&gt;EVEREVE&lt;/a&gt; - album "Tried &amp; Failed" (2005), &lt;a href="e/excelsis.html"&gt;EXCELSIS&lt;/a&gt; - albums "Tales Of Tell" (2002), "The Legacy Of Sempach" (2004), &lt;a href="f/falconer.html"&gt;FALCONER&lt;/a&gt; - 2 more songs from album "Grime Vs. Grandeour" (2005), &lt;a href="f/falkenbach.html"&gt;FALKENBACH&lt;/a&gt; - album "Heralding The Fireblade" (2005), &lt;a href="f/fateswarning.html"&gt;FATE'S WARNING&lt;/a&gt; - album "Chasing Time" (1995), &lt;a href="f/finist.html"&gt;FINIST&lt;/a&gt; - album "Crosses Shall Burn" (2002), &lt;a href="f/freakkitchen.html"&gt;FREAK KITCHEN&lt;/a&gt; - album "Organic" (2005), &lt;a href="f/fromautumntoashes.html"&gt;FROM AUTUMN TO ASHES&lt;/a&gt; - 2 more songs form album "Too Bad You're Beautiful" (2001), &lt;a href="f/furiaanimal.html"&gt;FURIA ANIMAL&lt;/a&gt; - album "Azotando el Destino" (2002), &lt;a href="t/thegathering.html"&gt;THE GATHERING&lt;/a&gt; - album "The Musical History Tour" (2005), &lt;a href="g/gillman.html"&gt;GILLMAN&lt;/a&gt; - album "Escalofrio" (1994), &lt;a href="g/gizmachi.html"&gt;GIZMACHI&lt;/a&gt; - album "The Imbuing" (2005), &lt;a href="g/goatofmendes.html"&gt;GOAT OF MENDES&lt;/a&gt; - album "A Book Of Shadows" (2005), &lt;a href="g/gojira.html"&gt;GOJIRA&lt;/a&gt; - album "From Mars To Sirius" (2005), &lt;a href="g/gorepriest.html"&gt;GORE PRIEST&lt;/a&gt; - album "Perpetual Horizons" (2005), &lt;a href="g/gorefest.html"&gt;GOREFEST&lt;/a&gt; - album "La Muerte" (2005), &lt;a href="g/gracegale.html"&gt;GRACE GALE&lt;/a&gt; - album "A Few Easy Steps To Secure Heli-Camel Safety" (2005), &lt;a href="g/grave.html"&gt;GRAVE&lt;/a&gt; - album "Fiendish Regression" (2004), &lt;a href="g/graveflowers.html"&gt;GRAVE FLOWERS&lt;/a&gt; - albums "Independent" (2003 DEMO), "Incarcerated Sorrows" (2005), &lt;a href="g/graveland.html"&gt;GRAVELAND&lt;/a&gt; - album "Fire Chariot Of Destruction" (2005), &lt;a href="g/greatvastforest.html"&gt;GREAT VAST FOREST&lt;/a&gt; - album "Battletales And Songs Of Steel" (2002), &lt;a href="h/hatesphere.html"&gt;HATESPHERE&lt;/a&gt; - album "The Sickness Within" (2005), &lt;a href="h/heavenablaze.html"&gt;HEAVEN ABLAZE&lt;/a&gt; - album "Enlightened By Darkness" (2004), &lt;a href="h/helalynflowers.html"&gt;HELALYN FLOWERS&lt;/a&gt; - album "Disconnection" (2005), &lt;a href="h/helloween.html"&gt;HELLOWEEN&lt;/a&gt; - album "Keeper Of The Seven Keys - The Legacy" (2005), &lt;a href="h/highlandglory.html"&gt;HIGHLAND GLORY&lt;/a&gt; - album "Forever Endeavour" (2005), &lt;a href="h/horrorshow.html"&gt;HORROR SHOW&lt;/a&gt; - album "Our Design" (2002), &lt;a href="h/hunter.html"&gt;HUNTER&lt;/a&gt; - English translation of the albums "Medeis" (2003), "T.E.L.I." (2005), "Requiem" (1995), &lt;a href="h/hypocrisy.html"&gt;HYPOCRISY&lt;/a&gt; - 4 more songs from album "Virus" (2005), &lt;a href="i/ianparry.html"&gt;IAN PARRY&lt;/a&gt; - albums "Consortium Project I" (1999), "Consortium Project II - Continuum In Extremis" (1999), &lt;a href="i/ideas.html"&gt;IDEAS&lt;/a&gt; - albums "Maze (A Portrait Of Our Race)" (1998), "Journey Around A Soul" (2000), &lt;a href="i/impellitteri.html"&gt;IMPELLITTERI&lt;/a&gt; - album "Pedal To The Metal" (2005), &lt;a href="i/inflames.html"&gt;IN FLAMES&lt;/a&gt; - 1 more track from album "Subterranean" (1995), album "Come Clarity" (2006), &lt;a href="i/inexist.html"&gt;INEXIST&lt;/a&gt; - album "Am I Senseless?" (2004), &lt;a href="i/infanticide.html"&gt;INFANTICIDE&lt;/a&gt; - album "We Are The Enemy" (2006 MCD), &lt;a href="i/infernum.html"&gt;INFERNUM&lt;/a&gt; - album "The Curse" (2006), &lt;a href="i/innervisions.html"&gt;INNER VISIONS&lt;/a&gt; - album "Control The Past" (2004), &lt;a href="i/interfector.html"&gt;INTERFECTOR&lt;/a&gt; - album "The Force Within" (2004), &lt;a href="i/iondissonance.html"&gt;ION DISSONANCE&lt;/a&gt; - album "Solace" (2005), &lt;a href="i/ironmaiden.html"&gt;IRON MAIDEN&lt;/a&gt; - 1 more song from album "Live After Death" (1985), &lt;a href="i/isis.html"&gt;ISIS&lt;/a&gt; - album "Panopticon" (2004), &lt;a href="j/jairus.html"&gt;JAIRUS&lt;/a&gt; - album "The Need To Change The Mapmaker" (2004), &lt;a href="j/judaspriest.html"&gt;JUDAS PRIEST&lt;/a&gt; - 1 more song from album "Unleashed In The East" (1979), &lt;a href="j/judge.html"&gt;JUDGE&lt;/a&gt; - album "New York Crew" (1988 7''), &lt;a href="k/katafalk.html"&gt;KATAFALK&lt;/a&gt; - album "Storm Of The Horde" (2003), &lt;a href="k/katatonia.html"&gt;KATATONIA&lt;/a&gt; - album "The Great Cold Distance" (2006), &lt;a href="k/khanate.html"&gt;KHANATE&lt;/a&gt; - album "Capture &amp; Release" (2005), &lt;a href="k/korzus.html"&gt;KORZUS&lt;/a&gt; - album "Ties Of Blood" (2004), &lt;a href="k/kraken.html"&gt;KRAKEN&lt;/a&gt; - albums "Kraken I" (1987), "Kraken II" (1989), "Kraken III" (1990), "Kraken IV: Piel De Cobre" (1993), "Kraken V: El Simbolo De La Huella" (1995), "Kraken VI: Una Leyenda Del Rock!" (1999), "Huella &amp; Camino" (2000), &lt;a href="k/kutschurft.html"&gt;KUTSCHURFT&lt;/a&gt; - album "Medisch Centrum Kutschurft" (2003), &lt;a href="l/leaveseyes.html"&gt;LEAVES' EYES&lt;/a&gt; - album "Into Your Light" (2004), &lt;a href="l/legionofthedamned.html"&gt;LEGION OF THE DAMNED&lt;/a&gt; - album "Malevolent Rapture" (2006), &lt;a href="l/lemuria.html"&gt;LEMURIA&lt;/a&gt; - album "Tales, Ale And Fire" (2004), &lt;a href="l/lifeofagony.html"&gt;LIFE OF AGONY&lt;/a&gt; - album "Broken Valley" (2005), &lt;a href="l/lordbelial.html"&gt;LORD BELIAL&lt;/a&gt; - album "Nocturnal Beast" (2005), &lt;a href="l/lordvampyr.html"&gt;LORD VAMPYR&lt;/a&gt; - album "De Vampyrica Philosophia" (2005), &lt;a href="l/lunaadnoctum.html"&gt;LUNA AD NOCTUM&lt;/a&gt; - albums "Dimness Profound" (2002), "Sempiternal Consecration" (2004), &lt;a href="l/loudness.html"&gt;LOUDNESS&lt;/a&gt; - album "On The Prowl" (1991), &lt;a href="l/lunaraurora.html"&gt;LUNAR AURORA&lt;/a&gt; - albums "Zyklus" (2004), "Mond" (2005), &lt;a href="l/lunatica.html"&gt;LUNATICA&lt;/a&gt; - 1 more song from album "Fable And Dreams" (2004), &lt;a href="m/magellan.html"&gt;MAGELLAN&lt;/a&gt; - albums "Hour Of Restoration" (1991), "Impending Ascension" (1994), "Test Of Wills" (1997), "Hundred Year Flood" (2002), "Impossible Figures" (2003), "Symphony For A Misanthrope" (2005), &lt;a href="m/mgodeoz.html"&gt;MGO DE OZ&lt;/a&gt; - album "Gaia II: La Voz Dormida" (2005), &lt;a href="m/mare.html"&gt;MARE&lt;/a&gt; - 1 more song from album "Mare" (2005), &lt;a href="m/massacration.html"&gt;MASSACRATION&lt;/a&gt; - 3 more songs from album "Gates Of Metal Fried Chicken Of Death" (2005), &lt;a href="m/massakre.html"&gt;MASSAKRE&lt;/a&gt; - album "Psychotic Redemption" (2001), &lt;a href="m/massemordpoland.html"&gt;MASSEMORD (POLAND)&lt;/a&gt; - albums "...And Blade Still Too Clean" (2002 DEMO), "Another Holocaust Rises" (2003 DEMO), "Silesian Fire" (2003 LIVE), "Hatred Towards Mankind And Life Itself" (2004 DEMO), &lt;a href="m/massemord.html"&gt;MASSEMORD&lt;/a&gt; - 7 more songs from album "Skogen Kaller" (2003), &lt;a href="m/megadeth.html"&gt;MEGADETH&lt;/a&gt; - 1 more song from album "Rust In Peace" (1990), &lt;a href="m/messiahskiss.html"&gt;MESSIAH'S KISS&lt;/a&gt; - album "Prayer For The Dying" (2003), &lt;a href="m/mindstab.html"&gt;MINDSTAB&lt;/a&gt; - album "Borderlined" (2000), &lt;a href="m/modernlifeiswar.html"&gt;MODERN LIFE IS WAR&lt;/a&gt; - album "Witness" (2005), &lt;a href="m/monster.html"&gt;MONSTER&lt;/a&gt; - album "Harder, Thicker &amp; Longer" (2005), &lt;a href="m/moonlight.html"&gt;MOONLIGHT&lt;/a&gt; - albums "Moonlight" (1996 DEMO), "Audio 136" (2004), &lt;a href="m/mortiis.html"&gt;MORTIIS&lt;/a&gt; - album "Fdt Til  Herske" (1993), &lt;a href="m/mostpreciousblood.html"&gt;MOST PRECIOUS BLOOD&lt;/a&gt; - album "Merciless" (2005), &lt;a href="m/murdersquad.html"&gt;MURDER SQUAD&lt;/a&gt; - album "Ravenous, Murderous" (2003), &lt;a href="m/mydarkesthate.html"&gt;MY DARKEST HATE&lt;/a&gt; - album "At War" (2004), &lt;a href="m/myinsanity.html"&gt;MY INSANITY&lt;/a&gt; - album "Scattered Soul Puzzle" (2005), &lt;a href="n/nanowar.html"&gt;NANOWAR&lt;/a&gt; - album "Other Bands Play, Nanowar Gay" (2005), &lt;a href="n/nargathrond.html"&gt;NARGATHROND&lt;/a&gt; - album "...For We Blessed This World With Plagues" (2002), &lt;a href="n/necare.html"&gt;NECARE&lt;/a&gt; - albums "Ophelia" (1999), "Rite Of Shrouds" (2000), "Ruin" (2004), &lt;a href="n/necronomicon.html"&gt;NECRONOMICON&lt;/a&gt; - album "The Sacred Medicines" (2004), &lt;a href="n/necrophagia.html"&gt;NECROPHAGIA&lt;/a&gt; - 1 song from album "Harvest Ritual Vol. 1" (2005), &lt;a href="n/negationist.html"&gt;NEGATIONIST&lt;/a&gt; - album "Satanic Victory" (1998 MCD), &lt;a href="n/nembrionichammerdeath.html"&gt;NEMBRIONIC HAMMERDEATH&lt;/a&gt; - album "Tempter" (1993 SPLIT w/ CONSOLATION), &lt;a href="n/nembrionic.html"&gt;NEMBRIONIC&lt;/a&gt; - album "Incomplete" (1998), &lt;a href="n/neuraxis.html"&gt;NEURAXIS&lt;/a&gt; - album "Trilateral Progression" (2005), &lt;a href="n/neurosisinc.html"&gt;NEUROSIS INC.&lt;/a&gt; - album "Verdun 1916" (1995), &lt;a href="n/nightlygale.html"&gt;NIGHTLY GALE&lt;/a&gt; - album "Illusion Of Evil" (2006), &lt;a href="n/nineinchnails.html"&gt;NINE INCH NAILS&lt;/a&gt; - 1 more song from album "The Downward Spiral" (1994), &lt;a href="n/nocteobducta.html"&gt;NOCTE OBDUCTA&lt;/a&gt; - 1 more song from album "Schwarzmetall (Ein Primitives Zwischenspiel)" (2001), 1 more song from album "Stille (Das Nagende Schweigen)" (2003 EP), &lt;a href="n/nodesofranvier.html"&gt;NODES OF RANVIER&lt;/a&gt; - 8 more songs from album "The Years To Come" (2005), &lt;a href="n/nominon.html"&gt;NOMINON&lt;/a&gt; - album "The True Face Of Death" (2004 EP), &lt;a href="n/norther.html"&gt;NORTHER&lt;/a&gt; - album "Till Death Unites Us" (2006), &lt;a href="o/officiumtriste.html"&gt;OFFICIUM TRISTE&lt;/a&gt; - album "Demo '94" (1994 DEMO), &lt;a href="o/orangegoblin.html"&gt;ORANGE GOBLIN&lt;/a&gt; - album "Thieving From The House Of God" (2004), &lt;a href="o/ordodraconis.html"&gt;ORDO DRACONIS&lt;/a&gt; - albums "Camera Obscura Part 1: The Star Chamber Reviews" (2005), "Camera Obscura Partt 2: A View With A Room" (2005), &lt;a href="o/ozzyosbourne.html"&gt;OZZY OSBOURNE&lt;/a&gt; - albums "Tribute To Randy Rhoads" (1987), "Under Cover" (2005), &lt;a href="p/paganspirit.html"&gt;PAGAN SPIRIT&lt;/a&gt; - album "The Latent Doctrine" (2005), &lt;a href="p/paganizer.html"&gt;PAGANIZER&lt;/a&gt; - album "Murder Death Kill" (2003), &lt;a href="p/parkwaydrive.html"&gt;PARKWAY DRIVE&lt;/a&gt; - album "Killing With A Smile" (2005), &lt;a href="p/pindropviolence.html"&gt;PIN DROP VIOLENCE&lt;/a&gt; - album "Compose... Oppose... Dispose" (2004), &lt;a href="p/placevendome.html"&gt;PLACE VENDOME &lt;/a&gt; - album "Place Vendome" (2005), &lt;a href="p/poemaarcanus.html"&gt;POEMA ARCANUS&lt;/a&gt; - album "Telluric Manifesto" (2005), &lt;a href="p/pollutedinheritance.html"&gt;POLLUTED INHERITANCE&lt;/a&gt; - albums "Ecocide" (1992), "Betrayed" (1996), "Into Darkness" (2001), &lt;a href="p/porcupinetree.html"&gt;PORCUPINE TREE&lt;/a&gt; - 1 more song from album "Coma Divine" (1997), &lt;a href="p/posmrtnaliturgija.html"&gt;POSMRTNA LITURGIJA&lt;/a&gt; - album "Od Zla Oca I Jos Gore Majke..." (2003), &lt;a href="p/primalfear.html"&gt;PRIMAL FEAR&lt;/a&gt; - album "Seven Seals" (2005), &lt;a href="p/pyramaze.html"&gt;PYRAMAZE&lt;/a&gt; - album "Melancholy Beast" (2004), &lt;a href="r/rage.html"&gt;RAGE&lt;/a&gt; - album "Depraved To Black" (1985 EP), &lt;a href="r/ragnarok.html"&gt;RAGNAROK&lt;/a&gt; - album "Blackdoor Miracle" (2004), &lt;a href="r/ramallah.html"&gt;RAMALLAH&lt;/a&gt; - album "But A Whimper" (2005 MCD), &lt;a href="r/ramesses.html"&gt;RAMESSES&lt;/a&gt; - albums "The Tomb" (2005), "We Will Lead You To Glorious Times" (2005 EP), &lt;a href="r/razonesconcientes.html"&gt;RAZONES CONCIENTES&lt;/a&gt; - album "Industria Argentina" (2004), &lt;a href="r/rebaelliun.html"&gt;REBAELLIUN&lt;/a&gt; - albums "At War" (1999), "Annihilation" (2001), &lt;a href="t/thereddeath.html"&gt;THE RED DEATH&lt;/a&gt; - album "External Frames Of Reference" (2005), &lt;a href="r/redtide.html"&gt;RED TIDE&lt;/a&gt; - album "Type II" (2001), &lt;a href="r/redwine.html"&gt;RED WINE&lt;/a&gt; - album "Sueos Y Locura" (2003), &lt;a href="r/redemption.html"&gt;REDEMPTION&lt;/a&gt; - album "The Fulness Of Time" (2005), &lt;a href="r/reflux.html"&gt;REFLUX&lt;/a&gt; - album "The Illusion Of Democracy" (2004), &lt;a href="r/ribspreader.html"&gt;RIBSPREADER&lt;/a&gt; - albums "Bolted To The Cross" (2004), "Congregating The Sick" (2005), &lt;a href="r/ritualcarnage.html"&gt;RITUAL CARNAGE&lt;/a&gt; - albums "The Highest Law" (1999), "Every Nerve Alive" (2000), &lt;a href="r/rivendell.html"&gt;RIVENDELL&lt;/a&gt; - albums "The Ancient Glory" (2000), "Elven Tears" (2003), &lt;a href="r/royalhunt.html"&gt;ROYAL HUNT&lt;/a&gt; - album "Paper Blood" (2005), &lt;a href="r/runemagick.html"&gt;RUNEMAGICK&lt;/a&gt; - album "Envenom" (2005), &lt;a href="s/sanctimony.html"&gt;SANCTIMONY&lt;/a&gt; - albums "When Sun Was God" (1996 DEMO), "Eternal Suffering" (1999), "Lirix" (2000 EP), "Devil And Men" (2005), &lt;a href="s/sanisickation.html"&gt;SANISICKATION&lt;/a&gt; - album "Stabbing You Sweety" (2005 MCD), &lt;a href="s/saratoga.html"&gt;SARATOGA&lt;/a&gt; - album "Tierra De Lobos" (2005), &lt;a href="s/satanicwarmaster.html"&gt;SATANIC WARMASTER&lt;/a&gt; - album "Carelian Satanist Madness" (2005), &lt;a href="s/savagecircus.html"&gt;SAVAGE CIRCUS&lt;/a&gt; - album "Dreamland Manor" (2005), &lt;a href="t/thesawtoothgrin.html"&gt;THE SAWTOOTH GRIN&lt;/a&gt; - album "Cuddle Monster" (2004), &lt;a href="s/scarlet.html"&gt;SCARLET&lt;/a&gt; - album "This Was Always Meant To Fall Apart" (2006), &lt;a href="s/scarve.html"&gt;SCARVE&lt;/a&gt; - album "Irradiant" (2004), &lt;a href="s/sceptic.html"&gt;SCEPTIC&lt;/a&gt; - album "Unbeliever's Script" (2003), &lt;a href="s/scissorfight.html"&gt;SCISSORFIGHT&lt;/a&gt; - album "Deathchants, Breakdowns &amp; Military Waltzes Vol. 2" (2003), &lt;a href="s/scum.html"&gt;SCUM&lt;/a&gt; - album "Gospels For The Sick" (2005), &lt;a href="s/secretsphere.html"&gt;SECRET SPHERE&lt;/a&gt; - album "Heart And Anger" (2005), &lt;a href="s/seraphimshock.html"&gt;SERAPHIM SHOCK&lt;/a&gt; - album "Halloween, Sex N' Vegas" (2004), &lt;a href="s/shadowgallery.html"&gt;SHADOW GALLERY&lt;/a&gt; - 5 more songs from album "Room V" (2005), &lt;a href="s/shadowkeep.html"&gt;SHADOW KEEP&lt;/a&gt; - album "A Chaos Theory" (2002), &lt;a href="s/shakra.html"&gt;SHAKRA&lt;/a&gt; - album "Fall" (2005), &lt;a href="s/siebenburgen.html"&gt;SIEBENBURGEN&lt;/a&gt; - album "Darker Designs &amp; Images" (2005), &lt;a href="s/siegeseven.html"&gt;SIEGES EVEN&lt;/a&gt; - albums "Steps" (1990), "Sophisticated" (1995), &lt;a href="s/sigma.html"&gt;SIGMA&lt;/a&gt; - album "Win Or Lose" (2003), &lt;a href="s/silentkingdom.html"&gt;SILENT KINGDOM&lt;/a&gt; - albums "Visions From Forgotten Land" (2000), "Bloodless" (2004), "Reflections Of Fire (The Journey)" (2006), &lt;a href="s/skepticism.html"&gt;SKEPTICISM&lt;/a&gt; - album "The Process Of Farmakon" (2002), &lt;a href="s/slowmotionapocalypse.html"&gt;SLOWMOTION APOCALYPSE&lt;/a&gt; - album "My Own Private Armageddon" (2005), &lt;a href="s/sodom.html"&gt;SODOM&lt;/a&gt; - 1 more song from album "Obsessed By Cruelty" (1986), &lt;a href="s/solefald.html"&gt;SOLEFALD&lt;/a&gt; - album "Red For Fire: An Icelandic Odyssey Part 1" (2005), &lt;a href="s/solstice.html"&gt;SOLSTICE&lt;/a&gt; - album "Solstice" (2001), &lt;a href="s/sorath.html"&gt;SORATH&lt;/a&gt; - album "Horns Of The Goat" (1993 EP), &lt;a href="s/stainlesssteel.html"&gt;STAINLESS STEEL&lt;/a&gt; - albums "Wigant" (2000), "Red Heat Within" (2002), &lt;a href="s/stam1na.html"&gt;STAM1NA&lt;/a&gt; - album "Stam1na" (2005), &lt;a href="s/stormrider.html"&gt;STORMRIDER&lt;/a&gt; - album "First Battle Won" (2004), &lt;a href="s/stormwind.html"&gt;STORMWIND&lt;/a&gt; - album "Reflections" (2001), &lt;a href="s/streamofpassion.html"&gt;STREAM OF PASSION&lt;/a&gt; - album "Embrace The Storm" (2005), &lt;a href="s/stryper.html"&gt;STRYPER&lt;/a&gt; - albums "Can't Stop The Rock: The Stryper Collection 1984-1991" (1991), "7 Weeks: Live In America" (2003), "Seven: The Best Of Stryper" (2003), "Reborn" (2005), &lt;a href="s/subtera.html"&gt;SUBTERA&lt;/a&gt; - album "Apocalypsed" (2005), &lt;a href="s/superior.html"&gt;SUPERIOR&lt;/a&gt; - albums "Behind" (1996), "Younique" (1998), "Ultima Ratio" (2002), &lt;a href="s/swallowthesun.html"&gt;SWALLOW THE SUN&lt;/a&gt; - albums "The Morning Never Came" (2003), "Ghosts Of Loss" (2005), &lt;a href="s/sybreed.html"&gt;SYBREED&lt;/a&gt; - album "Slave Design" (2004), &lt;a href="t/t3chnophob1a.html"&gt;T3CHNOPHOB1A&lt;/a&gt; - album "Albedo Level: 0%" (2004), &lt;a href="t/tarot.html"&gt;TAROT&lt;/a&gt; - albums "Spell Of Iron" (1986), "Follow Me Into Madness" (1988), &lt;a href="t/thetemple.html"&gt;THE TEMPLE&lt;/a&gt; - album "Diesel Dog Sound" (2004), &lt;a href="t/theatresdesvampires.html"&gt;THEATRES DES VAMPIRES&lt;/a&gt; - album "Pleasure And Pain" (2005), &lt;a href="t/theoryinpractice.html"&gt;THEORY IN PRACTICE&lt;/a&gt; - album "The Third-eye Function" (1997), &lt;a href="t/thunderstone.html"&gt;THUNDERSTONE&lt;/a&gt; - 1 song from album "Tools Of Destruction" (2005), &lt;a href="t/thycatafalque.html"&gt;THY CATAFALQUE&lt;/a&gt; - album "Tn Id Trlat" (2004), &lt;a href="t/thyrfing.html"&gt;THYRFING&lt;/a&gt; - album "Farsotstider" (2005), &lt;a href="t/timelessmiracle.html"&gt;TIMELESS MIRACLE&lt;/a&gt; - album "Into The Enchanted Chamber" (2005), &lt;a href="t/tonyiommi.html"&gt;TONY IOMMI&lt;/a&gt; - album "Fused" (2005), &lt;a href="t/transmetal.html"&gt;TRANSMETAL&lt;/a&gt; - albums "Las Alas Del Emperador" (1996), "Tristeza De Lucifer" (2002), "Lo Podrido Corona La Inmensidad" (2004), &lt;a href="t/treasureland.html"&gt;TREASURE LAND&lt;/a&gt; - albums "Questions" (1997), "Gateway" (1998), &lt;a href="t/trivium.html"&gt;TRIVIUM&lt;/a&gt; - 1 more song from album "Ascendancy" (2005), &lt;a href="t/trollfest.html"&gt;TROLLFEST&lt;/a&gt; - album "Promo" (2004), &lt;a href="t/turisas.html"&gt;TURISAS&lt;/a&gt; - 1 more song from album "Battle Metal" (2004), &lt;a href="t/tyranny.html"&gt;TYRANNY&lt;/a&gt; - album "Tides Of Awakening" (2005), &lt;a href="u/udo.html"&gt;UDO&lt;/a&gt; - album "Mission N X" (2005), &lt;a href="v/vader.html"&gt;VADER&lt;/a&gt; - album "The Art Of War" (2005 EP), &lt;a href="v/vanaheim.html"&gt;VANAHEIM&lt;/a&gt; - album "En Historie" (1997 DEMO), &lt;a href="t/thevisionbleak.html"&gt;THE VISION BLEAK&lt;/a&gt; - album "Carpathia - A Dramatic Poem" (2005), &lt;a href="v/voice.html"&gt;VOICE&lt;/a&gt; - albums "Prediction" (1996), "Trapped In Anguish" (1999), "Golden Signs" (2001), "Soulhunter" (2003), &lt;a href="t/thewarriors.html"&gt;THE WARRIORS&lt;/a&gt; - album "War Is Hell" (2004), &lt;a href="w/withhonor.html"&gt;WITH HONOR&lt;/a&gt; - album "This Is Our Revenge" (2005), &lt;a href="w/withintemptation.html"&gt;WITHIN TEMPTATION&lt;/a&gt; - album "Angels" (2005), &lt;a href="w/wizard.html"&gt;WIZARD&lt;/a&gt; - album "Magic Circle" (2005), &lt;a href="w/wolfsangel.html"&gt;WOLFSANGEL&lt;/a&gt; - album "Widdershins" (2004), &lt;a href="x/xasthur.html"&gt;XASTHUR&lt;/a&gt; - album "Telepathic With The Deceased" (2004), &lt;a href="x/xenone.html"&gt;XE-NONE&lt;/a&gt; - album "Blood Rave" (2005 EP), &lt;a href="z/zavorash.html"&gt;ZAVORASH&lt;/a&gt; - album "Nihilstic Ascension And Spiritual Death" (2006), &lt;a href="z/zemial.html"&gt;ZEMIAL&lt;/a&gt; - album "Sleeping Under Tartarus" (1992 EP), &lt;a href="z/znich.html"&gt;ZNICH&lt;/a&gt; - albums "&amp;#x042F;&amp;#x0437;&amp;#x044B;&amp;#x0447;&amp;#x043D;&amp;#x0069;&amp;#x043A;&amp;#x0020;&amp;#x042F;" (1997), "&amp;#x0414;&amp;#x0443;&amp;#x0078;&amp;#x0020;&amp;#x0417;&amp;#x044F;&amp;#x043C;&amp;#x043B;&amp;#x0069;" (1999), "&amp;#x0041;&amp;#x0434;&amp;#x0447;&amp;#x0443;&amp;#x0432;&amp;#x0430;&amp;#x043D;&amp;#x044C;&amp;#x043D;&amp;#x0069;&amp;#x0020;&amp;#x0412;&amp;#x044F;&amp;#x0441;&amp;#x043D;&amp;#x044B;" (2000), "&amp;#x0417;&amp;#x0430;&amp;#x043F;&amp;#x0430;&amp;#x0432;&amp;#x0065;&amp;#x0442;&amp;#x044B;&amp;#x0020;&amp;#x0410;&amp;#x043F;&amp;#x043E;&amp;#x0448;&amp;#x043D;&amp;#x044F;&amp;#x0433;&amp;#x0430;&amp;#x0020;&amp;#x0421;&amp;#x0442;&amp;#x0430;&amp;#x0440;&amp;#x0446;&amp;#x0430;" (2003).
+&lt;/font&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;br&gt;
+&lt;script language='JavaScript' type='text/javascript'&gt;
+&lt;!--
+   if (!document.phpAds_used) document.phpAds_used = ',';
+   document.write ("&lt;" + "script language='JavaScript' type='text/javascript' src='");
+   document.write ("http://ads.darklyrics.com/adjs.php?n=a8166dc0");
+   document.write ("&amp;amp;what=zone:4");
+   document.write ("&amp;amp;exclude=" + document.phpAds_used);
+   document.write ("'&gt;&lt;" + "/script&gt;");
+//--&gt;
+&lt;/script&gt;&lt;noscript&gt;&lt;a href='http://ads.darklyrics.com/adclick.php?n=a8166dc0'&gt;&lt;img src='http://ads.darklyrics.com/adview.php?what=zone:4&amp;amp;n=a8166dc0' border='0' alt=''&gt;&lt;/a&gt;&lt;/noscript&gt;
+
+&lt;br&gt;&lt;br&gt;&lt;!-- BEGIN FASTCOUNTER CODE --&gt;&lt;img align="middle" border="0" src="http://fastcounter.bcentral.com/fastcounter?1820845+3641697"&gt;&lt;!-- END FASTCOUNTER CODE --&gt;&lt;br&gt;&lt;/TD&gt;&lt;TD bgcolor=#444444&gt;&lt;IMG src="images/px.gif" width=10&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;
+
+
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;&lt;TD&gt;
+
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;&lt;TD bgcolor=#444444 width=8&gt;&lt;IMG src="images/px.gif" width=8&gt;&lt;/TD&gt;&lt;TD&gt;&lt;IMG src="images/leftbottom.gif"&gt;&lt;/TD&gt;&lt;TD WIDTH=734&gt;&lt;IMG src="images/px.gif"&gt;&lt;/TD&gt;&lt;TD&gt;&lt;IMG src="images/rightbottom.gif"&gt;&lt;/TD&gt;&lt;TD bgcolor=#444444 width=8&gt;&lt;IMG src="images/px.gif" width=8&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;
+
+&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;&lt;TD align=center bgcolor=#444444&gt;
+
+ &lt;TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=100%&gt;
+ &lt;TR&gt;&lt;TD&gt;&lt;IMG SRC="images/px.gif" HEIGHT=5&gt;&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;
+ &lt;TD ALIGN=CENTER WIDTH=100%&gt;
+ &lt;TABLE BORDER=0 WIDTH=100%&gt;
+&lt;TR&gt;&lt;TD align=center&gt;&lt;SCRIPT LANGUAGE="javascript" src="bban.js"&gt;&lt;/SCRIPT&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+ &lt;/TABLE&gt;
+&lt;/TD&gt;
+ &lt;/TR&gt;
+ &lt;TR&gt;&lt;TD&gt;&lt;IMG SRC="images/px.gif" HEIGHT=5&gt;&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;&lt;TD BGCOLOR=#666666 align=center&gt;&lt;FONT FACE="Verdana" COLOR=#CCCC99 SIZE=1&gt;Contact e-mail: webmaster@darklyrics.com&lt;br&gt;&lt;b&gt;Copyright &amp;copy; 2001-2006 - DarkLyrics.com&lt;/b&gt;&lt;/FONT&gt;&lt;FONT FACE="Verdana" COLOR=#CCCCCC SIZE=1&gt; --- All lyrics are the property and copyright of their respective owners.&lt;BR&gt;All lyrics provided for educational purposes and personal use only. Please read the disclaimer.&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;&lt;TD align=center bgcolor=#444444&gt;
+&lt;TABLE CELLSPACING=0 CELLPADDING=2 BORDER=0&gt;&lt;TR&gt;&lt;TD align=center NOWRAP&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC SIZE=1&gt;- &lt;A HREF="aboutus.html"&gt;&lt;FONT COLOR=#CCCC99&gt;About Us&lt;/FONT&gt;&lt;/A&gt; - &lt;A HREF="privacy.html"&gt;&lt;FONT COLOR=#CCCC99&gt;Privacy Policy&lt;/FONT&gt;&lt;/A&gt; - &lt;A HREF="http://www.valuead.com/privacy.html"&gt;&lt;FONT COLOR=#CCCC99&gt;ValueAd's Privacy Policy&lt;/FONT&gt;&lt;/A&gt; - &lt;A HREF="disclaim.html"&gt;&lt;FONT COLOR=#CCCC99&gt;Disclaimer&lt;/FONT&gt;&lt;/A&gt; -&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;/TABLE&gt;
+
+ &lt;/TD&gt;&lt;/TR&gt;
+ &lt;/TABLE&gt;
+ &lt;/TD&gt;&lt;/TR&gt;
+ &lt;/TABLE&gt;
+&lt;/CENTER&gt;
+&lt;/BODY&gt;
+&lt;/HTML&gt;
+</SampleText>
+    <ProjectID_FK>-1</ProjectID_FK>
+  </Project_Sample>
+  <Project_Sample>
+    <SampleID>-2</SampleID>
+    <SampleUrl>http://www.darklyrics.com/a.html</SampleUrl>
+    <SampleText>&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Dark Lyrics. Bands A.&lt;/title&gt;
+&lt;/HEAD&gt;
+&lt;body bgcolor=#222222 text=#FFFFCC link=#FFFFCC vlink=#FFFFCC alink=#FFFFCC&gt;
+&lt;CENTER&gt;
+&lt;TABLE WIDTH=750 HEIGHT=80 border=0&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;A HREF="index.html"&gt;&lt;IMG SRC="images/dlogo.gif" BORDER=0 alt="DarkLyrics.com"&gt;&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=right&gt;&lt;SCRIPT LANGUAGE="javascript" src="tban.js"&gt;&lt;/SCRIPT&gt;&lt;/TD&gt;
+&lt;/TR&gt;
+&lt;/TABLE&gt;
+
+&lt;TABLE WIDTH=750 CELLSPACING=0 CELLPADDING=0 border=0&gt;
+&lt;TR&gt;&lt;TD align=center&gt;
+
+ &lt;!-- search zone --&gt;
+ &lt;TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0&gt;
+ &lt;TR&gt;&lt;TD align=center bgcolor=#444444&gt;
+
+&lt;TABLE CELLSPACING=0 CELLPADDING=2 BORDER=0&gt;&lt;TR&gt;&lt;TD align=center NOWRAP&gt;&lt;SCRIPT LANGUAGE="javascript" src="upl.js"&gt;&lt;/SCRIPT&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;
+
+&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;
+ &lt;TD BGCOLOR=BLACK align=center&gt;
+ &lt;TABLE CELLSPACING=1 CELLPADDING=4 BORDER=0 HEIGHT=30&gt;
+  &lt;TR BGCOLOR="#666666" valign=middle align=center&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="a.html"&gt;&lt;b&gt;A&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="b.html"&gt;&lt;b&gt;B&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="c.html"&gt;&lt;b&gt;C&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="d.html"&gt;&lt;b&gt;D&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="e.html"&gt;&lt;b&gt;E&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="f.html"&gt;&lt;b&gt;F&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="g.html"&gt;&lt;b&gt;G&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="h.html"&gt;&lt;b&gt;H&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="i.html"&gt;&lt;b&gt;I&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="j.html"&gt;&lt;b&gt;J&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="k.html"&gt;&lt;b&gt;K&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="l.html"&gt;&lt;b&gt;L&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="m.html"&gt;&lt;b&gt;M&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="n.html"&gt;&lt;b&gt;N&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="o.html"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="p.html"&gt;&lt;b&gt;P&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="q.html"&gt;&lt;b&gt;Q&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="r.html"&gt;&lt;b&gt;R&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="s.html"&gt;&lt;b&gt;S&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="t.html"&gt;&lt;b&gt;T&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="u.html"&gt;&lt;b&gt;U&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="v.html"&gt;&lt;b&gt;V&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="w.html"&gt;&lt;b&gt;W&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="x.html"&gt;&lt;b&gt;X&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="y.html"&gt;&lt;b&gt;Y&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="z.html"&gt;&lt;b&gt;Z&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="19.html"&gt;&lt;b&gt;#&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;/TR&gt;
+ &lt;/TABLE&gt;
+ &lt;/TD&gt;
+ &lt;/TR&gt;
+
+&lt;TR&gt;&lt;TD align=center bgcolor=#666666&gt;
+&lt;form method="get" action="http://www.darklyrics.com/dseek"&gt;
+&lt;table border="0" cellspacing="2" cellpadding="2" width=100%&gt;
+&lt;tr&gt;&lt;td width="100%" align="center"&gt;
+&lt;FONT FACE="Verdana" COLOR=#DDDDDD size=2&gt;Browse by band name or enter band/album/song to search lyrics for: &lt;/FONT&gt;&lt;/td&gt;&lt;td&gt;&lt;input type="text" NAME="q" SIZE="20" MAXLENGTH="100" VALUE=""&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;input type="submit" value="Search"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/TD&gt;&lt;/TR&gt;&lt;/form&gt;
+ &lt;TR&gt;&lt;TD align=center bgcolor=#444444&gt;
+ &lt;TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0&gt;
+ &lt;TR&gt;
+ &lt;TD ALIGN=CENTER&gt;- [ &lt;A HREF="http://www.darklyrics.com/forum/list.php?f=1"&gt;&lt;FONT FACE="Verdana" COLOR=#CCCC99 SIZE=2&gt;REQUEST LYRICS&lt;/FONT&gt;&lt;/A&gt; ] - [ &lt;A HREF="submit.html"&gt;&lt;FONT FACE="Verdana" COLOR=#CCCC99 SIZE=2&gt;SUBMIT LYRICS&lt;/FONT&gt;&lt;/A&gt; ] - [ &lt;A HREF="links.html"&gt;&lt;FONT FACE="Verdana" COLOR=#CCCC99 SIZE=2&gt;LINKS&lt;/FONT&gt;&lt;/A&gt; ] - [ &lt;A HREF="guestb.html"&gt;&lt;FONT FACE="Verdana" COLOR=#CCCC99 SIZE=2&gt;GUESTBOOK&lt;/FONT&gt;&lt;/A&gt; ] - [ &lt;A HREF="http://www.darklyrics.com/forum/list.php?f=2"&gt;&lt;FONT FACE="Verdana" COLOR=#CCCC99 SIZE=2&gt;TALK FORUM&lt;/FONT&gt;&lt;/A&gt; ] -&lt;/TD&gt;
+ &lt;/TR&gt;
+ &lt;TR&gt;&lt;TD&gt;&lt;IMG SRC="images/px.gif" HEIGHT=5&gt;&lt;/TD&gt;&lt;/TR&gt;
+ &lt;/TABLE&gt;
+ &lt;!-- end of search zone --&gt;
+
+ &lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;&lt;TD&gt;
+
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;&lt;TD bgcolor=#444444 width=8&gt;&lt;IMG src="images/px.gif" width=8&gt;&lt;/TD&gt;&lt;TD&gt;&lt;IMG src="images/leftup.gif"&gt;&lt;/TD&gt;&lt;TD WIDTH=734&gt;&lt;IMG src="images/px.gif"&gt;&lt;/TD&gt;&lt;TD&gt;&lt;IMG src="images/rightup.gif"&gt;&lt;/TD&gt;&lt;TD bgcolor=#444444 width=8&gt;&lt;IMG src="images/px.gif" width=8&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;
+
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;&lt;TD align=center&gt;
+
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;&lt;TD bgcolor=#444444&gt;&lt;IMG src="images/px.gif" width=10&gt;&lt;/TD&gt;&lt;TD width=730 align=center&gt;
+&lt;TABLE CELLSPACING=5 CELLPADDING=5 BORDER=0&gt;
+&lt;TR&gt;&lt;TD align=center&gt;
+&lt;FONT COLOR=#CCCCCC FACE=Verdana SIZE=3&gt;
+&lt;a href="a/act.html"&gt;A.C.T.&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/alifeoncelost.html"&gt;A LIFE ONCE LOST&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aardvarks.html"&gt;AARDVARKS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/aarni.html"&gt;AARNI&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aaskereia.html"&gt;AASKEREIA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/abaddonincarnate.html"&gt;ABADDON INCARNATE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/abandon.html"&gt;ABANDON&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/abdullah.html"&gt;ABDULLAH&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/abhorrance.html"&gt;ABHORRANCE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/abigor.html"&gt;ABIGOR&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/abiura.html"&gt;ABIURA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ablazemysorrow.html"&gt;ABLAZE MY SORROW&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/abominant.html"&gt;ABOMINANT&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/abomination.html"&gt;ABOMINATION&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/abonos.html"&gt;ABONOS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aborted.html"&gt;ABORTED&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/abortus.html"&gt;ABORTUS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aborym.html"&gt;ABORYM&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/abovethisfire.html"&gt;ABOVE THIS FIRE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/abramelin.html"&gt;ABRAMELIN&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/abraxas.html"&gt;ABRAXAS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/abscess.html"&gt;ABSCESS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="t/theabsence.html"&gt;the ABSENCE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/absence.html"&gt;ABSENCE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/absu.html"&gt;ABSU&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/absurd.html"&gt;ABSURD&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/absurdrussia.html"&gt;ABSURD (RUSSIA)&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/absurdconflict.html"&gt;ABSURD CONFLICT&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/absurdus.html"&gt;ABSURDUS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/abusedmajesty.html"&gt;ABUSED MAJESTY&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/abysmal.html"&gt;ABYSMAL&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="t/theabyss.html"&gt;the ABYSS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/abyssaria.html"&gt;ABYSSARIA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/abyssichate.html"&gt;ABYSSIC HATE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/abyssos.html"&gt;ABYSSOS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="t/theacaciastrain.html"&gt;the ACACIA STRAIN&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/accept.html"&gt;ACCEPT&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="t/theaccsed.html"&gt;THE ACCSED&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="http://www.azlyrics.com/a/acdc.html" target="_blank"&gt;&lt;font color=#666644&gt;AC/DC&lt;/font&gt;&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/acheron.html"&gt;ACHERON&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/acidbath.html"&gt;ACID BATH&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aciddeath.html"&gt;ACID DEATH&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aciddrinkers.html"&gt;ACID DRINKERS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/acoustictorment.html"&gt;ACOUSTIC TORMENT&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/acridsemblance.html"&gt;ACRID SEMBLANCE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/acrimony.html"&gt;ACRIMONY&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/acron.html"&gt;ACRON&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="http://www.plyrics.com/a/acrossfiveaprils.html" target="_blank"&gt;&lt;font color=#666644&gt;ACROSS FIVE APRILS&lt;/font&gt;&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/acrostichon.html"&gt;ACROSTICHON&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/actofgod.html"&gt;ACT OF GOD&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/adhominem.html"&gt;AD HOMINEM&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/adinferna.html"&gt;AD INFERNA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/adagio.html"&gt;ADAGIO&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/addictioncrew.html"&gt;ADDICTION CREW&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="http://www.azlyrics.com/a/adema.html" target="_blank"&gt;&lt;font color=#666644&gt;ADEMA&lt;/font&gt;&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/adornedbrood.html"&gt;ADORNED BROOD&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/adramelech.html"&gt;ADRAMELECH&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/adultery.html"&gt;ADULTERY&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/advent.html"&gt;ADVENT&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/atdawntheysleep.html"&gt;AT DAWN THEY SLEEP&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aeon.html"&gt;AEON&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aesdana.html"&gt;AES DANA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aesmadaeva.html"&gt;AESMA DAEVA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aeternus.html"&gt;AETERNUS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/afflicted.html"&gt;AFFLICTED&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/afterforever.html"&gt;AFTER FOREVER&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aftershock.html"&gt;AFTERSHOCK&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/afterworld.html"&gt;AFTERWORLD&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/agalloch.html"&gt;AGALLOCH&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/agathocles.html"&gt;AGATHOCLES&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/agathodaimon.html"&gt;AGATHODAIMON&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/agentsteel.html"&gt;AGENT STEEL&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/agentsofoblivion.html"&gt;AGENTS OF OBLIVION&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aghora.html"&gt;AGHORA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/agmen.html"&gt;AGMEN&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="http://www.plyrics.com/a/agnosticfront.html" target="_blank"&gt;&lt;font color=#666644&gt;AGNOSTIC FRONT&lt;/font&gt;&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="t/agonize.html"&gt;AGONIZE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/agonizer.html"&gt;AGONIZER&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="t/theagonyscene.html"&gt;the AGONY SCENE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/agoraphobicnosebleed.html"&gt;AGORAPHOBIC NOSEBLEED&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/agressor.html"&gt;AGRESSOR&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ahriman.html"&gt;AHRIMAN&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aina.html"&gt;AINA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aion.html"&gt;AION&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ajattara.html"&gt;AJATTARA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/akashic.html"&gt;AKASHIC&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/akercocke.html"&gt;AKERCOCKE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/akin.html"&gt;AKIN&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/alsirat.html"&gt;AL SIRAT&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/alarum.html"&gt;ALARUM&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/alas.html"&gt;ALAS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/alastis.html"&gt;ALASTIS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/alcatrazz.html"&gt;ALCATRAZZ&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/alchemist.html"&gt;ALCHEMIST&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="http://www.plyrics.com/a/alexisonfire.html" target="_blank"&gt;&lt;font color=#666644&gt;ALEXISONFIRE&lt;/font&gt;&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/alghazanth.html"&gt;ALGHAZANTH&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/alicecooper.html"&gt;ALICE COOPER&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="http://www.azlyrics.com/a/alicein.html" target="_blank"&gt;&lt;font color=#666644&gt;ALICE IN CHAINS&lt;/font&gt;&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aliceindarkland.html"&gt;ALICE IN DARKLAND&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aliengates.html"&gt;ALIENGATES&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/alkemyst.html"&gt;ALKEMYST&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/allelsefailed.html"&gt;ALL ELSE FAILED&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/alloutwar.html"&gt;ALL OUT WAR&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/allshallperish.html"&gt;ALL SHALL PERISH&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/allthatremains.html"&gt;ALL THAT REMAINS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/allegiance.html"&gt;ALLEGIANCE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/allegiancesweden.html"&gt;ALLEGIANCE (SWEDEN)&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="r/russelallenjornlande.html"&gt;ALLEN, RUSSEL &amp; LANDE, JORN&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/alister.html"&gt;ALISTER&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/alkonost.html"&gt;ALKONOST&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/alleged.html"&gt;ALLEGED&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/allthatibleed.html"&gt;ALL THAT I BLEED&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/almafuerte.html"&gt;ALMAFUERTE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/alogia.html"&gt;ALOGIA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/altadensidad.html"&gt;ALTA DENSIDAD&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/altar.html"&gt;ALTAR&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/altaria.html"&gt;ALTARIA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/alteredaeon.html"&gt;ALTERED AEON&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/amiblood.html"&gt;AM I BLOOD&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/amaran.html"&gt;AMARAN&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ambeon.html"&gt;AMBEON&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/amebix.html"&gt;AMEBIX&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/amen.html"&gt;AMEN&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/amenazha.html"&gt;AMENAZHA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="t/theamenta.html"&gt;the AMENTA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/americanheadcharge.html"&gt;AMERICAN HEAD CHARGE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="http://www.plyrics.com/a/americannightmare.html" target="_blank"&gt;&lt;font color=#666644&gt;AMERICAN NIGHTMARE&lt;/font&gt;&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/amethyst.html"&gt;AMETHYST&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ametropie.html"&gt;AMETROPIE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/amonamarth.html"&gt;AMON AMARTH&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/amoral.html"&gt;AMORAL&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/amorphis.html"&gt;AMORPHIS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/amortis.html"&gt;AMORTIS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/amos.html"&gt;AMOS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/analbatross.html"&gt;AN ALBATROSS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/anacrusis.html"&gt;ANACRUSIS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/anael.html"&gt;ANAEL&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/anahaevia.html"&gt;ANAH AEVIA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/analcunt.html"&gt;ANAL CUNT&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/anasarca.html"&gt;ANASARCA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/anata.html"&gt;ANATA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/anathema.html"&gt;ANATHEMA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ancient.html"&gt;ANCIENT&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ancientceremony.html"&gt;ANCIENT CEREMONY&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ancientdrive.html"&gt;ANCIENT DRIVE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/ancientprophecy.html"&gt;ANCIENT PROPHECY&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ancientsrebirth.html"&gt;ANCIENT'S REBIRTH&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ancientrites.html"&gt;ANCIENT RITES&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ancientwisdom.html"&gt;ANCIENT WISDOM&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/andoceans.html"&gt;...AND OCEANS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/andideris.html"&gt;ANDI DERIS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/andralls.html"&gt;ANDRALLS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/andreandersen.html"&gt;ANDRE ANDERSEN&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="j/joseandrea.html"&gt;ANDREA, JOSE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/andrewwk.html"&gt;ANDREW W.K.&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/andromeda.html"&gt;ANDROMEDA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/angelcorpse.html"&gt;ANGEL CORPSE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/angeldust.html"&gt;ANGEL DUST&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/angelwitch.html"&gt;ANGEL WITCH&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/angelesdelinfierno.html"&gt;ANGELES DEL INFIERNO&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="t/tomangelripper.html"&gt;ANGELRIPPER, TOM&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/angelzoom.html"&gt;ANGELZOOM&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/angizia.html"&gt;ANGIZIA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/angkorwat.html"&gt;ANGKOR WAT&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/angra.html"&gt;ANGRA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/animal.html"&gt;A.N.I.M.A.L.&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ankhara.html"&gt;ANKHARA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/annihilator.html"&gt;ANNIHILATOR&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/anonymus.html"&gt;ANONYMUS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/anorexianervosa.html"&gt;ANOREXIA NERVOSA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/antaeus.html"&gt;ANTAEUS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/anthemon.html"&gt;ANTHEMON&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/anthrax.html"&gt;ANTHRAX&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/anterrabae.html"&gt;ANTERRABAE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/antestor.html"&gt;ANTESTOR&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/antichrisis.html"&gt;ANTICHRISIS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/antidemon.html"&gt;ANTIDEMON&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/antimatter.html"&gt;ANTIMATTER&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/antithesis.html"&gt;ANTITHESIS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/anubi.html"&gt;ANUBI&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/anvil.html"&gt;ANVIL&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="http://www.azlyrics.com/p/perfect.html" target="_blank"&gt;&lt;font color=#666644&gt;A PERFECT CIRCLE&lt;/font&gt;&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/aphotic.html"&gt;APHOTIC&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/apocalypse.html"&gt;APOCALYPSE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/apocalyptica.html"&gt;APOCALYPTICA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/apokrypha.html"&gt;APOKRYPHA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/apollyon.html"&gt;APOLLYON&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/apophis.html"&gt;APOPHIS&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/apostasy.html"&gt;APOSTASY&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/apraxia.html"&gt;APRAXIA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/arachnes.html"&gt;ARACHNES&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/arafel.html"&gt;ARAFEL&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/arallu.html"&gt;ARALLU&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/arathorn.html"&gt;ARATHORN&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/arcana.html"&gt;ARCANA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/arcanegrail.html"&gt;ARCANE GRAIL&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/arcanesun.html"&gt;ARCANE SUN&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="j/johnarch.html"&gt;ARCH, JOHN&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/archenemy.html"&gt;ARCH ENEMY&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/archaios.html"&gt;ARCHAIOS&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/archetype.html"&gt;ARCHETYPE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/archontes.html"&gt;ARCHONTES&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/arckanum.html"&gt;ARCKANUM&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/arcturus.html"&gt;ARCTURUS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ardulphardebahrwald.html"&gt;ARDULPH ARDEBAHR WALD&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/areyougod.html"&gt;ARE YOU GOD?&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/arena.html"&gt;ARENA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/argentum.html"&gt;ARGENTUM&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/arghoslent.html"&gt;ARGHOSLENT&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/aridavortex.html"&gt;ARIDA VORTEX&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/arise.html"&gt;ARISE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ark.html"&gt;ARK&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/arkanos.html"&gt;ARKANOS&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/arkhoninfaustus.html"&gt;ARKHON INFAUSTUS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/arkona.html"&gt;ARKONA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/armagedda.html"&gt;ARMAGEDDA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/armageddon.html"&gt;ARMAGEDDON&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/armoredsaint.html"&gt;ARMORED SAINT&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/armsbendback.html"&gt;ARMSBENDBACK&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/arsis.html"&gt;ARSIS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/arson.html"&gt;ARSON&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/artefact.html"&gt;ARTEFACT&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/artch.html"&gt;ARTCH&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/artemesia.html"&gt;ARTEMESIA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/arthemesia.html"&gt;ARTHEMESIA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/artension.html"&gt;ARTENSION&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/artillery.html"&gt;ARTILLERY&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/artrosis.html"&gt;ARTROSIS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/arvinger.html"&gt;ARVINGER&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/arwen.html"&gt;ARWEN&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="http://www.plyrics.com/a/ascitiesburn.html" target="_blank"&gt;&lt;font color=#666644&gt;AS CITIES BURN&lt;/font&gt;&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/asdivinegrace.html"&gt;AS DIVINE GRACE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/asilaydying.html"&gt;AS I LAY DYING&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/asilaydyingexvisceralevisceration.html"&gt;AS I LAY DYING (ex-VISCERAL EVISCERATION)&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ashopedies.html"&gt;AS HOPE DIES&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aswefight.html"&gt;AS WE FIGHT&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/asgaroth.html"&gt;ASGAROTH&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ashengrace.html"&gt;ASHENGRACE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ashenlight.html"&gt;ASHEN LIGHT&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ashenmortality.html"&gt;ASHEN MORTALITY&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ashes.html"&gt;ASHES&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ashestoashes.html"&gt;ASHES TO ASHES&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ashesyouleave.html"&gt;ASHES YOU LEAVE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/ashtar.html"&gt;ASHTAR&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aseidad.html"&gt;ASEIDAD&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ases.html"&gt;ASES&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/asesino.html"&gt;ASESINO&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/asgarth.html"&gt;ASGARTH&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/asguard.html"&gt;ASGUARD&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aska.html"&gt;ASKA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="s/smegin.html"&gt;SMEGIN&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/asperity.html"&gt;ASPERITY&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/asphyx.html"&gt;ASPHYX&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/asphyxia.html"&gt;ASPHYXIA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/asrai.html"&gt;ASRAI&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/assassin.html"&gt;ASSASSIN&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/assck.html"&gt;ASSCK&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/astaroth.html"&gt;ASTAROTH&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/astarte.html"&gt;ASTARTE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/astraldoors.html"&gt;ASTRAL DOORS&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/astriaal.html"&gt;ASTRIAAL&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/astrofaes.html"&gt;ASTROFAES&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/asunder.html"&gt;ASUNDER&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/atanatos.html"&gt;ATANATOS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ataraxia.html"&gt;ATARAXIA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/ataraxie.html"&gt;ATARAXIE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/atem.html"&gt;ATEM&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/atheist.html"&gt;ATHEIST&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/athena.html"&gt;ATHENA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/atomizer.html"&gt;ATOMIZER&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/atreyu.html"&gt;ATREYU&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/atrocity.html"&gt;ATROCITY&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/atrophy.html"&gt;ATROPHY&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/atrox.html"&gt;ATROX&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/atallcost.html"&gt;AT ALL COST&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/atthegates.html"&gt;AT THE GATES&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/atvance.html"&gt;AT VANCE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/audiopain.html"&gt;AUDIOPAIN&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="http://www.azlyrics.com/a/audioslave.html" target="_blank"&gt;&lt;font color=#666644&gt;AUDIOSLAVE&lt;/font&gt;&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="a/augury.html"&gt;AUGURY&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aura.html"&gt;AURA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/auranoir.html"&gt;AURA NOIR&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aurora.html"&gt;AURORA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/auroraborealis.html"&gt;AURORA BOREALIS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/autopsy.html"&gt;AUTOPSY&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/autumn.html"&gt;AUTUMN&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/autumnclan.html"&gt;AUTUMN CLAN&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/autumnleaves.html"&gt;AUTUMN LEAVES&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/autumnblaze.html"&gt;AUTUMNBLAZE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/avalanch.html"&gt;AVALANCH&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/avalon.html"&gt;AVALON&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/avantasia.html"&gt;AVANTASIA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/avatar.html"&gt;AVATAR&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/avatarromania.html"&gt;AVATAR (ROMANIA)&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/avectristesse.html"&gt;AVEC TRISTESSE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/avengedsevenfold.html"&gt;AVENGED SEVENFOLD&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/avengerofblood.html"&gt;AVENGER OF BLOOD&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/avrigus.html"&gt;AVRIGUS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/avulsed.html"&gt;AVULSED&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/axamenta.html"&gt;AXAMENTA&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/axelrudipell.html"&gt;AXEL RUDI PELL&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/axenstar.html"&gt;AXENSTAR&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/axisofadvance.html"&gt;AXIS OF ADVANCE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/axisofperdition.html"&gt;AXIS OF PERDITION&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/axxis.html"&gt;AXXIS&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/ayreon.html"&gt;AYREON&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/azaghal.html"&gt;AZAGHAL&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/azeroth.html"&gt;AZEROTH&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/azrael.html"&gt;AZRAEL&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="a/aztecjade.html"&gt;AZTEC JADE&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;
+&lt;/FONT&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;/TABLE&gt;
+&lt;/TD&gt;&lt;TD bgcolor=#444444&gt;&lt;IMG src="images/px.gif" width=10&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;
+
+
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;&lt;TD&gt;
+
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;&lt;TD bgcolor=#444444 width=8&gt;&lt;IMG src="images/px.gif" width=8&gt;&lt;/TD&gt;&lt;TD&gt;&lt;IMG src="images/leftbottom.gif"&gt;&lt;/TD&gt;&lt;TD WIDTH=734&gt;&lt;IMG src="images/px.gif"&gt;&lt;/TD&gt;&lt;TD&gt;&lt;IMG src="images/rightbottom.gif"&gt;&lt;/TD&gt;&lt;TD bgcolor=#444444 width=8&gt;&lt;IMG src="images/px.gif" width=8&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;
+
+&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;&lt;TD align=center bgcolor=#444444&gt;
+
+ &lt;TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=100%&gt;
+ &lt;TR&gt;&lt;TD&gt;&lt;IMG SRC="images/px.gif" HEIGHT=5&gt;&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;
+ &lt;TD ALIGN=CENTER WIDTH=100%&gt;
+ &lt;TABLE BORDER=0 WIDTH=100%&gt;
+&lt;TR&gt;&lt;TD align=center&gt;&lt;SCRIPT LANGUAGE="javascript" src="bban.js"&gt;&lt;/SCRIPT&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+ &lt;/TABLE&gt;
+&lt;/TD&gt;
+ &lt;/TR&gt;
+ &lt;TR&gt;&lt;TD&gt;&lt;IMG SRC="images/px.gif" HEIGHT=5&gt;&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;&lt;TD BGCOLOR=#666666 align=center&gt;&lt;FONT FACE="Verdana" COLOR=#CCCC99 SIZE=1&gt;Contact e-mail: webmaster@darklyrics.com&lt;br&gt;&lt;b&gt;Copyright &amp;copy; 2001-2004 - DarkLyrics.com&lt;/b&gt;&lt;/FONT&gt;&lt;FONT FACE="Verdana" COLOR=#CCCCCC SIZE=1&gt; --- All lyrics are the property and copyright of their respective owners.&lt;BR&gt;All lyrics provided for educational purposes and personal use only. Please read the disclaimer.&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;&lt;TD align=center bgcolor=#444444&gt;
+&lt;TABLE CELLSPACING=0 CELLPADDING=2 BORDER=0&gt;&lt;TR&gt;&lt;TD align=center NOWRAP&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC SIZE=1&gt;- &lt;A HREF="aboutus.html"&gt;&lt;FONT COLOR=#CCCC99&gt;About Us&lt;/FONT&gt;&lt;/A&gt; - &lt;A HREF="privacy.html"&gt;&lt;FONT COLOR=#CCCC99&gt;Privacy Policy&lt;/FONT&gt;&lt;/A&gt; - &lt;A HREF="disclaim.html"&gt;&lt;FONT COLOR=#CCCC99&gt;Disclaimer&lt;/FONT&gt;&lt;/A&gt; -&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;/TABLE&gt;
+
+ &lt;/TD&gt;&lt;/TR&gt;
+ &lt;/TABLE&gt;
+ &lt;/TD&gt;&lt;/TR&gt;
+ &lt;/TABLE&gt;
+&lt;/CENTER&gt;
+&lt;/BODY&gt;
+&lt;/HTML&gt;
+</SampleText>
+    <ProjectID_FK>-2</ProjectID_FK>
+  </Project_Sample>
+  <Project_Sample>
+    <SampleID>-3</SampleID>
+    <SampleUrl>http://www.darklyrics.com/a/alifeoncelost.html</SampleUrl>
+    <SampleText>&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;A LIFE ONCE LOST LYRICS&lt;/title&gt;
+&lt;/HEAD&gt;
+&lt;body bgcolor=#222222 text=#FFFFCC link=#FFFFCC vlink=#FFFFCC alink=#FFFFCC&gt;
+&lt;CENTER&gt;
+&lt;TABLE WIDTH=750 HEIGHT=80 border=0&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;A HREF="../index.html"&gt;&lt;IMG SRC="../images/dlogo.gif" BORDER=0 alt="DarkLyrics.com"&gt;&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=right&gt;&lt;SCRIPT LANGUAGE="javascript" src="../tban.js"&gt;&lt;/SCRIPT&gt;&lt;/TD&gt;
+&lt;/TR&gt;
+&lt;/TABLE&gt;
+
+&lt;TABLE WIDTH=750 CELLSPACING=0 CELLPADDING=0 border=0&gt;
+&lt;TR&gt;&lt;TD align=center&gt;
+
+ &lt;!-- search zone --&gt;
+ &lt;TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0&gt;
+ &lt;TR&gt;&lt;TD align=center bgcolor=#444444&gt;
+
+&lt;TABLE CELLSPACING=0 CELLPADDING=2 BORDER=0&gt;&lt;TR&gt;&lt;TD align=center NOWRAP&gt;&lt;SCRIPT LANGUAGE="javascript" src="../upl.js"&gt;&lt;/SCRIPT&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;
+
+&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;
+ &lt;TD BGCOLOR=BLACK align=center&gt;
+ &lt;TABLE CELLSPACING=1 CELLPADDING=4 BORDER=0 HEIGHT=30&gt;
+  &lt;TR BGCOLOR="#666666" valign=middle align=center&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../a.html"&gt;&lt;b&gt;A&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../b.html"&gt;&lt;b&gt;B&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../c.html"&gt;&lt;b&gt;C&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../d.html"&gt;&lt;b&gt;D&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../e.html"&gt;&lt;b&gt;E&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../f.html"&gt;&lt;b&gt;F&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../g.html"&gt;&lt;b&gt;G&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../h.html"&gt;&lt;b&gt;H&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../i.html"&gt;&lt;b&gt;I&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../j.html"&gt;&lt;b&gt;J&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../k.html"&gt;&lt;b&gt;K&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../l.html"&gt;&lt;b&gt;L&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../m.html"&gt;&lt;b&gt;M&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../n.html"&gt;&lt;b&gt;N&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../o.html"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../p.html"&gt;&lt;b&gt;P&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../q.html"&gt;&lt;b&gt;Q&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../r.html"&gt;&lt;b&gt;R&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../s.html"&gt;&lt;b&gt;S&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../t.html"&gt;&lt;b&gt;T&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../u.html"&gt;&lt;b&gt;U&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../v.html"&gt;&lt;b&gt;V&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../w.html"&gt;&lt;b&gt;W&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../x.html"&gt;&lt;b&gt;X&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../y.html"&gt;&lt;b&gt;Y&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../z.html"&gt;&lt;b&gt;Z&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;TD WIDTH=20&gt;&lt;A HREF="../19.html"&gt;&lt;b&gt;#&lt;/b&gt;&lt;/A&gt;&lt;/TD&gt;
+  &lt;/TR&gt;
+ &lt;/TABLE&gt;
+ &lt;/TD&gt; 
+ &lt;/TR&gt;
+
+&lt;TR&gt;&lt;TD align=center bgcolor=#666666&gt;
+&lt;form method="get" action="http://www.darklyrics.com/dseek"&gt;
+&lt;table border="0" cellspacing="2" cellpadding="2" width=100%&gt;
+&lt;tr&gt;&lt;td width="100%" align="center"&gt;
+&lt;FONT FACE="Verdana" COLOR=#DDDDDD size=2&gt;Browse by band name or enter band/album/song to search lyrics for: &lt;/FONT&gt;&lt;/td&gt;&lt;td&gt;&lt;input type="text" NAME="q"
+SIZE="20" MAXLENGTH="100" VALUE=""&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;input type="submit" value="Search"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/TD&gt;&lt;/TR&gt;&lt;/form&gt;
+ &lt;TR&gt;&lt;TD align=center bgcolor=#444444&gt;
+ &lt;TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0&gt;
+ &lt;TR&gt;
+ &lt;TD ALIGN=CENTER&gt;- [ &lt;A HREF="http://www.darklyrics.com/forum/list.php?f=1"&gt;&lt;FONT FACE="Verdana" COLOR=#CCCC99 SIZE=2&gt;REQUEST LYRICS&lt;/FONT&gt;&lt;/A&gt; ] - [ &lt;A HREF="../submit.html"&gt;&lt;FONT FACE="Verdana" COLOR=#CCCC99 SIZE=2&gt;SUBMIT LYRICS&lt;/FONT&gt;&lt;/A&gt; ] - [ &lt;A HREF="../links.html"&gt;&lt;FONT FACE="Verdana" COLOR=#CCCC99 SIZE=2&gt;LINKS&lt;/FONT&gt;&lt;/A&gt; ] - [ &lt;A HREF="../guestb.html"&gt;&lt;FONT FACE="Verdana" COLOR=#CCCC99 SIZE=2&gt;GUESTBOOK&lt;/FONT&gt;&lt;/A&gt; ] - [ &lt;A HREF="http://www.darklyrics.com/forum/list.php?f=2"&gt;&lt;FONT FACE="Verdana" COLOR=#CCCC99 SIZE=2&gt;TALK FORUM&lt;/FONT&gt;&lt;/A&gt; ] -&lt;/TD&gt;
+ &lt;/TR&gt;
+ &lt;TR&gt;&lt;TD&gt;&lt;IMG SRC="../images/px.gif" HEIGHT=5&gt;&lt;/TD&gt;&lt;/TR&gt;
+ &lt;/TABLE&gt;
+ &lt;!-- end of search zone --&gt;
+
+ &lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;&lt;TD&gt;
+
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;&lt;TD bgcolor=#444444 width=8&gt;&lt;IMG src="../images/px.gif" width=8&gt;&lt;/TD&gt;&lt;TD&gt;&lt;IMG src="../images/leftup.gif"&gt;&lt;/TD&gt;&lt;TD WIDTH=734&gt;&lt;IMG src="../images/px.gif"&gt;&lt;/TD&gt;&lt;TD&gt;&lt;IMG src="../images/rightup.gif"&gt;&lt;/TD&gt;&lt;TD bgcolor=#444444 width=8&gt;&lt;IMG src="../images/px.gif" width=8&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;
+
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;&lt;TD align=center&gt;
+
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;&lt;TD bgcolor=#444444&gt;&lt;IMG src="../images/px.gif" width=10&gt;&lt;/TD&gt;&lt;TD width=730 align=center&gt;
+&lt;FONT FACE="Helvetica" COLOR=#FFFFCC SIZE=4&gt;&lt;br&gt;A LIFE ONCE LOST LYRICS&lt;BR&gt;&lt;/FONT&gt;
+&lt;br&gt;&lt;FONT FACE="VERDANA" SIZE="3" COLOR="#CCCC99"&gt;album: &lt;B&gt;"Open Your Mouth For The Speechless"&lt;/b&gt; (2000)
+&lt;FONT SIZE=2&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="../lyrics/alifeoncelost/openyourmouthforthespeechless.html#1" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Joan Said Please&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/openyourmouthforthespeechless.html#2" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;This Is What She Calls Home&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/openyourmouthforthespeechless.html#3" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;The Introduction&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/openyourmouthforthespeechless.html#4" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Almost Perfect But I Failed&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/openyourmouthforthespeechless.html#5" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Gentle &amp; Elegant&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/openyourmouthforthespeechless.html#6" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;All Falls River Failed&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/openyourmouthforthespeechless.html#7" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Whe Everything Becomes Still&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/openyourmouthforthespeechless.html#8" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Just Before His Crucifixion&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/openyourmouthforthespeechless.html#9" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Why Do You Make Me Bleed&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;FONT FACE="VERDANA" SIZE="3" COLOR="#CCCC99"&gt;album: &lt;B&gt;"The Fourth Plague: Flies"&lt;/b&gt; (2001 EP)
+&lt;FONT SIZE=2&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="../lyrics/alifeoncelost/thefourthplagueflies.html#1" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Chileab&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/thefourthplagueflies.html#2" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Our Second Home&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/thefourthplagueflies.html#3" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;The Dead Sea&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/thefourthplagueflies.html#4" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Prepare Yourself For What Is About To Come&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/thefourthplagueflies.html#5" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;The Tide&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;FONT FACE="VERDANA" SIZE="3" COLOR="#CCCC99"&gt;album: &lt;B&gt;"A Great Artist"&lt;/b&gt; (2003)
+&lt;FONT SIZE=2&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="../lyrics/alifeoncelost/agreatartist.html#1" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Surreal Atrocities&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/agreatartist.html#2" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Cavil&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/agreatartist.html#3" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;The Change Came Suddenly&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/agreatartist.html#4" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Nevermore Will They Have An Understanding...&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/agreatartist.html#5" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;...In Anything Done Under The Sun&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/agreatartist.html#6" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Maudlin&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/agreatartist.html#7" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Pious&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/agreatartist.html#8" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;The Wicked Will Rot&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/agreatartist.html#9" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Overwhelming&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;FONT FACE="VERDANA" SIZE="3" COLOR="#CCCC99"&gt;album: &lt;B&gt;"Hunter"&lt;/b&gt; (2005)
+&lt;FONT SIZE=2&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;a href="../lyrics/alifeoncelost/hunter.html#1" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Rehashed&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/hunter.html#2" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Needleman&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/hunter.html#3" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Vulture&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/hunter.html#4" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Pain &amp; Panic&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/hunter.html#5" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Hunter&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/hunter.html#6" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Grotesque&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/hunter.html#7" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Salai&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/hunter.html#8" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;A Rush &amp; Siege&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/hunter.html#9" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;I Give In&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/hunter.html#10" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;Ghosting&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="../lyrics/alifeoncelost/hunter.html#11" target="_blank"&gt;&lt;FONT COLOR="#CCCCCC"&gt;With Pittless Blows&lt;/FONT&gt;&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;/FONT&gt;&lt;/FONT&gt;
+&lt;/TD&gt;&lt;TD bgcolor=#444444&gt;&lt;IMG src="../images/px.gif" width=10&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;
+
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;&lt;TD&gt;
+
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;&lt;TD bgcolor=#444444 width=8&gt;&lt;IMG src="../images/px.gif" width=8&gt;&lt;/TD&gt;&lt;TD&gt;&lt;IMG src="../images/leftbottom.gif"&gt;&lt;/TD&gt;&lt;TD WIDTH=734&gt;&lt;IMG src="../images/px.gif"&gt;&lt;/TD&gt;&lt;TD&gt;&lt;IMG src="../images/rightbottom.gif"&gt;&lt;/TD&gt;&lt;TD bgcolor=#444444 width=8&gt;&lt;IMG src="../images/px.gif" width=8&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;
+
+&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;&lt;TD align=center bgcolor=#444444&gt;
+
+ &lt;TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=100%&gt;
+ &lt;TR&gt;&lt;TD&gt;&lt;IMG SRC="../images/px.gif" HEIGHT=5&gt;&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;
+ &lt;TD ALIGN=CENTER WIDTH=100%&gt;
+ &lt;TABLE BORDER=0 WIDTH=100%&gt;
+&lt;TR&gt;&lt;TD align=center&gt;&lt;SCRIPT LANGUAGE="javascript" src="../bban.js"&gt;&lt;/SCRIPT&gt;&lt;/TD&gt;&lt;/TR&gt;
+ &lt;/TABLE&gt;
+&lt;/TD&gt;
+ &lt;/TR&gt;
+ &lt;TR&gt;&lt;TD&gt;&lt;IMG SRC="../images/px.gif" HEIGHT=5&gt;&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;&lt;TD BGCOLOR=#666666 align=center&gt;&lt;FONT FACE="Verdana" COLOR=#CCCC99 SIZE=1&gt;Contact e-mail: webmaster@darklyrics.com&lt;br&gt;&lt;b&gt;Copyright &amp;copy; 2001-2004 - DarkLyrics.com&lt;/b&gt;&lt;/FONT&gt;&lt;FONT FACE="Verdana" COLOR=#CCCCCC SIZE=1&gt; --- All lyrics are the property and copyright of their respective owners.&lt;BR&gt;All lyrics provided for educational purposes and personal use only. Please read the disclaimer.&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;&lt;TD align=center bgcolor=#444444&gt;
+&lt;TABLE CELLSPACING=0 CELLPADDING=2 BORDER=0&gt;&lt;TR&gt;&lt;TD align=center NOWRAP&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC SIZE=1&gt;- &lt;A HREF="../aboutus.html"&gt;&lt;FONT COLOR=#CCCC99&gt;About Us&lt;/FONT&gt;&lt;/A&gt; - &lt;A HREF="../privacy.html"&gt;&lt;FONT COLOR=#CCCC99&gt;Privacy Policy&lt;/FONT&gt;&lt;/A&gt; - &lt;A HREF="../disclaim.html"&gt;&lt;FONT COLOR=#CCCC99&gt;Disclaimer&lt;/FONT&gt;&lt;/A&gt; -&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;/TABLE&gt;
+
+ &lt;/TD&gt;&lt;/TR&gt;
+ &lt;/TABLE&gt;
+ &lt;/TD&gt;&lt;/TR&gt;
+ &lt;/TABLE&gt;
+&lt;/CENTER&gt;
+&lt;/BODY&gt;
+&lt;/HTML&gt;
+</SampleText>
+    <ProjectID_FK>-3</ProjectID_FK>
+  </Project_Sample>
+  <DataType>
+    <DataTypeID>-1</DataTypeID>
+    <DataTypeName>DefaultDataRefiner</DataTypeName>
+    <DataTypeCode>Imports System
+Imports Microsoft.VisualBasic
+Imports System.Text.RegularExpressions
+Imports DataRefinerAsm
+
+Public Class DefaultDataRefiner
+   Inherits DataRefinerAsm.DataRefiner
+
+   Public Overrides Function Refine(ByVal Text As String) As Object
+      Return text
+   End Function
+End Class
+</DataTypeCode>
+  </DataType>
+  <DataType>
+    <DataTypeID>-2</DataTypeID>
+    <DataTypeName>NaturalNumberDataRefiner</DataTypeName>
+    <DataTypeCode>Imports System
+Imports Microsoft.VisualBasic
+Imports System.Text.RegularExpressions
+Imports DataRefinerAsm
+
+Public Class NaturalNumberDataRefiner
+   Inherits DataRefiner
+
+   Public Overrides Function Refine(ByVal Text As String) As Object
+      Dim m As Match
+      m = Regex.Match(Text, "\d+")
+
+      If m.Success Then
+         Return Double.Parse(m.Value)
+      Else
+         Return Nothing
+      End If
+   End Function
+End Class
+</DataTypeCode>
+  </DataType>
+  <DataType>
+    <DataTypeID>-3</DataTypeID>
+    <DataTypeName>MoneyDataRefiner</DataTypeName>
+    <DataTypeCode>Imports System
+Imports Microsoft.VisualBasic
+Imports System.Text.RegularExpressions
+Imports DataRefinerAsm
+
+Public Class MoneyDataRefiner
+   Inherits DataRefiner
+
+   Public Overrides Function Refine(ByVal Text As String) As Object
+      Dim m As Match = Regex.Match(Text, "\$.*?(\d+\.\d+)")
+
+      If m.Success Then
+         m = Regex.Match(m.Value, "\d+\.\d+")
+
+         Return Double.Parse(m.Value)
+      End If
+
+      Return Nothing
+   End Function
+End Class
+</DataTypeCode>
+  </DataType>
+  <DataType>
+    <DataTypeID>-4</DataTypeID>
+    <DataTypeName>DoubleDataRefiner</DataTypeName>
+    <DataTypeCode>Imports System
+Imports Microsoft.VisualBasic
+Imports System.Text.RegularExpressions
+Imports DataRefinerAsm
+
+Public Class DoubleDataRefiner
+   Inherits DataRefiner
+
+   Public Overrides Function Refine(ByVal text As String) As Object
+      Dim m As Match
+      m = Regex.Match(text, "\d+\.\d+")
+
+      If m.Success Then
+         Return Double.Parse(m.Value)
+      Else
+         Return Nothing
+      End If
+   End Function
+End Class
+</DataTypeCode>
+  </DataType>
+  <DataType>
+    <DataTypeID>-5</DataTypeID>
+    <DataTypeName>TextDataRefiner</DataTypeName>
+    <DataTypeCode>Imports System
+Imports Microsoft.VisualBasic
+Imports System.Text.RegularExpressions
+Imports DataRefinerAsm
+
+Public Class TextDataRefiner
+   Inherits DataRefinerAsm.DataRefiner
+
+   Public Overrides Function Refine(ByVal Text As String) As Object
+      Dim evl As New MatchEvaluator(AddressOf replaceFunction)
+      Return Regex.Replace(Text, "([\s]+)", evl).Trim
+   End Function
+
+   Private Function replaceFunction(ByVal m As Match) As String
+      Return " "
+   End Function
+End Class
+</DataTypeCode>
+  </DataType>
+</ScraperDB>

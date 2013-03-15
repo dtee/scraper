@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Memorizing LCS</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bordercolor="#999999">
+  <tr valign="top">
+    <td><table width="100%" border="1" cellpadding="5" cellspacing="0" bordercolor="#D4D0C8" bgcolor="#FFFFFF">
+      <tr>
+        <td colspan="2" valign="top"><h1>Longest Common Sub-Sequence (LCS) </h1></td>
+        </tr>
+      <tr>
+        <td width="25%" valign="top"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="containermaster_gray">
+          <tr>
+            <td><img src="images/main_tl.gif" width="16" height="9" /></td>
+            <td background="images/main_t.gif"><img src="images/main_t.gif" width="7" height="9" /></td>
+            <td><img src="images/main_tr.gif" width="9" height="9" /></td>
+          </tr>
+          <tr>
+            <td rowspan="3" background="images/main_l.gif"><img src="images/main_l.gif" width="16" height="7" /></td>
+            <td></td>
+            <td rowspan="3" background="images/main_r.gif"><img src="images/main_r.gif" width="9" height="7" /></td>
+          </tr>
+          <tr>
+            <td width="100%" align="center"  id="ContentPane" runat="server"></td>
+          </tr>
+          <tr>
+            <td><p><a href="index.htm">Introduction</a><br />
+                <a href="theorem.html">Theorem</a><br />
+                <a href="recursive.html">Recursive Algorithm</a><br />
+                <a href="memorizing.html">Memorizing</a> <br />
+                <a href="bottom-up.html">Bottom up LCS</a><br />
+                <a href="LCS-Delta.html">LCS-Delta </a><br />
+                <a href="Application.html">Applications</a><br />
+                <a href="references.html">References</a><br />
+              </p>              </td>
+          </tr>
+          <tr>
+            <td><img src="images/main_bl.gif" width="16" height="12" /></td>
+            <td background="images/main_b.gif"><img src="images/main_b.gif" width="7" height="12" /></td>
+            <td><img src="images/main_br.gif" width="9" height="12" /></td>
+          </tr>
+        </table></td>
+        <td valign="top"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="containermaster_gray">
+          <tr>
+            <td><img src="images/main_tl.gif" width="16" height="9" /></td>
+            <td background="images/main_t.gif"><img src="images/main_t.gif" width="7" height="9" /></td>
+            <td><img src="images/main_tr.gif" width="9" height="9" /></td>
+          </tr>
+          <tr>
+            <td rowspan="3" background="images/main_l.gif"><img src="images/main_l.gif" width="16" height="7" /></td>
+            <td></td>
+            <td rowspan="3" background="images/main_r.gif"><img src="images/main_r.gif" width="9" height="7" /></td>
+          </tr>
+          <tr>
+            <td width="100%" align="center"  id="ContentPane" runat="server"></td>
+          </tr>
+          <tr>
+            <td><!-- InstanceBeginEditable name="Edit Here" -->
+              <h1>Memorizing LCS</h1> 
+              <p>char *  A; <br />
+char *  B; <br />
+array  L; <br />
+int  lcs_length(char * AA, char * BB) { <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A = AA; B = BB; <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; allocate storage for L; <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for (i = 0; i &lt;= m; i++) <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for (j = 0; j &lt;= m; j++) <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L[i,j] = -1; <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return subproblem(0, 0); <br />
+} </p>
+              <p>int  subproblem(int i, int j) { <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (L[i,j] &lt; 0) { <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (A[i] == '\0' || B[j] == '\0') <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L[i,j] = 0; <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else if (A[i] == B[j]) <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L[i,j] = 1 +  subproblem(i+1, j+1); <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L[i,j] =  max(subproblem(i+1, j), subproblem(i, j+1)); <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return L[i,j]; </p>
+              <p>}</p>
+              <p>The previous recursive function is separated into two  functions, the main function that initialize an matrix that keeps tracks of the  LCS solved, and the sub problem function that solves the LCS if it haven&rsquo;t been  solved, recursively call itself, and save the solved data back into the matrix.  The main function initializes the matrix to -1 because no result can be  negative, and -1 works as a flag to tell the algorithm that it hasn&rsquo;t been  solved yet. The advantage of this method over recursion is it doesn&rsquo;t solve the  problems that it already solved. </p>
+              <p>The total call is: once from the main routine,  and at most twice every time we fill in an entry of array L. (m = length of  string A, and n = length of string B). There are (m+1)(n+1) entries, so the  total number of calls is at most 2(m+1)(n+1)+1 and the time is O(mn). The best  case here would be when the two given string are identical, then not all the  elements in the matrix will be filled &ndash; only the diagonal entries of the matrix  will be filled.                </p>
+              <p>Worst Case: 2(m+1)(n+1)+1 = O(mn) </p>
+            <!-- InstanceEndEditable -->                </td>
+          </tr>
+          <tr>
+            <td><img src="images/main_bl.gif" width="16" height="12" /></td>
+            <td background="images/main_b.gif"><img src="images/main_b.gif" width="7" height="12" /></td>
+            <td><img src="images/main_br.gif" width="9" height="12" /></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+<!-- InstanceEnd --></html>

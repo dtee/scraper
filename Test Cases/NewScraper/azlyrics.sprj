@@ -1,0 +1,1267 @@
+<?xml version="1.0" standalone="yes"?>
+<ScraperDB xmlns="http://tempuri.org/ScraperDB.xsd">
+  <TagLibrary>
+    <TagID>-1</TagID>
+    <ProjectID>-1</ProjectID>
+    <TagName>Root</TagName>
+    <StartTag />
+    <EndTag />
+    <OrderNumber>0</OrderNumber>
+    <MaxChars>0</MaxChars>
+    <IsAppendStartTag>false</IsAppendStartTag>
+    <IsAppendEndTag>false</IsAppendEndTag>
+    <IsStartTagRegex>false</IsStartTagRegex>
+    <IsEndTagRegex>false</IsEndTagRegex>
+    <IsOptional>false</IsOptional>
+    <IsSingleRegex>false</IsSingleRegex>
+    <isReverseSearch>false</isReverseSearch>
+    <IsURL>false</IsURL>
+    <IsDisabled>false</IsDisabled>
+    <isSaveData>false</isSaveData>
+    <IsDataTable>false</IsDataTable>
+    <IsIdentfier>False</IsIdentfier>
+    <TagLibrary>
+      <TagID>-4</TagID>
+      <Parent_TagID>-1</Parent_TagID>
+      <ProjectID>-1</ProjectID>
+      <TagName>Artist</TagName>
+      <StartTag>&lt;TABLE cellpadding="0" cellspacing="0" border=0 width=100%&gt;</StartTag>
+      <EndTag>&lt;/B&gt;&lt;/FONT&gt;</EndTag>
+      <OrderNumber>0</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>false</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+      <TagLibrary>
+        <TagID>-2</TagID>
+        <Parent_TagID>-4</Parent_TagID>
+        <ProjectID>-1</ProjectID>
+        <TagName>ArtistLink</TagName>
+        <StartTag>A HREF="</StartTag>
+        <EndTag>"</EndTag>
+        <OrderNumber>0</OrderNumber>
+        <MaxChars>0</MaxChars>
+        <IsAppendStartTag>false</IsAppendStartTag>
+        <IsAppendEndTag>false</IsAppendEndTag>
+        <IsStartTagRegex>false</IsStartTagRegex>
+        <IsEndTagRegex>false</IsEndTagRegex>
+        <IsOptional>false</IsOptional>
+        <IsSingleRegex>false</IsSingleRegex>
+        <isReverseSearch>false</isReverseSearch>
+        <IsURL>true</IsURL>
+        <IsDisabled>false</IsDisabled>
+        <isSaveData>false</isSaveData>
+        <IsDataTable>false</IsDataTable>
+        <IsIdentfier>False</IsIdentfier>
+      </TagLibrary>
+    </TagLibrary>
+  </TagLibrary>
+  <TagLibrary>
+    <TagID>-6</TagID>
+    <ProjectID>-2</ProjectID>
+    <TagName>Root</TagName>
+    <StartTag />
+    <EndTag />
+    <OrderNumber>0</OrderNumber>
+    <MaxChars>0</MaxChars>
+    <IsAppendStartTag>false</IsAppendStartTag>
+    <IsAppendEndTag>false</IsAppendEndTag>
+    <IsStartTagRegex>false</IsStartTagRegex>
+    <IsEndTagRegex>false</IsEndTagRegex>
+    <IsOptional>false</IsOptional>
+    <IsSingleRegex>false</IsSingleRegex>
+    <isReverseSearch>false</isReverseSearch>
+    <IsURL>false</IsURL>
+    <IsDisabled>false</IsDisabled>
+    <isSaveData>false</isSaveData>
+    <IsDataTable>false</IsDataTable>
+    <IsIdentfier>False</IsIdentfier>
+    <TagLibrary>
+      <TagID>-7</TagID>
+      <Parent_TagID>-6</Parent_TagID>
+      <ProjectID>-2</ProjectID>
+      <TagName>Artist</TagName>
+      <StartTag>&lt;TR&gt;&lt;TD align=center valign=top&gt;&lt;FONT Face=Verdana size=3&gt;</StartTag>
+      <EndTag />
+      <OrderNumber>0</OrderNumber>
+      <MaxChars>0</MaxChars>
+      <IsAppendStartTag>false</IsAppendStartTag>
+      <IsAppendEndTag>false</IsAppendEndTag>
+      <IsStartTagRegex>false</IsStartTagRegex>
+      <IsEndTagRegex>false</IsEndTagRegex>
+      <IsOptional>false</IsOptional>
+      <IsSingleRegex>false</IsSingleRegex>
+      <isReverseSearch>false</isReverseSearch>
+      <IsURL>false</IsURL>
+      <IsDisabled>false</IsDisabled>
+      <isSaveData>false</isSaveData>
+      <IsDataTable>false</IsDataTable>
+      <IsIdentfier>False</IsIdentfier>
+      <TagLibrary>
+        <TagID>-8</TagID>
+        <Parent_TagID>-7</Parent_TagID>
+        <ProjectID>-2</ProjectID>
+        <TagName>Name</TagName>
+        <StartTag>&gt;</StartTag>
+        <EndTag>&lt;/a</EndTag>
+        <OrderNumber>1</OrderNumber>
+        <MaxChars>0</MaxChars>
+        <IsAppendStartTag>false</IsAppendStartTag>
+        <IsAppendEndTag>false</IsAppendEndTag>
+        <IsStartTagRegex>false</IsStartTagRegex>
+        <IsEndTagRegex>false</IsEndTagRegex>
+        <IsOptional>false</IsOptional>
+        <IsSingleRegex>false</IsSingleRegex>
+        <isReverseSearch>false</isReverseSearch>
+        <IsURL>false</IsURL>
+        <IsDisabled>false</IsDisabled>
+        <isSaveData>false</isSaveData>
+        <IsDataTable>false</IsDataTable>
+        <IsIdentfier>False</IsIdentfier>
+      </TagLibrary>
+      <TagLibrary>
+        <TagID>-9</TagID>
+        <Parent_TagID>-7</Parent_TagID>
+        <ProjectID>-2</ProjectID>
+        <TagName>Link</TagName>
+        <StartTag>&lt;A href="</StartTag>
+        <EndTag>"</EndTag>
+        <OrderNumber>0</OrderNumber>
+        <MaxChars>0</MaxChars>
+        <IsAppendStartTag>false</IsAppendStartTag>
+        <IsAppendEndTag>false</IsAppendEndTag>
+        <IsStartTagRegex>false</IsStartTagRegex>
+        <IsEndTagRegex>false</IsEndTagRegex>
+        <IsOptional>false</IsOptional>
+        <IsSingleRegex>false</IsSingleRegex>
+        <isReverseSearch>false</isReverseSearch>
+        <IsURL>false</IsURL>
+        <IsDisabled>false</IsDisabled>
+        <isSaveData>false</isSaveData>
+        <IsDataTable>false</IsDataTable>
+        <IsIdentfier>False</IsIdentfier>
+      </TagLibrary>
+    </TagLibrary>
+  </TagLibrary>
+  <CrawlProject>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>Untitled Crawl Project</Name>
+    <ProxyCheckUrl />
+    <ProxyCheckContent />
+    <IsSaveContent>false</IsSaveContent>
+    <Threads>1</Threads>
+    <DownloadDelay>0</DownloadDelay>
+    <TotalUrl>0</TotalUrl>
+    <TotalUrlLeft>0</TotalUrlLeft>
+    <ConnectionPerIP>5</ConnectionPerIP>
+    <DateRun>2006-09-23T20:33:44.09375-07:00</DateRun>
+    <MaxUrl>10</MaxUrl>
+    <TotalProjects>1</TotalProjects>
+    <AssignTimeOutMinute>30</AssignTimeOutMinute>
+  </CrawlProject>
+  <UrlStatus>
+    <UrlStatusID>1</UrlStatusID>
+    <Name>Assigned</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>3</UrlStatusID>
+    <Name>Finished</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>2</UrlStatusID>
+    <Name>Error</Name>
+  </UrlStatus>
+  <UrlStatus>
+    <UrlStatusID>0</UrlStatusID>
+    <Name>Ready</Name>
+  </UrlStatus>
+  <Project>
+    <ProjectID>-1</ProjectID>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>SiteRoot</Name>
+    <UrlCheckContent />
+    <TotalUrl>0</TotalUrl>
+    <TotalUrlLeft>0</TotalUrlLeft>
+  </Project>
+  <Project>
+    <ProjectID>-2</ProjectID>
+    <CrawlProjectID>-1</CrawlProjectID>
+    <Name>ArtistList</Name>
+    <UrlCheckContent />
+    <TotalUrl>0</TotalUrl>
+    <TotalUrlLeft>0</TotalUrlLeft>
+  </Project>
+  <Proxy>
+    <ProxyID>-1</ProxyID>
+    <ProxyStatusID>0</ProxyStatusID>
+    <ProxyLink>localhost</ProxyLink>
+    <ProxyPort>80</ProxyPort>
+    <AverageSpeed>0</AverageSpeed>
+    <AveragePing>0</AveragePing>
+    <MaxConnection>0</MaxConnection>
+    <TotalTimeout>0</TotalTimeout>
+    <TotalAnonymous>0</TotalAnonymous>
+  </Proxy>
+  <ProxyStatus>
+    <ProxyStatusID>0</ProxyStatusID>
+    <StatusName>Ready</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>1</ProxyStatusID>
+    <StatusName>Checking</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>2</ProxyStatusID>
+    <StatusName>Unknown</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <ProxyStatus>
+    <ProxyStatusID>3</ProxyStatusID>
+    <StatusName>Error</StatusName>
+    <StatusDescription />
+  </ProxyStatus>
+  <Project_Sample>
+    <SampleID>-1</SampleID>
+    <SampleUrl>http://www.azlyrics.com/</SampleUrl>
+    <SampleText>&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;META NAME="robots" CONTENT="ALL"&gt;
+&lt;meta name="revisit-after" content="7 days"&gt;
+&lt;META NAME="name" CONTENT="A-Z Lyrics Universe"&gt;
+&lt;META NAME="description" CONTENT="Large lyrics collection of all genres and ages."&gt;
+&lt;META NAME="keywords" CONTENT="lyrics,music,song lyrics,song,paroles"&gt;  
+&lt;BASE HREF="http://www.azlyrics.com"&gt; 
+&lt;TITLE&gt;A-Z Lyrics Universe&lt;/TITLE&gt;
+&lt;script language="Javascript"&gt;
+&lt;!-- 
+if (top.location != self.location) {
+top.location = self.location.href
+}
+//--&gt; 
+&lt;/script&gt;
+&lt;SCRIPT LANGUAGE="javascript" src="http://images.azlyrics.com:8080/head.js"&gt;&lt;/SCRIPT&gt;
+&lt;/HEAD&gt;
+&lt;BODY bgcolor=#666699&gt;
+&lt;TABLE BORDER=0 WIDTH=100% ALIGN=CENTER CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;&lt;TD align=center&gt;&lt;script LANGUAGE="JavaScript1.1" SRC="http://oascentral.artistdirect.com/RealMedia/ads/adstream_jx.ads/azlyrics.com/homepage/1@Top,Left,Right,Frame1,Frame2,Frame1,Frame2!Top"&gt;
+&lt;!--
+
+
+//--&gt;
+&lt;/script&gt;
+&lt;script LANGUAGE="JavaScript"&gt;
+&lt;!--
+_version=10; //--&gt;
+&lt;/script&gt;
+&lt;script LANGUAGE="JavaScript1.1"&gt;
+&lt;!--
+_version=11; // --&gt; 
+//--&gt;
+&lt;/script&gt;
+&lt;script LANGUAGE="JavaScript"&gt;
+&lt;!--
+if (navigator.appVersion.indexOf('MSIE 3') != -1){
+document.write('&lt;IFRAME WIDTH=728 HEIGHT=90 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no BORDERCOLOR="#000000" SRC="http://oascentral.artistdirect.com/RealMedia/ads/adstream_sx.ads/azlyrics.com/homepage/1@Top,Left,Right,Frame1,Frame2,Frame1,Frame2!Top"&gt;&lt;/iframe&gt;');
+} else if (_version &lt; 11) {
+document.write ('&lt;A HREF="http://oascentral.artistdirect.com/RealMedia/ads/click_nx.ads/azlyrics.com/homepage/1@Top,Left,Right,Frame1,Frame2,Frame1,Frame2!Top"&gt;&lt;IMG SRC="http://oascentral.artistdirect.com/RealMedia/ads/adstream_nx.ads/azlyrics.com/homepage/1@Top,Left,Right,Frame1,Frame2,Frame1,Frame2!Top"&gt;&lt;/a&gt;');
+}
+//--&gt;
+&lt;/script&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;TR&gt;&lt;TD&gt;
+&lt;TABLE WIDTH=750 BORDER=0 bgcolor=#BBBBCC align=center cellpadding=0 cellspacing=0&gt;
+&lt;TR&gt;&lt;TD&gt;
+&lt;TABLE WIDTH=750 BORDER=0 bgcolor=#BBBBCC align=center cellpadding=2 cellspacing=2&gt;
+&lt;TR&gt;&lt;TD width=750 align=center valign=top&gt;
+&lt;TABLE CELLSPACING=2 CELLPADDING=3 BORDER=0 WIDTH=750&gt;
+&lt;TR&gt;
+
+&lt;TD align=center width=160 bgcolor=#9999BB valign=top&gt;
+&lt;A href="index.html"&gt;&lt;img src="http://images.azlyrics.com:8080/logo.gif" width="160" height="120" border=0&gt;&lt;/A&gt;
+&lt;FONT FACE="Verdana" SIZE="1" COLOR="white"&gt;(since 26.08.2000)&lt;br&gt;&lt;/FONT&gt;
+&lt;!-- BEGIN FASTCOUNTER CODE --&gt;
+&lt;a href="http://member.bcentral.com/cgi-bin/fc/fastcounter-login?2076631" target="_top"&gt;
+&lt;img border="0" src="http://fastcounter.bcentral.com/fastcounter?2076631+4153269"&gt;&lt;/a&gt;
+&lt;!-- END FASTCOUNTER CODE --&gt;
+&lt;TABLE cellpadding="0" cellspacing="0" border="0" bgcolor="#666699" width=100%&gt;
+&lt;TR&gt;&lt;TD&gt;
+&lt;TABLE CELLSPACING=1 CELLPADDING=2 BORDER=0 width=100%&gt;
+&lt;TR&gt;&lt;TD align=center width=160 valign=middle height=30 bgcolor=#9999CC&gt;
+&lt;A HREF="http://www.requestlyrics.com/"&gt;&lt;FONT FACE=Verdana SIZE=2 COLOR=White&gt;&lt;B&gt;Request Lyrics&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=center width=160 valign=middle height=30 bgcolor=#8888BB&gt;
+&lt;A HREF="http://www.azlyrics.com/add.html"&gt;&lt;FONT FACE=Verdana SIZE=2 COLOR=White&gt;&lt;B&gt;Add / Correct Lyrics&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=center width=160 valign=middle height=30 bgcolor=#9999CC&gt;
+&lt;A HREF="http://www.stlyrics.com"&gt;&lt;FONT FACE=Verdana SIZE=2 COLOR=White&gt;&lt;B&gt;Soundtracks&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;&lt;font FACE=Verdana SIZE=1 COLOR=White&gt;(provided by STLyrics.com)&lt;/font&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD  align=center width=160 valign=middle height=30 bgcolor=#8888BB&gt;
+&lt;FONT FACE=Verdana SIZE=2&gt;&lt;img src="http://images.azlyrics.com:8080/new.gif"&gt;&amp;nbsp;&lt;A HREF="http://review.azlyrics.com"&gt;&lt;B&gt;&lt;font color=white&gt;Reviews&lt;/font&gt;&lt;/B&gt;&lt;/A&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;&lt;TD align=center width=160 valign=middle height=30 bgcolor=#9999CC&gt;
+&lt;A HREF="http://www.azlyrics.com/links.html"&gt;&lt;FONT FACE=Verdana SIZE=2 COLOR=White&gt;&lt;B&gt;Links&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;/TD&gt;
+&lt;/TR&gt;
+&lt;TR&gt;&lt;TD align=center width=160 valign=middle height=30 bgcolor=#8888BB&gt;
+&lt;A HREF="http://www.azlyrics.com/adv.html"&gt;&lt;FONT FACE=Verdana SIZE=2 COLOR=White&gt;&lt;B&gt;Advertise here&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;/TD&gt;
+&lt;/TR&gt;
+&lt;TR&gt;&lt;TD align=center bgcolor=#9999CC&gt;&lt;BR&gt;
+&lt;SCRIPT LANGUAGE="javascript" src="http://images.azlyrics.com:8080/lup.js"&gt;&lt;/SCRIPT&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;/TABLE&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;/table&gt;&lt;script LANGUAGE="JavaScript1.1" SRC="http://oascentral.artistdirect.com/RealMedia/ads/adstream_jx.ads/azlyrics.com/homepage/1@Top,Left,Right,Frame1,Frame2!Left"&gt;
+&lt;!--
+//--&gt;
+&lt;/script&gt;
+&lt;script LANGUAGE="JavaScript"&gt;
+&lt;!--
+_version=10; //--&gt;
+&lt;/script&gt;
+&lt;script LANGUAGE="JavaScript1.1"&gt;
+&lt;!--
+_version=11; // --&gt; 
+//--&gt;
+&lt;/script&gt;
+&lt;script LANGUAGE="JavaScript"&gt;
+&lt;!--
+if (navigator.appVersion.indexOf('MSIE 3') != -1){
+document.write('&lt;IFRAME WIDTH=728 HEIGHT=90 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no BORDERCOLOR="#000000" SRC="http://oascentral.artistdirect.com/RealMedia/ads/adstream_sx.ads/azlyrics.com/homepage/1@Top,Left,Right,Frame1,Frame2!Left"&gt;&lt;/iframe&gt;');
+} else if (_version &lt; 11) {
+document.write ('&lt;A HREF="http://oascentral.artistdirect.com/RealMedia/ads/click_nx.ads/azlyrics.com/homepage/1@Top,Left,Right,Frame1,Frame2!Left"&gt;&lt;IMG SRC="http://oascentral.artistdirect.com/RealMedia/ads/adstream_nx.ads/azlyrics.com/homepage/1@Top,Left,Right,Frame1,Frame2!Left"&gt;&lt;/a&gt;');
+}
+//--&gt;
+&lt;/script&gt;
+&lt;TABLE cellpadding="0" cellspacing="0" border="0" bgcolor="#666699" width=100%&gt;
+&lt;TR&gt;&lt;TD&gt;
+&lt;TABLE CELLSPACING=1 CELLPADDING=2 BORDER=0 width=100%&gt;
+&lt;TR&gt;&lt;TD align=center bgcolor=#8888BB&gt;&lt;BR&gt;
+&lt;FONT color=White face=Arial size=2&gt;&lt;B&gt;Recommended sites!&lt;/b&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="http://www.onetry.com/cgi-bin/rankmaster/rate.cgi?id=2" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;OneTry.com&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+
+&lt;A HREF="http://www.top20lyrics.com/cgi-bin/rankem.cgi?id=bansh" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;Top20Lyrics.com&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+
+&lt;A HREF="http://www.music-sites.net/cgi-bin/topsites/in.cgi?id=azlyrics" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;music-sites.net&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+
+&lt;A HREF="http://www.top100lyrics.com/in/?id=216" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;Top100Lyrics.com&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.seeklyrics.com" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;SeekLyrics.com&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.videocure.com" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;Video Codes&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.eLyrics.net" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;eLyrics.net&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.letssingit.com" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;LetsSingIt.com&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.lyricstop.com" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;LyricsTop.com&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.oldielyrics.com" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;OldieLyrics.com&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.starpulse.com" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;StarPulse.com&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://tickets.artistdirect.com/" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;Tickets!&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.lyricsfind.com" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;LyricsFind.com&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.lyrics.co.nz" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;Leonie's Lyrics&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.artistdirect.com/" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;ArtistDirect.com&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.urbanlyrics.com/" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;UrbanLyrics.com&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.mp3raid.com" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;Free MP3s&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.lyricsspot.com" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;Lyrics Spot&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;/font&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;&lt;TD valign=bottom align=center bgcolor=#9999CC&gt;
+&lt;font size=2 face="Verdana, Arial, Helvetica" color=#FFFFFF&gt;&lt;B&gt;Contact E-Mail&lt;/B&gt;&lt;/font&gt;&lt;BR&gt;
+&lt;A HREF="mailto:azlyrics@azlyrics.com"&gt;&lt;FONT size=3 face="Times New Roman" COLOR=#FFFFFF&gt;&lt;B&gt;azlyrics@azlyrics.com&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="http://www.azlyrics.com/privacy.html"&gt;&lt;FONT FACE=Verdana COLOR=#FFFFFF SIZE=1&gt;PRIVACY POLICY&lt;/FONT&gt;&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;/TABLE&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;/table&gt;
+&lt;br&gt;
+
+&lt;SCRIPT LANGUAGE="javascript" src="http://images.azlyrics.com:8080/lbot.js"&gt;&lt;/SCRIPT&gt;
+
+&lt;br&gt;
+&lt;/TD&gt;
+
+&lt;TD align=center valign=top&gt;
+
+&lt;TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0&gt;
+&lt;TR&gt;&lt;td&gt;
+&lt;table cellspacing="0" cellpadding="0" border=0 bgcolor="#9999BB"&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;table cellspacing="2" cellpadding="0" border=0&gt;
+
+&lt;tr&gt;&lt;td&gt;
+&lt;table cellpadding="0" cellspacing="0" border=0&gt;&lt;tr&gt;
+&lt;TD width=150 align=center bgcolor=#CCCCFF&gt;&lt;FONT FACE="Verdana" COLOR=#000000 size=2&gt;
+&lt;B&gt;50000+ lyrics&lt;/B&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD width=280 align=center bgcolor="#7777AA"&gt;
+&lt;FONT FACE="Verdana" COLOR=#FFFFFF size=2&gt;Browse by artist/band name&lt;/FONT&gt;
+&lt;/TD&gt;
+&lt;TD width=150 align=center bgcolor=#CCCCFF&gt;
+&lt;FONT FACE="Verdana" COLOR=#000000 size=2&gt;
+&lt;B&gt;1500+ artists&lt;/B&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;TR&gt;&lt;TD align=center valign=top&gt;
+&lt;TABLE cellpadding="0" cellspacing="0" border=0 width=100%&gt;
+&lt;tr&gt;&lt;td bgcolor="#7777CC"&gt;
+&lt;TABLE CELLPADDING=3 CELLSPACING=0 BORDER=0 width=100%&gt;
+&lt;TR&gt;&lt;TD align=center&gt;
+&lt;FONT FACE="Verdana,Helvetica" size=4 color=white&gt;&lt;B&gt;
+&lt;A HREF="a.html"&gt;&lt;FONT COLOR=White&gt;A&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="b.html"&gt;&lt;FONT COLOR=White&gt;B&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="c.html"&gt;&lt;FONT COLOR=White&gt;C&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="d.html"&gt;&lt;FONT COLOR=White&gt;D&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="e.html"&gt;&lt;FONT COLOR=White&gt;E&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="f.html"&gt;&lt;FONT COLOR=White&gt;F&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="g.html"&gt;&lt;FONT COLOR=White&gt;G&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="h.html"&gt;&lt;FONT COLOR=White&gt;H&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="i.html"&gt;&lt;FONT COLOR=White&gt;I&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="j.html"&gt;&lt;FONT COLOR=White&gt;J&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="k.html"&gt;&lt;FONT COLOR=White&gt;K&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="l.html"&gt;&lt;FONT COLOR=White&gt;L&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="m.html"&gt;&lt;FONT COLOR=White&gt;M&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="n.html"&gt;&lt;FONT COLOR=White&gt;N&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="o.html"&gt;&lt;FONT COLOR=White&gt;O&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="p.html"&gt;&lt;FONT COLOR=White&gt;P&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="q.html"&gt;&lt;FONT COLOR=White&gt;Q&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="r.html"&gt;&lt;FONT COLOR=White&gt;R&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="s.html"&gt;&lt;FONT COLOR=White&gt;S&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="t.html"&gt;&lt;FONT COLOR=White&gt;T&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="u.html"&gt;&lt;FONT COLOR=White&gt;U&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="v.html"&gt;&lt;FONT COLOR=White&gt;V&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="w.html"&gt;&lt;FONT COLOR=White&gt;W&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="x.html"&gt;&lt;FONT COLOR=White&gt;X&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="y.html"&gt;&lt;FONT COLOR=White&gt;Y&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="z.html"&gt;&lt;FONT COLOR=White&gt;Z&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="19.html"&gt;&lt;FONT COLOR=White&gt;#&lt;/FONT&gt;&lt;/A&gt;
+&lt;/B&gt;&lt;/FONT&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;/TABLE&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;TR&gt;&lt;TD align=center&gt;
+&lt;FORM METHOD=GET ACTION="http://www.azlyrics.com/seek"&gt;
+&lt;TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 width=100%&gt;
+&lt;TR&gt;&lt;TD bgcolor="#7777AA" align=center&gt;
+&lt;table border="0" cellspacing="0" cellpadding="2"&gt;
+&lt;tr&gt;&lt;td width="100%" align="center"&gt;
+&lt;table cellspacing=0 cellpadding="3" border=0&gt;&lt;tr&gt;&lt;td&gt;
+&lt;FONT FACE="Verdana" COLOR=#FFFFFF size=2&gt;or enter artist/album/song to search lyrics for: &lt;/FONT&gt;&lt;/td&gt;&lt;td&gt;
+&lt;input type="text" NAME="q" SIZE="16" MAXLENGTH="100" VALUE=""&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp;
+&lt;input type="submit" value="Search"&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;/TABLE&gt;
+&lt;/TD&gt;&lt;/form&gt;
+&lt;/TR&gt;
+
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+
+
+&lt;TR&gt;&lt;TD align=center valign=top&gt;
+
+&lt;TABLE CELLSPACING=2 CELLPADDING=3 BORDER=0&gt;
+&lt;TR&gt;
+
+&lt;TD align=center valign=top rowspan=10&gt;
+&lt;FONT FACE=Helvetica SIZE=4 COLOR=Black&gt;&lt;B&gt;Welcome to the A-Z LYRICS UNIVERSE !&lt;/B&gt;&lt;BR&gt;
+&lt;FONT SIZE=2 FACE="Verdana"&gt;&lt;IMG SRC="http://images.azlyrics.com:8080/star.gif"&gt;&amp;nbsp;&lt;b&gt;It's a place where all searches end!&lt;/b&gt;&amp;nbsp;&lt;IMG SRC="http://images.azlyrics.com:8080/star.gif"&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;center&gt;
+We have a large, every day growing universe of lyrics where stars&lt;br&gt; of all genres and ages shine.&lt;/center&gt;&lt;/font&gt;
+&lt;table border=0 width=100% cellpadding=5 cellspacing=5&gt;
+&lt;tr&gt;&lt;td valign=top&gt;&lt;FONT SIZE=2 FACE="Verdana"&gt;&lt;img src="http://images.azlyrics.com:8080/req.gif" align=left width=40 height=40&gt;Use &lt;A HREF="http://www.requestlyrics.com/"&gt;Lyrics Request Section&lt;/A&gt; to request lyrics that you didn't find here. We have 90% successful request answers.&lt;BR&gt;&lt;BR&gt;&lt;img src="http://images.azlyrics.com:8080/add.gif" align=left width=40 height=40&gt;You can &lt;A HREF="add.html"&gt;Add Lyrics&lt;/A&gt; to this site, it's as easy as requesting. If you found any mistakes in some of our lyrics you can always &lt;A HREF="add.html"&gt;Correct&lt;/A&gt; them.&lt;BR&gt;&lt;BR&gt;&lt;img src="http://images.azlyrics.com:8080/gb.gif" align=left width=40 height=40&gt;..And don't forget to sign our &lt;A HREF="guestb.html"&gt;Guestbook&lt;/A&gt; and drop us a few lines.&lt;/font&gt;&lt;/td&gt;
+&lt;td valign=top&gt;
+&lt;script LANGUAGE="JavaScript1.1" SRC="http://oascentral.artistdirect.com/RealMedia/ads/adstream_jx.ads/azlyrics.com/homepage/1@Top,Left,Right,Frame1,Frame2!Right"&gt;
+&lt;!--
+//--&gt;
+&lt;/script&gt;
+&lt;script LANGUAGE="JavaScript"&gt;
+&lt;!--
+_version=10; //--&gt;
+&lt;/script&gt;
+&lt;script LANGUAGE="JavaScript1.1"&gt;
+&lt;!--
+_version=11; // --&gt; 
+//--&gt;
+&lt;/script&gt;
+&lt;script LANGUAGE="JavaScript"&gt;
+&lt;!--
+if (navigator.appVersion.indexOf('MSIE 3') != -1){
+document.write('&lt;IFRAME WIDTH=728 HEIGHT=90 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no BORDERCOLOR="#000000" SRC="http://oascentral.artistdirect.com/RealMedia/ads/adstream_sx.ads/azlyrics.com/homepage/1@Top,Left,Right,Frame1,Frame2!Right"&gt;&lt;/iframe&gt;');
+} else if (_version &lt; 11) {
+document.write ('&lt;A HREF="http://oascentral.artistdirect.com/RealMedia/ads/click_nx.ads/azlyrics.com/homepage/1@Top,Left,Right,Frame1,Frame2!Right"&gt;&lt;IMG SRC="http://oascentral.artistdirect.com/RealMedia/ads/adstream_nx.ads/azlyrics.com/homepage/1@Top,Left,Right,Frame1,Frame2!Right"&gt;&lt;/a&gt;');
+}
+//--&gt;
+&lt;/script&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;CENTER&gt;
+
+&lt;TABLE cellpadding=0 cellspacing=5 border=0 width=100% bgcolor=#CC6633&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;&lt;a href="http://www.urbanlyrics.com" target="_blank"&gt;&lt;img src="http://images.azlyrics.com/logo_ul.gif" border=0&gt;&lt;/a&gt;&lt;/td&gt;&lt;td align=center&gt;&lt;font color=#DDDDAA face=Arial size=2&gt;Check the new site - &lt;a href="http://www.urbanlyrics.com" target="_blank"&gt;&lt;font color=#DDDDAA face=Arial size=2&gt;&lt;b&gt;UrbanLyrics.com&lt;/b&gt;&lt;/font&gt;&lt;/a&gt;!!!&lt;br&gt;&lt;b&gt;R&amp;B, Hip-Hop, Soul, Gospel&lt;/b&gt; and &lt;b&gt;Reggae&lt;/b&gt; lyrics.&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;FONT SIZE=3&gt;&lt;br&gt;&lt;B&gt;WHAT'S HOT?&lt;/B&gt;&lt;/FONT&gt;&lt;/CENTER&gt;
+
+&lt;TABLE cellpadding=3 cellspacing=0 border=0 width=100%&gt;
+&lt;tr&gt;&lt;td align=center valign=top width=142&gt;&lt;img src="http://images.azlyrics.com/hot/PIQ7v4yxOT8Z.jpg" width=130 height=130&gt;&lt;/td&gt;
+&lt;td align=center valign=top width=142&gt;
+&lt;script LANGUAGE="JavaScript1.1" SRC="http://oascentral.artistdirect.com/RealMedia/ads/adstream_jx.ads/azlyrics.com/homepage/1@Top,Left,Right,Frame1,Frame2!Frame2"&gt;
+&lt;!--
+//--&gt;
+&lt;/script&gt;
+&lt;script LANGUAGE="JavaScript"&gt;
+&lt;!--
+_version=10; //--&gt;
+&lt;/script&gt;
+&lt;script LANGUAGE="JavaScript1.1"&gt;
+&lt;!--
+_version=11; // --&gt;
+//--&gt;
+&lt;/script&gt;
+&lt;script LANGUAGE="JavaScript"&gt;
+&lt;!--
+if (navigator.appVersion.indexOf('MSIE 3') != -1){
+document.write('&lt;IFRAME WIDTH=728 HEIGHT=90 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no BORDERCOLOR="#000000" SRC="http://oascentral.artistdirect.com/RealMedia/ads/adstream_sx.ads/azlyrics.com/homepage/1@Top,Left,Right,Frame1,Frame2!Frame2"&gt;&lt;/iframe&gt;');
+} else if (_version &lt; 11) {
+document.write ('&lt;A HREF="http://oascentral.artistdirect.com/RealMedia/ads/click_nx.ads/azlyrics.com/homepage/1@Top,Left,Right,Frame1,Frame2!Frame2"&gt;&lt;IMG SRC="http://oascentral.artistdirect.com/RealMedia/ads/adstream_nx.ads/azlyrics.com/homepage/1@Top,Left,Right,Frame1,Frame2!Frame2"&gt;&lt;/a&gt;');
+}
+//--&gt;
+&lt;/script&gt;
+&lt;/td&gt;&lt;td align=center valign=top width=142&gt;&lt;img src="http://images.azlyrics.com/hot/mw7506iB19A8.jpg" width=130 height=130&gt;&lt;/td&gt;
+&lt;td align=center valign=top width=142&gt;&lt;img src="http://images.azlyrics.com/hot/v4V0tLH6R9hD.jpg" width=130 height=130&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top width=142&gt;&lt;FONT SIZE=2 FACE="Verdana"&gt;DMX&lt;br&gt;"Year Of The Dog...Again"&lt;br&gt;&lt;font size=1&gt;[ &lt;a href="/d/dmx.html"&gt;album lyrics&lt;/a&gt; ]&lt;br&gt;[ &lt;a href="http://review.azlyrics.com/d/yearofthedogagain-by-dmx.html"&gt;album reviews&lt;/a&gt; ]&lt;/font&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td align=center valign=top width=142&gt;&lt;FONT SIZE=2 FACE="Verdana"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td align=center valign=top width=142&gt;&lt;FONT SIZE=2 FACE="Verdana"&gt;STONE SOUR&lt;br&gt;"Come What(ever) May"&lt;br&gt;&lt;font size=1&gt;[ &lt;a href="/s/stonesour.html"&gt;album lyrics&lt;/a&gt; ]&lt;br&gt;[ &lt;a href="http://review.azlyrics.com/s/comewhatevermay-by-stonesour.html"&gt;album reviews&lt;/a&gt; ]&lt;/font&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td align=center valign=top width=142&gt;&lt;FONT SIZE=2 FACE="Verdana"&gt;GYM CLASS HEROES&lt;br&gt;"As Cruel As School Children"&lt;br&gt;&lt;font size=1&gt;[ &lt;a href="/g/gymclassheroes.html"&gt;album lyrics&lt;/a&gt; ]&lt;br&gt;[ &lt;a href="http://review.azlyrics.com/g/ascruelasschoolchildren-by-gymclassheroes.html"&gt;album reviews&lt;/a&gt; ]&lt;/font&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+
+
+&lt;CENTER&gt;&lt;FONT SIZE=3&gt;&lt;B&gt;&lt;BR&gt;LATEST SITE NEWS&lt;/B&gt;&lt;/FONT&gt;&lt;/CENTER&gt;
+&lt;TABLE cellpadding=5 cellspacing=2 border=0&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;22.09.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="f/fergie.html"&gt;FERGIE&lt;/a&gt; - "All That I Got (The Make Up Song)", "Voodoo Doll", "Velvet" (from album "The Dutchess"), 
+&lt;a href="g/gymclassheroes.html"&gt;GYM CLASS HEROES&lt;/a&gt; - "It's Ok, But Just This Once!", "Boys In Bands (Interlude)" (from album "As Cruel As School Children"), 
+&lt;a href="n/nikkicleary.html"&gt;NIKKI CLEARY&lt;/a&gt; - 10 songs (album "Nikki Cleary"), 
+&lt;a href="s/sugarcult.html"&gt;SUGARCULT&lt;/a&gt; - 14 songs (album "Lights Out"), 
+&lt;a href="y/yankovic.html"&gt;WEIRD AL YANKOVIC&lt;/a&gt; - "Don't Download This Song".&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;21.09.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="b/bobsinclar.html"&gt;BOB SINCLAR&lt;/a&gt; - 9 songs (album "Western Dream"), 
+&lt;a href="c/cherish.html"&gt;CHERISH&lt;/a&gt; - "He Said, She Said" (from album "Unappreciated"), 
+&lt;a href="l/lupefiasco.html"&gt;LUPE FIASCO&lt;/a&gt; - 11 songs (album "Food &amp; Liquor"), 
+&lt;a href="m/madeleinepeyroux.html"&gt;MADELEINE PEYROUX&lt;/a&gt; - 32 songs (albums: "Dreamland", "Careless Love", "Half The Perfect World").&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;20.09.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="k/knowles.html"&gt;BEYONCE KNOWLES&lt;/a&gt; - "Listen" (from album "B'day"), 
+&lt;a href="m/mccartney.html"&gt;JESSE MCCARTNEY&lt;/a&gt; - 11 songs (album "Right Where You Want Me"), 
+&lt;a href="l/ladysovereign.html"&gt;LADY SOVEREIGN&lt;/a&gt; - "Love Me Or Hate Me", 
+&lt;a href="m/mushroomhead.html"&gt;MUSHROOMHEAD&lt;/a&gt; - 12 songs (album "Savior Sorrow"), 
+&lt;a href="y/youngt.html"&gt;TATA YOUNG&lt;/a&gt; - 12 songs (album "Temperature Rising").&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;19.09.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="b/barenaked.html"&gt;BARENAKED LADIES&lt;/a&gt; - 13 songs (album "Barenaked Ladies Are Me"), 
+&lt;a href="e/eleventyseven.html"&gt;ELEVENTYSEVEN&lt;/a&gt; - 11 songs (album "And The Land Of Fake Believe"), 
+&lt;a href="j/janete.html"&gt;JANET JACKSON&lt;/a&gt; - "So Excited", 
+&lt;a href="s/scissorsisters.html"&gt;SCISSOR SISTERS&lt;/a&gt; - 11 songs (album "Ta-Dah"), 
+&lt;a href="s/starfield.html"&gt;STARFIELD&lt;/a&gt; - 11 songs (album "Beauty In The Broken").&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;18.09.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="f/fergie.html"&gt;FERGIE&lt;/a&gt; - 9 songs (album "The Dutchess"), 
+&lt;a href="m/mayer.html"&gt;JOHN MAYER&lt;/a&gt; - "Bold As Love", "The Heart Of Life", "Belief" (from album "Continuum"), 
+&lt;a href="k/killhannah.html"&gt;KILL HANNAH&lt;/a&gt; - 8 songs (album "Until There's Nothing Left Of Us"), 
+&lt;a href="p/paparoach.html"&gt;PAPA ROACH&lt;/a&gt; - 12 songs (album "The Paramour Sessions"), 
+&lt;a href="r/rickross.html"&gt;RICK ROSS&lt;/a&gt; - 12 songs (album "Port Of Miami").&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;15.09.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="d/diddy.html"&gt;DIDDY&lt;/a&gt; - "Come To Me", 
+&lt;a href="k/kj52.html"&gt;KJ-52&lt;/a&gt; - 32 songs (albums: "Behind The Music", "It's Pronounced "Five Two""), 
+&lt;a href="l/lupefiasco.html"&gt;LUPE FIASCO&lt;/a&gt; - "I Gotcha", 
+&lt;a href="c/cheetahgirls.html"&gt;THE CHEETAH GIRLS&lt;/a&gt; - "Cherish The Moment", "Cheetah Sisters (Barcelona Mix)", "Everyone's A Star" (from album "The Cheetah Girls 2").&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;14.09.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="d/daniellepeck.html"&gt;DANIELLE PECK&lt;/a&gt; - 11 songs (album "Danielle Peck"), 
+&lt;a href="c/chambers.html"&gt;KASEY CHAMBERS&lt;/a&gt; - 12 songs (album "Carnival"), 
+&lt;a href="o/outkast.html"&gt;OUTKAST&lt;/a&gt; - "In Your Dreams", "PJ &amp; Rooster", "When I Look In Your Eyes" (from album "Idlewild"), 
+&lt;a href="v/vanessahudgens.html"&gt;VANESSA HUDGENS&lt;/a&gt; - "Come Back To Me".&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;13.09.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="c/crossfade.html"&gt;CROSSFADE&lt;/a&gt; - "Falling Away", "Why", "Drown You Out" (from album "Falling Away"), 
+&lt;a href="s/simpson.html"&gt;JESSICA SIMPSON&lt;/a&gt; - "Walkin' 'Round In A Circle", "Between You &amp; I" (from album "A Public Affair"), 
+&lt;a href="r/rimes.html"&gt;LEANN RIMES&lt;/a&gt; - 13 songs (album "Whatever We Wanna"), 
+&lt;a href="n/newfoundglory.html"&gt;NEW FOUND GLORY&lt;/a&gt; - 13 songs (album "Coming Home"), 
+&lt;a href="w/wednesday13.html"&gt;WEDNESDAY 13&lt;/a&gt; - 12 songs (album "Fang Bang").&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;12.09.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="b/bobbyvalentino.html"&gt;BOBBY VALENTINO&lt;/a&gt; - "Turn The Page", 
+&lt;a href="k/kweller.html"&gt;BEN KWELLER&lt;/a&gt; - 11 songs (album "Ben Kweller"), 
+&lt;a href="j/jarsofclay.html"&gt;JARS OF CLAY&lt;/a&gt; - 12 songs (album "Good Monsters"), 
+&lt;a href="p/paparoach.html"&gt;PAPA ROACH&lt;/a&gt; - "To Be Loved".&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;11.09.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="g/gilman.html"&gt;BILLY GILMAN&lt;/a&gt; - 12 songs (album "Billy Gilman"), 
+&lt;a href="a/aiken.html"&gt;CLAY AIKEN&lt;/a&gt; - 4 songs (from album "A Thousand Different Ways"), 
+&lt;a href="k/krall.html"&gt;DIANA KRALL&lt;/a&gt; - 7 songs (album "From This Moment On"), 
+&lt;a href="e/evanescence.html"&gt;EVANESCENCE&lt;/a&gt; - 12 songs (album "The Open Door"), 
+&lt;a href="y/yorn.html"&gt;PETE YORN&lt;/a&gt; - 14 songs (album "Nightcrawler"), 
+&lt;a href="r/roots.html"&gt;THE ROOTS&lt;/a&gt; - 11 songs (album "Game Theory").&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;04.09.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="a/alicepeacock.html"&gt;ALICE PEACOCK&lt;/a&gt; - 14 songs (album "Who I Am"), 
+&lt;a href="a/audioslave.html"&gt;AUDIOSLAVE&lt;/a&gt; - 12 songs (album "Revelations"), 
+&lt;a href="k/knowles.html"&gt;BEYONCE KNOWLES&lt;/a&gt; - 8 songs (album "B'day"), 
+&lt;a href="j/john.html"&gt;ELTON JOHN&lt;/a&gt; - 10 songs (album "The Captain And The Kid"), 
+&lt;a href="j/jeannieortega.html"&gt;JEANNIE ORTEGA&lt;/a&gt; - "It's R Time" (from album "No Place Like BKLYN"), 
+&lt;a href="s/simpson.html"&gt;JESSICA SIMPSON&lt;/a&gt; - "Swing With Me", "Push Your Tush", "Back To You" (from album "A Public Affair"), 
+&lt;a href="p/pauladeanda.html"&gt;PAULA DEANDA&lt;/a&gt; - 11 songs (album "Paula Deanda"), 
+&lt;a href="s/scissorsisters.html"&gt;SCISSOR SISTERS&lt;/a&gt; - "I Don't Feel Like Dancin'".&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.09.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="c/crossfade.html"&gt;CROSSFADE&lt;/a&gt; - 7 songs (album "Falling Away"), 
+&lt;a href="d/deadsy.html"&gt;DEADSY&lt;/a&gt; - 11 songs (album "Phantasmagore"), 
+&lt;a href="t/timberlake.html"&gt;JUSTIN TIMBERLAKE&lt;/a&gt; - 11 songs (album "FutureSex / LoveSounds"), 
+&lt;a href="m/matkearney.html"&gt;MAT KEARNEY&lt;/a&gt; - 13 songs (album "Nothing Left To Lose"), 
+&lt;a href="m/methodman.html"&gt;METHOD MAN&lt;/a&gt; - 13 songs (album "4:21...The Day After"), 
+&lt;a href="g/game.html"&gt;THE GAME&lt;/a&gt; - "It's Ok (One Blood)".&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;31.08.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="a/akon.html"&gt;AKON&lt;/a&gt; - "Smack That", 
+&lt;a href="j/jeannieortega.html"&gt;JEANNIE ORTEGA&lt;/a&gt; - "Can U?", "Don't Stop" (from album "No Place Like BKLYN"), 
+&lt;a href="s/simpson.html"&gt;JESSICA SIMPSON&lt;/a&gt; - 8 songs (album "A Public Affair"), 
+&lt;a href="k/kelis.html"&gt;KELIS&lt;/a&gt; - 8 songs (album "Kelis Was Here"), 
+&lt;a href="t/trice.html"&gt;OBIE TRICE&lt;/a&gt; - 6 songs (from album "Second Round's On Me"), 
+&lt;a href="c/cheetahgirls.html"&gt;THE CHEETAH GIRLS&lt;/a&gt; - "Dance With Me", "Do Your Own Thing", "It's Gonna Be Alright" (from album "The Cheetah Girls 2"), 
+&lt;a href="t/theresasokyrka.html"&gt;THERESA SOKYRKA&lt;/a&gt; - 12 songs (album "Something Is Expected").&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;28.08.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="a/aiken.html"&gt;CLAY AIKEN&lt;/a&gt; - 10 songs (album "A Thousand Different Ways"), 
+&lt;a href="m/mayer.html"&gt;JOHN MAYER&lt;/a&gt; - 9 songs (album "Continuum"), 
+&lt;a href="o/outkast.html"&gt;OUTKAST&lt;/a&gt; - 12 songs (album "Idlewild"), 
+&lt;a href="p/pauladeanda.html"&gt;PAULA DEANDA&lt;/a&gt; - "Walk Away", 
+&lt;a href="c/cheetahgirls.html"&gt;THE CHEETAH GIRLS&lt;/a&gt; - 5 songs (album "The Cheetah Girls 2").&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;23.08.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="k/knowles.html"&gt;BEYONCE KNOWLES&lt;/a&gt; - "Ring The Alarm", 
+&lt;a href="b/blackstonecherry.html"&gt;BLACK STONE CHERRY&lt;/a&gt; - 12 songs (album "Black Stone Cherry"), 
+&lt;a href="d/duff.html"&gt;HILARY DUFF&lt;/a&gt; - "Play With Fire", 
+&lt;a href="p/panicchannel.html"&gt;THE PANIC CHANNEL&lt;/a&gt; - 12 songs (album "(One)"), 
+&lt;a href="t/thisdayage.html"&gt;THIS DAY &amp; AGE&lt;/a&gt; - 12 songs (album "The Bell And The Hammer"), 
+&lt;a href="t/twiztid.html"&gt;TWIZTID&lt;/a&gt; - 15 songs (album "Mutant (Vol. 2)").&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;22.08.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="a/arcticmonkeys.html"&gt;ARCTIC MONKEYS&lt;/a&gt; - 5 songs (EP "Who The F*** Are Arctic Monkeys?"), 
+&lt;a href="l/lolaray.html"&gt;LOLA RAY&lt;/a&gt; - 11 songs (album "Liars"), 
+&lt;a href="l/ludacris.html"&gt;LUDACRIS&lt;/a&gt; - "Money Maker", 
+&lt;a href="s/superchick.html"&gt;SUPERCHICK&lt;/a&gt; - 11 songs (album "Last One Picked"), 
+&lt;a href="k/killers.html"&gt;THE KILLERS&lt;/a&gt; - "When You Were Young".&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;21.08.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="c/cherish.html"&gt;CHERISH&lt;/a&gt; - 10 songs (album "Unappreciated"), 
+&lt;a href="r/rimes.html"&gt;LEANN RIMES&lt;/a&gt; - "And It Feels Like", 
+&lt;a href="l/letoya.html"&gt;LETOYA&lt;/a&gt; - "This Song", "Intro" (from album "LeToya"), 
+&lt;a href="t/traceadkins.html"&gt;TRACE ADKINS&lt;/a&gt; - 13 songs (album "Dangerous Man").&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;19.08.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="o/outkast.html"&gt;OUTKAST&lt;/a&gt; - "Morris Brown", 
+&lt;a href="o/opm.html"&gt;OPM&lt;/a&gt; - 12 songs (album "ForThemAsses"), 
+&lt;a href="j/jonasbrothers.html"&gt;JONAS BROTHERS&lt;/a&gt; - "Yo Ho (A Pirate's Life For Me)" (from "Disneymania 4"), 
+&lt;a href="p/parishilton.html"&gt;PARIS HILTON&lt;/a&gt; - "Nothing In This World", "Not Leaving Without You", "Turn You On" (from album "Paris"), 
+&lt;a href="r/rodneyatkins.html"&gt;RODNEY ATKINS&lt;/a&gt; - 22 songs (albums: "Honesty", "If You're Going Through Hell").&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;18.08.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="d/danitykane.html"&gt;DANITY KANE&lt;/a&gt; - "Heartbreaker", "Press Pause", "Back Up" (from album "Danity Kane"), 
+&lt;a href="j/jamesmorrison.html"&gt;JAMES MORRISON&lt;/a&gt; - 13 songs (album "Undiscovered"), 
+&lt;a href="k/killhannah.html"&gt;KILL HANNAH&lt;/a&gt; - "Lips Like Morphine", 
+&lt;a href="m/mariamena.html"&gt;MARIA MENA&lt;/a&gt; - 14 songs (album "Apparently Unaffected"), 
+&lt;a href="m/megdia.html"&gt;MEG &amp; DIA&lt;/a&gt; - 9 songs (album "Something Real").&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;17.08.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="a/alyaj.html"&gt;ALY &amp; AJ&lt;/a&gt; - "Shine", 
+&lt;a href="e/engineers.html"&gt;ENGINEERS&lt;/a&gt; - 10 songs (album "Engineers"), 
+&lt;a href="t/trice.html"&gt;OBIE TRICE&lt;/a&gt; - 9 songs (album "Second Round's On Me"), 
+&lt;a href="p/projectpat.html"&gt;PROJECT PAT&lt;/a&gt; - "Good Googly Moogly", 
+&lt;a href="s/shareefa.html"&gt;SHAREEFA&lt;/a&gt; - "Need A Boss".&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;16.08.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="d/danitykane.html"&gt;DANITY KANE&lt;/a&gt; - 11 songs ("Danity Kane" album), 
+&lt;a href="d/dmx.html"&gt;DMX&lt;/a&gt; - 8 songs ("Year Of The Dog Again" album), 
+&lt;a href="j/jaggededge.html"&gt;JAGGED EDGE&lt;/a&gt; - "Stunnas", 
+&lt;a href="j/jeannieortega.html"&gt;JEANNIE ORTEGA&lt;/a&gt; - 7 songs ("No Place Like BKLYN" album), 
+&lt;a href="l/lilscrappy.html"&gt;LIL SCRAPPY&lt;/a&gt; - "Money In The Bank".&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;15.08.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="c/cassie.html"&gt;CASSIE&lt;/a&gt; - "Ditto" (from "Cassie" album), 
+&lt;a href="l/ludacris.html"&gt;LUDACRIS&lt;/a&gt; - "War With God", 
+&lt;a href="n/nadasurf.html"&gt;NADA SURF&lt;/a&gt; - 10 songs ("The Weight Is A Gift" album), 
+&lt;a href="o/orrico.html"&gt;STACIE ORRICO&lt;/a&gt; - 11 songs ("Beautiful Awakening" album), 
+&lt;a href="w/weepies.html"&gt;THE WEEPIES&lt;/a&gt; - 13 songs ("Say I Am You" album).&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=center valign=top&gt;
+&lt;FONT COLOR="Red" Face="Verdana" Size="2"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;14.08.2006&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;
+&lt;/td&gt;
+&lt;td valign=top style="text-align:justify"&gt;
+&lt;FONT Face="Verdana" Size="2"&gt;New lyrics: &lt;a href="d/deadstarassembly.html"&gt;DEADSTAR ASSEMBLY&lt;/a&gt; - 12 songs ("Unsaved" album), 
+&lt;a href="b/benjamin.html"&gt;BREAKING BENJAMIN&lt;/a&gt; - "Intro" (from "Phobia" album), 
+&lt;a href="g/gymclassheroes.html"&gt;GYM CLASS HEROES&lt;/a&gt; - "Scandalous Scholastics", "On My Own Time (Write On!)", "Sloppy Love Jingle, Pt. 3" (from "As Cruel As School Children" album), 
+&lt;a href="m/monica.html"&gt;MONICA&lt;/a&gt; - "Everytime Tha Beat Drop", 
+&lt;a href="o/orrico.html"&gt;STACIE ORRICO&lt;/a&gt; - "I'm Not Missing You".&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;
+
+
+
+
+&lt;/table&gt;
+
+&lt;/FONT&gt;
+
+&lt;/TD&gt;
+
+&lt;/TR&gt;
+&lt;/TABLE&gt;
+&lt;/TD&gt;&lt;/tr&gt;
+
+&lt;/TABLE&gt;
+
+&lt;/TD&gt;
+
+&lt;/TR&gt;
+&lt;/TABLE&gt;
+&lt;/TD&gt;
+&lt;/TR&gt;
+
+&lt;TR&gt;&lt;TD&gt;
+
+&lt;TABLE border=0 width=750 cellpadding=3 cellspacing=2&gt;&lt;TR&gt;&lt;TD align=center width=100%&gt;&lt;SCRIPT LANGUAGE="javascript" src="http://images.azlyrics.com:8080/bot_az.js"&gt;&lt;/SCRIPT&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;TR&gt;&lt;TD&gt;
+
+&lt;TABLE border=0 width=750 cellpadding=3 cellspacing=2&gt;&lt;TR&gt;&lt;TD align=center width=100%&gt;
+&lt;FONT FACE=Verdana SIZE=1&gt;All lyrics are property and copyright of their owners. All lyrics provided for educational purposes only.&lt;BR&gt;&lt;B&gt;Copyright &amp;copy; 2000-2006 AZLyrics.com&lt;/B&gt;&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/TABLE&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/TABLE&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+
+&lt;/TABLE&gt;
+&lt;/BODY&gt;
+&lt;/HTML&gt;
+</SampleText>
+    <ProjectID_FK>-1</ProjectID_FK>
+  </Project_Sample>
+  <Project_Sample>
+    <SampleID>-2</SampleID>
+    <SampleUrl>http://www.azlyrics.com/a.html</SampleUrl>
+    <SampleText>&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;TITLE&gt;Artists A at A-Z Lyrics Universe&lt;/TITLE&gt;
+&lt;!-- BEGIN: AdSolution-Tag 4.0: Global-Code [PLACE IN HTML-HEAD-AREA!] --&gt;
+&lt;script type="text/javascript" language="javascript" src="http://a.as-us.falkag.net/dat/dlv/aslmain.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" language="javascript" src="http://a.as-us.falkag.net/dat/dlv/aslsubs111.js"&gt;&lt;/script&gt;
+&lt;!-- END: AdSolution-Tag 4.0: Global-Code --&gt;
+
+&lt;SCRIPT LANGUAGE="javascript" src="http://images.azlyrics.com:8080/head.js"&gt;&lt;/SCRIPT&gt;
+&lt;/HEAD&gt;
+&lt;BODY bgcolor=#666699&gt;
+&lt;TABLE BORDER=0 WIDTH=100% ALIGN=CENTER CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;&lt;TD align=center&gt;&lt;SCRIPT LANGUAGE="javascript" src="http://images.azlyrics.com:8080/top_az.js"&gt;&lt;/SCRIPT&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;TR&gt;&lt;TD&gt;
+&lt;TABLE WIDTH=750 BORDER=0 bgcolor=#BBBBCC align=center cellpadding=0 cellspacing=0&gt;
+&lt;TR&gt;&lt;TD&gt;
+&lt;TABLE WIDTH=750 BORDER=0 bgcolor=#BBBBCC align=center cellpadding=2 cellspacing=2&gt;
+&lt;TR&gt;&lt;TD width=750 align=center valign=top&gt;
+&lt;TABLE CELLSPACING=2 CELLPADDING=3 BORDER=0 WIDTH=750&gt;
+&lt;TR&gt;
+
+&lt;TD align=center width=160 bgcolor=#9999BB valign=top&gt;
+&lt;A href="index.html"&gt;&lt;img src="http://images.azlyrics.com:8080/logo.gif" width="160" height="120" border=0&gt;&lt;/A&gt;
+&lt;TABLE cellpadding="0" cellspacing="0" border="0" bgcolor="#666699" width=100%&gt;
+&lt;TR&gt;&lt;TD&gt;
+&lt;TABLE CELLSPACING=1 CELLPADDING=2 BORDER=0 width=100%&gt;
+&lt;TR&gt;&lt;TD align=center width=160 valign=middle height=30 bgcolor=#9999CC&gt;
+&lt;A HREF="http://www.requestlyrics.com/"&gt;&lt;FONT FACE=Verdana SIZE=2 COLOR=White&gt;&lt;B&gt;Request Lyrics&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=center width=160 valign=middle height=30 bgcolor=#8888BB&gt;
+&lt;A HREF="http://www.azlyrics.com/add.html"&gt;&lt;FONT FACE=Verdana SIZE=2 COLOR=White&gt;&lt;B&gt;Add / Correct Lyrics&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=center width=160 valign=middle height=30 bgcolor=#9999CC&gt;
+&lt;A HREF="http://www.stlyrics.com"&gt;&lt;FONT FACE=Verdana SIZE=2 COLOR=White&gt;&lt;B&gt;Soundtracks&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;&lt;font FACE=Verdana SIZE=1 COLOR=White&gt;(provided by STLyrics.com)&lt;/font&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=center width=160 valign=middle height=30 bgcolor=#8888BB&gt;
+&lt;FONT FACE=Verdana SIZE=2&gt;&lt;img src="http://images.azlyrics.com:8080/new.gif"&gt;&amp;nbsp;&lt;A HREF="http://review.azlyrics.com"&gt;&lt;B&gt;&lt;font color=white&gt;Reviews&lt;/font&gt;&lt;/B&gt;&lt;/A&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;&lt;TD align=center width=160 valign=middle height=30 bgcolor=#9999CC&gt;
+&lt;A HREF="http://www.azlyrics.com/links.html"&gt;&lt;FONT FACE=Verdana SIZE=2 COLOR=White&gt;&lt;B&gt;Links&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;/TD&gt;
+&lt;/TR&gt;
+&lt;TR&gt;&lt;TD align=center width=160 valign=middle height=30 bgcolor=#8888BB&gt;
+&lt;A HREF="http://www.azlyrics.com/adv.html"&gt;&lt;FONT FACE=Verdana SIZE=2 COLOR=White&gt;&lt;B&gt;Advertise here&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;/TD&gt;
+&lt;/TR&gt;
+&lt;TR&gt;&lt;TD align=center bgcolor=#9999CC&gt;&lt;BR&gt;
+&lt;SCRIPT LANGUAGE="javascript" src="http://images.azlyrics.com:8080/lup.js"&gt;&lt;/SCRIPT&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;/TABLE&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;/table&gt;
+&lt;SCRIPT LANGUAGE="javascript" src="http://images.azlyrics.com:8080/sky_az.js"&gt;&lt;/SCRIPT&gt;&lt;TABLE cellpadding="0" cellspacing="0" border="0" bgcolor="#666699" width=100%&gt;
+&lt;TR&gt;&lt;TD&gt;
+&lt;TABLE CELLSPACING=1 CELLPADDING=2 BORDER=0 width=100%&gt;
+&lt;TR&gt;&lt;TD align=center bgcolor=#8888BB&gt;&lt;BR&gt;
+&lt;FONT color=White face=Arial size=2&gt;&lt;B&gt;Recommended sites!&lt;/b&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="http://www.top20lyrics.com/cgi-bin/rankem.cgi?id=bansh" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;Top20Lyrics.com&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.music-sites.net/cgi-bin/topsites/in.cgi?id=azlyrics" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;music-sites.net&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.top100lyrics.com/in/?id=216" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;top100lyrics.com&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.seeklyrics.com" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;SeekLyrics.com&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.starpulse.com" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;StarPulse.com&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.lyricsfind.com" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;LyricsFind.com&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.music-sites.net/search/lyrics-search.htm" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;Lyrics Search&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.urbanlyrics.com/" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;UrbanLyrics.com&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.mp3raid.com" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;Free MP3s&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;A HREF="http://www.lyricsspot.com" TARGET="_BLANK"&gt;&lt;FONT FACE="Verdana" COLOR=#FFFFCC size=2&gt;&lt;B&gt;Lyrics Spot&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;/font&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;&lt;TD valign=bottom align=center bgcolor=#9999CC&gt;
+&lt;font size=2 face="Verdana, Arial, Helvetica" color=#FFFFFF&gt;&lt;B&gt;Contact E-Mail&lt;/B&gt;&lt;/font&gt;&lt;BR&gt;
+&lt;A HREF="mailto:azlyrics@azlyrics.com"&gt;&lt;FONT size=3 face="Times New Roman" COLOR=#FFFFFF&gt;&lt;B&gt;azlyrics@azlyrics.com&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A HREF="http://www.azlyrics.com/privacy.html"&gt;&lt;FONT FACE=Verdana COLOR=#FFFFFF SIZE=1&gt;PRIVACY POLICY&lt;/FONT&gt;&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;/TABLE&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;SCRIPT LANGUAGE="javascript" src="http://images.azlyrics.com:8080/lbot.js"&gt;&lt;/SCRIPT&gt;
+&lt;br&gt;
+
+&lt;/TD&gt;
+
+&lt;TD align=center valign=top&gt;
+
+&lt;TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0&gt;
+&lt;TR&gt;&lt;td&gt;
+&lt;table cellspacing="0" cellpadding="0" border=0 bgcolor="#9999BB"&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;table cellspacing="2" cellpadding="0" border=0&gt;
+
+&lt;tr&gt;&lt;td&gt;
+&lt;table cellpadding="0" cellspacing="0" border=0&gt;&lt;tr&gt;
+&lt;TD width=150 align=center bgcolor=#CCCCFF&gt;&lt;A HREF="http://www.music-sites.net/cgi-bin/topsites/in.cgi?id=azlyrics" TARGET="_BLANK" onmouseover="window.status='Top 20 Lyrics'; return true" onmouseout="window.status=''"&gt;&lt;FONT FACE="Verdana" COLOR=#000000 size=2&gt;&lt;B&gt;Top 20 Lyrics&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;/TD&gt;
+&lt;TD width=280 align=center bgcolor="#7777AA"&gt;
+&lt;FONT FACE="Verdana" COLOR=#FFFFFF size=2&gt;Browse by artist/band name&lt;/FONT&gt;
+&lt;/TD&gt;
+&lt;TD width=150 align=center bgcolor=#CCCCFF&gt;
+&lt;A HREF="http://www.top100lyrics.com/in/?id=27" TARGET="_BLANK" onmouseover="window.status='Newest Lyrics'; return true" onmouseout="window.status=''"&gt;&lt;FONT FACE="Verdana" COLOR=#000000 size=2&gt;&lt;B&gt;Newest Lyrics&lt;/B&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;TR&gt;&lt;TD align=center valign=top&gt;
+&lt;TABLE cellpadding="0" cellspacing="0" border=0 width=100%&gt;
+&lt;tr&gt;&lt;td bgcolor="#7777CC"&gt;
+&lt;TABLE CELLPADDING=3 CELLSPACING=0 BORDER=0 width=100%&gt;
+&lt;TR&gt;&lt;TD align=center&gt;
+&lt;FONT FACE="Verdana,Helvetica" size=4 color=white&gt;&lt;B&gt;
+&lt;A HREF="a.html"&gt;&lt;FONT COLOR=White&gt;A&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="b.html"&gt;&lt;FONT COLOR=White&gt;B&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="c.html"&gt;&lt;FONT COLOR=White&gt;C&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="d.html"&gt;&lt;FONT COLOR=White&gt;D&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="e.html"&gt;&lt;FONT COLOR=White&gt;E&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="f.html"&gt;&lt;FONT COLOR=White&gt;F&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="g.html"&gt;&lt;FONT COLOR=White&gt;G&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="h.html"&gt;&lt;FONT COLOR=White&gt;H&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="i.html"&gt;&lt;FONT COLOR=White&gt;I&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="j.html"&gt;&lt;FONT COLOR=White&gt;J&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="k.html"&gt;&lt;FONT COLOR=White&gt;K&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="l.html"&gt;&lt;FONT COLOR=White&gt;L&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="m.html"&gt;&lt;FONT COLOR=White&gt;M&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="n.html"&gt;&lt;FONT COLOR=White&gt;N&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="o.html"&gt;&lt;FONT COLOR=White&gt;O&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="p.html"&gt;&lt;FONT COLOR=White&gt;P&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="q.html"&gt;&lt;FONT COLOR=White&gt;Q&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="r.html"&gt;&lt;FONT COLOR=White&gt;R&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="s.html"&gt;&lt;FONT COLOR=White&gt;S&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="t.html"&gt;&lt;FONT COLOR=White&gt;T&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="u.html"&gt;&lt;FONT COLOR=White&gt;U&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="v.html"&gt;&lt;FONT COLOR=White&gt;V&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="w.html"&gt;&lt;FONT COLOR=White&gt;W&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="x.html"&gt;&lt;FONT COLOR=White&gt;X&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="y.html"&gt;&lt;FONT COLOR=White&gt;Y&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="z.html"&gt;&lt;FONT COLOR=White&gt;Z&lt;/FONT&gt;&lt;/A&gt;
+&lt;A HREF="19.html"&gt;&lt;FONT COLOR=White&gt;#&lt;/FONT&gt;&lt;/A&gt;
+&lt;/B&gt;&lt;/FONT&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;/TABLE&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;TR&gt;&lt;TD align=center&gt;
+&lt;FORM METHOD=GET ACTION="http://www.azlyrics.com/seek"&gt;
+&lt;TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 width=100%&gt;
+&lt;TR&gt;&lt;TD bgcolor="#7777AA" align=center&gt;
+&lt;table border="0" cellspacing="0" cellpadding="2"&gt;
+&lt;tr&gt;&lt;td width="100%" align="center"&gt;
+&lt;table cellspacing=0 cellpadding="3" border=0&gt;&lt;tr&gt;&lt;td&gt;
+&lt;FONT FACE="Verdana" COLOR=#FFFFFF size=2&gt;or enter artist/album/song to search lyrics for: &lt;/FONT&gt;&lt;/td&gt;&lt;td&gt;
+&lt;input type="text" NAME="q" SIZE="16" MAXLENGTH="100" VALUE=""&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp;
+&lt;input type="submit" value="Search"&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;/TABLE&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+&lt;SCRIPT LANGUAGE="javascript" src="http://images.azlyrics.com:8080/text.js"&gt;&lt;/SCRIPT&gt;
+&lt;/form&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+
+
+
+&lt;TR&gt;&lt;TD align=center valign=top&gt;&lt;FONT Face=Verdana size=3&gt;
+&lt;center&gt;&lt;BR&gt;
+&lt;A href="a/a.html"&gt;A&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/a1.html"&gt;A1&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/aaliyah.html"&gt;AALIYAH&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="c/carter.html"&gt;AARON CARTER&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="l/lines.html"&gt;AARON LINES&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/abandonedpools.html"&gt;ABANDONED POOLS&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/abba.html"&gt;ABBA&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/abdul.html"&gt;ABDUL, PAULA&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/abk.html"&gt;ABK&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/abs.html"&gt;ABS&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/acdc.html"&gt;AC/DC&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/aceofbase.html"&gt;ACE OF BASE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/actionaction.html"&gt;ACTION ACTION&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="g/gregory.html"&gt;ADAM GREGORY&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="s/sandler.html"&gt;ADAM SANDLER&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/adams.html"&gt;ADAMS, BRYAN&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/adamsr.html"&gt;ADAMS, RYAN&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/adamsy.html"&gt;ADAMS, YOLANDA&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/adema.html"&gt;ADEMA&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="h/howard.html"&gt;ADINA HOWARD&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="t/traceadkins.html"&gt;ADKINS, TRACE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="http://www.oldielyrics.com/a/aerosmith.html" target="_blank"&gt;&lt;font color=#888888&gt;AEROSMITH&lt;/font&gt;&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/afi.html"&gt;AFI&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/afroman.html"&gt;AFROMAN&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="f/faltskog.html"&gt;AGNETHA FALTSKOG&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/aguilera.html"&gt;AGUILERA, CHRISTINA&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/aha.html"&gt;A-HA&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/aiken.html"&gt;AIKEN, CLAY&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/air.html"&gt;AIR&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/akia.html"&gt;AKIA&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/akon.html"&gt;AKON&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="j/jacksonal.html"&gt;ALAN JACKSON&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="m/morissette.html"&gt;ALANIS MORISSETTE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="j/jasonaldean.html"&gt;ALDEAN, JASON&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/alexparks.html"&gt;ALEX PARKS&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="http://www.plyrics.com/a/alexisonfire.html" target="_blank"&gt;&lt;font color=#888888&gt;ALEXISONFIRE&lt;/font&gt;&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/alexzjohnson.html"&gt;ALEXZ JOHNSON&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="http://www.darklyrics.com/a/alicecooper.html" target="_blank"&gt;&lt;font color=#888888&gt;ALICE COOPER&lt;/font&gt;&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="http://users.stargate.net/~holliday/AICLYR.HTM" target="_blank"&gt;&lt;font color=#888888&gt;ALICE IN CHAINS&lt;/font&gt;&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/alicepeacock.html"&gt;ALICE PEACOCK&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/aliciakeys.html"&gt;ALICIA KEYS&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/alienantfarm.html"&gt;ALIEN ANT FARM&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/alig.html"&gt;ALI G&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/alishasattic.html"&gt;ALISHA'S ATTIC&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="k/krauss.html"&gt;ALISON KRAUSS&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/alkalinetrio.html"&gt;ALKALINE TRIO&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/all4one.html"&gt;ALL 4 ONE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/allsaints.html"&gt;ALL SAINTS&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/allele.html"&gt;ALLELE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="l/lilyallen.html"&gt;ALLEN, LILY&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="c/candice.html"&gt;ALLEY, CANDICE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="http://www.plyrics.com/a/allister.html" target="_blank"&gt;&lt;font color=#888888&gt;ALLISTER&lt;/font&gt;&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="http://www.plyrics.com/a/allamericanrejects.html" target="_blank"&gt;&lt;font color=#888888&gt;the ALL-AMERICAN REJECTS&lt;/font&gt;&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/allstartribute.html"&gt;ALL-STAR TRIBUTE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/alterbridge.html"&gt;ALTER BRIDGE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/alyaj.html"&gt;ALY &amp; AJ&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/amanda.html"&gt;AMANDA&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="p/perez.html"&gt;AMANDA PEREZ&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/amandastott.html"&gt;AMANDA STOTT&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/amellarrieux.html"&gt;AMEL LARRIEUX&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/americanhead.html"&gt;AMERICAN HEAD CHARGE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/americanhifi.html"&gt;AMERICAN HI-FI&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/americanjuniors.html"&gt;AMERICAN JUNIORS&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/amerie.html"&gt;AMERIE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/amiciforever.html"&gt;AMICI FOREVER&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/amiel.html"&gt;AMIEL&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/amoslee.html"&gt;AMOS LEE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/amos.html"&gt;AMOS, TORI&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="s/studt.html"&gt;AMY STUDT&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="j/johnsson.html"&gt;ANA JOHNSSON&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/anastacia.html"&gt;ANASTACIA&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="http://www.plyrics.com/a/anberlin.html" target="_blank"&gt;&lt;font color=#888888&gt;ANBERLIN&lt;/font&gt;&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="k/keithanderson.html"&gt;ANDERSON, KEITH&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/andre.html"&gt;ANDRE, PETER&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/andrews.html"&gt;ANDREWS, JESSICA&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/andrewwk.html"&gt;ANDREW W.K.&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/androids.html"&gt;ANDROIDS&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/angel.html"&gt;ANGEL&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/angelaammons.html"&gt;ANGELA AMMONS&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="http://www.plyrics.com/a/angelsandairwaves.html" target="_blank"&gt;&lt;font color=#888888&gt;ANGELS AND AIRWAVES&lt;/font&gt;&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="m/martinez.html"&gt;ANGIE MARTINEZ&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="s/stonean.html"&gt;ANGIE STONE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="d/difranco.html"&gt;ANI DIFRANCO&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/annanalick.html"&gt;ANNA NALICK&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/anneliesevanderpol.html"&gt;ANNELIESE VAN DER POL&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="l/lennox.html"&gt;ANNIE LENNOX&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/anouk.html"&gt;ANOUK&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/anthonycallea.html"&gt;ANTHONY CALLEA&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="h/hamilton.html"&gt;ANTHONY HAMILTON&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/anthony.html"&gt;ANTHONY, MARC&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/antiflag.html"&gt;ANTI-FLAG&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="p/perfect.html"&gt;A PERFECT CIRCLE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/apartment26.html"&gt;APARTMENT 26&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/apextheory.html"&gt;APEX THEORY&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/apple.html"&gt;APPLE, FIONA&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/aqua.html"&gt;AQUA&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/aqualung.html"&gt;AQUALUNG&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/arcadefire.html"&gt;the ARCADE FIRE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/arcticmonkeys.html"&gt;ARCTIC MONKEYS&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/arena.html"&gt;ARENA, TINA&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/arihest.html"&gt;ARI HEST&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/arkarna.html"&gt;ARKARNA&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="http://www.plyrics.com/a/armorforsleep.html" target="_blank"&gt;&lt;font color=#888888&gt;ARMOR FOR SLEEP&lt;/font&gt;&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/aselindebison.html"&gt;ASELIN DEBISON&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/ashanti.html"&gt;ASHANTI&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="r/richardashcroft.html"&gt;ASHCROFT, RICHARD&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="s/simpsonash.html"&gt;ASHLEE SIMPSON&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="b/ballard.html"&gt;ASHLEY BALLARD&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/ashleyparkerangel.html"&gt;ASHLEY PARKER ANGEL&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/aslyn.html"&gt;ASLYN&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/atthedrivein.html"&gt;AT THE DRIVE-IN&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/ataris.html"&gt;the ATARIS&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/atc.html"&gt;ATC&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/ateens.html"&gt;A-TEENS&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="c/cage.html"&gt;ATHENA CAGE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/athlete.html"&gt;ATHLETE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="r/rodneyatkins.html"&gt;ATKINS, RODNEY&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/atl.html"&gt;ATL&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/atmosphere.html"&gt;ATMOSPHERE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/atomickitten.html"&gt;ATOMIC KITTEN&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/atomship.html"&gt;ATOMSHIP&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="http://www.darklyrics.com/a/atreyu.html" target="_blank"&gt;&lt;font color=#888888&gt;ATREYU&lt;/font&gt;&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/audioadrenaline.html"&gt;AUDIO ADRENALINE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/audioslave.html"&gt;AUDIOSLAVE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/audiovent.html"&gt;AUDIOVENT&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/augustana.html"&gt;AUGUSTANA&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="http://www.plyrics.com/a/authorityzero.html" target="_blank"&gt;&lt;font color=#888888&gt;AUTHORITY ZERO&lt;/font&gt;&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/avant.html"&gt;AVANT&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="http://www.plyrics.com/a/avengedsevenfold.html" target="_blank"&gt;&lt;font color=#888888&gt;AVENGED SEVENFOLD&lt;/font&gt;&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/aventura.html"&gt;AVENTURA&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/avion.html"&gt;AVION&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="l/lavigne.html"&gt;AVRIL LAVIGNE&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;A href="a/azyet.html"&gt;AZ YET&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;/center&gt;
+&lt;/FONT&gt;
+&lt;/TD&gt;
+&lt;/TR&gt;
+&lt;/TABLE&gt;
+
+&lt;/TD&gt;
+
+&lt;/TR&gt;
+&lt;/TABLE&gt;
+&lt;/TD&gt;
+&lt;/TR&gt;
+
+&lt;TR&gt;&lt;TD&gt;
+&lt;TABLE border=0 width=750 cellpadding=3 cellspacing=2&gt;&lt;TR&gt;&lt;TD align=center width=100%&gt;&lt;SCRIPT LANGUAGE="javascript" src="http://images.azlyrics.com:8080/bot_az.js"&gt;&lt;/SCRIPT&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;TR&gt;&lt;TD&gt;
+
+&lt;TABLE border=0 width=750 cellpadding=3 cellspacing=2&gt;&lt;TR&gt;&lt;TD align=center width=100%&gt;
+&lt;FONT FACE=Verdana SIZE=1&gt;All lyrics are property and copyright of their owners. All lyrics provided for educational purposes only.&lt;BR&gt;&lt;B&gt;Copyright &amp;copy; 2000-2006 AZLyrics.com&lt;/B&gt;&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/TABLE&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/TABLE&gt;
+&lt;/TD&gt;&lt;/TR&gt;
+
+&lt;/TABLE&gt;
+&lt;/BODY&gt;
+&lt;/HTML&gt;
+</SampleText>
+    <ProjectID_FK>-2</ProjectID_FK>
+  </Project_Sample>
+  <DataType>
+    <DataTypeID>-1</DataTypeID>
+    <DataTypeName>DefaultDataRefiner</DataTypeName>
+    <DataTypeCode>Imports System
+Imports Microsoft.VisualBasic
+Imports System.Text.RegularExpressions
+Imports DataRefinerAsm
+
+Public Class DefaultDataRefiner
+   Inherits DataRefinerAsm.DataRefiner
+
+   Public Overrides Function Refine(ByVal Text As String) As Object
+      Return text
+   End Function
+End Class
+</DataTypeCode>
+  </DataType>
+  <DataType>
+    <DataTypeID>-2</DataTypeID>
+    <DataTypeName>NaturalNumberDataRefiner</DataTypeName>
+    <DataTypeCode>Imports System
+Imports Microsoft.VisualBasic
+Imports System.Text.RegularExpressions
+Imports DataRefinerAsm
+
+Public Class NaturalNumberDataRefiner
+   Inherits DataRefiner
+
+   Public Overrides Function Refine(ByVal Text As String) As Object
+      Dim m As Match
+      m = Regex.Match(Text, "\d+")
+
+      If m.Success Then
+         Return Double.Parse(m.Value)
+      Else
+         Return Nothing
+      End If
+   End Function
+End Class
+</DataTypeCode>
+  </DataType>
+  <DataType>
+    <DataTypeID>-3</DataTypeID>
+    <DataTypeName>MoneyDataRefiner</DataTypeName>
+    <DataTypeCode>Imports System
+Imports Microsoft.VisualBasic
+Imports System.Text.RegularExpressions
+Imports DataRefinerAsm
+
+Public Class MoneyDataRefiner
+   Inherits DataRefiner
+
+   Public Overrides Function Refine(ByVal Text As String) As Object
+      Dim m As Match = Regex.Match(Text, "\$.*?(\d+\.\d+)")
+
+      If m.Success Then
+         m = Regex.Match(m.Value, "\d+\.\d+")
+
+         Return Double.Parse(m.Value)
+      End If
+
+      Return Nothing
+   End Function
+End Class
+</DataTypeCode>
+  </DataType>
+  <DataType>
+    <DataTypeID>-4</DataTypeID>
+    <DataTypeName>DoubleDataRefiner</DataTypeName>
+    <DataTypeCode>Imports System
+Imports Microsoft.VisualBasic
+Imports System.Text.RegularExpressions
+Imports DataRefinerAsm
+
+Public Class DoubleDataRefiner
+   Inherits DataRefiner
+
+   Public Overrides Function Refine(ByVal text As String) As Object
+      Dim m As Match
+      m = Regex.Match(text, "\d+\.\d+")
+
+      If m.Success Then
+         Return Double.Parse(m.Value)
+      Else
+         Return Nothing
+      End If
+   End Function
+End Class
+</DataTypeCode>
+  </DataType>
+  <DataType>
+    <DataTypeID>-5</DataTypeID>
+    <DataTypeName>TextDataRefiner</DataTypeName>
+    <DataTypeCode>Imports System
+Imports Microsoft.VisualBasic
+Imports System.Text.RegularExpressions
+Imports DataRefinerAsm
+
+Public Class TextDataRefiner
+   Inherits DataRefinerAsm.DataRefiner
+
+   Public Overrides Function Refine(ByVal Text As String) As Object
+      Dim evl As New MatchEvaluator(AddressOf replaceFunction)
+      Return Regex.Replace(Text, "([\s]+)", evl).Trim
+   End Function
+
+   Private Function replaceFunction(ByVal m As Match) As String
+      Return " "
+   End Function
+End Class
+</DataTypeCode>
+  </DataType>
+</ScraperDB>
